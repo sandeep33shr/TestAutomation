@@ -1,0 +1,100 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button" fieldLabel="Finance"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkCollection" type="Button"
+			fieldLabel="Collection Link avilability" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+		<Field id="fldAccountCode" type="textfield"
+			fieldLabel="Enter value in Account field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAccountCode" type="tabOut"
+			fieldLabel="tabout from Account field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="select"
+			fieldLabel="Select value from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="tabOut"
+			fieldLabel="tabout from Media type field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldMediaReference" type="textfield"
+			fieldLabel="Enter value in Media Reference field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldTransactionDate" type="textfield"
+			fieldLabel="Enter future date" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpBank" type="select"
+			fieldLabel="Select Bank from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAmount" type="textfield"
+			fieldLabel="Enter value in Amount field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="btnOk" type="Button" fieldLabel="Click OK button"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+		<Field id="btnOkAllocation" type="Button"
+			fieldLabel="Click OK on Allocation screen" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="COLLECTIONLIST" title="SSP - Pure Insurance">
+		<Field id="lblCollectionListTitle" type="assertGetTextContain"
+			fieldLabel="Collection Label" pathType="css" screenShot="false"
+			validMessage="Collection List Screen is displayed"
+			errorMessage="Collection List screen is not displayed">
+		</Field>
+
+
+
+	</Screen>
+
+</Selenium>

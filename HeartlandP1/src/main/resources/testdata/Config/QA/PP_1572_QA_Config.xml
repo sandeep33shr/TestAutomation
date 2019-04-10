@@ -1,0 +1,92 @@
+<Config>
+	<Feature id="PP_1572" title="Address Information">
+
+		<TC id="TC1572_2746"
+			Description="Verify whether the search result contains client details, when searched with client code for corporate client"
+			XML_Location="PP_1572\PP_1572_2746.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2748"
+			Description="Verify whether error message is displayed when searched with invalid client code  for corporate client"
+			XML_Location="PP_1572\PP_1572_2748.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2750"
+			Description="Verify whether the search result contains client details, when searched with client name for corporate client"
+			XML_Location="PP_1572\PP_1572_2750.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2752"
+			Description="Verify whether error message is displayed when the search is done with invalid client name for corporate client"
+			XML_Location="PP_1572\PP_1572_2752.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2754"
+			Description="Verify whether the search result contains client details, when searched with postcode for corporate client"
+			XML_Location="PP_1572\PP_1572_2754.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2756"
+			Description="Verify whether error message is displayed when searched with invalid postcode  for corporate client"
+			XML_Location="PP_1572\PP_1572_2756.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2758"
+			Description="Verify whether error message is displayed when the search is done with invalid Email  for corporate client"
+			XML_Location="PP_1572\PP_1572_2758.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2760"
+			Description="Verify Error message is displayed when invalid email address id entered while creating corporate client"
+			XML_Location="PP_1572\PP_1572_2760.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2762"
+			Description="Verify the wild card search in client name field for corporate client in find client"
+			XML_Location="PP_1572\PP_1572_2762.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2764"
+			Description="Verify the wild card search in client code field for corporate client in find client"
+			XML_Location="PP_1572\PP_1572_2764.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1572_2766"
+			Description="Verify whether error message is displayed when searched with invalid post code  for personal client"
+			XML_Location="PP_1572\PP_1572_2766.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2768"
+			Description="Verify whether error message is displayed when searched with invalid postcode  for corporate client"
+			XML_Location="PP_1572\PP_1572_2768.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2770"
+			Description="Verify whether error message is displayed when the search is done with invalid Email  for personal client"
+			XML_Location="PP_1572\PP_1572_2770.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2772"
+			Description="Verify whether error message is displayed when the search is done with invalid Email  for corporate client"
+			XML_Location="PP_1572\PP_1572_2772.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2774"
+			Description="Verify Error message is displayed when invalid email address id entered while creating personal client"
+			XML_Location="PP_1572\PP_1572_2774.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2776"
+			Description="Verify Error message is displayed when invalid email address id entered while creating corporate client"
+			XML_Location="PP_1572\PP_1572_2776.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2778"
+			Description="Verify the wild card search in client name field for personal client in find client"
+			XML_Location="PP_1572\PP_1572_2778.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2779"
+			Description="Verify the wild card search in client name field for corporate client in find client"
+			XML_Location="PP_1572\PP_1572_2779.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2780"
+			Description="Verify the wild card search in client code field for personal client in find client"
+			XML_Location="PP_1572\PP_1572_2780.xml" Iteration="1">
+		</TC>
+		<TC id="TC1572_2781"
+			Description="Verify the wild card search in client code field for corporate client in find client"
+			XML_Location="PP_1572\PP_1572_2781.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1572_2782"
+			Description="Create a new presonal client with Main Email Contact and search with same Main Email Contact. Verify created client is displayed in search result"
+			XML_Location="PP_1572\PP_1572_2782.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

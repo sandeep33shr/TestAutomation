@@ -1,0 +1,58 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="lnkFinance" type="link" fieldLabel="FinanceMenu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkTransactions" type="buttonJS" fieldLabel="TransactionsInFinance"
+			pathType="css" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+		<Field id="fldAccountCode" fieldLabel="Company Code" type="textfield"
+			inputType="alphanumeric" pathType="css" screenShot="true">
+		</Field>
+		<Field id="tabReference" type="link" fieldLabel="ReferenceTab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPolicyNumber" fieldLabel="PolicyNumber" type="textfield"
+			inputType="alphanumeric" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="btnSelectColumnsInSearchTransactions" type="Button"
+			fieldLabel="Select Columns" pathType="css" screenShot="true">
+		</Field>
+		<Field id="SelectColumnsCheckboxesWithLabelInSearchTransactions"
+			type="assertOrderedListTextEquals" fieldLabel="Checkboxes Name of Select Columns in Search Transaction"
+			pathType="css" screenShot="true"
+			validMessage="All the checkboxes are present in Select Columns"
+			errorMessage="All the checkboxes are not present in Select Columns popup">
+		</Field>
+		<Field id="SelectColumnsCheckboxesWithLabelCheckedInSearchTransactions"
+			type="assertOrderedListTextEquals" fieldLabel="Checked label Name of Select Columns in Search Transaction"
+			pathType="css" screenShot="true"
+			validMessage="All the checked label are present in Select Columns"
+			errorMessage="All the checked label are not present in Select Columns popup">
+		</Field>
+		<Field id="btnSelectInSelectColumnsInSearchTransactions" type="buttonJS"
+			fieldLabel="Select" pathType="css" screenShot="true">
+		</Field>
+		<Field id="TableHeaderOfSearchTransactions" type="assertOrderedListTextEquals"
+			fieldLabel="Checked label Name of Select Columns in Search Transaction"
+			pathType="css" screenShot="true"
+			validMessage="Checked label are present in table headers"
+			errorMessage="Checked label are not present in table headers">
+		</Field>
+	</Screen>
+</Selenium>

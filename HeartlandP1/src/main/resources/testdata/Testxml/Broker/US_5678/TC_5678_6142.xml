@@ -1,0 +1,73 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="ViewClientDetails" title="Client Details">
+		<Field id="tabAccounts" type="link" fieldLabel="Accounts"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkboxOutstandingTransactionInAccountsTab" type="DeSelectCheckbox"
+			fieldLabel="Only Show Outstanding Transaction" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindInAccountsTab" type="buttonJS" fieldLabel="Find"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="transTypeRowIndex" type="getRowIndexAsPerInputData"
+			fieldLabel="Trans Type" pathType="css" screenShot="false">
+		</Field>
+		<Field id="actionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="Action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="ViewactionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="View in action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionsLabel" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelStoreInHashMap" pathType="xpath"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionTabClientLabel" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabClientStoreInHashMap" pathType="xpath"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionTabClientLabelLink" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabClientStoreInHashMap" pathType="xpath"
+			screenShot="true">
+		</Field>
+		<Field id="tabInsurerAddOnDisbursement" type="link"
+			fieldLabel="Insurer / Add-on /Disbursement" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="linkInsurerIdName" type="link" fieldLabel="InsurerID / Name"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="tableHeaderPreviewPaneInsurerIdName" type="assertOrderedListTextEquals"
+			fieldLabel="InsurerID / Name table Header Preview Pane" pathType="css"
+			screenShot="true" validMessage="Table header values matches with the expected values"
+			errorMessage="Table header values not matches with the expected values :Account ID,Account,Premium,Tax,Fee,Comm.,Net Amount,Sett. Due Date,Amount Paid,Balance">
+		</Field>
+		<Field id="tablePreviewPane" type="assertInsurerPreviewPane"
+			fieldLabel="InsurerID / Name table" pathType="css" screenShot="true"
+			validMessage="Insurer table in Preview pane matches with the expected values"
+			errorMessage="Insurer table in Preview pane not matches with the expected values">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+	</Screen>
+</Selenium>

@@ -1,0 +1,88 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="tabAccounts" type="link" fieldLabel="Accounts"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkboxOutstandingTransactionInAccountsTab" type="DeSelectCheckbox"
+			fieldLabel="Only Show Outstanding Transaction" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindInAccountsTab" type="buttonJS" fieldLabel="Find"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="transTypeRowIndex" type="getRowIndexAsPerInputData"
+			fieldLabel="Trans Type" pathType="css" screenShot="false">
+		</Field>
+		<Field id="transTypeRowIndex" type="getRowIndexAsPerInputData"
+			fieldLabel="Trans Type" pathType="css" screenShot="false">
+		</Field>
+		<Field id="outstandingAmount" type="dyanamicHashMapIndex"
+			fieldLabel="outstandingAmount" pathType="css" screenShot="false">
+		</Field>
+		<Field id="actionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="Action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="ViewactionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="View in action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="tabDetails" type="link" fieldLabel="Details"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="textComment_ViewTransaction" type="textfield"
+			fieldLabel="Comment_ViewTransaction" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnUpdate_ViewTransaction" type="buttonJS"
+			fieldLabel="Update_ViewTransaction" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnCloseInViewTransaction" type="buttonJS"
+			fieldLabel="Close" pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="actionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="Action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="ViewactionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="View in action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="tabDetails" type="link" fieldLabel="Details"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="textComment_ViewTransaction" type="assertGetText"
+			fieldLabel="Comment_ViewTransaction" pathType="css" screenShot="true"
+			validMessage="Data matched successfully."
+			errorMessage="Data comments did not match successfully for SND transactions">
+		</Field>
+		<Field id="btnCloseInViewTransaction" type="buttonJS"
+			fieldLabel="Close" pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+	</Screen>
+</Selenium>

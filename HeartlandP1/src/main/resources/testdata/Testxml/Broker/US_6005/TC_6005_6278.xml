@@ -1,0 +1,121 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="ViewClientDetails" title="Client Details">
+		<Field id="tabAccounts" type="link" fieldLabel="Accounts"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkboxOutstandingTransactionInAccountsTab" type="DeSelectCheckbox"
+			fieldLabel="Only Show Outstanding Transaction" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindInAccountsTab" type="buttonJS" fieldLabel="Find"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="transTypeRowIndex" type="getRowIndexAsPerInputData"
+			fieldLabel="Trans Type" pathType="css" screenShot="false">
+		</Field>
+		<Field id="actionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="Action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="ViewactionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="View in action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionsLabel" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelStoreInHashMap" pathType="xpath"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionTabClientLabel" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabClientStoreInHashMap" pathType="xpath"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionTabClientLabelLink" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabClientStoreInHashMap" pathType="xpath"
+			screenShot="true">
+		</Field>
+		<Field id="tabIncomeHistory" type="link" fieldLabel="Income History"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="linkCommissionIncomeHistory" type="link" fieldLabel="Commission"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="tableHeaderPreviewPaneCommission" type="assertOrderedListTextEquals"
+			fieldLabel="Commission table Header Preview Pane" pathType="css"
+			screenShot="true" validMessage="Table header values matches with the expected values"
+			errorMessage="Table header values not matches with the expected values :Acc. ID,Date,Account,Media Type,Income,Amount Paid,Balance,Allocation,Journal Ref">
+		</Field>
+		<Field id="tablePreviewPaneCommissionRow1" type="assertCommissionPreviewPaneForPayNow"
+			fieldLabel="Commission table row1" pathType="css" screenShot="true"
+			validMessage="Commission table first row in Preview pane matches with the expected values"
+			errorMessage="Commission table first row in Preview pane not matches with the expected values">
+		</Field>
+		<Field id="linkAllocationInRow1OfCommissionPreviewPane" type="link"
+			fieldLabel="Allocation link in Row1" pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="debitJournalTransactionReference" fieldLabel="JournalTransactionReference"
+			type="dynamicHashMap" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnCloseInViewTransaction" type="buttonJS"
+			fieldLabel="Close" pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="tablePreviewPaneCommissionRow2" type="assertCommissionPreviewPaneForPayNow"
+			fieldLabel="Commission table row2" pathType="css" screenShot="true"
+			validMessage="Commission table second row in Preview pane matches with the expected values"
+			errorMessage="Commission table second row in Preview pane not matches with the expected values">
+		</Field>
+		<Field id="linkAllocationInRow2OfCommissionPreviewPane" type="link"
+			fieldLabel="Allocation link in Row2" pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="debitJournalTransactionReference" fieldLabel="JournalTransactionReference"
+			type="dynamicHashMap" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnCloseInViewTransaction" type="buttonJS"
+			fieldLabel="Close" pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="tablePreviewPaneCommissionRow3" type="assertCommissionPreviewPaneForPayNow"
+			fieldLabel="Commission table row3" pathType="css" screenShot="true"
+			validMessage="Commission table third row in Preview pane matches with the expected values"
+			errorMessage="Commission table third row in Preview pane not matches with the expected values">
+		</Field>
+		<Field id="btnCloseInViewTransaction" type="buttonJS"
+			fieldLabel="Close" pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+	</Screen>
+</Selenium>

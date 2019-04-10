@@ -1,0 +1,166 @@
+<Config>
+	<Feature id="PP_1574" title="Address Information">
+
+		<TC id="TC1574_01"
+			Description="Verify the Address tab and Contact tab in Create Personal client"
+			XML_Location="PP_1574\PP_1574_TC1574_01.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_02"
+			Description="Verify the  contents of the checkbox is shown correctly against the corresponding line on the Contact screen before and after submit(View)  -Personal client"
+			XML_Location="PP_1574\PP_1574_TC1574_02.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_03"
+			Description="Verify the list of following lookup options available in contact type lookup:Telephone,Fax,Email,Mobile Phone,Home Telephone Number,Work Telephone Number,Daytime Telephone,Evening Telephone in Create Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_03.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_04"
+			Description="Verify whether the telephone number field is visible in Contact modal  while selecting the Telephone in contact type -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_04.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_05"
+			Description="Verify whether the telephone number field is visible in Contact modal  while selecting the Mobile Phone in contact type -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_05.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_06"
+			Description="Verify whether the telephone number field is visible in Contact modal while selecting the Home Telephone Number in contact type -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_06.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_07"
+			Description="Verify whether the telephone number field is visible in Contact modal while selecting the Work Telephone Number in contact type -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_07.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_08"
+			Description="Verify whether the telephone number field is visible in Contact modal while selecting the Daytime Telephone in contact type -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_08.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_09"
+			Description="Verify whether the telephone number field is visible in Contact modal  while selecting the Evening Telephone Telephone in contact type -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_09.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_10"
+			Description="Verify whether the Email field is visible in Contact modal  while selecting the Email in contact type -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_10.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_11"
+			Description="Verify whether the name of the field Email displayed as 'Email' while selecting the Main email contact option in contact type -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_11.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_12"
+			Description="Verify the edit,delete, update button and its functionality and try to update after contact creation -Personal client"
+			XML_Location="PP_1574\PP_1574_TC1574_12.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_13"
+			Description="Verify the Main column in each row in Contact Details screen -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_13.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_14"
+			Description="Verify the Main checkbox is present on the Contact modal for each option -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_14.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_15"
+			Description="Verify that Main checkbox  selected more than one time for same Contact type then it should throw the error message -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_15.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_16"
+			Description="Check any new contact details are entered and marked as Main, It will not affect the previous checked box - Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_16.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_17"
+			Description="Verify the  contents of the checkbox is shown correctly against the corresponding line on the Contact screen -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_17.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_18"
+			Description="Verify the heading on the Contact screen is Number / Email -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_18.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_19"
+			Description="Verify the order of the columns on the Contact screen are Type | Description |Number / Email | Extension | Main(Broker) -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_19.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_20"
+			Description="Verify the Address tab and Contact tab in Create Corporate client"
+			XML_Location="PP_1574\PP_1574_TC1574_20.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_21"
+			Description="Verify the  contents of the checkbox is shown correctly against the corresponding line on the Contact screen before and after submit(View)  -Corporate client"
+			XML_Location="PP_1574\PP_1574_TC1574_21.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_22"
+			Description="Verify the list of following lookup options available in contact type lookup:Telephone,Fax,Email,Mobile Phone,Home Telephone Number,Work Telephone Number,Daytime Telephone,Evening Telephone in Create Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_22.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_23"
+			Description="Verify whether the telephone number field is visible in Contact modal  while selecting the Telephone in contact type -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_23.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_24"
+			Description="Verify whether the telephone number field is visible in Contact modal  while selecting the Mobile Phone in contact type -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_24.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_25"
+			Description="Verify whether the telephone number field is visible in Contact modal while selecting the Home Telephone Number in contact type -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_25.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_26"
+			Description="Verify whether the telephone number field is visible in Contact modal while selecting the Work Telephone Number in contact type -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_26.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_27"
+			Description="Verify whether the telephone number field is visible in Contact modal while selecting the Daytime Telephone in contact type -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_27.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_28"
+			Description="Verify whether the telephone number field is visible in Contact modal  while selecting the Evening Telephone Telephone in contact type -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_28.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_29"
+			Description="Verify whether the Email field is visible in Contact modal  while selecting the Email in contact type -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_29.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_30"
+			Description="Verify whether the name of the field Email displayed as 'Email' while selecting the Main email contact option in contact type -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_30.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_31"
+			Description="Verify the edit,delete, update button and its functionality  and try to update after contact creation -Corporate client"
+			XML_Location="PP_1574\PP_1574_TC1574_31.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_32"
+			Description="Verify the Main column in each row in Contact Details screen -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_32.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_33"
+			Description="Verify the Main checkbox is present on the Contact modal for each option -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_33.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_34"
+			Description="Verify that Main checkbox  selected more than one time for same Contact type then it should throw the error message -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_34.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_35"
+			Description="Check any new contact details are entered and marked as Main, It will not affect the previous checked box - Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_35.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_36"
+			Description="Verify the  contents of the checkbox is shown correctly against the corresponding line on the Contact screen -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_36.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_37"
+			Description="Verify the heading on the Contact screen is Number / Email -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_37.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_38"
+			Description="Verify the order of the columns on the Contact screen are Type | Description |Number / Email | Extension | Main(Broker) -Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_38.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_39"
+			Description="Verify the order of the columns on the Contact screen are Type | Description | Area Code | Number / Email | Extension | Main(Insurer) -Personal Client"
+			XML_Location="PP_1574\PP_1574_TC1574_39.xml" Iteration="1">
+		</TC>
+		<TC id="TC1574_40"
+			Description="Verify the order of the columns on the Contact screen are Type | Description | Area Code | Number / Email | Extension | Main(Insurer)-Corporate Client"
+			XML_Location="PP_1574\PP_1574_TC1574_40.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

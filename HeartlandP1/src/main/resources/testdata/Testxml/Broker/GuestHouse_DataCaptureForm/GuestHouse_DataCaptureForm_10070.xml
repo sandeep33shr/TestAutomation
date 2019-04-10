@@ -1,0 +1,526 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="LoginScreen">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP-Pure Insurance">
+		<Field id="lnkClient" type="link" fieldLabel="ClientDrpdwn"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="link" fieldLabel="Find client"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" type="select" fieldLabel="ClientType"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="fldName" type="textfield" fieldLabel="ClientName"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find Button"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSelect" type="buttonJS" fieldLabel="select Client"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="drpSelectProduct" type="select" fieldLabel="SelectProduct"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNewQuote" type="buttonJS" fieldLabel="New quote Button"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	//business type
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">		
+		<Field id="drpBusinessType" type="select" fieldLabel="drpBusinessType"
+			pathType="css" screenShot="false">
+		</Field>
+	
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//General details - Guest House
+		<Field id="fieldInsuredGeneralGuestHouse" type="textfield" fieldLabel="Insured_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldTradingNameGeneralGuestHouse" type="textfield" fieldLabel="TradingName_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldContactNameGeneralGuestHouse" type="textfield" fieldLabel="ContactName_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldTelephoneNumberGeneralGuestHouse" type="textfield" fieldLabel="TelephoneNumber_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="inputCompanyStatusGeneralGuestHouse" type="autoCompleteTextField" fieldLabel="CompanyStatus_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<!-- <Field id="dropDownCompanyStatusGeneralGuestHouse" type="selectInput" fieldLabel="CompanyStatus_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field> -->
+		<Field id="fieldPostCodeGeneralGuestHouse" type="textfield" fieldLabel="Postcode_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindPostCodeGeneralGuestHouse" type="buttonJS" fieldLabel="Find_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="dropDownAddressGeneralGuestHouse" type="selectByIndex" fieldLabel="Address_General_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnNextGeneralGuestHouse" type="buttonJS" fieldLabel="Next_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Risk details - Guest House
+		<Field id="inputTypeOfCoverRiskDetailsGuestHouse" type="autoCompleteTextField" fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="fieldYearsInsuredHasBeenTradingRiskDetailsGuestHouse" type="textfield" fieldLabel="YearsInsuredHasBeenTrading_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldYearsExperienceInsuredHaveInHospitalityTradingRiskDetailsGuestHouse" type="textfield" fieldLabel="YearsExperienceInsuredHaveInHospitality_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkboxIncludeBuildingsCoverRiskDetailsGuestHouse" type="checkBox" fieldLabel="IncludeBuildingsCover_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkboxIncludeContentsCoverRiskDetailsGuestHouse" type="checkBox" fieldLabel="IncludeContentsCover_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldPostCodeRiskDetailsGuestHouse" type="textfield" fieldLabel="Postcode_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindPostCodeRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Find_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="dropDownAddressRiskDetailsGuestHouse" type="selectByIndex" fieldLabel="Address_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Building Construction 1 - Guest House		
+		<Field id="fieldYearOfConstructionBuildingConstruction1GuestHouse" type="textfield" fieldLabel="YearOfConstruction_BuildingConstruction1_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>	
+		<Field id="chkGoodStateOfRepair" type="buttonJS" fieldLabel="Good_State_Of_Repair" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkAreAllWalls" type="buttonJS" fieldLabel="Are_All_Walls" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkOtherThanTheFaltRoof" type="buttonJS" fieldLabel="Other_Than_The_Flat_Roof" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkAreallRoofs" type="buttonJS" fieldLabel="Are_All_Roofs" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Building Construction 2 - Guest House
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="true">
+		</Field>		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Subsidence Assessment- Guest House
+		<Field id="inputStateDescribesTheSiteSubsidenceAssessmentGuestHouse" type="autoCompleteTextField" fieldLabel="StateDescribesTheSite_SubsidenceAssessment_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="inputFoundationsOfPrincipalBuildingsSubsidenceAssessmentGuestHouse" type="autoCompleteTextField" fieldLabel="FoundationsOfPrincipalBuildings_SubsidenceAssessment_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Premises Equipment- Guest House
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		//6a Equipment Continued - Guest House
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		// 8 Sum Insured SA
+		
+		<Field id="drpPrincipalBusinessInSumInsuredSA" type="autoCompleteTextField" fieldLabel="PrincipalBusiness" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Declaration
+		
+		<Field id="chkEverBeenProsecutedOrConvicted" type="assertGetTextofInput"
+			fieldLabel="Unchecked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever BeenProsecuted Or Convicted checkbox is unchecked by default"
+			errorMessage="Ever BeenProsecuted Or Convicted checkbox is not unchecked by default">
+		</Field>
+		<Field id="chkEverBeenRefusedInsurance" type="assertGetTextofInput"
+			fieldLabel="Unchecked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been Refused Insurance checkbox is unchecked by default"
+			errorMessage="Ever Been Refused Insurance checkbox is not unchecked by default">
+		</Field>
+		<Field id="chkEverBeenDeclaredBankruptOrInsolvent" type="assertGetTextofInput"
+			fieldLabel="Unchecked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been Declared Bankrupt Or Insolvent checkbox is unchecked by default"
+			errorMessage="Ever Been eclared Bankrupt Or Insolvent checkbox is not unchecked by default">
+		</Field>
+		<Field id="chkEverBeenOwnerOrDirector" type="assertGetTextofInput"
+			fieldLabel="Unchecked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been Owner Or Director checkbox is unchecked by default"
+			errorMessage="Ever Been Owner Or Director checkbox is not unchecked by default">
+		</Field>
+		<Field id="chkEverBeenTheSubjectOfCountryCourt" type="assertGetTextofInput"
+			fieldLabel="Unchecked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been The Subject Of Country Court checkbox is unchecked by default"
+			errorMessage="Ever Been The Subject Of Country Court checkbox is not unchecked by default">
+		</Field>
+		<Field id="chkEverBeenDisqualifiedFromBeingCompanyDirector" type="assertGetTextofInput"
+			fieldLabel="Unchecked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been Disqualified From Being Company Director checkbox is unchecked by default"
+			errorMessage="Ever Been Disqualified From Being Company Director checkbox is not unchecked by default">
+		</Field>
+		<Field id="chkLiabilityClaimMadeInLast5Years" type="assertGetTextofInput"
+			fieldLabel="Unchecked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Liability Claim Made In Last 5Years checkbox is unchecked by default"
+			errorMessage="Liability Claim Made In Last 5Years checkbox is not unchecked by default">
+		</Field>
+		<Field id="chkMadeAnyOtherTypeOfClaimInLast4Years" type="assertGetTextofInput"
+			fieldLabel="Unchecked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Made Any Other Type Of Claim In Last 4Years checkbox is unchecked by default"
+			errorMessage="Made Any Other Type Of Claim In Last 4Years checkbox is not unchecked by default">
+		</Field>
+		
+		
+		
+		//1
+		<Field id="chkEverBeenProsecutedOrConvicted" type="buttonJS" fieldLabel="Ever BeenProsecuted Or Convicted checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkEverBeenProsecutedOrConvicted" type="assertGetTextofInput"
+			fieldLabel="Checked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever BeenProsecuted Or Convicted checkbox is checked "
+			errorMessage="Ever BeenProsecuted Or Convicted checkbox is not checked">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayPositive"
+			fieldLabel="Details" pathType="css" screenShot="false"
+			validMessage="Details field is available after checking Ever BeenProsecuted Or Convicted checkbox"
+			errorMessage="Details field is not available after checking Ever BeenProsecuted Or Convicted checkbox">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="errValidationMsg" type="assertGetTextContain"
+			fieldLabel="DetailMandatoryMsg" pathType="css" screenShot="true"
+			validMessage="Detail is mandatory"
+			errorMessage="Detail is not mandatory">
+		</Field>
+		
+		<Field id="chkEverBeenProsecutedOrConvicted" type="buttonJS" fieldLabel="Ever BeenProsecuted Or Convicted checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="fldDetailsInDeclaration" type="assertDisplayNegative"
+			fieldLabel="Details" pathType="css" screenShot="true"
+			validMessage="Details field is not available after unchecking Ever BeenProsecuted Or Convicted checkbox"
+			errorMessage="Details field is available after unchecking Ever BeenProsecuted Or Convicted checkbox">
+		</Field>
+		
+		//2
+		<Field id="chkEverBeenRefusedInsurance" type="buttonJS" fieldLabel="Ever Been Refused Insurance checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkEverBeenRefusedInsurance" type="assertGetTextofInput"
+			fieldLabel="Checked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been Refused Insurance checkbox is checked "
+			errorMessage="Ever Been Refused Insurance checkbox is not checked">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayPositive"
+			fieldLabel="Details" pathType="css" screenShot="false"
+			validMessage="Details field is available after checking Ever Been Refused Insurance checkbox"
+			errorMessage="Details field is not available after checking Ever Been Refused Insurance checkbox">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="errValidationMsg" type="assertGetTextContain"
+			fieldLabel="DetailMandatoryMsg" pathType="css" screenShot="true"
+			validMessage="Detail is mandatory"
+			errorMessage="Detail is not mandatory">
+		</Field>
+		
+		<Field id="chkEverBeenRefusedInsurance" type="buttonJS" fieldLabel="Ever Been Refused Insurance checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="fldDetailsInDeclaration" type="assertDisplayNegative"
+			fieldLabel="Details" pathType="css" screenShot="false"
+			validMessage="Details field is not available after checking Ever Been Refused Insurance checkbox"
+			errorMessage="Details field is available after checking Ever Been Refused Insurance checkbox">
+		</Field>
+		
+		//3
+		<Field id="chkEverBeenDeclaredBankruptOrInsolvent" type="buttonJS" fieldLabel="Ever Been Declared Bankrupt Or Insolvent checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkEverBeenDeclaredBankruptOrInsolvent" type="assertGetTextofInput"
+			fieldLabel="Checked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been Declared Bankrupt Or Insolvent checkbox is checked "
+			errorMessage="Ever Been Declared Bankrupt Or Insolvent checkbox is not checked">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayPositive"
+			fieldLabel="Details" pathType="css" screenShot="false"
+			validMessage="Details field is available after checking Ever Been Declared Bankrupt Or Insolvent checkbox"
+			errorMessage="Details field is not available after checking Ever Been Declared Bankrupt Or Insolvent checkbox">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="errValidationMsg" type="assertGetTextContain"
+			fieldLabel="DetailMandatoryMsg" pathType="css" screenShot="true"
+			validMessage="Detail is mandatory"
+			errorMessage="Detail is not mandatory">
+		</Field>
+		
+		<Field id="chkEverBeenDeclaredBankruptOrInsolvent" type="buttonJS" fieldLabel="Ever Been Declared Bankrupt Or Insolvent" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayNegative"
+			fieldLabel="Details" pathType="css" screenShot="true"
+			validMessage="Details field is not available after checking Ever Been Declared Bankrupt Or Insolvent checkbox"
+			errorMessage="Details field is available after checking Ever Been Declared Bankrupt Or Insolvent checkbox">
+		</Field>
+		
+		//4
+		<Field id="chkEverBeenOwnerOrDirector" type="buttonJS" fieldLabel="Ever Been Owner Or Director checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkEverBeenOwnerOrDirector" type="assertGetTextofInput"
+			fieldLabel="Checked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been Owner Or Director checkbox is checked "
+			errorMessage="Ever Been Owner Or Director checkbox is not checkedt">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayPositive"
+			fieldLabel="Details" pathType="css" screenShot="false"
+			validMessage="Details field is available after checking Ever Been Owner Or Director checkbox"
+			errorMessage="Details field is not available after checking Ever Been Owner Or Director checkbox">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="errValidationMsg" type="assertGetTextContain"
+			fieldLabel="DetailMandatoryMsg" pathType="css" screenShot="true"
+			validMessage="Detail is mandatory"
+			errorMessage="Detail is not mandatory">
+		</Field>
+		
+		<Field id="chkEverBeenOwnerOrDirector" type="buttonJS" fieldLabel="Ever Been Owner Or Director" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayNegative"
+			fieldLabel="Details" pathType="css" screenShot="true"
+			validMessage="Details field is not available after checking Ever Been Owner Or Director checkbox"
+			errorMessage="Details field is available after checking Ever Been Owner Or Director checkbox">
+		</Field>
+		
+		//5
+		<Field id="chkEverBeenTheSubjectOfCountryCourt" type="buttonJS" fieldLabel="Ever Been The Subject Of Country Court checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkEverBeenTheSubjectOfCountryCourt" type="assertGetTextofInput"
+			fieldLabel="Checked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been The Subject Of Country Court checkbox is checked "
+			errorMessage="Ever Been The Subject Of Country Court checkbox is not checkedt">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayPositive"
+			fieldLabel="Details" pathType="css" screenShot="false"
+			validMessage="Details field is available after checking Ever Been The Subject Of Country Court checkbox"
+			errorMessage="Details field is not available after checking Ever Been The Subject Of Country Court checkbox">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="errValidationMsg" type="assertGetTextContain"
+			fieldLabel="DetailMandatoryMsg" pathType="css" screenShot="true"
+			validMessage="Detail is mandatory"
+			errorMessage="Detail is not mandatory">
+		</Field>
+		
+		<Field id="chkEverBeenTheSubjectOfCountryCourt" type="buttonJS" fieldLabel="Ever Been The Subject Of Country Court" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayNegative"
+			fieldLabel="Details" pathType="css" screenShot="true"
+			validMessage="Details field is not available after checking Ever Been The Subject Of Country Court checkbox"
+			errorMessage="Details field is available after checking Ever Been The Subject Of Country Court checkbox">
+		</Field>
+		
+		//6
+		<Field id="chkEverBeenDisqualifiedFromBeingCompanyDirector" type="buttonJS" fieldLabel="Ever Been Disqualified From Being Company Director" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkEverBeenDisqualifiedFromBeingCompanyDirector" type="assertGetTextofInput"
+			fieldLabel="Checked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Ever Been Disqualified From Being Company Director checkbox is checked "
+			errorMessage="Ever Been Disqualified From Being Company Director checkbox is not checkedt">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayPositive"
+			fieldLabel="Details" pathType="css" screenShot="false"
+			validMessage="Details field is available after checking Ever Been Disqualified From Being Company Director checkbox"
+			errorMessage="Details field is not available after checking Ever Been Disqualified From Being Company Director checkbox">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="errValidationMsg" type="assertGetTextContain"
+			fieldLabel="DetailMandatoryMsg" pathType="css" screenShot="true"
+			validMessage="Detail is mandatory"
+			errorMessage="Detail is not mandatory">
+		</Field>
+		<Field id="chkEverBeenDisqualifiedFromBeingCompanyDirector" type="buttonJS" fieldLabel="Ever Been Disqualified From Being Company Director" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldDetailsInDeclaration" type="assertDisplayNegative"
+			fieldLabel="Details" pathType="css" screenShot="true"
+			validMessage="Details field is not available after checking Ever Been Disqualified From Being Company Director checkbox"
+			errorMessage="Details field is available after checking Ever Been Disqualified From Being Company Director checkbox">
+		</Field>
+		
+		//7
+		<Field id="chkLiabilityClaimMadeInLast5Years" type="buttonJS" fieldLabel="Liability Claim Made In Last 5Years" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkLiabilityClaimMadeInLast5Years" type="assertGetTextofInput"
+			fieldLabel="Checked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Liability Claim Made In Last 5Years checkbox is checked "
+			errorMessage="Liability Claim Made In Last 5Years checkbox is not checkedt">
+		</Field>
+		<Field id="tabClaims" type="assertVisible"
+			fieldLabel="Claims" attribute="true" pathType="xpath" screenShot="true"
+			validMessage="Claims tab is available after checking Liability Claim Made In Last 5Years checkbox"
+			errorMessage="Claims tab is not available after checking Liability Claim Made In Last 5Years checkbox">
+		</Field>
+		<Field id="chkLiabilityClaimMadeInLast5Years" type="buttonJS" fieldLabel="Liability Claim Made In Last 5Years" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="tabClaims" type="assertVisible"
+			fieldLabel="Claims" attribute="false" pathType="xpath" screenShot="true"
+			validMessage="Claims tab is not available after checking Liability Claim Made In Last 5Years checkbox"
+			errorMessage="Claims tab is available after checking Liability Claim Made In Last 5Years checkbox">
+		</Field>
+		
+		//8
+		<Field id="chkMadeAnyOtherTypeOfClaimInLast4Years" type="buttonJS" fieldLabel="Made Any Other Type Of Claim In Last 4Years" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkLiabilityClaimMadeInLast5Years" type="assertGetTextofInput"
+			fieldLabel="Checked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Made Any Other Type Of Claim In Last 4Years checkbox is checked "
+			errorMessage="Made Any Other Type Of Claim In Last 4Years checkbox is not checked">
+		</Field>
+		<Field id="tabClaims" type="assertVisible"
+			fieldLabel="Claims" attribute="true" pathType="xpath" screenShot="true"
+			validMessage="Claims tab is available after checking Made Any Other Type Of Claim In Last 4Years checkbox"
+			errorMessage="Claims tab is not available after checking Made Any Other Type Of Claim In Last 4Years checkbox">
+		</Field>
+		<Field id="chkMadeAnyOtherTypeOfClaimInLast4Years" type="buttonJS" fieldLabel="Made Any Other Type Of Claim In Last 4Years" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="tabClaims" type="assertVisible"
+			fieldLabel="Claims" attribute="false" pathType="xpath" screenShot="true"
+			validMessage="Claims tab is not available after checking Made Any Other Type Of Claim In Last 4Years checkbox"
+			errorMessage="Claims tab is available after checking Made Any Other Type Of Claim In Last 4Years checkbox">
+		</Field>
+		
+	</Screen>
+		
+
+</Selenium>
+

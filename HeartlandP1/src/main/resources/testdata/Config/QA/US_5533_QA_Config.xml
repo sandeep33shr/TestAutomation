@@ -1,0 +1,9 @@
+<Config>
+	<Feature id="US_5533" title="Allocation screen">
+	    <TC id="TC_5533_7386" Description="This test case is designed to check the changes done in search criteria at Search transaction screen"
+			XML_Location="US_5533\TC_5533_7386.xml" Iteration="1">
+		</TC>
+	
+	
+	</Feature>
+</Config>

@@ -1,0 +1,10 @@
+<Selenium>
+	
+	<Iteration id="Iteration_0">
+		
+		<Field fieldLabel="values of Branch dropdown" input="AllBranches,HeadOffice,Testing1,Testing2(Closed)">
+		</Field>
+		
+		
+	</Iteration>
+</Selenium>

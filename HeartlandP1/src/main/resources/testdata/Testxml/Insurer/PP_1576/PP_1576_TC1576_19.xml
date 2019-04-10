@@ -1,0 +1,112 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="Button" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+
+	<Screen id="Home" title="SSP-Pure Insurance">
+		<Field id="lnkClient" type="link" fieldLabel="ClientDrpdwn"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="link" fieldLabel="Find client"
+			pathType="css" isClicked="true" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" type="select" fieldLabel="Client type"
+			pathType="css" isClicked="false" screenShot="true">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find Button"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="btnselectClientInSearch" type="TableRowSelectRandom"
+			fieldLabel="select Client" pathType="css" isClicked="true"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="Corporate Client Details">
+
+		<Field id="btnEditClient" type="Button" fieldLabel="Edit Client"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+
+		<Field id="fldMainContact" fieldLabel="MainContact" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpAccountExcecutive" fieldLabel="AccountExcecutive"
+			type="select" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldSalutation" fieldLabel="Salutation" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+
+
+		<Field id="tabAdditionalinformation" type="Button"
+			fieldLabel="Additonal information tab" pathType="css" isClicked="true"
+			screenShot="false">
+		</Field>
+		<Field id="fldWageRoll" type="textfield" fieldLabel="enterWageRoll"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpTurnOver" type="select" fieldLabel="select TurnOver"
+			pathType="css" isClicked="false" screenShot="true">
+		</Field>
+		<Field id="drpTurnOvers" fieldLabel="TurnOvers" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldFinancialYear" type="textfield" fieldLabel="enter Financial year"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="btnUpdateClient" type="Button" fieldLabel="Update Button"
+			pathType="css" screenShot="true">
+		</Field>
+
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="Corporate Client Details">
+
+		<Field id="tabAdditionalInformation" type="Button"
+			fieldLabel="additional information tab" pathType="css" isClicked="true"
+			screenShot="false">
+		</Field>
+		<Field id="asrtWageRoll" type="assertGetText" fieldLabel="wage roll value"
+			pathType="css" screenShot="true" validMessage="Wage roll is entered and saved"
+			errorMessage="Wage roll is not entered and saved">
+		</Field>
+		<Field id="asrtFinancialYear" type="assertGetText" fieldLabel="financial yr value"
+			pathType="css" screenShot="true" validMessage="Financial yr is entered and saved"
+			errorMessage="financial yr is not entered and saved">
+		</Field>
+		<Field id="asrtTurnover" type="assertGetText" fieldLabel="Turnover value"
+			pathType="css" screenShot="true" validMessage="Turnover is entered and saved"
+			errorMessage="Turnover is not entered and saved">
+		</Field>
+	</Screen>
+
+</Selenium>
+

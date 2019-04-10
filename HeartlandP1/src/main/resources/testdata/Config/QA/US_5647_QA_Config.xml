@@ -1,0 +1,16 @@
+<Config>
+	<Feature id="US_5647" title="Add account enquiry at policy level">
+		<TC id="TC_5647_6049_01"
+			Description="To check that a new Account Enquiry button is available for a existing live pay now policy on a client"
+			XML_Location="US_5647\TC_5647_6049_01.xml" Iteration="1">
+		</TC>
+		<TC id="TC_5647_6049_02"
+			Description="To check that a new Account Enquiry button is available for a Invoice payment policy on a client"
+			XML_Location="US_5647\TC_5647_6049_02.xml" Iteration="1">
+		</TC>
+		<TC id="TC_5647_6048"
+			Description="To check that a new Account Enquiry button is not available for a existing Quotes on a client"
+			XML_Location="US_5647\TC_5647_6048.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

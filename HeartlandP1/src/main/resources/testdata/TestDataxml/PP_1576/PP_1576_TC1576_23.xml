@@ -1,0 +1,39 @@
+
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="kavia">
+		</Field>
+		<Field fieldLabel="Password" input="Kavia176">
+		</Field>
+		<Field fieldLabel="Client type" input="Corporate">
+		</Field>
+		<Field fieldLabel="EMP ref number" input="1235458">
+		</Field>
+		<Field fieldLabel="enter Terms of Business Letter Sent" input="20/02/2000">
+		</Field>
+		<Field fieldLabel="TermsOfBusinessLetterSent value" input="20/02/2000">
+		</Field>
+		<Field fieldLabel="MainContact" input="Milan">
+		</Field>
+		<Field fieldLabel="Trade" input="Aerial Manufacturer">
+		</Field>
+		<Field fieldLabel="TurnOver" input=">£100m">
+		</Field>
+		<Field fieldLabel="Salutation" input="Mr">
+		</Field>
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="AccountExcecutive" input="LKCBWX3329">
+		</Field>
+
+
+	</Iteration>
+</Selenium>

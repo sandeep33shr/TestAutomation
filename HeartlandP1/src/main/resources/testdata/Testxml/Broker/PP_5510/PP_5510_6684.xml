@@ -1,0 +1,188 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="Button" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+
+	<Screen id="Home" title="SSP-Pure Insurance">
+		<Field id="lnkClient" type="link" fieldLabel="ClientDrpdwn"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="link" fieldLabel="Find client"
+			pathType="css" isClicked="true" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" type="select" fieldLabel="ClientType"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="fldName" type="textfield" fieldLabel="ClientName"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find Button"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSelect" type="Button" fieldLabel="select Client"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+
+	<Screen id="ViewClientDetails" title="Corporate Client Details">
+
+		<Field id="tabQuotesPolicies" type="Button" fieldLabel="quotes and policies tab"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="lnkQuote" type="link" fieldLabel="live" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="lnkTRPInQuote" type="link" fieldLabel="live"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkQuotesInQuote" type="link" fieldLabel="trp"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnEditInQuote" type="Button" fieldLabel="edit button"
+			pathType="css" isClicked="false" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		<!-- <Field id="alert" type="alertAccept" fieldLabel="alert accept" screenShot="false"> 
+			</Field> -->
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="PremiumDisplay" title="Premium Display">
+
+		<Field id="lnkActionMenu" type="link" fieldLabel="action menu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkView" type="link" fieldLabel="edit link" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">
+
+		<Field id="fldAddressLine1" fieldLabel="Address line1" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" fieldLabel="Next in risk"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" isClicked="true"
+			fieldLabel="next in risk" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" isClicked="true"
+			fieldLabel="next in risk" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" isClicked="true"
+			fieldLabel="next in risk" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" isClicked="true"
+			fieldLabel="next in risk" pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="QuoteResult" title="Quote Result Page">
+
+		<!-- <Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe" 
+			screenShot="false"> </Field> <Field id="innerIframeIn" type="switchIframe" 
+			fieldLabel="Switch to Iframe" screenShot="false"> </Field> -->
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnFinish" type="Button" isClicked="true" fieldLabel="next in risk"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">
+
+		<Field id="btnSubmit" type="Button" fieldLabel="submit button"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="PremiumDisplay" title="Premium Display">
+
+		<Field id="btnSaveQuote" type="Button" fieldLabel="submit button"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="Corporate Client Details">
+
+		<Field id="tabQuotesPolicies" type="Button" fieldLabel="quotes and policies tab"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="lnkQuote" type="link" fieldLabel="live" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="lnkTRPInQuote" type="link" fieldLabel="live"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkQuotesInQuote" type="link" fieldLabel="trp"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnViewInRisks" type="Button" fieldLabel="view in risk"
+			pathType="css" screenShot="false">
+		</Field>
+		//asssert needs to be added
+		<Field id="asrtAddress1" type="assertGetTextofInput" attribute="value"
+			fieldLabel="Address1 value" pathType="css" screenShot="true"
+			validMessage="Address line1 is edited" errorMessage="Address line1 isn't edited">
+		</Field>
+	</Screen>
+
+</Selenium>
+

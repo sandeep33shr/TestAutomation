@@ -1,0 +1,13 @@
+<Selenium>
+
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+
+		<Field id="drpBranch" type="assertAllValuesOfDropdown"
+			fieldLabel="values of Branch dropdown" pathType="css"
+			screenShot="true" validMessage="All values are correct"
+			errorMessage="All values are not correct">
+		</Field>
+	</Screen>
+
+</Selenium>

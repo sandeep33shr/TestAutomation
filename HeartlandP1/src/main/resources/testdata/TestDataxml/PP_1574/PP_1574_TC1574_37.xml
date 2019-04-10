@@ -1,0 +1,40 @@
+
+<Iteration id="Iteration_0">
+
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="uma">
+		</Field>
+		<Field fieldLabel="Password" input="Tester1234">
+		</Field>
+		<Field fieldLabel="SignIn" input="Miss">
+		</Field>
+		<Field fieldLabel="CompanyName" input="Heartland">
+		</Field>
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="Street" input="Line 1">
+		</Field>
+		<Field fieldLabel="Postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Country" input="United Kingdom">
+		</Field>
+
+		<Field fieldLabel="Contact Type email" input="Email">
+		</Field>
+
+		<Field fieldLabel="email01" input="tester@one.com">
+		</Field>
+		<Field fieldLabel="email02" input="tester@two.com">
+		</Field>
+		<Field fieldLabel="Number/Email Label" input="Number / Email">
+		</Field>
+
+
+
+
+	</Iteration>
+</Iteration> 

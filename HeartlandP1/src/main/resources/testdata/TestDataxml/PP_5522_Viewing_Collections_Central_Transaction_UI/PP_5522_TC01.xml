@@ -1,0 +1,28 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Policynumber" input="MOTOHETRP1890070">
+		</Field>
+		<Field fieldLabel="Trans Type" input="Receipt">
+		</Field>
+		<Field fieldLabel="View Transaction Tabs" input="Amounts,Details">
+		</Field>
+		<Field fieldLabel="Label Of View Transactions" input="Transaction Reference,Client/SA ID Name">
+		</Field>
+		<Field fieldLabel="Label Of Amounts"
+			input="Receipt Amount,Write Off,Total,Balance,Unearned,To Clear,Earned">
+		</Field>
+		<Field fieldLabel="Label Link Of Amounts" input="Amt. Allocated,Write Off">
+		</Field>
+		<Field fieldLabel="Label Of Details"
+			input="Trans. Type,Trans. Date,Effect. Date,A/c Period,Branch,Media Type,Media Reference,Payee,Bank Account,User,Comment">
+		</Field>
+	</Iteration>
+</Selenium>

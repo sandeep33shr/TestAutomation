@@ -1,0 +1,49 @@
+<Config>
+	<Feature id="UXP_PP_1578" title="Associated Clients and Companies">
+
+		<TC id="TC1578_3136"
+			Description="Verify popup message displayed when 'Include Company in ELTO Requirements for ALL Policies' drop down value is yes"
+			XML_Location="PP_1578\PP_1578_3136.xml" Iteration="1">
+		</TC>
+		<TC id="TC1578_3137"
+			Description="Verify Validation message is displayed when mandatory field in associate company is not filled"
+			XML_Location="PP_1578\PP_1578_3137.xml" Iteration="1">
+		</TC>
+		<TC id="TC1578_3138"
+			Description="Verify Employee reference number is made mandatory when ERN is marked as No"
+			XML_Location="PP_1578\PP_1578_3138.xml" Iteration="1">
+		</TC>
+		<TC id="TC1578_3139"
+			Description="Verify the presence of field in associate company container"
+			XML_Location="PP_1578\PP_1578_3139.xml" Iteration="1">
+		</TC>
+		<TC id="TC1578_3140" Description="Verify Corporate client can be add in associate clients"
+			XML_Location="PP_1578\PP_1578_3140.xml" Iteration="1">
+		</TC>
+		<TC id="TC1578_3141"
+			Description="Verify account balance and claims incurred value tab is present in associate client in insurer mode"
+			XML_Location="PP_1578\PP_1578_3141.xml" Iteration="1">
+		</TC>
+		<TC id="TC1578_3142"
+			Description="Verify associate client and associate company container is present in Associate tab"
+			XML_Location="PP_1578\PP_1578_3142.xml" Iteration="1">
+		</TC>
+		<TC id="TC1578_3143"
+			Description="Verify User able to enter associate client and able to perform view and edit operation."
+			XML_Location="PP_1578\PP_1578_3143.xml" Iteration="1">
+		</TC>
+		<TC id="TC1578_3144"
+			Description="Verify User able to enter associate company and able to perform view and edit operation."
+			XML_Location="PP_1578\PP_1578_3144.xml" Iteration="1">
+		</TC>
+		<TC id="TC1578_3145" Description="Verify edit,viewand delete operation of associate company."
+			XML_Location="PP_1578\PP_1578_3145.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1578_3146" Description="Verify edit and delete operation of associate client."
+			XML_Location="PP_1578\PP_1578_3146.xml" Iteration="1">
+		</TC>
+
+
+	</Feature>
+</Config>

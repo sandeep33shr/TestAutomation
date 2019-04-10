@@ -1,0 +1,181 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="lnkFinance" type="buttonJS" fieldLabel="FinanceMenu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkTransactions" type="buttonJS" fieldLabel="TransactionsInFinance"
+			pathType="css" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+		<Field id="chkboxOutstandingTransaction" type="DeSelectCheckbox"
+			fieldLabel="Only Show Outstanding Transaction" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="tabDocument" type="link" fieldLabel="DocumentTab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldDocumentRef" fieldLabel="Document Ref" type="textfield"
+			inputType="alphanumeric" pathType="css" screenShot="true">
+		</Field>
+		<Field id="tabReference" type="link" fieldLabel="ReferenceTab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPolicyNumber" fieldLabel="Policynumber" type="textfield"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="transactionsAccount" type="getRowIndexAsPerInputData"
+			fieldLabel="commission" pathType="css" screenShot="false">
+		</Field>
+		<Field id="transactionsAmountRows" type="dyanamicHashMapIndex"
+			fieldLabel="commission" pathType="css" screenShot="false">
+		</Field>
+		<Field id="transactionsDocumentReference" type="dyanamicHashMapIndex"
+			fieldLabel="Transaction Reference" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkClient" type="buttonJS" fieldLabel="ClientMenu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="buttonJS" fieldLabel="FindClient"
+			pathType="css" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="fldPolicyNumber" type="textfield" fieldLabel="Policynumber"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnSelect" type="buttonJS" fieldLabel="Select"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="tabAccounts" type="link" fieldLabel="Accounts"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkboxOutstandingTransactionInAccountsTab" type="DeSelectCheckbox"
+			fieldLabel="Only Show Outstanding Transaction" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindInAccountsTab" type="buttonJS" fieldLabel="Find"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="transTypeRowIndex" type="getRowIndexAsPerInputData"
+			fieldLabel="Trans Type" pathType="css" screenShot="false">
+		</Field>
+		<Field id="transTypeRowIndex" type="getRowIndexAsPerInputData"
+			fieldLabel="Trans Type" pathType="css" screenShot="false">
+		</Field>
+		<Field id="outstandingAmount" type="dyanamicHashMapIndex"
+			fieldLabel="outstandingAmount" pathType="css" screenShot="false">
+		</Field>
+		<Field id="actionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="Action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="ViewactionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="View in action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionsLabel" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelStoreInHashMap" pathType="xpath"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionsLabel" type="assertInputDataForSNDReference"
+			fieldLabel="ViewTransactionslabelStoreInHashMap" screenShot="false"
+			validMessage="Test passed for the Transactions Label: Transaction reference and Company name with company code"
+			errorMessage="Test failed at matching the input values of the main Label">
+		</Field>
+		<Field id="ViewTransactionTabClientLabel" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabClientStoreInHashMap" pathType="xpath"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionTabClientLabelLink" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabClientStoreInHashMap" pathType="xpath"
+			screenShot="true">
+		</Field>
+		<Field id="ViewTransactionTabClientInputValidation" type="assertTabClientInputDataForSNDReference"
+			fieldLabel="ViewTransactionslabelTabClientStoreInHashMap" screenShot="true"
+			validMessage="Test passed for all the input values in Tab client"
+			errorMessage="Test failed while matching the input values in Tab client">
+		</Field>
+		<Field id="tabInsurerAddOnDisbursement" type="link"
+			fieldLabel="Insurer / Add-on /Disbursement" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="ViewTransactionTabInsurerLabel" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabInsurerStoreInHashMap" pathType="xpath"
+			screenShot="true">
+		</Field>
+		<Field id="ViewTransactionTabInsurerLabelLink" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabInsurerStoreInHashMap" pathType="xpath"
+			screenShot="true">
+		</Field>
+		<Field id="ViewTransactionTabInsurerInputValidation" type="assertTabInsurerInputDataForSNDReference"
+			fieldLabel="ViewTransactionslabelTabInsurerStoreInHashMap"
+			screenShot="true" validMessage="Test passed for all the input values in Tab Insurer"
+			errorMessage="Test failed while matching the input values in Tab Insurer">
+		</Field>
+		<Field id="tabIncomeHistory" type="link" fieldLabel="Income History"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="ViewTransactionTabIncomeHistory" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabIncomeHistoryStoreInHashMap"
+			pathType="xpath" screenShot="true">
+		</Field>
+		<Field id="ViewTransactionTabIncomeHistoryInputValidation" type="assertTabIncomeHistoryInputDataForSNDReference"
+			fieldLabel="ViewTransactionslabelTabIncomeHistoryStoreInHashMap"
+			screenShot="true"
+			validMessage="Test passed for all the input values in Tab Income History"
+			errorMessage="Test failed while matching the input values in Tab Income History">
+		</Field>
+		<Field id="tabDetails" type="link" fieldLabel="Details"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="ViewTransactionTabDetailsExcludingCommentLabel" type="addDataInDynamicHashMapOfViewTransactionInAccounts"
+			fieldLabel="ViewTransactionslabelTabDetailsStoreInHashMap" pathType="xpath"
+			screenShot="true">
+		</Field>
+		<Field id="ViewTransactionTabDetailsInputValidation" type="assertTabDetailsInputDataForSNDReference"
+			fieldLabel="ViewTransactionslabelTabDetailsStoreInHashMap"
+			screenShot="true" validMessage="Test passed for all the input values in Tab Details"
+			errorMessage="Test failed while matching the input values in Tab Details">
+		</Field>
+		<Field id="btnCloseInViewTransaction" type="buttonJS"
+			fieldLabel="Close" pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+	</Screen>
+</Selenium>

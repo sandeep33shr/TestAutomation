@@ -1,0 +1,47 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="milan">
+		</Field>
+		<Field fieldLabel="Password" input="Tester22">
+		</Field>
+		<Field fieldLabel="CompanyName" input="HeartlandSix">
+		</Field>
+		<Field fieldLabel="AccountExcecutive" input="LKCBWX3329">
+		</Field>
+		<Field fieldLabel="Salutation" input="Corporate">
+		</Field>
+		<Field fieldLabel="MainContact" input="Milan">
+		</Field>
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="Street" input="Line 1">
+		</Field>
+		<Field fieldLabel="Postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="ContactType" input="Email">
+		</Field>
+		<Field fieldLabel="Email" input="TesterHeartland@ssp.com">
+		</Field>
+		<Field fieldLabel="PreferredCorrespondenceMethod" input="Email">
+		</Field>
+		<Field fieldLabel="ErrorMessage"
+			input="No corresponding contact type exists. Please add one or change the preferred marketing contact preferences">
+		</Field>
+	</Iteration>
+</Selenium>

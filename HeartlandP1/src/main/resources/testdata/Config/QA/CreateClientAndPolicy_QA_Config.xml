@@ -1,0 +1,96 @@
+<Config>
+	<Feature id="CreateClientAndPolicy" title="Edit Corporate Client">
+		<TC id="TC_5521_01"
+			Description="Build Central Transaction View UI and Validate the UI Fields"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5676_01"
+			Description="Build Central Transaction View UI and Validate the UI Fields"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5676_02"
+			Description="Build Central Transaction View UI and Validate the UI Fields"
+			XML_Location="CreateClientAndPolicy\InvoiceCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5679_01" Description="Enter Transaction Comment (Client Transaction) for SND"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5679_02" Description="Enter Transaction Comment (Client Transaction) for SRP"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5522_01" Description="Viewing Collections Central Transaction UI for SRP"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5766_01" Description="Viewing Collections Central Transaction data for SRP"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5647_6049_01"
+			Description="To check that a new Account Enquiry button is available for a existing live Pay now policy on a client"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5647_6049_02"
+			Description="To check that a new Account Enquiry button is available for a Invoice payment policy on a client"
+			XML_Location="CreateClientAndPolicy\InvoiceCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5647_6048"
+			Description="To check that a new Account Enquiry button is not available for a existing Quotes on a client"
+			XML_Location="CreateClientAndPolicy\CreateClientAndSaveQuote.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5678_6142"
+			Description="To Validate the fields and data of Insurer Preview pane of Central Transaction View screen invoked from Accounts tab from Policy level"
+			XML_Location="CreateClientAndPolicy\InvoiceCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_6005_6278"
+			Description="To Validate the fields and data of Commission Preview pane of Central Transaction View screen invoked from Accounts tab at Policy level"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_6385_6671"
+			Description="To Validate the new column Primary Settled on Enquiry screen"
+			XML_Location="CreateClientAndPolicy\InvoiceCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_6385_6677"
+			Description="To Validate the new column Primary Settled on Enquiry screen"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_6634_6704_01"
+			Description="To Validate that the Finance search transaction screen columns name are similar to the columns which are selected at Select columns button"
+			XML_Location="CreateClientAndPolicy\InvoiceCreateClientAndPolicy.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_6453_6822"
+			Description="TTo Validate that the availability of collection menu option under Finance ribbon menu"
+			XML_Location="CreateClientAndPolicy\PayNowCreateClientAndPolicyCollectionDetails.xml"
+			Iteration="1">
+		</TC>
+		
+		<TC id="TC_6524_7459"
+			Description="This case is designed to test dynamic logic between Allocated column and checkbox column"
+			XML_Location="CreateClientAndPolicy\CreateClient_GuestHouse_Invoice.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_6524_7472"
+			Description="This case is designed to test that transaction which has been fully marked for allocation, will not be available for allocation for next SRP"
+			XML_Location="CreateClientAndPolicy\CreateClient_GuestHouse_Invoice.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_6524_7499"
+			Description="This case is designed to test value of Last Paid Date column of Allocation screen"
+			XML_Location="CreateClientAndPolicy\CreateClient_GuestHouse_Invoice.xml"
+			Iteration="1">
+		</TC>
+	</Feature>
+</Config>

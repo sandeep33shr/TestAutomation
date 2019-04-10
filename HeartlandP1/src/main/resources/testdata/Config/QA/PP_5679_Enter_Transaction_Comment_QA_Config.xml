@@ -1,0 +1,14 @@
+<Config>
+	<Feature id="PP_5679_Enter_Transaction_Comment" title="Enter Transaction Comment (Client Transaction)">
+		<TC id="TC_5679_01"
+			Description="Enter Transaction Comment (Client Transaction) for SND Transactions"
+			XML_Location="PP_5679_Enter_Transaction_Comment\PP_5679_TC01.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC_5679_02"
+			Description="Enter Transaction Comment (Client Transaction) for SRP Transactions"
+			XML_Location="PP_5679_Enter_Transaction_Comment\PP_5679_TC02.xml"
+			Iteration="1">
+		</TC>
+	</Feature>
+</Config>

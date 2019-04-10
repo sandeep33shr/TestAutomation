@@ -1,0 +1,36 @@
+<Config>
+	<Feature id="US_7156" title="Bank Reconciliation">
+		<TC id="TC_7156_7778_01"
+			Description="This case is designed to test value of Unreconciled field "
+			XML_Location="US_7156\TC_7156_7778_01.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7156_7778_02"
+			Description="This case is designed to test default value of Opening Balance field"
+			XML_Location="US_7156\TC_7156_7778_02.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7156_7778_03"
+			Description="This case is designed to test  value of Total Marked field"
+			XML_Location="US_7156\TC_7156_7778_03.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7156_7778_04"
+			Description="This case is designed to test value of Closing Balance field"
+			XML_Location="US_7156\TC_7156_7778_04.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7156_7779"
+			Description="This case is designed to test that system persist marked items after pressing clear button"
+			XML_Location="US_7156\TC_7156_7779.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7156_7783"
+			Description="This case is designed to test the value of unreconciled, marked items and closing balance  then user press OK button without reconciled"
+			XML_Location="US_7156\TC_7156_7783.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7156_7789"
+			Description="This case is designed to test the value of unreconciled, marked items and closing balance  then user press OK button without reconciled"
+			XML_Location="US_7156\TC_7156_7789.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7156_7792"
+			Description="This case is designed to test availability of Reconciliation Date on receipt view transaction screen through bank reconciliation screen"
+			XML_Location="US_7156\TC_7156_7792.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

@@ -1,0 +1,543 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" type="select" fieldLabel="ClientType"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="fldName" type="textfield" fieldLabel="ClientName"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find Button"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSelect" type="buttonJS" fieldLabel="select Client"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="drpSelectProduct" type="select"
+			fieldLabel="SelectProduct" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNewQuote" type="buttonJS"
+			fieldLabel="New quote Button" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	//business type
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">
+		//business type
+		<Field id="drpBusinessType" type="select"
+			fieldLabel="drpBusinessType" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+		<!-- //Lead Insurer <Field id="iconFindLeadInsurer" type="buttonJS" fieldLabel="LeadInsurer" 
+			pathType="css" screenShot="false"> </Field> <Field id="spinner" type="selectSpinner" 
+			fieldLabel="spinnerWait" screenShot="false"> </Field> <Field id="iframeIn" 
+			type="switchIframe" fieldLabel="Switch to Iframe" screenShot="false"> </Field> 
+			<Field id="btnFind" type="buttonJS" fieldLabel="Find" pathType="css" screenShot="true"> 
+			</Field> <Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait" 
+			screenShot="false"> </Field> <Field id="btnSelectFirst" type="buttonJS" fieldLabel="First 
+			Inusrer" pathType="css" screenShot="false"> </Field> <Field id="iframeOut" 
+			type="returnIframe" fieldLabel="Switch to Iframe" screenShot="false"> </Field> 
+			<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait" screenShot="false"> 
+			</Field> // complaince tab <Field id="tabCompliance" type="link" fieldLabel="Compliance 
+			tab" pathType="css" screenShot="false"> </Field> <Field id="drpCustomerCategory" 
+			type="select" fieldLabel="CustomerCategory" pathType="css" screenShot="false"> 
+			</Field> <Field id="drpMethodOfSale" type="select" fieldLabel="MethodOfSale" 
+			pathType="css" screenShot="false"> </Field> <Field id="drpTermAgreed" type="select" 
+			fieldLabel="TermAgreed" pathType="css" screenShot="false"> </Field> <Field 
+			id="drpTypeOfSale" type="select" fieldLabel="TypeOfSale" pathType="css" screenShot="false"> 
+			</Field> <Field id="fldUnderWriter" type="textfield" fieldLabel="UnderWriter" 
+			pathType="css" screenShot="true"> </Field> -->
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+		//General details - Guest House
+		<Field id="fieldInsuredGeneralGuestHouse" type="textfield"
+			fieldLabel="Insured_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldTradingNameGeneralGuestHouse" type="textfield"
+			fieldLabel="TradingName_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldContactNameGeneralGuestHouse" type="textfield"
+			fieldLabel="ContactName_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldTelephoneNumberGeneralGuestHouse"
+			type="textfield" fieldLabel="TelephoneNumber_General_GuestHouse"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="inputCompanyStatusGeneralGuestHouse"
+			type="autoCompleteTextField"
+			fieldLabel="CompanyStatus_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fieldPostCodeGeneralGuestHouse" type="textfield"
+			fieldLabel="Postcode_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindPostCodeGeneralGuestHouse" type="buttonJS"
+			fieldLabel="Find_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="dropDownAddressGeneralGuestHouse"
+			type="selectByIndex" fieldLabel="Address_General_GuestHouse"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="btnNextGeneralGuestHouse" type="buttonJS"
+			fieldLabel="Next button in General details" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Risk details - Guest House
+		<Field id="inputTypeOfCoverRiskDetailsGuestHouse"
+			type="autoCompleteTextField"
+			fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse"
+			pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="fieldYearsInsuredHasBeenTradingRiskDetailsGuestHouse"
+			type="textfield"
+			fieldLabel="YearsInsuredHasBeenTrading_RiskDetails_GuestHouse"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field
+			id="fieldYearsExperienceInsuredHaveInHospitalityTradingRiskDetailsGuestHouse"
+			type="textfield"
+			fieldLabel="YearsExperienceInsuredHaveInHospitality_RiskDetails_GuestHouse"
+			pathType="css" screenShot="false">
+		</Field>
+		<!-- <Field id="chkboxIncludeBuildingsCoverRiskDetailsGuestHouse" type="checkBox" 
+			fieldLabel="IncludeBuildingsCover_RiskDetails_GuestHouse" pathType="css" 
+			screenShot="false"> </Field> <Field id="chkboxIncludeContentsCoverRiskDetailsGuestHouse" 
+			type="checkBox" fieldLabel="IncludeContentsCover_RiskDetails_GuestHouse" 
+			pathType="css" screenShot="false"> </Field> -->
+		<Field id="fieldPostCodeRiskDetailsGuestHouse" type="textfield"
+			fieldLabel="Postcode_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindPostCodeRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Find_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="dropDownAddressRiskDetailsGuestHouse"
+			type="selectByIndex" fieldLabel="Address_RiskDetails_GuestHouse"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Risk details" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Building Construction 1 - Guest House
+		<Field
+			id="fieldYearOfConstructionBuildingConstruction1GuestHouse"
+			type="textfield"
+			fieldLabel="YearOfConstruction_BuildingConstruction1_GuestHouse"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkGoodStateOfRepair" type="buttonJS"
+			fieldLabel="Good_State_Of_Repair" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkAreAllWalls" type="buttonJS"
+			fieldLabel="Are_All_Walls" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkOtherThanTheFaltRoof" type="buttonJS"
+			fieldLabel="Other_Than_The_Flat_Roof" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkAreallRoofs" type="buttonJS"
+			fieldLabel="Are_All_Roofs" pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Building Construction 1" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Building Construction 2 - Guest House
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="true">
+		</Field>
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Building Construction 2" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Subsidence Assessment- Guest House
+		<Field
+			id="inputStateDescribesTheSiteSubsidenceAssessmentGuestHouse"
+			type="autoCompleteTextField"
+			fieldLabel="StateDescribesTheSite_SubsidenceAssessment_GuestHouse"
+			pathType="css" screenShot="false">
+		</Field>
+
+		<Field
+			id="inputFoundationsOfPrincipalBuildingsSubsidenceAssessmentGuestHouse"
+			type="autoCompleteTextField"
+			fieldLabel="FoundationsOfPrincipalBuildings_SubsidenceAssessment_GuestHouse"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Subsidence Assessment" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Premises Equipment- Guest House
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Premises Equipment" pathType="css"
+			screenShot="true">
+		</Field>
+
+		//6a Equipment Continued - Guest House
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Equipment Continued" pathType="css"
+			screenShot="false">
+		</Field>
+
+		// 7 Guest house Detail
+		<Field
+			id="fieldNumberOfLettingBedroomsGuestHouseDetailsGuestHouse"
+			type="textfield"
+			fieldLabel="NumberOfLettingBedrooms_GuestHouseDetails_GuestHouse"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Guest house Detail" pathType="css"
+			screenShot="false">
+		</Field>
+
+		// 8 Sum Insured GH
+		<!-- <Field id="fldBuildings/TenantsImprovements" type="textfield" fieldLabel="Buildings/TenantsImprovements" 
+			pathType="css" screenShot="false"> </Field> <Field id="drpContents" type="autoCompleteTextField" 
+			fieldLabel="Contents" pathType="css" screenShot="false"> </Field> -->
+
+		<Field id="fldStockOfWines/Spirits/Cigars/Cigarettes/Tobacco"
+			type="textfield"
+			fieldLabel="StockOfWines/Spirits/Cigars/Cigarettes/Tobacco"
+			pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="fldComputers/ElectronicBusinessEquipment"
+			type="textfield" fieldLabel="Computers/ElectronicBusinessEquipment"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTotalSumInsured" type="textfield"
+			fieldLabel="TotalSumInsured" pathType="css" screenShot="false">
+		</Field>
+
+
+
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Sum Insured GH" pathType="css"
+			screenShot="false">
+		</Field>
+
+		// 8 Sum Insured GH continued
+
+		<Field id="fldModelOfSafe" type="textfield"
+			fieldLabel="fldModelOfSafe" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldIncreaseSiToCashInSafe" type="textfield"
+			fieldLabel="fldIncreaseSiToCashInSafe" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldIncreaseSiToCashInTransit" type="textfield"
+			fieldLabel="fldIncreaseSiToCashInTransit" pathType="css"
+			screenShot="false">
+		</Field>
+
+
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Sum Insured GH continued" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Declaration
+
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in Declaration" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//endorsement
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS"
+			fieldLabel="Next button in endorsement" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Underwriting
+		<Field id="btnQuote" type="buttonJS" fieldLabel="Quote Button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false"></Field>
+
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false"></Field>
+
+	</Screen>
+
+	<Screen id="QuoteResult" title="Quote Result page">
+
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+		<Field id="iframeIn" type="switchIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+		<Field id="innerIframeIn" type="switchIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+
+		<Field id="btnSave" type="buttonJS" fieldLabel="Save Button"
+			pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+		<Field id="iframeOut" type="returnIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+
+		<Field id="iframeOut" type="returnIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="PremiumDisplay" title="PremiumDisplay">
+
+		<Field id="chkPayNow" type="checkBox" fieldLabel="PayNow"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="btnBuy" type="buttonJS" fieldLabel="Buy"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="alertAccept" type="alertAccept"
+			fieldLabel="alertAccept" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">
+
+		//Lead Insurer
+		<Field id="iconFindLeadInsurer" type="buttonJS"
+			fieldLabel="LeadInsurer" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="btnSelectFirst" type="buttonJS"
+			fieldLabel="First Inusrer" pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+		// complaince tab
+		<Field id="tabCompliance" type="link"
+			fieldLabel="Compliance tab" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpCustomerCategory" type="select"
+			fieldLabel="CustomerCategory" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpMethodOfSale" type="select"
+			fieldLabel="MethodOfSale" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpTermAgreed" type="select" fieldLabel="TermAgreed"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpTypeOfSale" type="select" fieldLabel="TypeOfSale"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldUnderWriter" type="textfield"
+			fieldLabel="UnderWriter" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="PremiumDisplay" title="PremiumDisplay">
+
+		<Field id="chkPayNow" type="checkBox" fieldLabel="PayNow"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="btnBuy" type="buttonJS" fieldLabel="Buy"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="PayNow" title="PayNow">
+		<Field id="drpMediaType" type="select" fieldLabel="MediaType"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="drpBank" type="select" fieldLabel="Bank"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+		<Field id="btnOk" type="buttonJS" fieldLabel="Ok" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<!-- <Field id="btnOk" type="buttonJS" fieldLabel="Continue" pathType="css" 
+			screenShot="false"> </Field> <Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait" 
+			screenShot="false"> </Field> -->
+	</Screen>
+
+	<Screen id="TransactionConfirmation"
+		title="Transaction Confirmation">
+
+		<Field id="txtDocumentIssuedPopupMsg"
+			type="assertGetTextContain"
+			fieldLabel="Have documents been issued to the customer?"
+			pathType="css" screenShot="true"
+			validMessage="Have documents been issued to the customer pop up is displayed"
+			errorMessage="Have documents been issued to the customer pop up is not displayed">
+		</Field>
+		<Field id="btnYesInDocumentIssuePopup" type="buttonJS"
+			fieldLabel="Yes" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="PremiumDisplay" title="Premium Display page">
+
+		<Field id="tabPolicyHeader" type="Button"
+			fieldLabel="Policy Header tab" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">
+
+		// complaince tab
+		<Field id="tabCompliance" type="link"
+			fieldLabel="Compliance tab" pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="txtDatePolicyDocumentsIssuedToClient"
+			type="verifyCurrentDate"
+			fieldLabel="Date Policy Documents Issued To Client" pathType="css"
+			attribute="value" screenShot="false"
+			validMessage="Naviagted to policy header complaince tab and Date policy documents issued to client field is populated with current date on policy header automatically - NB Process Completed"
+			errorMessage="Naviagted to policy header complaince tab and Date policy documents issued to client field is not populated with current date on policy header automatically - NB Process not Completed">
+		</Field>
+
+	</Screen>
+
+</Selenium>
+

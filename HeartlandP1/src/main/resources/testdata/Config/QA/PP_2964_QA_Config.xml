@@ -1,0 +1,25 @@
+<Config>
+	<Feature id="PP_2964" title="View Risk Information">
+
+		<TC id="TC2964_3119"
+			Description="Verify whether 'View' button is displayed in summary of cover page"
+			XML_Location="PP_2964\PP_2964_3119.xml" Iteration="1">
+		</TC>
+		<TC id="TC2964_3120"
+			Description="Verify whether 'Save quote' button is not displayed in the view risk information last screen "
+			XML_Location="PP_2964\PP_2964_3120.xml" Iteration="1">
+		</TC>
+		<TC id="TC2964_3121"
+			Description="Verify whether 'View Quote' button is displayed in the view risk information screen "
+			XML_Location="PP_2964\PP_2964_3121.xml" Iteration="1">
+		</TC>
+		<TC id="TC2964_3122"
+			Description="Verify whether Quote detail screen is displayed after clicking 'View quote' button"
+			XML_Location="PP_2964\PP_2964_3122.xml" Iteration="1">
+		</TC>
+		<TC id="TC2964_3123" Description="Verify whether risk screen is displayed in READ ONLY mode"
+			XML_Location="PP_2964\PP_2964_3123.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

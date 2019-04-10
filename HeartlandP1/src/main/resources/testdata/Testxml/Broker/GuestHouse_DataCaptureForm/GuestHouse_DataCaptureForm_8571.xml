@@ -1,0 +1,364 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="LoginScreen">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP-Pure Insurance">
+		<Field id="lnkClient" type="link" fieldLabel="ClientDrpdwn"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="link" fieldLabel="Find client"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" type="select" fieldLabel="ClientType"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="fldName" type="textfield" fieldLabel="ClientName"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find Button"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSelect" type="buttonJS" fieldLabel="select Client"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="drpSelectProduct" type="select" fieldLabel="SelectProduct"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNewQuote" type="buttonJS" fieldLabel="New quote Button"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	//business type
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">		
+		<Field id="drpBusinessType" type="select" fieldLabel="drpBusinessType"
+			pathType="css" screenShot="false">
+		</Field>
+	
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//General details - Guest House
+		<Field id="fieldInsuredGeneralGuestHouse" type="textfield" fieldLabel="Insured_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldTradingNameGeneralGuestHouse" type="textfield" fieldLabel="TradingName_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldContactNameGeneralGuestHouse" type="textfield" fieldLabel="ContactName_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldTelephoneNumberGeneralGuestHouse" type="textfield" fieldLabel="TelephoneNumber_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="inputCompanyStatusGeneralGuestHouse" type="autoCompleteTextField" fieldLabel="CompanyStatus_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<!-- <Field id="dropDownCompanyStatusGeneralGuestHouse" type="selectInput" fieldLabel="CompanyStatus_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field> -->
+		<Field id="fieldPostCodeGeneralGuestHouse" type="textfield" fieldLabel="Postcode_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindPostCodeGeneralGuestHouse" type="buttonJS" fieldLabel="Find_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="dropDownAddressGeneralGuestHouse" type="selectByIndex" fieldLabel="Address_General_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnNextGeneralGuestHouse" type="buttonJS" fieldLabel="Next_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Risk details - Guest House
+		<Field id="inputTypeOfCoverRiskDetailsGuestHouse" type="autoCompleteTextField" fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<!-- <Field id="dropDownTypeOfCoverRiskDetailsGuestHouse" type="selectInput" fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field> -->
+		<Field id="fieldYearsInsuredHasBeenTradingRiskDetailsGuestHouse" type="textfield" fieldLabel="YearsInsuredHasBeenTrading_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldYearsExperienceInsuredHaveInHospitalityTradingRiskDetailsGuestHouse" type="textfield" fieldLabel="YearsExperienceInsuredHaveInHospitality_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkboxIncludeBuildingsCoverRiskDetailsGuestHouse" type="checkBox" fieldLabel="IncludeBuildingsCover_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkboxIncludeContentsCoverRiskDetailsGuestHouse" type="checkBox" fieldLabel="IncludeContentsCover_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldPostCodeRiskDetailsGuestHouse" type="textfield" fieldLabel="Postcode_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindPostCodeRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Find_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="dropDownAddressRiskDetailsGuestHouse" type="selectByIndex" fieldLabel="Address_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Building Construction 1 - Guest House		
+		<Field id="fieldYearOfConstructionBuildingConstruction1GuestHouse" type="textfield" fieldLabel="YearOfConstruction_BuildingConstruction1_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>	
+		<Field id="chkGoodStateOfRepair" type="buttonJS" fieldLabel="Good_State_Of_Repair" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkAreAllWalls" type="buttonJS" fieldLabel="Are_All_Walls" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkOtherThanTheFaltRoof" type="buttonJS" fieldLabel="Other_Than_The_Flat_Roof" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkAreallRoofs" type="buttonJS" fieldLabel="Are_All_Roofs" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Building Construction 2 - Guest House
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="true">
+		</Field>		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Subsidence Assessment- Guest House
+		<Field id="inputStateDescribesTheSiteSubsidenceAssessmentGuestHouse" type="autoCompleteTextField" fieldLabel="StateDescribesTheSite_SubsidenceAssessment_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="inputFoundationsOfPrincipalBuildingsSubsidenceAssessmentGuestHouse" type="autoCompleteTextField" fieldLabel="FoundationsOfPrincipalBuildings_SubsidenceAssessment_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Premises Equipment- Guest House
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		//6a Equipment Continued - Guest House
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		// 7 Guest house Detail
+		<Field id="chkIsTheBuildingUsedForAnything" type="assertDisplayPositive"
+			fieldLabel="chkIsTheBuildingUsedForAnything" pathType="css" screenShot="false"
+			validMessage="Is the building used for anything other than tourist/business accommodation? (e.g. Students , DSS etc) checkbox is available"
+			errorMessage="Is the building used for anything other than tourist/business accommodation? (e.g. Students , DSS etc) checkbox is not available">
+		</Field>
+		
+		<Field id="chkDoesTheOwner/ManagerLiveOnThePremises" type="assertDisplayPositive"
+			fieldLabel="chkDoesTheOwner/ManagerLiveOnThePremises" pathType="css" screenShot="false"
+			validMessage="Does the owner/manager live on the premises? checkbox is available"
+			errorMessage="Does the owner/manager live on the premises? checkbox is not available">
+		</Field>
+		<Field id="chkDoYouOwnOrHireMarquees" type="assertDisplayPositive"
+			fieldLabel="chkDoYouOwnOrHireMarquees" pathType="css" screenShot="false"
+			validMessage="Do you own or hire Marquees associated equipment for the use of business? checkbox is available"
+			errorMessage="Do you own or hire Marquees associated equipment for the use of business? checkbox is not available">
+		</Field>
+		
+		<Field id="chkAreAnyRoomsLetOnSelfCateringBasis" type="assertDisplayPositive"
+			fieldLabel="chkAreAnyRoomsLetOnSelfCateringBasis" pathType="css" screenShot="false"
+			validMessage="Are any rooms let on a self catering basis checkbox is available"
+			errorMessage="Are any rooms let on a self catering basis checkbox is not available">
+		</Field>
+		
+		<Field id="fldTotalEstimatedAnnualTurnover" type="assertDisplayPositive"
+			fieldLabel="fldTotalEstimatedAnnualTurnover" pathType="css" screenShot="false"
+			validMessage="Total Estimated Annual Turnover field is available"
+			errorMessage="Total Estimated Annual Turnover field is not available">
+		</Field>
+		
+		<Field id="fldTotalEstimatedAnnualTurnover" type="assertDisplayPositive"
+			fieldLabel="fldTotalEstimatedAnnualTurnover" pathType="css" screenShot="false"
+			validMessage="Total Estimated Annual Turnover field is available"
+			errorMessage="Total Estimated Annual Turnover field is not available">
+		</Field>
+		
+		<Field id="fieldNumberOfLettingBedroomsGuestHouseDetailsGuestHouse" type="assertDisplayPositive"
+			fieldLabel="fldTotalEstimatedAnnualTurnover" pathType="css" screenShot="false"
+			validMessage="Number Of Letting Bedrooms field is available"
+			errorMessage="Number Of Letting Bedrooms field field is not available">
+		</Field>
+		
+		
+		
+		<Field id="chkIsAnyFoodSoldOnThePremisesRestrictedToPayingGuestsOnly" type="assertDisplayPositive"
+			fieldLabel="chkIsAnyFoodSoldOnThePremisesRestrictedToPayingGuestsOnly" pathType="css" screenShot="false"
+			validMessage="Is any Food sold on the premises restricted to paying guests only checkbox is available"
+			errorMessage="Is any Food sold on the premises restricted to paying guests only checkbox is not available">
+		</Field>
+		
+		<Field id="chkIsAnyAlcoholSoldOnThePremisesRestrictedToPayingGuestsOnly" type="assertDisplayPositive"
+			fieldLabel="chkIsAnyAlcoholSoldOnThePremisesRestrictedToPayingGuestsOnly" pathType="css" screenShot="false"
+			validMessage="Is any Alcohol sold on the premises restricted to paying guests only checkbox is available"
+			errorMessage="Is any Alcohol sold on the premises restricted to paying guests only checkbox is not available">
+		</Field>
+		
+		<Field id="chkAreThePremisesLocatedOnWorkingFarm" type="assertDisplayPositive"
+			fieldLabel="chkAreThePremisesLocatedOnWorkingFarm" pathType="css" screenShot="false"
+			validMessage="Are the premises located on a working farm checkbox is available"
+			errorMessage="Are the premises located on a working farm checkbox is not available">
+		</Field>
+		
+		<Field id="chkDoThePremisesCaterForStag/HenParties" type="assertDisplayPositive"
+			fieldLabel="chkDoThePremisesCaterForStag/HenParties" pathType="css" screenShot="true"
+			validMessage="Do the Premises cater for Stag/Hen Parties etc checkbox is available"
+			errorMessage="Do the Premises cater for Stag/Hen Parties etc checkbox is not available">
+		</Field>
+	
+	
+		<Field id="chkIsTheBuildingUsedForAnything" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false"> </Field>
+			
+		<Field id="chkDoesTheOwner/ManagerLiveOnThePremises" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false"> </Field>
+		
+		<Field id="chkDoYouOwnOrHireMarquees" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false"> </Field>
+			
+		<Field id="chkAreAnyRoomsLetOnSelfCateringBasis" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false"> </Field>
+			
+		<Field id="chkIsAnyFoodSoldOnThePremisesRestrictedToPayingGuestsOnly" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false"> </Field>
+			
+		<Field id="chkIsAnyAlcoholSoldOnThePremisesRestrictedToPayingGuestsOnly" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false"> </Field>
+			
+		<Field id="chkAreThePremisesLocatedOnWorkingFarm" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false"> </Field>
+			
+		<Field id="chkDoThePremisesCaterForStag/HenParties" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false"> </Field>
+			
+			
+		<Field id="chkIsTheBuildingUsedForAnything" type="assertGetTextofInput"
+			fieldLabel="Any Leisure Facilities Status" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Is the building used for anything other than tourist/business accommodation? (e.g. Students , DSS etc) checkbox is checked"
+			errorMessage="Is the building used for anything other than tourist/business accommodation? (e.g. Students , DSS etc) checkbox is not checked">
+		</Field>
+		
+		<Field id="chkDoesTheOwner/ManagerLiveOnThePremises" type="assertGetTextofInput"
+			fieldLabel="Any Leisure Facilities Status" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Does the owner/manager live on the premises? checkbox is checked"
+			errorMessage="Does the owner/manager live on the premises? checkbox checkbox is not checked">
+		</Field>
+		
+		<Field id="chkDoYouOwnOrHireMarquees" type="assertGetTextofInput"
+			fieldLabel="Any Leisure Facilities Status" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Do you own or hire Marquees associated equipment for the use of business? checkbox is checked"
+			errorMessage="Do you own or hire Marquees associated equipment for the use of business? checkbox is not checked">
+		</Field>
+		
+		<Field id="chkAreAnyRoomsLetOnSelfCateringBasis" type="assertGetTextofInput"
+			fieldLabel="Any Leisure Facilities Status" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Are any rooms let on a self catering basis checkbox is checked"
+			errorMessage="Are any rooms let on a self catering basis checkbox is not checked">
+		</Field>
+		
+		<Field id="chkIsAnyFoodSoldOnThePremisesRestrictedToPayingGuestsOnly" type="assertGetTextofInput"
+			fieldLabel="Any Leisure Facilities Status" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Is any Food sold on the premises restricted to paying guests only checkbox is checked"
+			errorMessage="Is any Food sold on the premises restricted to paying guests only checkbox is not checked">
+		</Field>
+	
+		<Field id="chkIsAnyAlcoholSoldOnThePremisesRestrictedToPayingGuestsOnly" type="assertGetTextofInput"
+			fieldLabel="Any Leisure Facilities Status" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Is any Alcohol sold on the premises restricted to paying guests only checkbox is checked"
+			errorMessage="Is any Alcohol sold on the premises restricted to paying guests checkbox is not checked">
+		</Field>
+		
+		<Field id="chkAreThePremisesLocatedOnWorkingFarm" type="assertGetTextofInput"
+			fieldLabel="Any Leisure Facilities Status" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Are the premises located on a working farm checkbox is checked"
+			errorMessage="Are the premises located on a working farm checkbox is not checked">
+		</Field>
+		
+		<Field id="chkDoThePremisesCaterForStag/HenParties" type="assertGetTextofInput"
+			fieldLabel="Any Leisure Facilities Status" pathType="css"
+			attribute="aria-checked" screenShot="true"
+			validMessage="Do the Premises cater for Stag/Hen Parties etc checkbox is checked"
+			errorMessage="Do the Premises cater for Stag/Hen Parties etc checkbox is not checked">
+		</Field>
+	
+	
+	
+	</Screen>
+		
+
+</Selenium>
+

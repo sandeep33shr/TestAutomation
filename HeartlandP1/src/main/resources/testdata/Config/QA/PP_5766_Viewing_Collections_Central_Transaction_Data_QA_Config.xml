@@ -1,0 +1,9 @@
+<Config>
+	<Feature id="PP_5766_Viewing_Collections_Central_Transaction_Data"
+		title="Viewing Collections Central Transaction Data">
+		<TC id="TC_5766_01" Description="Validate the data of SRP transactions"
+			XML_Location="PP_5766_Viewing_Collections_Central_Transaction_Data\PP_5766_TC01.xml"
+			Iteration="1">
+		</TC>
+	</Feature>
+</Config>

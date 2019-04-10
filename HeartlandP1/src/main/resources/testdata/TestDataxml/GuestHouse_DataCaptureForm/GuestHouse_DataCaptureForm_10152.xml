@@ -1,0 +1,90 @@
+<Selenium>	
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Password@2018">
+		</Field>
+		<Field fieldLabel="ClientType" input="Corporate">
+		</Field>
+		<Field fieldLabel="ClientName" input="SSPT%">
+		</Field>
+		<Field fieldLabel="SelectProduct" input="HIUA Phase 1 GLU">
+		</Field>
+		
+		<Field fieldLabel="drpBusinessType" input="Direct Business">
+		</Field>
+		
+		<Field fieldLabel="Insured_General_GuestHouse" input="Test">
+		</Field>
+		<Field fieldLabel="TradingName_General_GuestHouse" input="Test123">
+		</Field>
+		<Field fieldLabel="ContactName_General_GuestHouse" input="SSP028">
+		</Field>
+		<Field fieldLabel="TelephoneNumber_General_GuestHouse" input="123456789">
+		</Field>
+		<Field fieldLabel="CompanyStatus_General_GuestHouse" input="Sole Proprietor">
+		</Field>
+		<Field fieldLabel="Postcode_General_GuestHouse" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Address_General_GuestHouse" input="1">
+		</Field>
+		<Field fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse" input="Staff Accommodation">
+		</Field>
+		
+		<Field fieldLabel="YearsInsuredHasBeenTrading_RiskDetails_GuestHouse" input="10">
+		</Field>
+		<Field fieldLabel="YearsExperienceInsuredHaveInHospitality_RiskDetails_GuestHouse" input="10">
+		</Field>		
+		<Field fieldLabel="Postcode_RiskDetails_GuestHouse" input="B37 7YE">
+		</Field>		
+		<Field fieldLabel="Address_RiskDetails_GuestHouse" input="1">
+		</Field>
+		<Field fieldLabel="YearOfConstruction_BuildingConstruction1_GuestHouse" input="2010">
+		</Field>		
+		<Field fieldLabel="StateDescribesTheSite_SubsidenceAssessment_GuestHouse" input="Gently sloping">
+		</Field>
+		<Field fieldLabel="FoundationsOfPrincipalBuildings_SubsidenceAssessment_GuestHouse" input="Piled foundations">
+		</Field>
+		<Field fieldLabel="NumberOfLettingBedrooms_GuestHouseDetails_GuestHouse" input="2">
+		</Field>
+		
+		<Field fieldLabel="PrincipalBusiness" input="Cafe">
+		</Field>
+		
+		<Field fieldLabel="Month" input="2">
+		</Field>
+		<Field fieldLabel="Year" input="2000">
+		</Field>
+		<Field fieldLabel="Reserved" input="22">
+		</Field>
+		<Field fieldLabel="Paid" input="23">
+		</Field>		
+		<Field fieldLabel="ClaimStatus" input="Outstanding">
+		</Field>		
+		<Field fieldLabel="Description" input="test">
+		</Field>
+		<Field fieldLabel="OtherTypeofClaimTableValue" input="2,2000,22,22,Outstanding">
+		</Field>	
+		
+			
+		<Field fieldLabel="NewMonth" input="3">
+		</Field>
+		
+		<Field fieldLabel="NewYear" input="2001">
+		</Field>
+		<Field fieldLabel="NewReserved" input="11">
+		</Field>		
+		<Field fieldLabel="NewPaid" input="12">
+		</Field>		
+		<Field fieldLabel="NewClaimStatus" input="Repudiated">
+		</Field>
+		<Field fieldLabel="NewDescription" input="tester">
+		</Field>
+		<Field fieldLabel="NewOtherTypeOfClaimTableValue" input="3,2001,11,11,Repudiated">
+		</Field>
+		
+		
+		
+		
+	</Iteration>
+</Selenium>

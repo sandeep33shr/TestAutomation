@@ -1,0 +1,112 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="Button" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+
+	<Screen id="Home" title="SSP-Pure Insurance">
+		<Field id="lnkClient" type="link" fieldLabel="ClientDrpdwn"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="link" fieldLabel="Find client"
+			pathType="css" isClicked="true" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" type="select" fieldLabel="select Corporate"
+			pathType="css" isClicked="false" screenShot="true">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find Button"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="btnselectClientInSearch" type="TableRowSelectRandom"
+			fieldLabel="select Client" pathType="css" isClicked="true"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="ViewClientDetails" title="Corporate Client Details">
+		<Field id="btnEditClient" type="Button" fieldLabel="Edit Client"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+	</Screen>
+
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+
+		<Field id="fldMainContact" fieldLabel="MainContact" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpAccountExcecutive" fieldLabel="AccountExcecutive"
+			type="select" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldSalutation" fieldLabel="Salutation" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+
+
+		<Field id="tabAdditionalInformation" type="Button"
+			fieldLabel="Additional information tab" pathType="css" isClicked="true"
+			screenShot="false">
+		</Field>
+		<Field id="fldWageRoll" fieldLabel="Wage roll" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpTurnOver" fieldLabel="TurnOver" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpTurnOvers" fieldLabel="TurnOvers" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="tabCompliance" type="Button" fieldLabel="Compliance tab"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="fldEmpReferenceNumber" fieldLabel="EMP ref number"
+			type="textfield" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="btnUpdateClient" type="Button" fieldLabel="Update Client"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="Corporate Client Details">
+		<Field id="tabCompliance" type="Button" fieldLabel="Compliance tab"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="asrtEMPRefNumber" type="assertGetText" fieldLabel="EMP ref number after edit"
+			pathType="css" screenShot="true" validMessage="EMP ref number is edited and displayed"
+			errorMessage="EMP ref number is not edited and displayed">
+		</Field>
+		<Field id="tabAdditionalInformation" type="Button"
+			fieldLabel="Additional information tab" pathType="css" isClicked="true"
+			screenShot="false">
+		</Field>
+		<Field id="asrtWageRoll" type="assertGetText" fieldLabel="wage roll after edit"
+			pathType="css" screenShot="true" validMessage="Wage roll is edited and displayed"
+			errorMessage="Wage roll is not edited and displayed">
+		</Field>
+
+	</Screen>
+
+</Selenium>
+

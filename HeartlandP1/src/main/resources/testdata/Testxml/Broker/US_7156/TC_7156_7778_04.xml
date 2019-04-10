@@ -1,0 +1,33 @@
+<Selenium>
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+		<Field id="chkThirdRecordInGrid" type="checkBox"
+			fieldLabel="Check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkFourthRecordInGrid" type="checkBox"
+			fieldLabel="Check 4th record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTotalMarked"
+			type="dynamicHashMapAttribute" attribute="value"
+			fieldLabel="Test value of Total Marked Balance" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldOpeningBalance"
+			type="dynamicHashMapAttribute" attribute="value"
+			fieldLabel="Test value of Opening Balance" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldClosingBalance" type="assertGetTextofInput"
+			attribute="value" fieldLabel="Test value of Closing Balance"
+			pathType="css" screenShot="true"
+			validMessage="Value of Closing Balance is correct"
+			errorMessage="Value of Closing Balance is not correct">
+		</Field>
+		<Field id="chkThirdRecordInGrid" type="DeSelectCheckbox"
+			fieldLabel="Check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkFourthRecordInGrid" type="DeSelectCheckbox"
+			fieldLabel="Check 4th record" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	
+</Selenium>

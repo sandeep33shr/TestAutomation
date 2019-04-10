@@ -1,0 +1,488 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkClient" type="buttonJS" fieldLabel="ClientMenu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkNewCorporateClient" type="buttonJS" fieldLabel="NewCoporateclient"
+			pathType="css" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client">
+		<Field id="fldCompanyName" fieldLabel="CompanyName" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldBusinessDescription" fieldLabel="BusinessDescription"
+			type="textfield" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldMainContact" fieldLabel="MainContact" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpAccountExcecutive" fieldLabel="AccountExcecutive"
+			type="select" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldSalutation" fieldLabel="Salutation" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpThirdParty" fieldLabel="ThirdParty" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpBusiness" fieldLabel="Business" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAltIdentifier" fieldLabel="AltIdentifier" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldFileCode" fieldLabel="FileCode" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkProspect" fieldLabel="Prospect" type="checkBox"
+			inputType="alphanumeric" length="10" pathType="xpath" screenShot="true">
+		</Field>
+		<Field id="tabAdditionalInformation" type="link"
+			fieldLabel="AdditionalInformationtab" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpTurnOvers" fieldLabel="TurnOvers" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldFinancialYear" type="textfield" fieldLabel="enter Financial year"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		<Field id="tabAddresses" type="link" fieldLabel="AddressesTab"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="lnkAddAddress" type="link" fieldLabel="Add Address"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="drpAddressType" type="select" fieldLabel="AddressType"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldStreet" type="textfield" fieldLabel="Street"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPostCode" type="textfield" fieldLabel="Postcode"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldLocality" type="textfield" fieldLabel="Locality"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTown" type="textfield" fieldLabel="Town" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpCountry" type="select" fieldLabel="Country"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnAddInAddress" type="buttonJS" fieldLabel="Add button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+
+		<Field id="tabContacts" type="link" fieldLabel="ContactsTab"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="lnkAddContact" type="link" fieldLabel="Add Contact"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="drpContactType" type="select" fieldLabel="ContactType"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldEmail" type="textfield" fieldLabel="Email"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="chkMain" type="checkBox" fieldLabel="Main" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnAddInContact" type="Button" fieldLabel="Add button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="btnSubmit" type="buttonJS" fieldLabel="SubmitButton"
+			pathType="css" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="CorporateClient" title="Client Details">
+		<Field id="txtClientDetails" type="assertDisplayPositive"
+			fieldLabel="Client Details" pathType="css" screenShot="true"
+			validMessage="Client details page is displayed" errorMessage="Client details page is not displayed">
+		</Field>
+		<Field id="txtCompanyName" type="assertGetText" fieldLabel="CompanyName"
+			pathType="css" screenShot="false"
+			validMessage="Corporate Client name is created successfully"
+			errorMessage="Corporate Client name is not created">
+		</Field>
+	</Screen>
+
+	// Add policy from here.
+	<Screen id="ViewClientDetails" title="View Client Details">
+
+		<Field id="drpSelectProduct" type="select" fieldLabel="SelectProduct"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNewQuote" type="Button" fieldLabel="New quote Button"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">
+
+		//business type
+		<Field id="drpBusinessType" type="select" fieldLabel="drpBusinessType"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//Lead Insurer
+		<Field id="iconFindLeadInsurer" type="Button" fieldLabel="LeadInsurer"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find" pathType="css"
+			screenShot="true">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="listReinsurerCode" type="getRowIndexAsPerInputData"
+			fieldLabel="Fetch Insurer" pathType="css" screenShot="true">
+		</Field>
+		<Field id="listBtnSelectReinsurerCode" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="Click Insurer" pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+
+		// complaince tab
+		<Field id="tabCompliance" type="link" fieldLabel="Compliance tab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpCustomerCategory" type="select" fieldLabel="CustomerCategory"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpMethodOfSale" type="select" fieldLabel="MethodOfSale"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpTermAgreed" type="select" fieldLabel="TermAgreed"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpTypeOfSale" type="select" fieldLabel="TypeOfSale"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldUnderWriter" type="textfield" fieldLabel="UnderWriter"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNext" type="Button" fieldLabel="NextButton"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//General details
+		<Field id="fldCompany/PartnershipName" type="textfield"
+			fieldLabel="Company/Partnership Name" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldCompanyStatus" type="autoCompleteTextField"
+			fieldLabel="Company Status" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="fldAddressLine1" type="textfield" fieldLabel="Address Line 1"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAddressLine2" type="textfield" fieldLabel="Address Line 2"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPostcode" type="textfield" fieldLabel="Postcode"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNext" type="Button" fieldLabel="NextButton in general details"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//Claims
+		<Field id="btnNext" type="Button" fieldLabel="NextButton in claims"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//Company Details
+		<Field id="fldYearBusinessEstablished" type="textfield"
+			fieldLabel="Year business established" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldNumberOfYearsExperience" type="textfield"
+			fieldLabel="Number of years experience" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAnnualTurnoverForTheOrganisation/group" type="textfield"
+			fieldLabel="Annual turnover for the organisation/group" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="btnAddInTrades" type="Button" fieldLabel="Add Button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		<Field id="drpTrade" type="autoCompleteTextField" fieldLabel="Trade"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldNoOfWorkers" type="textfield" fieldLabel="No of workers"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPercentageOfTurnover" type="textfield"
+			fieldLabel="Percentage of turnover" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkMainTrade" type="checkBox" fieldLabel="MainTrad"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="btnNext" type="Button" fieldLabel="NextButton"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnNext" type="Button" fieldLabel="NextButton in company details"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//employment details
+		<Field id="fldHowManyPeopleAltogetherWorkInTheBusiness?" type="textfield"
+			fieldLabel="How many people altogether work in the business?"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTheEstimatedWagesAmountForAllEmployeesForTheNext12Months"
+			type="textfield"
+			fieldLabel="The estimated wages amount for all employees for the next 12 months"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldDirectors/ClericalWork" type="textfield"
+			fieldLabel="Directors/Consulting" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPermanentStaff/ManualWork" type="textfield"
+			fieldLabel="PermanentStaff/ManualWork" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPermanentStaff/NonManualWork" type="textfield"
+			fieldLabel="PermanentStaff/NonManualWork" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNext" type="Button" fieldLabel="NextButton in employment details"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//Covers
+		<Field id="drpPublicLiability" type="autoCompleteTextField"
+			fieldLabel="Public Liability" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnQuote" type="buttonJS" fieldLabel="Quote Button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		<Field id="btnFinish" type="Button" fieldLabel="Finish Button"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		<Field id="btnSubmit" type="Button" fieldLabel="Submit"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="radioPayNow" type="radioButton" fieldLabel="payNow"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnBuy" type="Button" fieldLabel="Buy" pathType="css"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+	<Screen id="ImportantStatements" title="Important Statements">
+		<Field id="chkAgreeConfirmation" type="checkBox" fieldLabel="Agree Confirmation"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnContinue" type="Button" fieldLabel="Continue"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="CashList" title="Pay Now">
+		<Field id="btnOkCashList" type="Button" fieldLabel="OkCashList"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="ReceiptType" title="Pay Now">
+		<Field id="btnOkReceiptType" type="Button" fieldLabel="OkReceiptType"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="TransactionConfirmation" title="Transaction Confirmation">
+
+		<Field id="btnYesInDocumentIssuePopup" type="buttonJS"
+			fieldLabel="Yes" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		<Field id="lnkInfo" type="link" fieldLabel="Info link" pathType="css"
+			screenShot="true">
+		</Field>
+
+		<Field id="lnkPolicyNo" type="dynamicHashMap" fieldLabel="Policynumber"
+			pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="lnkCompanyName" type="link" fieldLabel="CompanyName"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="lnkFinance" type="buttonJS" fieldLabel="FinanceMenu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkTransactions" type="buttonJS" fieldLabel="TransactionsInFinance"
+			pathType="css" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+		<Field id="chkboxOutstandingTransaction" type="DeSelectCheckbox"
+			fieldLabel="Only Show Outstanding Transaction" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="tabDocument" type="link" fieldLabel="DocumentTab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldDocumentRef" fieldLabel="Document Ref" type="textfield"
+			inputType="alphanumeric" pathType="css" screenShot="true">
+		</Field>
+		<Field id="tabReference" type="link" fieldLabel="ReferenceTab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPolicyNumber" fieldLabel="PolicyNumber" type="textfield"
+			inputType="alphanumeric" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="transactionsRows" type="assertPolicyQuotesCount"
+			fieldLabel="Transaction rows" pathType="css" screenShot="true">
+		</Field>
+		<Field id="transactionsAmountRows" type="assertTransactionsTableAmountValue"
+			fieldLabel="Transaction amount rows" pathType="css"
+			validMessage="The sum of the amount is 0.00. Test case is passed."
+			screenShot="false">
+		</Field>
+		<Field id="transactionsAccount" type="getRowIndexAsPerInputData"
+			fieldLabel="CompanyName" pathType="css" screenShot="false">
+		</Field>
+		<Field id="transactionsOutstandingAmount" type="assertAmountFromTable"
+			fieldLabel="Outstanding amount" pathType="css" screenShot="false"
+			validMessage="The transaction outstanding amount is 0.0. Test case is passed.">
+		</Field>
+		<Field id="actionMenu" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="Action menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="viewAllocation" type="link" fieldLabel="View Allocation"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="allocatedAmount" type="assertAmountsInTable"
+			fieldLabel="Allocated Amount" pathType="css" screenShot="true"
+			validMessage="Credit Allocated amount matches with the debit allocated amount. Test case is passed.">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+</Selenium>

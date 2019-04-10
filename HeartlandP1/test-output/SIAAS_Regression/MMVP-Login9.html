@@ -1,0 +1,302 @@
+<html>
+<head>
+<title>TestNG:  MMVP-Login9</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MMVP-Login9</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 15 16:58:48 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>87 seconds (87859 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7329.TC_7329_7643()'><b>TC_7329_7643</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7329<br>Test method: This case is designed to test that user navigation on pressing cancel button of 'Collection Details' screen if 1 more receipt is added in batch<br>Parameters: , chrome_XP<br/>
+<a href="#Output-69704968" onClick='toggleBox("Output-69704968", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-69704968" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-69704968">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">TC_7329_7643 [MMVP-Login9]</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">This case is designed to test that user navigation on pressing cancel button of 'Collection Details' screen if 1 more receipt is added in batch<small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div>&emsp;<br/>
+<div class="test-message">&emsp;<--------------------- Iteration 0 is started -----------------------></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:09 728 - Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2flocalhost%2fpure.portal%2fjwtauthprocess.aspx&response_type=code</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:09 729 - <b>0</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to LoginScreen Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_fieldLabel: ------->Username</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_id: ------->fldUserName</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:11 905 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:11 989 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2618f67a60176ddd2ab180a3ce724040)] -> css selector: #signupEmail]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Username : admin@redinsurance.com<br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_fieldLabel: ------->Password</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_id: ------->fldPassword</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_screenShot: ------->true</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:14 446 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:14 639 - Element is displayed:: [[RemoteWebDriver: chrome on XP (2618f67a60176ddd2ab180a3ce724040)] -> css selector: #signupPassword]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Password : Password@2018&emsp;<a href=".\ScreenShot\TC_7329_7643_MMVP-Login9_38.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_fieldLabel: ------->SignIn</div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_id: ------->btnSignIn</div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_type: ------->buttonJS</div><br/>
+<div class="test-result"><br><font color="red"><strong> java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null </strong></font> <a href=".\ScreenShot\TC_7329_7643_MMVP-Login9_41.png" target="_blank" >[ScreenShot]</a></div>&emsp;<br/>
+<!--FAIL--><br/>
+<div class="test-result"><br><font color="red"><strong> Test Failed </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7329.TC_7329_7643(US_7329.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.clickButtonJS(ActionKeyword.java:1142)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:170)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace69704968", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace69704968'><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7329.TC_7329_7643(US_7329.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.clickButtonJS(ActionKeyword.java:1142)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:170)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div></td>
+<td>17</td>
+<td>com.ssp.regression.insurer.testscripts.US_7329@1a8a8f7c</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7329.TC_7329_7642()'><b>TC_7329_7642</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7329<br>Test method: This case is designed to test that user navigation on pressing cancel button of 'Collection Details' screen if open first time<br>Parameters: , chrome_XP<br/>
+<a href="#Output-1332383914" onClick='toggleBox("Output-1332383914", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1332383914" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1332383914">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">TC_7329_7642 [MMVP-Login9]</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">This case is designed to test that user navigation on pressing cancel button of 'Collection Details' screen if open first time<small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div>&emsp;<br/>
+<div class="test-message">&emsp;<--------------------- Iteration 0 is started -----------------------></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:19 357 - Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2flocalhost%2fpure.portal%2fjwtauthprocess.aspx&response_type=code</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:19 357 - <b>1</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to LoginScreen Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_fieldLabel: ------->Username</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_id: ------->fldUserName</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:21 589 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:21 738 - Element is displayed:: [[RemoteWebDriver: chrome on XP (3bbe87bd0ac44a2005b444f68d5aa736)] -> css selector: #signupEmail]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Username : admin@redinsurance.com<br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_fieldLabel: ------->Password</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_id: ------->fldPassword</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_screenShot: ------->true</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:24 183 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:24 330 - Element is displayed:: [[RemoteWebDriver: chrome on XP (3bbe87bd0ac44a2005b444f68d5aa736)] -> css selector: #signupPassword]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Password : Password@2018&emsp;<a href=".\ScreenShot\TC_7329_7642_MMVP-Login9_2.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_fieldLabel: ------->SignIn</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_id: ------->btnSignIn</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_type: ------->buttonJS</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:25 892 - Element is displayed:: [[RemoteWebDriver: chrome on XP (3bbe87bd0ac44a2005b444f68d5aa736)] -> css selector: #login_button[type='submit']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Click button is performed for SignIn<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:26 520 - Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2flocalhost%2fpure.portal%2fjwtauthprocess.aspx&response_type=code</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:26 520 - <b>0</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to Home Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of Home_Finance_fieldLabel: ------->Finance</div><br/>
+<div class="test-message">&emsp;Value of Home_Finance_id: ------->lnkFinance</div><br/>
+<div class="test-message">&emsp;Value of Home_Finance_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of Home_Finance_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of Home_Finance_type: ------->Button</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:37 444 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:39 673 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-message">&emsp;Clicked on button Finance<br/>
+<div class="test-message">&emsp;Value of Home_Collection Link avilability_fieldLabel: ------->Collection Link avilability</div><br/>
+<div class="test-message">&emsp;Value of Home_Collection Link avilability_id: ------->lnkCollection</div><br/>
+<div class="test-message">&emsp;Value of Home_Collection Link avilability_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of Home_Collection Link avilability_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of Home_Collection Link avilability_type: ------->Button</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:41 697 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:44 491 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-message">&emsp;Clicked on button Collection Link avilability<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:44 595 - Page URL:: http://localhost/pure.portal/secure/payment/collectionitem.aspx?mode=cr&postback=ribbonmenu</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:44 595 - <b>0</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to CollectionDetails Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_OK ,AUTO ALLOCATE and Cancel buttons are available_errorMessage: ------->OK ,AUTO ALLOCATE and Cancel buttons are not available</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_OK ,AUTO ALLOCATE and Cancel buttons are available_fieldLabel: ------->OK ,AUTO ALLOCATE and Cancel buttons are available</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_OK ,AUTO ALLOCATE and Cancel buttons are available_id: ------->allButtonsOnCollectionDetails</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_OK ,AUTO ALLOCATE and Cancel buttons are available_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_OK ,AUTO ALLOCATE and Cancel buttons are available_screenShot: ------->true</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_OK ,AUTO ALLOCATE and Cancel buttons are available_type: ------->assertUnorderedListTextEquals</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_OK ,AUTO ALLOCATE and Cancel buttons are available_validMessage: ------->OK ,AUTO ALLOCATE and Cancel buttons are available</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:44 760 - Element is displayed:: [[RemoteWebDriver: chrome on XP (3bbe87bd0ac44a2005b444f68d5aa736)] -> css selector: .card-footer a[id*='ctl00_cntMainBody_PayNow_CollectionItem']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:44 847 - Element is displayed:: [[RemoteWebDriver: chrome on XP (3bbe87bd0ac44a2005b444f68d5aa736)] -> css selector: .card-footer a[id*='ctl00_cntMainBody_PayNow_CollectionItem']]</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:44 964 - Element is displayed:: [[RemoteWebDriver: chrome on XP (3bbe87bd0ac44a2005b444f68d5aa736)] -> css selector: .card-footer a[id*='ctl00_cntMainBody_PayNow_CollectionItem']]</small> </font> </div><br/>
+<div class="test-message">&emsp;OK ,AUTO ALLOCATE and Cancel buttons are available&emsp;<a href=".\ScreenShot\TC_7329_7642_MMVP-Login9_24.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_Click Cancel button_errorMessage: ------->Cancel button is not clickale</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_Click Cancel button_fieldLabel: ------->Click Cancel button</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_Click Cancel button_id: ------->btnCancel</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_Click Cancel button_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_Click Cancel button_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_Click Cancel button_type: ------->Button</div><br/>
+<div class="test-message">&emsp;Value of CollectionDetails_Click Cancel button_validMessage: ------->Click Cancel button sucessfully</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:49 249 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:51 850 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-message">&emsp;Clicked on button Click Cancel button<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:51 945 - Page URL:: http://localhost/pure.portal/secure/agent/findclient.aspx</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:51 946 - <b>0</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to FindClient Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Find Client_errorMessage: ------->User does not navigates to Find Client screen</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Find Client_fieldLabel: ------->Find Client</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Find Client_id: ------->lblFindClient</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Find Client_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Find Client_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Find Client_type: ------->assertGetText</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Find Client_validMessage: ------->User navigates to Find Client screen</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:54 216 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-message">&emsp;User navigates to Find Client screen</div><br/>
+<div class="test-message">&emsp;<--------------------- Iteration 0 is ended -----------------------></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td></td>
+<td>59</td>
+<td>com.ssp.regression.insurer.testscripts.US_7329@1a8a8f7c</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+<Config>
+	<Feature id="PP_6675_5053" title="Edit Corporate Client">
+		<TC id="TC01" Description="Earning Full Commission -When Client Pays "
+			XML_Location="PP_6675_5053\PP_6675_5053_TC01.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

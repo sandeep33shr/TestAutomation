@@ -1,0 +1,83 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button" fieldLabel="Finance Ribbon Menu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkReconciliation" type="Button" fieldLabel="Click on Reconciliation link" pathType="css" screenShot="false" >
+		</Field>
+	</Screen>
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+	     <Field id="btnFind" type="Button" fieldLabel="Click Find"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkThirdRecordInGrid" type="checkBox"
+			fieldLabel="Check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="transactionRef3rdRow" type="dynamicHashMap"
+			fieldLabel="save Tref of 3rd row" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkFourthRecordInGrid" type="checkBox"
+			fieldLabel="Check 4th record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="transactionRef4thRow" type="dynamicHashMap"
+			fieldLabel="save Tref of 4th row" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTotalMarked" type="dynamicHashMapAttribute" fieldLabel="Total Marked" attribute="value"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldUnreconciled" type="dynamicHashMapAttribute" fieldLabel="Unreconciled" attribute="value"
+			pathType="css" screenShot="false">
+		</Field>
+		//Need to work
+		<Field id="beforeReconciledCalculationUnreconciled" type="unreconciledBalanceAmountDynamicHashMapBeforeReconciled" fieldLabel="After Reconciled Unreconciled value"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="beforeReconciledCalculationOpeningBalance" type="OpeningBalanceAmountDynamicHashMapBeforeReconciled" fieldLabel="After Reconciled Opening Balance value"
+			pathType="css" screenShot="false">
+		</Field>
+		 <Field id="btnReconciled" type="Button" fieldLabel="Click Reconciled"
+			pathType="css" screenShot="false">
+		</Field>
+		 <Field id="" type="alertAccept" fieldLabel="Click ok on Alert"
+			pathType="css" screenShot="false">
+		</Field>
+			
+		<Field id="fldUnreconciled" type="assertGetTextofInput" attribute="value"
+			fieldLabel="After Reconciled Unreconciled value" pathType="css" screenShot="true"
+			validMessage="To validate value of Unrecociled is correct after reconciliation process"
+			errorMessage="To validate value of Unrecociled is not correct after reconciliation process">
+		</Field>
+		<Field id="fldOpeningBalance" type="assertGetTextofInput" attribute="value"
+			fieldLabel="After Reconciled Opening Balance value" pathType="css" screenShot="true"
+			validMessage="To validate value of Opening Balance is correct after reconciliation process"
+			errorMessage="To validate value of Opening Balance is not correct after reconciliation process">
+		</Field>
+		
+		
+	</Screen>
+
+</Selenium>

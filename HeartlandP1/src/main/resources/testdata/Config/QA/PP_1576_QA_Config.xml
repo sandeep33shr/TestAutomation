@@ -1,0 +1,112 @@
+<Config>
+	<Feature id="PP_1576" title="Other Corporate Information">
+
+		<TC id="TC1576_01"
+			Description="To verify the presence of Additional information tab in create corporate client"
+			XML_Location="PP_1576\PP_1576_TC1576_01.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_02" Description="To verify the fields in Additional information tab"
+			XML_Location="PP_1576\PP_1576_TC1576_02.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_04"
+			Description="To verify the presence of Compliance tab in client details page"
+			XML_Location="PP_1576\PP_1576_TC1576_04.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_05"
+			Description="To verify the fields available in compliance tab in client details page"
+			XML_Location="PP_1576\PP_1576_TC1576_05.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_06"
+			Description="To verify the fields available in ELTO Information in compliance tab "
+			XML_Location="PP_1576\PP_1576_TC1576_06.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_07"
+			Description="To verify whether the user can edit the details after clicking Edit Client in view client details page "
+			XML_Location="PP_1576\PP_1576_TC1576_07.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_08"
+			Description="To verify the ERN extent check box saves the information selected "
+			XML_Location="PP_1576\PP_1576_TC1576_08.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_09"
+			Description="To verify, if  ERN Exempt checkbox is No, Employers Reference Number is mandatory "
+			XML_Location="PP_1576\PP_1576_TC1576_09.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_10"
+			Description="To verify the date validation in Financial year field  in Additional information tab "
+			XML_Location="PP_1576\PP_1576_TC1576_10.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_11"
+			Description="To verify the date validation in Financial year field  in Additional information tab by entering future date or wrong date"
+			XML_Location="PP_1576\PP_1576_TC1576_11.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_12"
+			Description="To verify whether the user can edit the additional information and save the client details"
+			XML_Location="PP_1576\PP_1576_TC1576_12.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_13"
+			Description="To verify whether the user can edit the Compliance tab and save the client details"
+			XML_Location="PP_1576\PP_1576_TC1576_13.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_14"
+			Description="To verify the fields in Wage roll section in Additional information tab"
+			XML_Location="PP_1576\PP_1576_TC1576_14.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_15" Description="To verify the mandatory fields in compliance tab"
+			XML_Location="PP_1576\PP_1576_TC1576_15.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_16"
+			Description="To verify the error message if the mandatory fields are not filled in  compliance tab"
+			XML_Location="PP_1576\PP_1576_TC1576_16.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_17"
+			Description="To verify the date validation in Financial year field  in Additional information tab by entering alphabets"
+			XML_Location="PP_1576\PP_1576_TC1576_17.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_18"
+			Description="To verify that the created client and its details are displaying in View details page"
+			XML_Location="PP_1576\PP_1576_TC1576_18.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_19"
+			Description="To verify that the edited additonal details are saved and viewed"
+			XML_Location="PP_1576\PP_1576_TC1576_19.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_20"
+			Description="To verify that the edited compliance details are saved and viewed"
+			XML_Location="PP_1576\PP_1576_TC1576_20.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_21"
+			Description="To create a corporate client by entering basic details, address, Additional info and Compliance and verify"
+			XML_Location="PP_1576\PP_1576_TC1576_21.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_22"
+			Description="To create a corporate client by entering basic details, address, Additional info and Compliance and search for the created client and verify the same"
+			XML_Location="PP_1576\PP_1576_TC1576_22.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1576_23"
+			Description="To verify the entered date is updated in Terms of Business Letter sent field"
+			XML_Location="PP_1576\PP_1576_TC1576_23.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

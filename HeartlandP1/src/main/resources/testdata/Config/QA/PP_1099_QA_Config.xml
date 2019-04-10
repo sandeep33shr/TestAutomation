@@ -1,0 +1,28 @@
+<Config>
+	<Feature id="PP_1099" title="Pure Portal Summary Of Cover">
+
+		<TC id="TC8187" Description="Verify Buy now button is enabled if the Quote is valid"
+			XML_Location="PP_1099\PP_1099_8187.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC8188"
+			Description="Verify Buy now button is disabled if the Quote is not valid(for referred quotes)"
+			XML_Location="PP_1099\PP_1099_8188.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC8189"
+			Description="Verify Buy now button is disabled if the Quote is not valid(for declined quotes)"
+			XML_Location="PP_1099\PP_1099_8189.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC8515" Description="Verify Buy now button is disabled if the Quote is Expired "
+			XML_Location="PP_1099\PP_1099_8515.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC8709"
+			Description="Verify that Buy button is disabled or not if cover start date is in past and quote status is in Referred"
+			XML_Location="PP_1099\PP_1099_8709.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

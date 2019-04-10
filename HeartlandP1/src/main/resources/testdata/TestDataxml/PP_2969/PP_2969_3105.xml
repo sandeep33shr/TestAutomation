@@ -1,0 +1,24 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="susil">
+		</Field>
+		<Field fieldLabel="Password" input="Kundhavai9">
+		</Field>
+		<Field fieldLabel="select Corporate" input="Corporate">
+		</Field>
+		<Field fieldLabel="select product" input="Tradesman">
+		</Field>
+		<Field fieldLabel="Main tab fields"
+			input="Insured Name,Internet Reference,Quote/Policy No,Product,Policy Status,Branch Code,Business Source,Business Type,Department,Agent Code,Sub Team,Currency,A/C Handler,Frequency,Regarding,Cover Start Date,Cover End Date,Cascading Risk Transfer,Lapse/Cancel Reason,Lapse/Cancel Date,Client Correspondence,Risk Transfer,Old Policy No,Lead Insurer,Inception Date,Renewal Date,Proposal Date,Quote Expiry Date,Policy Balance,Balance Inc. unsettled PF/SA,Traded Type">
+		</Field>
+
+	</Iteration>
+</Selenium>

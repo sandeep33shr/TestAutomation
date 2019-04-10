@@ -1,0 +1,55 @@
+<Config>
+	<Feature id="PP_5660" title="Contract Certainty Prompt Navigation">
+
+
+		<TC id="TC5660_6090"
+			Description="Verify disclaimer screen is appear during buy process through Paynow process"
+			XML_Location="PP_5660\PP_5660_6090.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5660_6091"
+			Description="Verify page is redirect to cover summary screen when answer Yes to certainity question through Paynow process"
+			XML_Location="PP_5660\PP_5660_6091.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5660_6092"
+			Description="Verify page is redirect to cover summary screen when answer no to certainity question through Paynow process"
+			XML_Location="PP_5660\PP_5660_6092.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5660_6093"
+			Description="Verify quote reference is replaced by policy reference when answer Yes to certainity question through Paynow process "
+			XML_Location="PP_5660\PP_5660_6093.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5660_6094"
+			Description="Verify quote reference is replaced by policy reference when answer No to certainity question through Paynow process "
+			XML_Location="PP_5660\PP_5660_6094.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5660_6195"
+			Description="Verify disclaimer screen is appear during buy process through Invoice process"
+			XML_Location="PP_5660\PP_5660_6195.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5660_6196"
+			Description="Verify page is redirect to cover summary screen when answer Yes to certainity question through Invoice process"
+			XML_Location="PP_5660\PP_5660_6196.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5660_6197"
+			Description="Verify page is redirect to cover summary screen when answer no to certainity question through Invoice process"
+			XML_Location="PP_5660\PP_5660_6197.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5660_6198"
+			Description="Verify quote reference is replaced by policy reference when answer Yes to certainity question through Invoice process "
+			XML_Location="PP_5660\PP_5660_6198.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5660_6199"
+			Description="Verify quote reference is replaced by policy reference when answer No to certainity question through Invoice process "
+			XML_Location="PP_5660\PP_5660_6199.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

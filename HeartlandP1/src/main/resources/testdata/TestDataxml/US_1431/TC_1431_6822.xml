@@ -1,0 +1,38 @@
+<Selenium>
+	
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Password@2018">
+		</Field>
+		<Field fieldLabel="Enter value in Account field"
+			input="ssptest">
+		</Field>
+		<Field fieldLabel="Select value from dropdown" input="Cheque">
+		</Field>
+		<Field fieldLabel="Enter value in Media Reference field"
+			input="Media Reference value">
+		</Field>
+		<Field fieldLabel="Enter future date"
+			input="25/12/2020">
+		</Field>
+		<Field fieldLabel="Select Bank from dropdown"
+			input="Bank Suspense Account">
+		</Field>
+		<Field fieldLabel="Enter value in Amount field" input="1000">
+		</Field>
+		<Field fieldLabel="Receipt Reference" input="dynamicHashmap">
+		</Field>
+		<Field fieldLabel="Verify Accounts in search transaction grid" input="BANKSUSPAC,SSPTEST">
+		</Field>
+		<Field fieldLabel="Amount in Bank's account" input="1,000.00">
+		</Field>
+		 <Field fieldLabel="Amount in client's account" input="-1,000.00">
+		</Field>
+		<Field fieldLabel="O/S Amount in Bank's account" input="1,000.00">
+		</Field>
+		<Field fieldLabel="O/S Amount in client's account" input="-1,000.00"> 
+		</Field>
+		
+	</Iteration>
+</Selenium>

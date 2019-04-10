@@ -1,0 +1,25 @@
+<Config>
+	<Feature id="PP_5122" title="General tab - Additions">
+
+		<TC id="TC5122_6709"
+			Description="Verify terms agreed date is mandatory when Contract Certainty Questions are Mandatory is checked for invoice payment"
+			XML_Location="PP_5122\PP_5122_6709.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5122_6710"
+			Description="Verify terms agreed date is not mandatory when Contract Certainty Questions are Mandatory is unchecked for invoice payment"
+			XML_Location="PP_5122\PP_5122_6710.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5122_6711"
+			Description="Verify terms agreed date is mandatory when Contract Certainty Questions are Mandatory is checked for paynow payment"
+			XML_Location="PP_5122\PP_5122_6711.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5122_6712"
+			Description="Verify terms agreed date is not mandatory when Contract Certainty Questions are Mandatory is unchecked for paynow payment"
+			XML_Location="PP_5122\PP_5122_6712.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

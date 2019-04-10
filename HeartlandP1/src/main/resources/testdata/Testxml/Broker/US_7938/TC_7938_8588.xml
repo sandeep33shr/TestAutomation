@@ -1,0 +1,74 @@
+<Selenium>
+
+
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+		<Field id="chk3rdRecord" type="checkBox"
+			fieldLabel="check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner"
+			fieldLabel="wait" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkShowMaredItem" type="checkBox"
+			fieldLabel="check ShowMarkedItem" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner"
+			fieldLabel="wait" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkGridHeader" type="DeSelectCheckbox"
+			fieldLabel="check ShowMarkedItem" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner"
+			fieldLabel="wait" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkShowMaredItem" type="DeSelectCheckbox"
+			fieldLabel="check ShowMarkedItem" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner"
+			fieldLabel="wait" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chk3rdRecord" type="checkBox"
+			fieldLabel="check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner"
+			fieldLabel="wait" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chk4thRecord" type="checkBox"
+			fieldLabel="check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner"
+			fieldLabel="wait" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnk2ndPage" type="Button"
+			fieldLabel="Click 2nd Page" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner"
+			fieldLabel="wait" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chk3rdRecord" type="checkBox"
+			fieldLabel="check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner"
+			fieldLabel="wait" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chk4thRecord" type="checkBox"
+			fieldLabel="check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner"
+			fieldLabel="wait" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkShowMaredItem" type="checkBox"
+			fieldLabel="check ShowMarkedItem" pathType="css" screenShot="false">
+		</Field>
+		
+		<Field id="commonRowsOfGrid" type="assertTableRowsCount"
+			fieldLabel="Count rows" pathType="css" screenShot="true"
+			validMessage="Number of records in grid are four which is fine"
+			errorMessage="Number of records in grid are not correct">
+		</Field>
+		<Field id="chkGridHeader" type="DeSelectCheckbox"
+			fieldLabel="check ShowMarkedItem" pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+
+</Selenium>

@@ -1,0 +1,263 @@
+<Selenium>
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkClient" type="Button" fieldLabel="ClientMenu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkNewCorporateClient" type="Button"
+			fieldLabel="NewCoporateclient" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="fldCompanyName" fieldLabel="CompanyName"
+			type="textfield" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldBusinessDescription"
+			fieldLabel="BusinessDescription" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldMainContact" fieldLabel="MainContact"
+			type="textfield" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpAccountExcecutive" fieldLabel="AccountExcecutive"
+			type="select" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldSalutation" fieldLabel="Salutation"
+			type="textfield" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpThirdParty" fieldLabel="ThirdParty" type="select"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpBusiness" fieldLabel="Business" type="select"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAltIdentifier" fieldLabel="AltIdentifier"
+			type="textfield" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldFileCode" fieldLabel="FileCode" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkProspect" fieldLabel="Prospect" type="checkBox"
+			inputType="alphanumeric" length="10" pathType="xpath"
+			screenShot="true">
+		</Field>
+		<Field id="tabAdditionalInformation" type="link"
+			fieldLabel="AdditionalInformationtab" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpTurnOvers" fieldLabel="TurnOvers" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldFinancialYear" type="textfield"
+			fieldLabel="enter Financial year" inputType="alphanumeric"
+			length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+
+		<Field id="tabAddresses" type="link" fieldLabel="AddressesTab"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="lnkAddAddress" type="link" fieldLabel="Add Address"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+		<Field id="drpAddressType" type="select"
+			fieldLabel="AddressType" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldStreet" type="textfield" fieldLabel="Street"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPostCode" type="textfield" fieldLabel="Postcode"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldLocality" type="textfield" fieldLabel="Locality"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTown" type="textfield" fieldLabel="Town"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpCountry" type="select" fieldLabel="Country"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnAddInAddress" type="buttonJS"
+			fieldLabel="Add button" pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+
+		<Field id="tabContacts" type="link" fieldLabel="ContactsTab"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="lnkAddContact" type="link" fieldLabel="Add Contact"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+		<Field id="drpContactType" type="select"
+			fieldLabel="ContactType" pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldEmail" type="textfield" fieldLabel="Email"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="chkMain" type="checkBox" fieldLabel="Main"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner"
+			fieldLabel="spinnerWait" screenShot="false">
+		</Field>
+		<Field id="btnAddInContact" type="Button"
+			fieldLabel="Add button" pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+		<Field id="btnSubmit" type="buttonJS" fieldLabel="SubmitButton"
+			pathType="css" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="getCompanyCode" type="dynamicHashMap"
+			fieldLabel="Company Code" pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="btnCollection" type="Button"
+			fieldLabel="Click Collection button" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+
+		<Field id="drpMediaType" type="select"
+			fieldLabel="Select value from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="tabOut"
+			fieldLabel="tabout from Media type field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldMediaReference" type="textfield"
+			fieldLabel="Enter value in Media Reference field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldTransactionDate" type="textfield"
+			fieldLabel="Enter future date" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpBank" type="select"
+			fieldLabel="Select Bank from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAmount" type="textfield"
+			fieldLabel="Enter value in Amount field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="btnOk" type="Button" fieldLabel="Click OK button"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+		<Field id="btnOkAllocation" type="Button"
+			fieldLabel="Click OK on Allocation screen" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="btnCollection" type="Button"
+			fieldLabel="Click Collection button" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+
+		<Field id="drpMediaType" type="select"
+			fieldLabel="Select value from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="tabOut"
+			fieldLabel="tabout from Media type field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldMediaReference" type="textfield"
+			fieldLabel="Enter value in Media Reference field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldTransactionDate" type="textfield"
+			fieldLabel="Enter future date" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpBank" type="select"
+			fieldLabel="Select Bank from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAmount" type="textfield"
+			fieldLabel="Enter value in Amount field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="btnOk" type="Button" fieldLabel="Click OK button"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+      <Field id="chkFirstRecord" type="checkBox" fieldLabel="Check checkbox against first record"
+			pathType="css" screenShot="false">
+	</Field>
+	<Field id="btnOkAllocation" type="Button" fieldLabel="Press OK"
+			pathType="css" screenShot="false">
+		</Field>
+		
+		<Field id="lblValidationMessage" type="assertGetText"
+			fieldLabel="Check validation message for same sign amount" pathType="css"
+			screenShot="false" validMessage="validation message is correct"
+			errorMessage="validation message is incorrect">
+		</Field>
+	</Screen>
+
+</Selenium>

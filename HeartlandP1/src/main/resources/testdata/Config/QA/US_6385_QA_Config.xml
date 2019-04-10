@@ -1,0 +1,16 @@
+<Config>
+	<Feature id="US_6385" title="Primary Settled Flag">
+		<TC id="TC_6385_6671"
+			Description="To Validate the new column Primary Settled on Enquiry screen"
+			XML_Location="US_6385\TC_6385_6671.xml" Iteration="1">
+		</TC>
+		<TC id="TC_6385_6676"
+			Description="To test value of Primary Settled column when there is O/S amount available against transaction"
+			XML_Location="US_6385\TC_6385_6676.xml" Iteration="1">
+		</TC>
+		<TC id="TC_6385_6677"
+			Description="To test value of Primary Settled column when there is no O/S amount available against transaction"
+			XML_Location="US_6385\TC_6385_6677.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

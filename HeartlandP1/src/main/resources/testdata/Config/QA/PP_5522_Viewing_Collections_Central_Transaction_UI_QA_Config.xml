@@ -1,0 +1,9 @@
+<Config>
+	<Feature id="PP_5522_Viewing_Collections_Central_Transaction_UI"
+		title="Viewing Collections Central Transaction UI">
+		<TC id="TC_5522_01" Description="Validate the UI of SRP transactions"
+			XML_Location="PP_5522_Viewing_Collections_Central_Transaction_UI\PP_5522_TC01.xml"
+			Iteration="1">
+		</TC>
+	</Feature>
+</Config>

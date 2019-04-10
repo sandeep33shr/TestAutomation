@@ -1,0 +1,46 @@
+<Selenium>
+
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="uma">
+		</Field>
+		<Field fieldLabel="Password" input="Tester1234">
+		</Field>
+		<Field fieldLabel="SignIn" input="Miss">
+		</Field>
+		<Field fieldLabel="CompanyName" input="Heartland">
+		</Field>
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="Street" input="Line 1">
+		</Field>
+		<Field fieldLabel="Postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Country" input="United Kingdom">
+		</Field>
+
+		<Field fieldLabel="Contact Type Work phone" input="Work Telephone Number">
+		</Field>
+		<Field fieldLabel="numberLabel" input="Number">
+		</Field>
+
+		<Field fieldLabel="Number" input="909876545">
+		</Field>
+
+		<Field fieldLabel="wage roll value" input="5.0000">
+		</Field>
+		<Field fieldLabel="financial yr value" input="20/02">
+		</Field>
+		<Field fieldLabel="select TurnOver" input="£0 - £250,000">
+		</Field>
+		<Field fieldLabel="EMP ref number value" input="4981321">
+		</Field>
+		<Field fieldLabel="TermsOfBusinessLetterSent value" input="20/12/2015">
+		</Field>
+	</Iteration>
+
+
+</Selenium>

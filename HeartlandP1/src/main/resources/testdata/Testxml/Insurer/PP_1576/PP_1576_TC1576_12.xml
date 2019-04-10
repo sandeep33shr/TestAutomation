@@ -1,0 +1,167 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="Button" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkClient" path="li a[href='#s-client']" type="Button"
+			fieldLabel="ClientMenu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkNewCorporateClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_rptSection_ctl00_rptItem_ctl02_A1"
+			type="Button" fieldLabel="New corporate client" pathType="css"
+			screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+
+		<Field id="fldCompanyName" type="textfield" fieldLabel="enterCompanyName"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldMainContact" fieldLabel="MainContact" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpAccountExcecutive" fieldLabel="AccountExcecutive"
+			type="select" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldSalutation" fieldLabel="Salutation" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+
+
+		<Field id="tabAdditionalinformation" type="Button"
+			fieldLabel="Additonal information tab" pathType="css" isClicked="true"
+			screenShot="false">
+		</Field>
+		<Field id="fldWageRoll" type="textfield" fieldLabel="enterWageRoll"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpTurnOver" fieldLabel="TurnOver" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpTurnOvers" fieldLabel="TurnOvers" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldFinancialYear" type="textfield" fieldLabel="enter Financial Year"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="tabAddresses" type="link" fieldLabel="AddressesTab"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="lnkAddAddress" type="link" fieldLabel="Add Address"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			path="modalDialog" screenShot="false">
+		</Field>
+		<Field id="drpAddressType" type="select" fieldLabel="AddressType"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldStreet" type="textfield" fieldLabel="Street"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPostCode" type="textfield" fieldLabel="Postcode"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldLocality" type="textfield" fieldLabel="Locality"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTown" type="textfield" fieldLabel="Town" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpCountry" type="select" fieldLabel="Country"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnAddInAddress" type="Button" fieldLabel="Add button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			path="modalDialog" screenShot="false">
+		</Field>
+
+		<Field id="tabContacts" type="link" fieldLabel="ContactsTab"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="lnkAddContact" type="link" fieldLabel="Add Contact"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="drpContactType" type="select" fieldLabel="ContactType"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldEmail" type="textfield" fieldLabel="Email"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="chkMain" type="checkBox" fieldLabel="Main" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="btnAddInContact" type="Button" fieldLabel="Add button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+
+		<Field id="tabCompliance" type="Button" fieldLabel="Compliance tab"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="fldEmpReferenceNumber" fieldLabel="EMP ref number"
+			type="textfield" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="true">
+		</Field>
+
+		<Field id="btnSubmit" type="Button" fieldLabel="Update Client"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="Corporate Client Details">
+
+		<Field id="tabAdditionalInformation" type="Button"
+			fieldLabel="additional information tab" pathType="css" isClicked="true"
+			screenShot="false">
+		</Field>
+		<Field id="asrtWageRoll" type="assertGetText" fieldLabel="wage roll value"
+			pathType="css" screenShot="true" validMessage="Wage roll is entered and saved"
+			errorMessage="Wage roll is not entered and saved">
+		</Field>
+		<Field id="asrtFinancialYear" type="assertGetText" fieldLabel="financial yr value"
+			pathType="css" screenShot="true" validMessage="Financial yr is entered and saved"
+			errorMessage="financial yr is not entered and saved">
+		</Field>
+		<!-- <Field id="asrtTurnover" type="assertGetText" fieldLabel="Turnover 
+			value" pathType="css" screenShot="true" validMessage="Turnover is entered 
+			and saved" errorMessage="Turnover is not entered and saved" > </Field> -->
+	</Screen>
+
+</Selenium>
+

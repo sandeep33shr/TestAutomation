@@ -1,0 +1,116 @@
+<Config>
+	<Feature id="PP_1707" title="Policy header">
+
+		<TC id="TC3062" Description="To Verify the presence of Renewal tab in Policy Header"
+			XML_Location="PP_2969\PP_2969_3062.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3063" Description="To verify the fields available in Renewal tab"
+			XML_Location="PP_2969\PP_2969_3063.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3064"
+			Description="To verify the value of renewal date field should duplicate the value in Basic details"
+			XML_Location="PP_2969\PP_2969_3064.xml" Iteration="1">
+		</TC>
+		<TC id="TC3096"
+			Description="Verify the 'Main Tab' in policy header section page in Broker mode"
+			XML_Location="PP_2969\PP_2969_3096.xml" Iteration="1">
+		</TC>
+		<TC id="TC3097"
+			Description="Verify the 'Traded Type' field is in READ ONLY in Broker mode"
+			XML_Location="PP_2969\PP_2969_3097.xml" Iteration="1">
+		</TC>
+		<TC id="TC3098"
+			Description="Verify the 'Lead Insurer (populated from quote data)' field is mandatory during Buy process in Broker model"
+			XML_Location="PP_2969\PP_2969_3098.xml" Iteration="1">
+		</TC>
+		<TC id="TC3099"
+			Description="Verify 'Policy Balance','Balance inc. unsettled PF/SA' fields are in READ ONLY mode in Broker mode   "
+			XML_Location="PP_2969\PP_2969_3099.xml" Iteration="1">
+		</TC>
+		<TC id="TC3100"
+			Description="Verify 'Risk Transfer' and 'Cascading Risk Transfer' fields are show/hide based on Insurer configuration"
+			XML_Location="PP_2969\PP_2969_3100.xml" Iteration="1">
+		</TC>
+		<TC id="TC3101"
+			Description="Verify the 'Business Type' Field is Mandatory in Broker mode"
+			XML_Location="PP_2969\PP_2969_3101.xml" Iteration="1">
+		</TC>
+		<TC id="TC3102"
+			Description="Verify the 'Business Source' Field is prepopulated in Broker mode"
+			XML_Location="PP_2969\PP_2969_3102.xml" Iteration="1">
+		</TC>
+		<TC id="TC3103"
+			Description="Verify that 'department' and 'sub team' fields are manually populated by broker in Broker mode"
+			XML_Location="PP_2969\PP_2969_3103.xml" Iteration="1">
+		</TC>
+		<TC id="TC3105" Description="Verify the listed 32 fields are Available in Broker mode"
+			XML_Location="PP_2969\PP_2969_3105.xml" Iteration="1">
+		</TC>
+		<TC id="TC3107"
+			Description="Verify the 'Analysis Code' Field is prepopulated in Insurer mode"
+			XML_Location="PP_2969\PP_2969_3107.xml" Iteration="1">
+		</TC>
+		<TC id="TC3106"
+			Description="Verify the 'Main Tab' in policy header section page in Insurer mode"
+			XML_Location="PP_2969\PP_2969_3106.xml" Iteration="1">
+		</TC>
+		<TC id="TC3108" Description="Verify the listed 29 fields are Available in Insurer mode"
+			XML_Location="PP_2969\PP_2969_3108.xml" Iteration="1">
+		</TC>
+		<TC id="TC3074" Description="Verify Compliance tab  is diplayed in policy header page"
+			XML_Location="PP_2969\PP_2969_3074.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3075" Description="Verify all fields are available in Complaince and ETOL tab"
+			XML_Location="PP_2969\PP_2969_3075.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3076"
+			Description="Verify mandatory fields are available in Complaince and ETOL tab"
+			XML_Location="PP_2969\PP_2969_3076.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3077"
+			Description="Verify error message is displayed for Mandatory fields while saving quote"
+			XML_Location="PP_2969\PP_2969_3077.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3078"
+			Description="Verify error message is displayed for Mandatory for buy fields while buying quote"
+			XML_Location="PP_2969\PP_2969_3078.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3079"
+			Description="Verify whether Term related fields are enable for editing when Terms Agreed is set as No"
+			XML_Location="PP_2969\PP_2969_3079.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3080"
+			Description="Verify whether Date error field are enable for editing when policy document is set as False"
+			XML_Location="PP_2969\PP_2969_3080.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3081"
+			Description="Verify if fields in the ETOL are enabled when ETOL Required flag is set as false"
+			XML_Location="PP_2969\PP_2969_3081.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3082" Description="Verify ETOL tab is present in Policy header"
+			XML_Location="PP_2969\PP_2969_3082.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3083"
+			Description="Verify policy holder name, employer name and dummy policy is mandatory ETOL required flag is set as true"
+			XML_Location="PP_2969\PP_2969_3083.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3084"
+			Description="Verify Employer's reference name is mandatory ERN exempt is set as false"
+			XML_Location="PP_2969\PP_2969_3084.xml" Iteration="1">
+		</TC>
+
+
+	</Feature>
+</Config>

@@ -1,0 +1,58 @@
+<Selenium>
+
+
+	<Iteration id="Iteration_0">
+
+		<Field fieldLabel="Company Code" input="dynamicHashMap">
+		</Field>
+		<Field fieldLabel="Select value from dropdown" input="Cheque">
+		</Field>
+		<Field fieldLabel="Enter value in Media Reference field"
+			input="Media Reference value">
+		</Field>
+		<Field fieldLabel="Enter future date" input="25/12/2020">
+		</Field>
+		<Field fieldLabel="Select Bank from dropdown"
+			input="Bank Suspense Account">
+		</Field>
+		<Field fieldLabel="Enter value in Amount field" input="500">
+		</Field>
+
+		<Field fieldLabel="Default value of Allocated column"
+			input="0.00">
+		</Field>
+		<Field fieldLabel="Allocated value" input="500.00">
+		</Field>
+		<Field fieldLabel="Collection Amount" input="500.00">
+		</Field>
+		<Field fieldLabel="O/S Amount" input="dynamicHashMap">
+		</Field>
+		<Field fieldLabel="Enter value" input="0.00">
+		</Field>
+		<Field fieldLabel="Enter Amount in Allocated column"
+			input="501.00">
+		</Field>
+		<Field
+			fieldLabel="validation for greater Receipt amount in Allocated column"
+			input="Cannot over allocate the collection.">
+		</Field>
+		<Field fieldLabel="Enter greater amount in Allocated column"
+			input="50000">
+		</Field>
+		<Field
+			fieldLabel="Check validation message for more than outstanding"
+			input="Cannot allocate more than outstanding amount.">
+		</Field>
+		<Field fieldLabel="Enter amount in Allocated column"
+			input="500.00">
+		</Field>
+
+
+		<Field fieldLabel="Company Code" input="dynamicHashMap">
+		</Field>
+		<Field fieldLabel="Receipt Reference" input="dynamicHashMap">
+		</Field>
+		<Field fieldLabel="O/S Amount in client's account" input="0.00">
+		</Field>
+	</Iteration>
+</Selenium>

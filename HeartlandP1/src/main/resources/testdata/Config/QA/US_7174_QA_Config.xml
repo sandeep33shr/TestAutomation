@@ -1,0 +1,11 @@
+<Config>
+	<Feature id="US_7174" title="Allocation screen">
+	    <TC id="TC_7174_7634_01" Description="To Validate the Default value of Receipt dropdown on Collection Details screen via Client 360 screen"
+			XML_Location="US_7174\TC_7174_7634_01.xml" Iteration="1">
+		</TC>
+		 <TC id="TC_7174_7634_02" Description="To Validate the Default value of Receipt dropdown on Collection Details screen Finance>Collection process"
+			XML_Location="US_7174\TC_7174_7634_02.xml" Iteration="1">
+		</TC>
+	
+	</Feature>
+</Config>

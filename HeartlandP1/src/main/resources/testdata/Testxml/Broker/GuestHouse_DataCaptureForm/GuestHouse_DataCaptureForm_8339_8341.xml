@@ -1,0 +1,330 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="LoginScreen">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP-Pure Insurance">
+		<Field id="lnkClient" type="link" fieldLabel="ClientDrpdwn"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="link" fieldLabel="Find client"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" type="select" fieldLabel="ClientType"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="fldName" type="textfield" fieldLabel="ClientName"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find Button"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSelect" type="buttonJS" fieldLabel="select Client"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="drpSelectProduct" type="select" fieldLabel="SelectProduct"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNewQuote" type="buttonJS" fieldLabel="New quote Button"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	//business type
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">		
+		<Field id="drpBusinessType" type="select" fieldLabel="drpBusinessType"
+			pathType="css" screenShot="false">
+		</Field>
+	
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//General details - Guest House
+		<Field id="fieldInsuredGeneralGuestHouse" type="textfield" fieldLabel="Insured_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldTradingNameGeneralGuestHouse" type="textfield" fieldLabel="TradingName_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldContactNameGeneralGuestHouse" type="textfield" fieldLabel="ContactName_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldTelephoneNumberGeneralGuestHouse" type="textfield" fieldLabel="TelephoneNumber_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="inputCompanyStatusGeneralGuestHouse" type="autoCompleteTextField" fieldLabel="CompanyStatus_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<!-- <Field id="dropDownCompanyStatusGeneralGuestHouse" type="selectInput" fieldLabel="CompanyStatus_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field> -->
+		<Field id="fieldPostCodeGeneralGuestHouse" type="textfield" fieldLabel="Postcode_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindPostCodeGeneralGuestHouse" type="buttonJS" fieldLabel="Find_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="dropDownAddressGeneralGuestHouse" type="selectByIndex" fieldLabel="Address_General_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnNextGeneralGuestHouse" type="buttonJS" fieldLabel="Next_General_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+
+		//Risk details - Guest House
+		<Field id="inputTypeOfCoverRiskDetailsGuestHouse" type="autoCompleteTextField" fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<!-- <Field id="dropDownTypeOfCoverRiskDetailsGuestHouse" type="selectInput" fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field> -->
+		<Field id="fieldYearsInsuredHasBeenTradingRiskDetailsGuestHouse" type="textfield" fieldLabel="YearsInsuredHasBeenTrading_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldYearsExperienceInsuredHaveInHospitalityTradingRiskDetailsGuestHouse" type="textfield" fieldLabel="YearsExperienceInsuredHaveInHospitality_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkboxIncludeBuildingsCoverRiskDetailsGuestHouse" type="checkBox" fieldLabel="IncludeBuildingsCover_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkboxIncludeContentsCoverRiskDetailsGuestHouse" type="checkBox" fieldLabel="IncludeContentsCover_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fieldPostCodeRiskDetailsGuestHouse" type="textfield" fieldLabel="Postcode_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindPostCodeRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Find_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="dropDownAddressRiskDetailsGuestHouse" type="selectByIndex" fieldLabel="Address_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Building Construction 1 - Guest House		
+		<Field id="fieldYearOfConstructionBuildingConstruction1GuestHouse" type="textfield" fieldLabel="YearOfConstruction_BuildingConstruction1_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>	
+		<Field id="chkGoodStateOfRepair" type="buttonJS" fieldLabel="Good_State_Of_Repair" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkAreAllWalls" type="buttonJS" fieldLabel="Are_All_Walls" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkOtherThanTheFaltRoof" type="buttonJS" fieldLabel="Other_Than_The_Flat_Roof" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkAreallRoofs" type="buttonJS" fieldLabel="Are_All_Roofs" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Building Construction 2 - Guest House
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="true">
+		</Field>		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Subsidence Assessment- Guest House
+		<Field id="inputStateDescribesTheSiteSubsidenceAssessmentGuestHouse" type="autoCompleteTextField" fieldLabel="StateDescribesTheSite_SubsidenceAssessment_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="inputFoundationsOfPrincipalBuildingsSubsidenceAssessmentGuestHouse" type="autoCompleteTextField" fieldLabel="FoundationsOfPrincipalBuildings_SubsidenceAssessment_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		//Premises Equipment- Guest House
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		//6a Equipment Continued - Guest House
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		// 7 Guest house Detail
+		<Field id="fieldNumberOfLettingBedroomsGuestHouseDetailsGuestHouse" type="textfield" fieldLabel="NumberOfLettingBedrooms_GuestHouseDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		// 8 Sum Insured GH 
+		
+		<Field id="fldBuildings/TenantsImprovements" type="textfield" fieldLabel="Buildings/TenantsImprovements" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="drpContents" type="autoCompleteTextField" fieldLabel="Contents" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		<Field id="chkAreTheseInnerContentsLimitsAdequate" type="buttonJS" fieldLabel="AreTheseInnerContentsLimitsAdequate checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="chkFrozenFood" type="buttonJS" fieldLabel="FrozenFood checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="chkPortablePossessions" type="buttonJS" fieldLabel="PortablePossessions checkbox" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		// 8 Sum Insured GH Continued
+		<Field id="chkCashLimitSufficient" type="buttonJS" fieldLabel="CashLimitSufficient checkbox" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="true">
+		</Field>
+		
+		// 9 Portable Possessions 
+		
+		<Field id="btnAddInPortablePossession" type="buttonJS" fieldLabel="PortablePossessions checkbox" pathType="xpath"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		
+		<Field id="drpSpecifiedItems" type="autoCompleteTextField" fieldLabel="SpecifiedItems" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="fldDescription" type="assertDisplayPositive"
+			fieldLabel="Description" pathType="css" screenShot="false"
+			validMessage="Description is available "
+			errorMessage="Description is not available">
+		</Field>
+		
+		<Field id="chkValuation/PurchaseSeen" type="assertDisplayPositive"
+			fieldLabel="Valuation/Purchase Seen" pathType="css" screenShot="true"
+			validMessage="Valuation/Purchase Seen"
+			errorMessage="Valuation/Purchase Seen">
+		</Field>
+		
+		<Field id="chkValuation/PurchaseSeen" type="assertGetTextofInput"
+			fieldLabel="Unchecked" pathType="css"
+			attribute="aria-checked" screenShot="false"
+			validMessage="Valuation/Purchase Seen checkbox is unchecked by default"
+			errorMessage="Valuation/Purchase Seen checkbox is not unchecked by default">
+		</Field>
+		
+		<Field id="chkValuation/PurchaseSeen" type="buttonJS" fieldLabel="Valuation/PurchaseSeen checkbox" pathType="xpath"
+			screenShot="false">
+		</Field>
+		
+		<Field id="chkValuation/PurchaseSeen" type="assertGetTextofInput"
+			fieldLabel="Checked" pathType="css"
+			attribute="aria-checked" screenShot="true"
+			validMessage="Valuation/Purchase Seen checkbox is checked "
+			errorMessage="Valuation/Purchase Seen checkbox is not checked">
+		</Field>
+		
+		//8341
+		<Field id="fldValue" type="assertDisplayPositive"
+			fieldLabel="Value" pathType="css" screenShot="false"
+			validMessage="Value is available "
+			errorMessage="Value is not available">
+		</Field>
+		
+		<Field id="fldValue" type="textfield" fieldLabel="OutOfRangeData" pathType="css"
+			screenShot="false">
+		</Field>	
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="errValidationMsg" type="assertGetTextContain"
+			fieldLabel="OutOfRangeMsg" pathType="css" screenShot="false"
+			validMessage="Value is not accepting Out Of Range data"
+			errorMessage="Value is accepting Out Of Range data">
+		</Field>
+		
+		
+		<Field id="fldValue" type="textfield" fieldLabel="InvalidData" pathType="css"
+			screenShot="false">
+		</Field>	
+		<Field id="btnNextRiskDetailsGuestHouse" type="buttonJS" fieldLabel="Next_RiskDetails_GuestHouse" pathType="css"
+			screenShot="false">
+		</Field>
+		
+		<Field id="errValidationMsg" type="assertGetTextContain"
+			fieldLabel="InvalidMsg" pathType="css" screenShot="false"
+			validMessage="Value is not accepting invalid data"
+			errorMessage="Value is accepting invalid data">
+		</Field>
+		
+		
+	</Screen>
+		
+
+</Selenium>
+

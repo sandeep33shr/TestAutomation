@@ -1,0 +1,29 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+		<Screen id="Allocation" title="SSP - Pure Insurance">
+		<Field id="allGridHeaderExceptAllocatedColumn" type="assertOrderedListTextEquals"
+			fieldLabel="Allocation Screen Grid columns" pathType="css" screenShot="false" validMessage="All columns are available at grid"
+			errorMessage="All columns are not available at grid">
+		</Field>
+			<Field id="allGridHeaderExceptAllocatedColumn" type="assertDisplayPositive"
+			fieldLabel="Allocation Screen Allocated column" pathType="css" screenShot="false" validMessage="Allocated column is available at grid"
+			errorMessage="Allocated column is not available at grid">
+		</Field>
+		<Field id="allGridHeaderExceptAllocatedColumn" type="assertOrderedListTextEquals"
+			fieldLabel="All columns are not sortable" pathType="css" screenShot="false" validMessage="All columns except Allocated column are sortable"
+			errorMessage="All columns are not available at grid">
+		</Field>
+	</Screen>
+
+	
+</Selenium>

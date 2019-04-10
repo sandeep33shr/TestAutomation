@@ -1,0 +1,32 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+
+	<Screen id="COLLECTIONLIST" title="SSP - Pure Insurance">
+		<Field id="lblCollectionListStatus" type="assertOrderedListTextEquals"
+			fieldLabel="Collection status" pathType="css" screenShot="true" validMessage="All status are available on collecion list screen"
+			errorMessage="All status are not available on collecion list screen">
+		</Field>
+		<Field id="lblCollectionListGridHeader" type="assertOrderedListTextEquals"
+			fieldLabel="Collection grid columns" pathType="css" screenShot="false" validMessage="All columns are available on collecion list grid"
+			errorMessage="All columns are not available on collecion list grid">
+		</Field>
+		<Field id="lnkActionMenu" type="assertDisplayPositive"
+			fieldLabel="Action menu" pathType="css" screenShot="false" validMessage="Action menu is available on collecion list grid"
+			errorMessage="Action menu is not available on collecion list grid">
+		</Field>
+
+
+
+	</Screen>
+
+</Selenium>

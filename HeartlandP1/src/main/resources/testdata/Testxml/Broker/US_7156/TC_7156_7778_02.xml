@@ -1,0 +1,38 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+	
+	   <Field id="drpReconciled" type="select" fieldLabel="Select Yes"
+			pathType="css" screenShot="false">
+		</Field>
+	
+	     <Field id="btnFind" type="Button" fieldLabel="Click Find"
+			pathType="css" screenShot="false">
+		</Field>
+		 <Field id="commonPathPagesAndAmount" type="SumOfGridDynamicHash" fieldLabel="SumOfGrid for Opening Balance"
+			pathType="css" screenShot="false">
+		</Field>
+				
+		<Field id="fldOpeningBalance" type="assertGetTextofInput" attribute="value" fieldLabel="SumOfGrid for Opening Balance"
+			pathType="css" screenShot="true" validMessage="To validate Opening amount is correct" errorMessage="To validate Opening amount is not correct">
+		</Field>
+		 <Field id="drpReconciled" type="select" fieldLabel="Select No"
+			pathType="css" screenShot="false">
+		</Field>
+		 <Field id="btnFind" type="Button" fieldLabel="Click Find"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+</Selenium>

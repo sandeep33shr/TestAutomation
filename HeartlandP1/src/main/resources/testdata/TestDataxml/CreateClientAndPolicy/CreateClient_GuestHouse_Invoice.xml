@@ -1,0 +1,150 @@
+<Selenium>	
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Password@2018">
+		</Field>
+		<Field fieldLabel="CompanyCode" input="SSPTestingP">
+		</Field>
+		<Field fieldLabel="CompanyName" input="SSPTestP">
+		</Field>
+		<Field fieldLabel="AccountExcecutive" input="SAM">
+		</Field>
+		<Field fieldLabel="FileCode" input="FC001">
+		</Field>
+		<Field fieldLabel="Salutation" input="Corporate">
+		</Field>
+		<Field fieldLabel="ThirdParty" input="SSP Sub Agent">
+		</Field>
+		<Field fieldLabel="AltIdentifier" input="SSP001">
+		</Field>
+		<Field fieldLabel="Branch" input="Head Office">
+		</Field>
+		<Field fieldLabel="Business" input="Aerial Erector">
+		</Field>
+		<Field fieldLabel="BusinessDescription" input="Accounting Company">
+		</Field>
+		<Field fieldLabel="MainContact" input="1232331233">
+		</Field>
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="enter Financial year" input="09/01">
+		</Field>
+
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="Street" input="Line 1">
+		</Field>
+		<Field fieldLabel="Postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="ContactType" input="Email">
+		</Field>
+		<Field fieldLabel="Email" input="heartland@s.com">
+		</Field>
+		<Field fieldLabel="CompanyName" input="SSPTestingP">
+		</Field>
+
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="CompanyRegisterationNumber" input="Asp001">
+		</Field>
+		<Field fieldLabel="PaymentCurrency" input="Euro">
+		</Field>
+		<Field fieldLabel="SICCode" input="Electrical Work">
+		</Field>
+		<Field fieldLabel="TermsOfPayment" input="14 Days">
+		</Field>
+		<Field fieldLabel="Offices" input="10">
+		</Field>
+		<Field fieldLabel="LegalEntity" input="Charity">
+		</Field>
+		<Field fieldLabel="TradingSince" input="10/02/2011">
+		</Field>
+		<Field fieldLabel="ServiceLevel" input="Gold">
+		</Field>
+		<Field fieldLabel="Source" input="Existing Client">
+		</Field>
+		<Field fieldLabel="NumberOfEmployees" input="20 - 100">
+		</Field>
+		<Field fieldLabel="ReminderType" input="Reminder Letter">
+		</Field>
+		<Field fieldLabel="SelectProduct" input="HIUA Phase 1 GLU">
+		</Field>		
+		<Field fieldLabel="drpBusinessType" input="Direct Business">
+		</Field>
+		<Field fieldLabel="EnterReinsurerCode" input="ABCTEC">
+		</Field>
+		<Field fieldLabel="CustomerCategory" input="Commercial">
+		</Field>
+		<Field fieldLabel="MethodOfSale" input="Non Distance">
+		</Field>
+		<Field fieldLabel="TermAgreed" input="No">
+		</Field>
+		<Field fieldLabel="TypeOfSale" input="Advised">
+		</Field>
+		<Field fieldLabel="UnderWriter" input="Test">
+		</Field>
+		<Field fieldLabel="Insured_General_GuestHouse" input="Test">
+		</Field>
+		<Field fieldLabel="TradingName_General_GuestHouse" input="Test123">
+		</Field>
+		<Field fieldLabel="ContactName_General_GuestHouse" input="SSP028">
+		</Field>
+		<Field fieldLabel="TelephoneNumber_General_GuestHouse" input="123456789">
+		</Field>
+		<Field fieldLabel="CompanyStatus_General_GuestHouse" input="Limited Company (LTD)">
+		</Field>
+		<Field fieldLabel="Postcode_General_GuestHouse" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Address_General_GuestHouse" input="1">
+		</Field>
+		<Field fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse" input="Guest House">
+		</Field>
+		<Field fieldLabel="YearsInsuredHasBeenTrading_RiskDetails_GuestHouse" input="10">
+		</Field>
+		<Field fieldLabel="YearsExperienceInsuredHaveInHospitality_RiskDetails_GuestHouse" input="10">
+		</Field>		
+		<Field fieldLabel="Postcode_RiskDetails_GuestHouse" input="B37 7YE">
+		</Field>		
+		<Field fieldLabel="Address_RiskDetails_GuestHouse" input="1">
+		</Field>
+		<Field fieldLabel="YearOfConstruction_BuildingConstruction1_GuestHouse" input="2010">
+		</Field>		
+		<Field fieldLabel="Details of Good State of repair" input="DetailsRepair">
+		</Field>
+		<Field  fieldLabel="Details of all walls" input="DetailsWalls">
+		</Field>
+		<Field fieldLabel="Details of all Roof" input="DetailsRoof">
+		</Field>
+		<Field fieldLabel="Details of flat roof" input="DetailsFlatRoof">
+		</Field>
+		<Field fieldLabel="StateDescribesTheSite_SubsidenceAssessment_GuestHouse" input="Gently sloping">
+		</Field>
+		<Field fieldLabel="FoundationsOfPrincipalBuildings_SubsidenceAssessment_GuestHouse" input="Piled foundations">
+		</Field>
+		<Field fieldLabel="NumberOfLettingBedrooms_GuestHouseDetails_GuestHouse" input="2">
+		</Field>
+		<Field fieldLabel="Buildings/Tenants Improvements" input="500000">
+		</Field>
+		<Field fieldLabel="Contents" input="£50,000">
+		</Field> 
+		<Field fieldLabel="Stock of Wines/Spirits/Cigars/Cigarettes/Tobacco" input="100">
+		</Field>		
+		<Field fieldLabel="Computers/Electronic Business Equipment" input="200">
+		</Field>
+		<Field fieldLabel="Total Sum Insured" input="300">
+		</Field>
+		<Field fieldLabel="fldModelOfSafe" input="1">
+		</Field>
+		<Field fieldLabel="fldIncreaseSiToCashInSafe" input ="1">
+		</Field>
+		<Field fieldLabel="fldIncreaseSiToCashInTransit" input ="1">
+		</Field>
+	</Iteration>
+</Selenium>

@@ -1,0 +1,8 @@
+<Config>
+	<Feature id="US_6634" title="Primary Settled Flag">
+		<TC id="TC_6634_6704_01"
+			Description="To Validate that the Finance search transaction screen columns name are similar to the columns which are selected at Select columns button"
+			XML_Location="US_6634\TC_6634_6704_01.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

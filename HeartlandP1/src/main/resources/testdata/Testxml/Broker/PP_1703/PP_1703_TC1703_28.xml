@@ -1,0 +1,123 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkClient" type="buttonJS" fieldLabel="ClientMenu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="buttonJS" fieldLabel="Find client"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="fldClientCode" type="textfield" fieldLabel="CompanyCode"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find Button"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnSelect" type="buttonJS" fieldLabel="Select Button"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="CorporateClient" title="SSP - Pure Insurance">
+		<Field id="btnEditClient" type="buttonJS" fieldLabel="EditClient"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="tabAdditionalInformation" type="link"
+			fieldLabel="AdditionalInformationtab" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpTurnOvers" fieldLabel="TurnOvers" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldCompanyRegisterationNumber" fieldLabel="CompanyRegisterationNumber"
+			type="textfield" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="drpPaymentCurrency" fieldLabel="PaymentCurrency"
+			type="select" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="drpSICCode" fieldLabel="SICCode" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpTermsOfPayment" fieldLabel="TermsOfPayment" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldOffices" fieldLabel="Offices" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpLegalEntity" fieldLabel="LegalEntity" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="dteTradingSince" fieldLabel="TradingSince" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpServiceLevel" fieldLabel="ServiceLevel" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpSource" fieldLabel="Source" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="drpNumberOfEmployees" fieldLabel="NumberOfEmployees"
+			type="select" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="drpReminderType" fieldLabel="ReminderType" type="select"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+
+
+		<Field id="btnSubmit" type="buttonJS" fieldLabel="SubmitButton"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="CorporateClient" title="Client Details">
+		<Field id="txtClientDetails" type="assertDisplayPositive"
+			fieldLabel="Client Details" pathType="css" screenShot="true"
+			validMessage="Client details page is displayed" errorMessage="Client details page is not displayed">
+		</Field>
+		<Field id="txtCompanyName" type="assertGetText" fieldLabel="CompanyName"
+			pathType="css" screenShot="false"
+			validMessage="Corporate Client name is created successfully"
+			errorMessage="Corporate Client name is not created">
+		</Field>
+
+	</Screen>
+
+
+
+</Selenium>

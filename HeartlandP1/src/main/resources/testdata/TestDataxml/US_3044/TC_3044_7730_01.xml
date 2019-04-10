@@ -1,0 +1,19 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		
+		<Field fieldLabel="Click Reconciliation Link" input="Bank Reconciliation">
+		</Field>	
+		<Field fieldLabel="Bank Reconciliation Screen Fields" input="Bank,Reconciled,Date To,Unreconciled,Show Marked Items,Opening Balance,Total Marked,Closing Balance">
+		</Field>
+	</Iteration>
+</Selenium>

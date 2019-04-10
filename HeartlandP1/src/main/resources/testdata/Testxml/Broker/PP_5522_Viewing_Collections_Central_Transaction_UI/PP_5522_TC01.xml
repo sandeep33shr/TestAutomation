@@ -1,0 +1,90 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="fldPolicyNumber" type="textfield" fieldLabel="Policynumber"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnSelect" type="buttonJS" fieldLabel="Select"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="tabAccounts" type="link" fieldLabel="Accounts"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkboxOutstandingTransactionInAccountsTab" type="DeSelectCheckbox"
+			fieldLabel="Only Show Outstanding Transaction" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindInAccountsTab" type="buttonJS" fieldLabel="Find"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="transTypeRowIndex" type="getRowIndexAsPerInputData"
+			fieldLabel="Trans Type" pathType="css" screenShot="false">
+		</Field>
+		<Field id="actionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="Action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="ViewactionMenuIndex" type="clickButtonAsPerTableRowIndex"
+			fieldLabel="View in action Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="accountsViewTransactionsTableTabs" type="assertOrderedListTextEquals"
+			fieldLabel="View Transaction Tabs" pathType="css" screenShot="true"
+			validMessage="Tab values matched with the expected values."
+			errorMessage="Tab values does not match with the expected value : Client / Sub Agent,Insurer / Add-on /Disbursement,Income History,Details">
+		</Field>
+		<Field id="ViewTransactionsLabel" type="assertUnorderedListTextEquals"
+			fieldLabel="Label Of View Transactions" pathType="xpath" screenShot="false"
+			validMessage="Label values matched with the expected values."
+			errorMessage="Tab values does not match with the expected value : Transaction Reference,Client/SA ID Name">
+		</Field>
+		<Field id="ViewTransactionTabAmounts" type="assertUnorderedListTextEquals"
+			fieldLabel="Label Of Amounts" pathType="xpath" screenShot="false"
+			validMessage="Label values matched with the expected values in the tab accounts."
+			errorMessage="Tab values does not match with the expected value : Receipt Amount,Write Off,Total,Balance,Unearned,To Clear,Earned">
+		</Field>
+		<Field id="ViewTransactionTabAmountsLabelLink" type="assertUnorderedListTextEquals"
+			fieldLabel="Label Link Of Amounts" pathType="xpath" screenShot="false"
+			validMessage="Label link values matched with the expected values in the tab client/ Sub Agent."
+			errorMessage="Tab values does not match with the expected value : Amt. Allocated,Write Off">
+		</Field>
+		<Field id="tabDetails" type="link" fieldLabel="Details"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="ViewTransactionTabDetailsSRP" type="assertUnorderedListTextEquals"
+			fieldLabel="Label Of Details" pathType="xpath" screenShot="false"
+			validMessage="Label values matched with the expected values in the tab Details."
+			errorMessage="Tab values does not match with the expected value :Trans. Type,Trans. Date,Effect. Date,A/c Period,Branch,Media Type,Media Reference,Payee,Bank Account,User,Comment">
+		</Field>
+		<Field id="btnCloseInViewTransaction" type="buttonJS"
+			fieldLabel="Close" pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+	</Screen>
+</Selenium>

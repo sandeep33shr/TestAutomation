@@ -1,0 +1,270 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP-Pure Insurance">
+		<Field id="lnkClient" type="link" fieldLabel="ClientDrpdwn"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="link" fieldLabel="Find client"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" type="select" fieldLabel="ClientType"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="fldName" type="textfield" fieldLabel="ClientName"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find Button"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSelect" type="buttonJS" fieldLabel="select Client"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+
+		<Field id="drpSelectProduct" type="select" fieldLabel="SelectProduct"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNewQuote" type="buttonJS" fieldLabel="New quote Button"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">
+
+		//business type
+		<Field id="drpBusinessType" type="select" fieldLabel="drpBusinessType"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//Lead Insurer
+		<Field id="iconFindLeadInsurer" type="buttonJS" fieldLabel="LeadInsurer"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="btnFind" type="buttonJS" fieldLabel="Find" pathType="css"
+			screenShot="true">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnSelectFirst" type="buttonJS" fieldLabel="First Inusrer"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		// complaince tab
+		<Field id="tabCompliance" type="link" fieldLabel="Compliance tab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpCustomerCategory" type="select" fieldLabel="CustomerCategory"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpMethodOfSale" type="select" fieldLabel="MethodOfSale"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpTermAgreed" type="select" fieldLabel="TermAgreed"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpTypeOfSale" type="select" fieldLabel="TypeOfSale"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldUnderWriter" type="textfield" fieldLabel="UnderWriter"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//General details
+
+		<Field id="fldCompanyStatus" type="autoCompleteTextField"
+			fieldLabel="Company Status" pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="fldAddressLine1" type="textfield" fieldLabel="Address Line 1"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAddressLine2" type="textfield" fieldLabel="Address Line 2"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPostcode" type="textfield" fieldLabel="Postcode"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton in general details"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//Claims
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton in claims"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//Company Details
+		<Field id="fldYearBusinessEstablished" type="textfield"
+			fieldLabel="Year business established" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldNumberOfYearsExperience" type="textfield"
+			fieldLabel="Number of years experience" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAnnualTurnoverForTheOrganisation/group" type="textfield"
+			fieldLabel="Annual turnover for the organisation/group" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="btnAddInTrades" type="buttonJS" fieldLabel="Add Button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		<Field id="drpTrade" type="autoCompleteTextField" fieldLabel="Trade"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldNoOfWorkers" type="textfield" fieldLabel="No of workers"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPercentageOfTurnover" type="textfield"
+			fieldLabel="Percentage of turnover" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkMainTrade" type="checkBox" fieldLabel="MainTrad"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton in company details"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//employment details
+		<Field id="fldHowManyPeopleAltogetherWorkInTheBusiness?" type="textfield"
+			fieldLabel="How many people altogether work in the business?"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTheEstimatedWagesAmountForAllEmployeesForTheNext12Months"
+			type="textfield"
+			fieldLabel="The estimated wages amount for all employees for the next 12 months"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldDirectors/ClericalWork" type="textfield"
+			fieldLabel="Directors/Consulting" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPermanentStaff/ManualWork" type="textfield"
+			fieldLabel="PermanentStaff/ManualWork" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPermanentStaff/NonManualWork" type="textfield"
+			fieldLabel="PermanentStaff/NonManualWork" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnNext" type="buttonJS" fieldLabel="NextButton in employment details"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		//Covers
+		<Field id="drpPublicLiability" type="autoCompleteTextField"
+			fieldLabel="Public Liability" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnQuote" type="buttonJS" fieldLabel="Quote Button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false"></Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false"></Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="QuoteResult" title="Quote Result page">
+
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="innerIframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+
+		<Field id="btnBackToDataCapture" type="assertDisplayPositive"
+			fieldLabel="AssertFinish" pathType="css" screenShot="true"
+			validMessage="BackToDataCapture button is appeared in quote result page"
+			errorMessage="BackToDataCapture button does not appeared in quote result page">
+		</Field>
+
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+</Selenium>
+

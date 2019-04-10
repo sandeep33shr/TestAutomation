@@ -1,0 +1,46 @@
+<Config>
+	<Feature id="PP_3499" title="View Quote Results">
+
+		<TC id="TC3658"
+			Description="Verify that the quote panel is displayed for the created or selected Policy"
+			XML_Location="PP_3499\PP_3499_3658.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3659"
+			Description="Verify that the quote panel is displaying the correct values of the created policy"
+			XML_Location="PP_3499\PP_3499_3659.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3660" Description="Verify the columns names in the Quote panel"
+			XML_Location="PP_3499\PP_3499_3660.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3661"
+			Description="Verify that the panel is sorted by Price with cheapest quote at the top"
+			XML_Location="PP_3499\PP_3499_3661.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3662" Description="Verify the Quote status available"
+			XML_Location="PP_3499\PP_3499_3662.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3663" Description="Verify that all the columns are sortable"
+			XML_Location="PP_3499\PP_3499_3663.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3664"
+			Description="Verify that stautus column is sorted with pending stautus at top"
+			XML_Location="PP_3499\PP_3499_3664.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3665"
+			Description="Verify that the event logs are created for quoted risks or policies"
+			XML_Location="PP_3499\PP_3499_3665.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3666"
+			Description="Verify that the monthly premium is displaying in Quote panel as per the frequency selected"
+			XML_Location="PP_3499\PP_3499_3666.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

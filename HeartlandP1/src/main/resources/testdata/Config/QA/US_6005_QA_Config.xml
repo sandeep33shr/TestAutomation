@@ -1,0 +1,13 @@
+<Config>
+	<Feature id="US_6005"
+		title="Central Transaction View Paid Invoices and Income Earned">
+		<TC id="TC_6005_6278"
+			Description="To Validate the fields and data of Commission Preview pane of Central Transaction View screen invoked from Accounts tab at Policy level"
+			XML_Location="US_6005\TC_6005_6278.xml" Iteration="1">
+		</TC>
+		<TC id="TC_6005_6275"
+			Description="To Validate the fields and data of Commission Preview pane of Central Transaction View screen invoked from Accounts tab at client level"
+			XML_Location="US_6005\TC_6005_6275.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

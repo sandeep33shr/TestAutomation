@@ -1,0 +1,167 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="Button" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP-Pure Insurance">
+		<Field id="lnkClient" type="link" fieldLabel="ClientDrpdwn"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="link" fieldLabel="Find client"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" type="select" fieldLabel="ClientType"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="fldName" type="textfield" fieldLabel="ClientName"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find Button"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSelect" type="Button" fieldLabel="select Client"
+			pathType="css" isClicked="false" screenShot="false">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+
+		<Field id="tabQuotesPolicies" type="link" fieldLabel="QuotesPoliciesTab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkQuote" type="link" fieldLabel="live" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="lnkTRPInQuote" type="link" fieldLabel="live"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkQuotesInQuote" type="link" fieldLabel="trp"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnViewInRisks" type="Button" fieldLabel="view in risk"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" fieldLabel="Next in risk"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" isClicked="true"
+			fieldLabel="next in risk" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" isClicked="true"
+			fieldLabel="next in risk" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" isClicked="true"
+			fieldLabel="next in risk" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnNextInRiskDetailsPage" type="Button" isClicked="true"
+			fieldLabel="next in risk" pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="hdrQuoteResults" type="assertDisplayPositive"
+			fieldLabel="Quote results" pathType="css" screenShot="true"
+			validMessage="Quote results are displayed" errorMessage="Quote results are not displayed">
+		</Field>
+
+		//assert for price sorting
+		<Field id="clmnInsurerPremium" type="Button" fieldLabel="Insurer Premium column"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="asrtInsurerPremiumSort" type="assertDisplayPositive"
+			fieldLabel="Insurer Premium sort" pathType="css" screenShot="true"
+			validMessage="Insurer Premium column is sorted" errorMessage="Insurer Premium column isn't sorted">
+		</Field>
+
+		<Field id="clmnFees" type="Button" fieldLabel="Fees column"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="asrtFeesSort" type="assertDisplayPositive"
+			fieldLabel="Fees sort" pathType="css" screenShot="true"
+			validMessage="Fees column is sorted" errorMessage="Fees column isn't sorted">
+		</Field>
+
+		<Field id="clmnAdd-ons" type="Button" fieldLabel="Add-ons column"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="asrtAdd-onsSort" type="assertDisplayPositive"
+			fieldLabel="Add-ons sort" pathType="css" screenShot="true"
+			validMessage="Add-ons column is sorted" errorMessage="Add-ons column isn't sorted">
+		</Field>
+
+		<Field id="clmnAnnualPayment" type="Button" fieldLabel="Annual Payment column"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="asrtAnnualPaymentSort" type="assertDisplayPositive"
+			fieldLabel="Annual Payment sort" pathType="css" screenShot="true"
+			validMessage="Annual Payment column is sorted" errorMessage="Annual Payment column isn't sorted">
+		</Field>
+
+		<Field id="clmnStatus" type="Button" fieldLabel="Status column"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="asrtStatusSort" type="assertDisplayPositive"
+			fieldLabel="Status sort" pathType="css" screenShot="true"
+			validMessage="Status column is sorted" errorMessage="Status column isn't sorted">
+		</Field>
+
+		<Field id="clmnQuoteSource" type="Button" fieldLabel="Quote Source column"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="asrtQuoteSourceSort" type="assertDisplayPositive"
+			fieldLabel="Quote Source sort" pathType="css" screenShot="true"
+			validMessage="Quote Source column is sorted" errorMessage="Quote Source column isn't sorted">
+		</Field>
+
+		<Field id="clmnNotifications" type="Button" fieldLabel="Notifications column"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="asrtNotificationsSort" type="assertDisplayPositive"
+			fieldLabel="Notifications sort" pathType="css" screenShot="true"
+			validMessage="Notifications column is sorted" errorMessage="Notifications column isn't sorted">
+		</Field>
+	</Screen>
+
+</Selenium>
+	

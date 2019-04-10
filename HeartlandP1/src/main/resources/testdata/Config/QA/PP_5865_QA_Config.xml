@@ -1,0 +1,43 @@
+<Config>
+	<Feature id="PP_5865"
+		title="Finishing Quote results in UXP screen and redirection to Summary to Cover Screen">
+
+		<TC id="TC5865_6235" Description="Verify back button in appear in quote result page"
+			XML_Location="PP_5865\PP_5865_6235.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5865_6236" Description="Verify finish button in appear in quote result page"
+			XML_Location="PP_5865\PP_5865_6236.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5865_6237" Description="Verify save button in appear in quote result page"
+			XML_Location="PP_5865\PP_5865_6237.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5865_6238"
+			Description="Verify return to data capture  button in appear in quote result page"
+			XML_Location="PP_5865\PP_5865_6238.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5865_6239"
+			Description="Verify save operation is performed when save button is clicked"
+			XML_Location="PP_5865\PP_5865_6239.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5865_6240"
+			Description="Verify page is navigated to quote summary page when save button is clicked"
+			XML_Location="PP_5865\PP_5865_6240.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5865_6241"
+			Description="Verify page is navigated to covers page when return to data capture  button is clicked"
+			XML_Location="PP_5865\PP_5865_6241.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5865_6242"
+			Description="Verify rating details / reinsurance details screen is appear when save button is clicked"
+			XML_Location="PP_5865\PP_5865_6242.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

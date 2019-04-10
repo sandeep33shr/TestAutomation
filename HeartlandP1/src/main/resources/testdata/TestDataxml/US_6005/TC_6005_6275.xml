@@ -1,0 +1,38 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Document Ref" input="SND%%%%%">
+		</Field>
+		<Field fieldLabel="Account Code" input="wesley">
+		</Field>
+		<Field fieldLabel="Accounts" input="Test">
+		</Field>
+		<Field fieldLabel="Policynumber" input="dynamicHashmap">
+		</Field>
+		<Field fieldLabel="QuoteNumber" input="dynamicHashmap">
+		</Field>
+		<Field fieldLabel="Trans Type" input="NB Debit">
+		</Field>
+		<Field fieldLabel="ViewTransactionslabelStoreInHashMap" input="ViewTransactionsMain-">
+		</Field>
+		<Field fieldLabel="ViewTransactionslabelTabClientStoreInHashMap"
+			input="TabClientLabel-">
+		</Field>
+		<Field fieldLabel="Commission table Header Preview Pane"
+			input="Acc. ID,Date,Account,Media Type,Income,Amount Paid,Balance,Allocation,Journal Ref">
+		</Field>
+		<Field fieldLabel="Commission table row1" input="00BKG,00BKG - Commission Transacted">
+		</Field>
+		<Field fieldLabel="Commission table row2" input="COMMCLEAR,Commission Clearing">
+		</Field>
+		<Field fieldLabel="Commission table row3" input="COMME,Commission Clearing">
+		</Field>
+	</Iteration>
+</Selenium>

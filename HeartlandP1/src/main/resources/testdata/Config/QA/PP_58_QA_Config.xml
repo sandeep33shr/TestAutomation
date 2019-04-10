@@ -1,0 +1,19 @@
+<Config>
+	<Feature id="PP_58" title="Summary Of Cover screen to show Insurer">
+
+		<TC id="TC58_8205"
+			Description="Verify that 'Insurer' column is visible with no values  in summary of cover screen when it has empty lead insurer for broker mode"
+			XML_Location="PP_58\PP_58_8205.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC58_8206"
+			Description="Verify that 'Insurer' column has related Insurer name in summary of cover screen after we buy the policy"
+			XML_Location="PP_58\PP_58_8206.xml" Iteration="1">
+		</TC>
+		<TC id="TC58_8207"
+			Description="Verify that 'Insurer' column has related Insurer name in summary of cover screen for a created policy/Quote  for broker mode"
+			XML_Location="PP_58\PP_58_8207.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

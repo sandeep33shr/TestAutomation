@@ -1,0 +1,55 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="kavia">
+		</Field>
+		<Field fieldLabel="Password" input="Kavia176">
+		</Field>
+		<Field fieldLabel="Company Name" input="Corporate">
+		</Field>
+		<Field fieldLabel="enterWageRoll" input="5.0">
+		</Field>
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="Street" input="Line 1">
+		</Field>
+		<Field fieldLabel="enter postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="ContactType" input="Email">
+		</Field>
+		<Field fieldLabel="Email" input="heartland@s.com">
+		</Field>
+		<Field fieldLabel="Tax number" input="MCA2020">
+		</Field>
+		<Field fieldLabel="Tax Percentage" input="2">
+		</Field>
+		<Field fieldLabel="tax number after edit" input="MCA2020">
+		</Field>
+		<Field fieldLabel="tax percentage after edit" input="2">
+		</Field>
+		<Field fieldLabel="Salutation" input="Corporate">
+		</Field>
+		<Field fieldLabel="MainContact" input="Milan">
+		</Field>
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="AccountExcecutive" input="LKCBWX3329">
+		</Field>
+		<Field fieldLabel="ERN Extent" input="Yes">
+		</Field>
+
+	</Iteration>
+</Selenium>

@@ -1,0 +1,45 @@
+<Config>
+	<Feature id="US_1431" title="Collection Menu">
+	    <TC id="TC_1431_6819" Description="Clicking FInance Menu"
+			XML_Location="US_1431\TC_1431_6819.xml" Iteration="1">
+		</TC>
+		 <TC id="TC_1431_6850_01" Description="To Validate that the availability of fields, dropdowns on collection Details screen"
+			XML_Location="US_1431\TC_1431_6850_01.xml" Iteration="1">
+		</TC>
+		 <TC id="TC_1431_6850_02" Description="To Validate that the Balance and currency fields are read only on collection Details screen"
+			XML_Location="US_1431\TC_1431_6850_02.xml" Iteration="1">
+		</TC> 
+		<TC id="TC_1431_6850_03" Description="To Validate mandatory fields validation messages"
+			XML_Location="US_1431\TC_1431_6850_03.xml" Iteration="1">
+		</TC>
+		<TC id="TC_1431_6860" Description="To Validate maximum length of comment box is 100 characters"
+			XML_Location="US_1431\TC_1431_6860.xml" Iteration="1">
+		</TC>
+		 <TC id="TC_1431_6822" Description="To Validate that SRP is posted to client and bank account through Collection Details process"
+			XML_Location="US_1431\TC_1431_6822.xml" Iteration="1">
+		</TC>
+		<TC id="TC_1431_6842" Description="To Validate that SRP is posted to client account on CTV screen"
+			XML_Location="US_1431\TC_1431_6842.xml" Iteration="1">
+		</TC>
+		<TC id="TC_1431_6896" Description="To Validate transaction date and Media Reference on CTV screen"
+			XML_Location="US_1431\TC_1431_6896.xml" Iteration="1">
+		</TC>
+		
+		 <TC id="TC_1431_6857" Description="To Validate that Bank default logic based on media type selection"
+			XML_Location="US_1431\TC_1431_6857.xml" Iteration="1">
+		</TC>
+		<TC id="TC_1431_6858" Description="To Validate that Produce document che checkbox default logic based on media type selection"
+			XML_Location="US_1431\TC_1431_6858.xml" Iteration="1">
+		</TC>
+		<TC id="TC_1431_6852" Description="To Validate Branch,Currency,Balance field dynamic logic on Collection Details screen"
+			XML_Location="US_1431\TC_1431_6852.xml" Iteration="1">
+		</TC>
+		 <TC id="TC_1431_6859" Description="To Validate Media Reference mandatory logic based on media type"
+			XML_Location="US_1431\TC_1431_6859.xml" Iteration="1">
+		</TC>
+			 
+		<TC id="TC_1431_6895" Description="To Validate functionality of Cancel button of Collection Details screen"
+			XML_Location="US_1431\TC_1431_6895.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

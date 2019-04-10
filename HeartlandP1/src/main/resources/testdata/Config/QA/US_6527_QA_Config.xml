@@ -1,0 +1,11 @@
+<Config>
+	<Feature id="US_6527" title="Collection List screen">
+	    <TC id="TC_6527_7612" Description="This test case is designed to check that new 'Collection List' screen appears after click on Ok button at Allocation screen."
+			XML_Location="US_6527\TC_6527_7612.xml" Iteration="1">
+		</TC>
+		<TC id="TC_6527_7613" Description="This test case is designed to check UI of new 'Collection List' screen."
+			XML_Location="US_6527\TC_6527_7613.xml" Iteration="1">
+		</TC>
+	
+	</Feature>
+</Config>

@@ -1,0 +1,7 @@
+<Config>
+	<Feature id="PP_6675_5521" title="Build Central Transaction View UI">
+		<TC id="TC_5521_01" Description="Build Central Transaction View UI"
+			XML_Location="PP_6675_5521\PP_6675_5521_TC01.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

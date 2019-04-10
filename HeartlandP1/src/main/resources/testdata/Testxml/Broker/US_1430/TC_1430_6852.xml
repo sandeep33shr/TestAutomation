@@ -1,0 +1,67 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="fldClientCode" type="textfield"
+			fieldLabel="Client Code" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find Button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnselectClientInSearch" type="Button"
+			fieldLabel="Select Button" pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="lblAccountBalance"
+			type="dynamicHashMap"
+			fieldLabel="Account Balance" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnCollection" type="Button"
+			fieldLabel="Click Collection button" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+		
+		<Field id="fldBalance" type="assertGetTextofInput" attribute="value"
+			fieldLabel="Account Balance" pathType="css" screenShot="false"
+			validMessage="Balance amount is correct"
+			errorMessage="Balance amount is not correct">
+		</Field>
+		<Field id="drpBranch" type="assertGetTextofInput" attribute="value"
+			fieldLabel="Branch" pathType="css" screenShot="false"
+			validMessage="Branch is correct"
+			errorMessage="Balance amount is not correct">
+		</Field>
+		<Field id="drpCurrency" type="assertGetTextofInput" attribute="value"
+			fieldLabel="Currency" pathType="css" screenShot="false"
+			validMessage="Currency is correct"
+			errorMessage="Balance amount is not correct">
+		</Field>
+	</Screen>
+
+</Selenium>

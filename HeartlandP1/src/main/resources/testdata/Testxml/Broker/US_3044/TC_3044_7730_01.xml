@@ -1,0 +1,31 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="Home" title="SSP - Pure Insurance">
+	    <Field id="lnkFinance" type="Button" fieldLabel="Finance Ribbon Menu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkReconciliation" type="Button"
+			fieldLabel="Click Reconciliation Link" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+		<Field id="allFieldsReconciliation"
+			type="assertOrderedListTextEquals"
+			fieldLabel="Bank Reconciliation Screen Fields" pathType="css"
+			screenShot="false"
+			validMessage="All fields are available on Bank reconciliation screen"
+			errorMessage="All fields are not available on Bank reconciliation screen">
+		</Field>
+	</Screen>
+</Selenium>

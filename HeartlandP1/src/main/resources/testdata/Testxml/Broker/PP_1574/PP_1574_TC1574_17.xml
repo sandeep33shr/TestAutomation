@@ -1,0 +1,330 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="Button" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkClient" type="Button" fieldLabel="ClientMenu"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkNewPersonalClient" type="Button" fieldLabel="New personal client"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<!-- <Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait" 
+			screenShot="false"> </Field> -->
+	</Screen>
+
+	<Screen id="PersonalClient" title="Personal Client">
+
+		<Field id="drpTitle" type="select" fieldLabel="select title"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldFirstName" type="textfield" fieldLabel="first name"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldLastName" type="textfield" fieldLabel="last name"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldInitials" type="textfield" fieldLabel="Initials"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="fldDob" type="textfield" fieldLabel="DOB" pathType="css"
+			screenShot="true">
+		</Field>
+
+
+
+		<Field id="tabAddresses" type="link" fieldLabel="AddressesTab"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="lnkAddAddress" type="link" fieldLabel="Add Address"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="drpAddressType" type="select" fieldLabel="AddressType"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldStreet" type="textfield" fieldLabel="enter Line1"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPostCode" type="textfield" fieldLabel="enter postcode"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldLocality" type="textfield" fieldLabel="Locality"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTown" type="textfield" fieldLabel="Town" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpCountry" type="select" fieldLabel="Select Country"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnAddInAddress" type="Button" fieldLabel="Add button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+
+
+
+		<Field id="tabContacts" type="assertDisplayPositive" fieldLabel="tabContacts"
+			pathType="css" validMessage="Contacts tab Displayed" errorMessage="Contacts tab is not Displayed"
+			screenShot="true">
+		</Field>
+		<Field id="tabContacts" type="link" fieldLabel="ContactsTab"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="lnkAddContact" type="link" fieldLabel="Add Contact"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="drpContactType" type="select" fieldLabel="Contact Type email"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="fldEmail" type="textfield" fieldLabel="email01"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="lblMain" type="assertGetText" fieldLabel="asrtchkMain"
+			pathType="css" validMessage="Main text Displayed" errorMessage="Main text is not Displayed"
+			screenShot="true">
+		</Field>
+		<Field id="chkMain" type="checkBox" fieldLabel="Main" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="btnAddInContact" type="Button" fieldLabel="Add button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+
+
+
+		<Field id="lnkAddContact" type="link" fieldLabel="Add Contact"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="drpContactType" type="select" fieldLabel="Contact Type home Tel"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="fldNumber" type="textfield" fieldLabel="HomeNumber"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="lblMain" type="assertGetText" fieldLabel="asrtchkMain"
+			pathType="css" validMessage="Main text Displayed" errorMessage="Main text is not Displayed"
+			screenShot="true">
+		</Field>
+		<Field id="chkMain" type="checkBox" fieldLabel="Main" pathType="css"
+			screenShot="true">
+		</Field>
+		<Field id="btnAddInContact" type="Button" fieldLabel="Add button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+
+		<Field id="chkMain01" type="assertDisplayPositive" fieldLabel="Maincheckbox email 01"
+			pathType="css" validMessage="Main checkbox Displayed in contact screen"
+			errorMessage="Main checkbox is not Displayed in contact screen"
+			screenShot="false">
+		</Field>
+		<!-- <Field id="chkMain02" type="assertDisplayPositive" fieldLabel="Maincheckbox 
+			email 02" pathType="css" validMessage="Main checkbox Displayed in contact 
+			screen for Home phone" errorMessage="Main checkbox is not Displayed in contact 
+			screen" screenShot="false"> </Field> -->
+
+		<Field id="btnSubmit" type="Button" fieldLabel="SubmitButton"
+			pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+
+		<Field id="tabViewContacts" type="link" fieldLabel="ViewContacts"
+			isClicked="true" pathType="css" screenShot="true">
+		</Field>
+
+		<Field id="chkViewCntMain01" type="assertDisplayPositive"
+			fieldLabel="Maincheckbox HomeTel 01" pathType="css" screenShot="false"
+			validMessage="View mode:Main checkbox Displayed in contact screen"
+			errorMessage="Main checkbox is not Displayed in contact screen">
+		</Field>
+		<!-- <Field id="chkViewCntMain02" type="assertDisplayPositive" fieldLabel="Maincheckbox 
+			HomeTel 02" pathType="css" screenShot="false" validMessage="View mode:Main 
+			checkbox Displayed in contact screen for Home Phone" errorMessage="Main checkbox 
+			is not Displayed in contact screen"> </Field> -->
+
+
+	</Screen>
+
+</Selenium>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <Selenium> <Screen id="LoginScreen" title="Marketplace"> <Field id="UsernameId" 
+	fieldLabel="Username" path="input[class='username']" type="textfield" inputType="alphanumeric" 
+	length="10" pathType="css" screenShot="false"> </Field> <Field id="PasswordId" 
+	path="input[class='pwd']" fieldLabel="Password" type="textfield" inputType="alphanumeric" 
+	length="10" pathType="css" screenShot="true"> </Field> <Field id="LoginBttn" 
+	path="input[class='submit']" type="Button" fieldLabel="Login" isClicked="true" 
+	pathType="css" screenShot="false"> </Field> </Screen> <Screen id="Home" title="Client/Policy 
+	Search"> <Field id="ClientBttn" path="li[id='ctl00_RibbonMenu_rptToolbar_ctl01_toolbaritem']" 
+	type="Button" fieldLabel="ClientBttn" pathType="css" isClicked="true" screenShot="false" 
+	> </Field> <Field id="New personal client" path="#ctl00_RibbonMenu_rptCategory_ctl01_rptSection_ctl00_rptItem_ctl01_A1" 
+	type="Button" fieldLabel="New personal client" pathType="css" isClicked="true" 
+	screenShot="true" > </Field> </Screen> <Screen id="NewClient" title="Personal 
+	Client Details"> <Field id="title" path="#ctl00_cntMainBody_ddlTitle" type="select" 
+	fieldLabel="select title" pathType="css" screenShot="true" > </Field> <Field 
+	id="enterFirstName" path="#ctl00_cntMainBody_txtFirstName" type="textfield" 
+	fieldLabel="first name" pathType="css" screenShot="false" > </Field> <Field 
+	id="enterLastName" path="#ctl00_cntMainBody_txtLastname" type="textfield" 
+	fieldLabel="last name" pathType="css" screenShot="false" > </Field> <Field 
+	id="enterInitials" path="#ctl00_cntMainBody_txtInitials" type="textfield" 
+	fieldLabel="Initials" pathType="css" screenShot="false" > </Field> <Field 
+	id="AddressesTab" path="a[href='#tab-editaddresses']" type="link" fieldLabel="AddressesTab" 
+	isClicked="true" pathType="css" screenShot="true" > </Field> <Field id="AddAddress" 
+	path="#ctl00_cntMainBody_Addresses_hypAddress" type="link" fieldLabel="Add 
+	Address" isClicked="true" pathType="css" screenShot="false" > </Field> <Field 
+	id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe" path="modalDialog" 
+	screenShot="false"> </Field> <Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait" 
+	screenShot="false"> </Field> <Field id="AddressType" path="#ctl00_cntMainBody_GISLookup_Type" 
+	type="select" fieldLabel="AddressType" pathType="css" screenShot="true"> 
+	</Field> <Field id="enterLine1" path="li #ctl00_cntMainBody_TxtLookup_Street" 
+	type="textfield" fieldLabel="enter Line1" pathType="css" screenShot="false" 
+	> </Field> <Field id="enterpostcode" path="li #ctl00_cntMainBody_TxtLookup_Postcode" 
+	type="textfield" fieldLabel="enter postcode" pathType="css" screenShot="false" 
+	> </Field> <Field id="Select Country" path="li #ctl00_cntMainBody_GISLookup_Country" 
+	type="select" fieldLabel="Select Country" pathType="css" screenShot="true"> 
+	</Field> <Field id="AddButton" path="#ctl00_cntMainBody_btnAddAddress" type="Button" 
+	fieldLabel="Add button" pathType="css" isClicked="true" screenShot="false"> 
+	</Field> <Field id="iframeOut" type="returnIframe" fieldLabel="Switch to 
+	Iframe" path="modalDialog" screenShot="false"> </Field> <Field id="ContactsTab" 
+	path="a[href='#tab-editcontacts']" type="link" fieldLabel="ContactsTab" isClicked="true" 
+	pathType="css" screenShot="true" > </Field> <Field id="AddContact" path="#ctl00_cntMainBody_Contact_hypContact" 
+	type="link" fieldLabel="Add Contact" isClicked="true" pathType="css" screenShot="false" 
+	> </Field> <Field id="iframe" type="switchIframe" fieldLabel="Switch to Iframe" 
+	path="modalDialog" screenShot="false"> </Field> <Field id="spinner" type="selectSpinner" 
+	fieldLabel="spinnerWait" screenShot="false"> </Field> <Field id="Contact 
+	Type" path="#ctl00_cntMainBody_GISContactType" type="select" fieldLabel="Contact 
+	Type HomeTel 01" pathType="css" screenShot="true"> </Field> <Field id="enterNumber" 
+	path="[name='ctl00$cntMainBody$txtNumber']" type="textfield" fieldLabel="enterNumber" 
+	pathType="css" screenShot="false" > </Field> <Field id="Maincheckbox" path="[id='ctl00_cntMainBody_chkMain']" 
+	type="assertDisplayPositive" fieldLabel="Maincheckbox" pathType="css" screenShot="false" 
+	validMessage="Main checkbox Displayed" errorMessage="Main checkbox is not 
+	Displayed"> </Field> <Field id="Maintxt" path="[id='ctl00_cntMainBody_chkMain']" 
+	type="assertGetText" fieldLabel="Maintxt" pathType="css" screenShot="true" 
+	validMessage="Main text Displayed" errorMessage="Main text is not Displayed"> 
+	</Field> <Field id="Maincheck" path="[id='ctl00_cntMainBody_chkMain']" type="checkBox" 
+	fieldLabel="Maincheck" pathType="css" screenShot="true"> </Field> <Field 
+	id="AddButton" path="#ctl00_cntMainBody_btnAddContacts" type="Button" fieldLabel="Add 
+	button" pathType="css" isClicked="true" screenShot="false"> </Field> <Field 
+	id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe" path="modalDialog" 
+	screenShot="false"> </Field> <Field id="AddContact" path="#ctl00_cntMainBody_Contact_hypContact" 
+	type="link" fieldLabel="Add Contact" isClicked="true" pathType="css" screenShot="false" 
+	> </Field> <Field id="iframe" type="switchIframe" fieldLabel="Switch to Iframe" 
+	path="modalDialog" screenShot="false"> </Field> <Field id="spinner" type="selectSpinner" 
+	fieldLabel="spinnerWait" screenShot="false"> </Field> <Field id="Contact 
+	Type" path="#ctl00_cntMainBody_GISContactType" type="select" fieldLabel="Contact 
+	Type HomeTel 02" pathType="css" screenShot="true"> </Field> <Field id="enterNumber" 
+	path="[name='ctl00$cntMainBody$txtNumber']" type="textfield" fieldLabel="enterNumber02" 
+	pathType="css" screenShot="false" > </Field> <Field id="Maincheckbox" path="[id='ctl00_cntMainBody_chkMain']" 
+	type="assertDisplayPositive" fieldLabel="Maincheckbox" pathType="css" screenShot="false" 
+	validMessage="Main checkbox Displayed" errorMessage="Main checkbox is not 
+	Displayed"> </Field> <Field id="Maintxt" path="[id='ctl00_cntMainBody_chkMain']" 
+	type="assertGetText" fieldLabel="Maintxt" pathType="css" screenShot="true" 
+	validMessage="Main text Displayed" errorMessage="Main text is not Displayed"> 
+	</Field> <Field id="Maincheck" path="[id='ctl00_cntMainBody_chkMain']" type="checkBox" 
+	fieldLabel="Maincheck" pathType="css" screenShot="true"> </Field> <Field 
+	id="AddButton" path="#ctl00_cntMainBody_btnAddContacts" type="Button" fieldLabel="Add 
+	button" pathType="css" isClicked="true" screenShot="false"> </Field> <Field 
+	id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe" path="modalDialog" 
+	screenShot="false"> </Field> <Field id="Contact Type" path="#ctl00_cntMainBody_GISContactType" 
+	type="select" fieldLabel="Contact Type email 03" pathType="css" screenShot="true"> 
+	</Field> <Field id="enterEmail03" path="[name='ctl00$cntMainBody$txtNumber']" 
+	type="textfield" fieldLabel="enterEmail03" pathType="css" screenShot="false" 
+	> </Field> <Field id="Maincheckbox" path="[id='ctl00_cntMainBody_chkMain']" 
+	type="assertDisplayPositive" fieldLabel="Maincheckbox" pathType="css" screenShot="false" 
+	validMessage="Main checkbox Displayed" errorMessage="Main checkbox is not 
+	Displayed"> </Field> <Field id="Maintxt" path="[id='ctl00_cntMainBody_chkMain']" 
+	type="assertGetText" fieldLabel="Maintxt" pathType="css" screenShot="true" 
+	validMessage="Main text Displayed" errorMessage="Main text is not Displayed"> 
+	</Field> <Field id="AddButton" path="#ctl00_cntMainBody_btnAddContacts" type="Button" 
+	fieldLabel="Add button" pathType="css" isClicked="true" screenShot="false"> 
+	</Field> <Field id="iframeOut" type="returnIframe" fieldLabel="Switch to 
+	Iframe" path="modalDialog" screenShot="false"> </Field> <Field id="Maincheckbox 
+	HomeTel 01" path="#ctl00_cntMainBody_Contact_drgContact_ctl02_chkChecked" 
+	type="assertDisplayPositive" fieldLabel="Maincheckbox" pathType="css" screenShot="false" 
+	validMessage="Main checkbox Displayed in contact screen" errorMessage="Main 
+	checkbox is not Displayed in contact screen"> </Field> <Field id="Maincheckbox 
+	HomeTel 02" path="#ctl00_cntMainBody_Contact_drgContact_ctl03_chkChecked" 
+	type="assertDisplayPositive" fieldLabel="Maincheckbox" pathType="css" screenShot="false" 
+	validMessage="Main checkbox Displayed in contact screen" errorMessage="Main 
+	checkbox is not Displayed in contact screen"> </Field> <Field id="Maincheckbox 
+	HomeTel 03" path="#ctl00_cntMainBody_Contact_drgContact_ctl04_chkChecked" 
+	type="assertDisplayNegative" fieldLabel="Maincheckbox" pathType="css" screenShot="false" 
+	validMessage="Main checkbox is not Displayed in contact screen since it is 
+	not checked" errorMessage="Main checkbox is Displayed in contact screen but 
+	it is not checked"> </Field> </Screen> </Selenium> -->

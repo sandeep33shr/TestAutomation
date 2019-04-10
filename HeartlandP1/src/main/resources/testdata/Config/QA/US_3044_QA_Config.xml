@@ -1,0 +1,21 @@
+<Config>
+	<Feature id="US_3044" title="Bank Reconciliation">
+	    <TC id="TC_3044_7729" Description="To Validate the availability of 'Bank Reconciliation'task under FInance>Bank"
+			XML_Location="US_3044\TC_3044_7729.xml" Iteration="1">
+		</TC>
+		<TC id="TC_3044_7730_01" Description="To Validate the filter options and fields available on 'Bank Reconciliation'screen header"
+			XML_Location="US_3044\TC_3044_7730_01.xml" Iteration="1">
+		</TC>
+       <TC id="TC_3044_7730_02" Description="To Validate the Unreconciled,Total Marked,Closing Balance fields and Show Marked Items checkbox are disabled"
+			XML_Location="US_3044\TC_3044_7730_02.xml" Iteration="1">
+		</TC>
+		<TC id="TC_3044_7731" Description="To Validate the columns available on bank reconciliation screen"
+			XML_Location="US_3044\TC_3044_7731.xml" Iteration="1">
+		</TC>
+		<TC id="TC_3044_7732" Description="To Validate the buttons available on bank reconciliation screen"
+			XML_Location="US_3044\TC_3044_7732.xml" Iteration="1">
+		</TC>
+		
+				
+	</Feature>
+</Config>

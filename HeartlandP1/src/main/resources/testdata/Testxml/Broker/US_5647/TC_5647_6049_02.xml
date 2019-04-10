@@ -1,0 +1,40 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="tabQuotesPolicies" type="link" fieldLabel="Quotes/Policies"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="txtPolicyNumberInQuotesPoliciesTab" fieldLabel="Policynumber"
+			type="textfield" inputType="alphanumeric" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFindInQuotesPoliciesTab" type="buttonJS"
+			fieldLabel="Find" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnAccountEnquiryInQuotesPoliciesTab" type="assertDisplayPositive"
+			fieldLabel="Account Enquiry" pathType="css" screenShot="true"
+			validMessage="Account Enquiry button is available"
+			errorMessage="Account Enquiry button is not available on the Quotes/Policies Page.">
+		</Field>
+		<Field id="btnAccountEnquiryInQuotesPoliciesTab" type="buttonJS"
+			fieldLabel="Account Enquiry" pathType="css" screenShot="true">
+		</Field>
+		<Field id="txtPolicyNumberInAccountsTab" type="assertGetTextofInput"
+			fieldLabel="Policynumber" pathType="css" screenShot="true" attribute="value"
+			validMessage="Policy number on accounts tab matches with the live policy data"
+			errorMessage="Policy number on accounts tab not matches with the live policy data">
+		</Field>
+		<Field id="policyNumberInTableInAccountsTab" type="assertGetText"
+			fieldLabel="Policynumber" pathType="css" screenShot="true"
+			validMessage="Policy number in accounts table on accounts tab matches with the live policy data"
+			errorMessage="Policy number in accounts table on accounts tab not matches with the live policy data">
+		</Field>
+	</Screen>
+</Selenium>

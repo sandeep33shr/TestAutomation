@@ -1,0 +1,175 @@
+<Config>
+	<Feature id="GuestHouse_DataCaptureForm" title="View Risk Information">
+		<TC id="positiveWorkFlow"
+			Description="Verify whether 'View' button is displayed in summary of cover page"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_positiveWorkFlow.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8567"
+			Description="Verify the 'Do the premises have any Leisure Facilities (Swimming Pool, Gym, Sauna, Hot Tub etc.)?' and 'Do Permises hold firework displays/bonfires?' fields and the additional fields are properly appearing / disappearing when Yes'/No"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8567.xml"
+			Iteration="1">
+		</TC>		
+		<TC id="TC8568"
+			Description="Verify the following checkbox Fields when 'Do the premises have any Leisure Facilities (Swimming Pool, Gym, Sauna, Hot Tub etc.)?' = Yes"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8568.xml"
+			Iteration="1">
+		</TC>	
+		<TC id="TC8569"
+			Description="Verify the additional mandatory field related to  'Any other Leisure Facilities?' field are properly appearing / disappearing when Yes'/No"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8569.xml"
+			Iteration="1">
+		</TC>		
+		<TC id="TC8571"
+			Description="Verify the following checkbox Fields are available under the 'Guest House Details' Tab"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8571.xml"
+			Iteration="1">
+		</TC>		
+		<TC id="TC8572"
+			Description="Verify the Additional mandatory fields available under the 'Guest House Details'  tab"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8572.xml"
+			Iteration="1">
+		</TC>		
+		<TC id="TC8573"
+			Description="Verify that 'Number of letting bedrooms' field is mandatory and it should accept 10 digits only"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8573.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8574"
+			Description="Verify that 'Total Estimated Annual Turnover' field is mandatory and it should accept 10 digits only"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8574.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8577_TC8578"
+			Description="Verify that 'Buildings/Tenants Improvements' field is mandatory and it should accept 10 digits only"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8577_8578.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8579"
+			Description="verify the field 'Are these inner contents limits adequate?' and the additional fields are properly appearing / disappearing when Yes'/No"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8579.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8580"
+			Description="Verify that 'Please enter how much in total you require for Stock of Wines/Spirits/ Cigars/ Cigarettes/Tobacco?' field is mandatory and it should accept 10 digits only"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8580.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8581"
+			Description="Verify that 'Please enter how much in total you require for Computers/Electronics Business Equipment?' field is mandatory and it should accept 10 digits only"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8581.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8582"
+			Description="Verify the following checkbox Field 'Do you require cover for Portable Possessions?' and the additional fields are properly appearing / disappearing when Yes'/No"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8582.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8343"
+			Description="Verify the 'The limit for Frozen Food is 1,000 is this adequate?' fields in Guest House Sum Insured Section after the 'Type of Cover' is selected "
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8343.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8344"
+			Description="Verify the 'If a higher sum insured for Frozen Foods is required, please state the sum insured' fields in Guest House Sum Insured Section When 'The limit for Frozen Food is 1,000 is this adequate?' = Yes "
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8344.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8359_TC8370"
+			Description="Verify the 'Business Interruption (24 month indemnity period)', 'Loss of Licence', 'Book Debts', 'Employer liability' and 'Goods in transit' fields in 8a-sum Insured (GH) continued"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8359_8370.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8373"
+			Description="Verify the 'Cash on premises during business hours and whilst in transit' fields in Guest House Sum Insured Section after the 'Type of Cover' is selected"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8373.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8374"
+			Description="Verify the 'Cash in safe' fields in Guest House Sum Insured Section after the 'Type of Cover' is selected "
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8374.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8376_TC8378"
+			Description="Verify the 'Are the cash limits sufficient?' and 'Please provide make and model of safe' fields in Guest House Sum Insured Section after the 'Type of Cover' is selected "
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8376_8378.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8389_TC8392"
+			Description="Verify the 'Buildings/Tenants Improvements' fields in Holiday Homes Sum Insured Section after the 'Type of Cover' is selected and Verify the 'Contents Sum Insured' fields in Holiday Homes Sum Insured Section after the 'Type of Cover' is selected"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8389_8392.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8390_TC8396"
+			Description="Verify the 'Do you wish to extend the buildings section' and 'Do you wish to extend the contents section' fields in Holiday Homes Sum Insured Section and Verify the 'Do the premises have a bar?', 'Do Premises have a restaurants?' and 'Are the premises located on a working farm?' fields in Holiday Homes Sum Insured Section after the 'Type of Cover' is selected"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8390_8396.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8449_TC8454"
+			Description="Verify the Read-only fields in Holiday Homes Sum Insured Continued Section after the 'Type of Cover' is selected and Verify the 'Public Liability' fields in Holiday Homes Sum Insured (HH) Continued Section after the 'Type of Cover' is selected"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8449_8454.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8601"
+			Description="Verify the 'Buildings/Tenants Improvements' fields in Staff Accommodation Sum Insured Section after the 'Type of Cover' is selected "
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8601.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8602"
+			Description="Verify the 'Landlord Contents' fields in Staff Accommodation Sum Insured Section after the 'Type of Cover' is selected "
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8602.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8606_TC8613"
+			Description="Verify the 'Public/Property Owners Liability' fields in Staff Accommodation Sum Insured Section after the 'Type of Cover' is selected and Verify the 'Are the persons occupying the risk address in the direct employment of the insured AND working for the insured in the principal business activity?' fields in Staff Accommodation Sum Insured Section after the 'Type of Cover' is selected"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8606_8613.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8612"
+			Description="Verify the 'Please indicate the principal business activity of the insured' fields in Staff Accommodation Sum Insured Section after the 'Type of Cover' is selected"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8612.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC10070"
+			Description="Verify the fields in 'Declaration tab' for 'HIUA Phase 1 GLU' product"
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_10070.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC10120"
+			Description="Verify the available fields inside the 'Liability Claims' pop up" 
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_10120.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC10138"
+			Description="Verify the available fields inside the 'Liability Claims' pop up" 
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_10138.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC10150"
+			Description="Verify the available fields inside the 'Other types of Liability Claims' pop up" 
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_10150.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC10152"
+			Description="Verify the 'Other type of Liability claims Inline Grid' fields in 'Claims' Tab" 
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_10152.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8336"
+			Description="Verify the 'Specified Items' fields in Individual Item popup of 'Portable Possession' Tab" 
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8336.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8339_TC8341"
+			Description="Verify the 'Description' and 'Valuations/Purchase Receipt seen?'  fields in  in Individual Item popup of 'Portable Possession' Tab and Verify the 'Value' fields in Individual Item popup of 'Portable Possession' Tab" 
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8339_8341.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC8342"
+			Description="Verify the 'Portable Possessions Inline Grid' fields in 'Portable Possession' Tab" 
+			XML_Location="GuestHouse_DataCaptureForm\GuestHouse_DataCaptureForm_8342.xml"
+			Iteration="1">
+		</TC>
+		
+	</Feature>
+</Config>

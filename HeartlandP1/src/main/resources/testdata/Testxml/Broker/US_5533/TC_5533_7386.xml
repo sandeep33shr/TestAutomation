@@ -1,0 +1,61 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button"
+			fieldLabel="Finance Ribbon Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkTransactions" type="Button"
+			fieldLabel="click Transactions link" pathType="css" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+		<Field id="tabTransaction" type="Button"
+			fieldLabel="click Transaction tab" pathType="css" screenShot="false">
+		</Field>
+		
+		<Field id="tabTransaction" type="assertGetText"
+			fieldLabel="Transaction tab" pathType="css" screenShot="true"
+			validMessage="Transaction tab is available"
+			errorMessage="Transaction tab is not available">>
+		</Field>
+		<Field id="lblAll" type="assertOrderedListTextEquals"
+			fieldLabel="All label" pathType="css" screenShot="true"
+			validMessage="All fields are available correctly"
+			errorMessage="All fields are not available">>
+		</Field>
+		
+		<Field id="tabReference" type="Button"
+			fieldLabel="click Reference tab" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpUser" type="assertGetText"
+			fieldLabel="User" pathType="css" screenShot="true"
+			validMessage="User field is available"
+			errorMessage="User field is not available">>
+		</Field>
+	</Screen>
+
+</Selenium>

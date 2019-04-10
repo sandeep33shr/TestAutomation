@@ -1,0 +1,100 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button"
+			fieldLabel="Finance Ribbon Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkReconciliation" type="Button"
+			fieldLabel="Click on Reconciliation link" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+
+		<Field id="btnFind" type="Button" fieldLabel="Click Find"
+			pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="chkThirdRecordInGrid" type="checkBox"
+			fieldLabel="Check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkFourthRecordInGrid" type="checkBox"
+			fieldLabel="Check 4th record" pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="fldTotalMarked"
+			type="dynamicHashMapAttribute" attribute="value"
+			fieldLabel="TotalMarkedAmount" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldClosingBalance"
+			type="dynamicHashMapAttribute" attribute="value"
+			fieldLabel="ClosingBalanceAmount" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldUnreconciled"
+			type="dynamicHashMapAttribute" attribute="value"
+			fieldLabel="UnrecociledAmount" pathType="css" screenShot="false">
+		</Field>
+		
+		<Field id="btnOK" type="Button" fieldLabel="Click OK"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button"
+			fieldLabel="Finance Ribbon Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkReconciliation" type="Button"
+			fieldLabel="Click on Reconciliation link" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+        <Field id="btnFind" type="Button" fieldLabel="Click Find"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldTotalMarked" type="assertGetTextofInput" attribute="value"
+			fieldLabel="TotalMarkedAmount" pathType="css" screenShot="true"
+			validMessage="To validate value of Total Marked is correct"
+			errorMessage="To validate value of Total Marked is not correct">
+		</Field>
+		<Field id="fldClosingBalance" type="assertGetTextofInput" attribute="value"
+			fieldLabel="ClosingBalanceAmount" pathType="css" screenShot="true"
+			validMessage="To validate value of Closing Balance is correct"
+			errorMessage="To validate value of Closing Balance is not correct">
+		</Field>
+		<Field id="fldUnreconciled" type="assertGetTextofInput" attribute="value"
+			fieldLabel="UnrecociledAmount" pathType="css" screenShot="true"
+			validMessage="To validate value of Unrecociled is correct"
+			errorMessage="To validate value of Unrecociled is not correct">
+		</Field>
+		<Field id="chkThirdRecordInGrid" type="DeSelectCheckbox"
+			fieldLabel="Check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkFourthRecordInGrid" type="DeSelectCheckbox"
+			fieldLabel="Check 4th record" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+</Selenium>

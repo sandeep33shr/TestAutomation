@@ -1,0 +1,56 @@
+
+<Iteration id="Iteration_0">
+
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Sirius123">
+		</Field>
+		<Field fieldLabel="select title" input="Miss">
+		</Field>
+		<Field fieldLabel="first name" input="Unique">
+		</Field>
+		<Field fieldLabel="last name" input="LastUniq">
+		</Field>
+		<Field fieldLabel="Initials" input="Test">
+		</Field>
+		<Field fieldLabel="DOB" input="22/11/1993">
+		</Field>
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="enter Line1" input="Line 1">
+		</Field>
+		<Field fieldLabel="enter postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Select Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="Contact Type email" input="Email">
+		</Field>
+
+		<Field fieldLabel="email01" input="tester@one.com">
+		</Field>
+		<Field fieldLabel="email02" input="tester@two.com">
+		</Field>
+
+		<Field fieldLabel="Type Label" input="Type">
+		</Field>
+		<Field fieldLabel="descriptionLabel" input="Description">
+		</Field>
+		<Field fieldLabel="Number/Email Label" input="Number / Email">
+		</Field>
+		<Field fieldLabel="extensionLabel" input="Extension">
+		</Field>
+		<Field fieldLabel="mainLabel" input="Main">
+		</Field>
+
+		<Field fieldLabel="AreaCode Label" input="Area Code">
+		</Field>
+
+
+
+	</Iteration>
+</Iteration> 

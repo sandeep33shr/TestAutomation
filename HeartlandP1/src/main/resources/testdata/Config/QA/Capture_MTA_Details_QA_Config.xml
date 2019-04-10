@@ -1,0 +1,33 @@
+<Config>
+	<Feature id="Capture_MTA_Details" title="Capture_MTA_Details">
+		<TC id="TC4553"
+			Description="Verify whether the end date for the MTA is disabled system-wide"
+			XML_Location="Capture_MTA_Details\Capture_MTA_Details_4553.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC2773"
+			Description="Verify whether 'Add risk button' is disabled in Broker Mode  for MTA"
+			XML_Location="Capture_MTA_Details\Capture_MTA_Details_2773.xml"
+			Iteration="1">
+		</TC>
+			
+		<TC id="TC2775"
+			Description="Verify whether the list of risks associated with that transaction is displayed on the summary of cover screen"
+			XML_Location="Capture_MTA_Details\Capture_MTA_Details_2775.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC2777"
+			Description="Verify whether the correct risk screen is displayed after  MTA dates and reason are entered"
+			XML_Location="Capture_MTA_Details\Capture_MTA_Details_2777.xml"
+			Iteration="1">
+		</TC>
+		<TC id="TC2771"
+			Description="Verify whether the policy transaction sorted with the most recent at the top of the list"
+			XML_Location="Capture_MTA_Details\Capture_MTA_Details_2771.xml"
+			Iteration="1">
+		</TC>
+		
+		
+		
+	</Feature>
+</Config>

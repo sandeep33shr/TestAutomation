@@ -1,0 +1,17 @@
+<Config>
+	<Feature id="US_8833" title="Reconciliation Screen">
+	<TC id="TC_8833_Prerequisite" Description="Prerequisite"
+			XML_Location="US_8833\TC_8833_Prerequisite.xml" Iteration="1">
+		</TC>
+	    <TC id="TC_8833_9072" Description="This case is designed to test availability 'Show Marked Items' filter option on 'Bank Reconciliation' screen"
+			XML_Location="US_8833\TC_8833_9072.xml" Iteration="1">
+		</TC>
+		<TC id="TC_8833_9073" Description="This case is designed to test 'Show Marked Items' checkbox will be enabled on clicking Find button"
+			XML_Location="US_8833\TC_8833_9073.xml" Iteration="1">
+		</TC>
+		<TC id="TC_8833_9074" Description="This case is designed to test functionality of 'Show Marked Items' checkboxThis case is designed to test functionality of 'Show Marked Items' checkbox"
+			XML_Location="US_8833\TC_8833_9074.xml" Iteration="1">
+		</TC>
+	
+	</Feature>
+</Config>

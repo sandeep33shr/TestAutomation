@@ -1,0 +1,116 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button"
+			fieldLabel="Finance Ribbon Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkReconciliation" type="Button"
+			fieldLabel="Click on Reconciliation link" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+		<Field id="btnFind" type="Button" fieldLabel="Click Find"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkThirdRecordInGrid" type="Button"
+			fieldLabel="Check 3rd record" pathType="css" screenShot="false">
+		</Field>
+		<Field id="transactionRef3rdRow" type="dynamicHashMap"
+			fieldLabel="save Tref of 3rd row" pathType="css" screenShot="false">
+		</Field>
+		<Field id="Account3rdRow" type="dynamicHashMap"
+			fieldLabel="save Account of 3rd row" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnReconciled" type="Button"
+			fieldLabel="Click Reconciled" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="alertAccept" fieldLabel="Click ok on Alert"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkFinance" type="Button"
+			fieldLabel="Click on FInance Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkTransactions" type="Button"
+			fieldLabel="Click on Transactions menu" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+
+		<Field id="tabDocument" type="link" fieldLabel="Transaction Tab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldDocumentRef" type="textfield"
+			fieldLabel="save Tref of 3rd row" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button"
+			fieldLabel="Click on Find button" pathType="css" screenShot="false">
+		</Field>
+		<Field id="actionMenu" type="Button"
+			fieldLabel="Click on elipsis button" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="ViewInActionMenuInSeachTransactionsTable"
+			type="Button" fieldLabel="Click on View link" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+
+		<Field id="iframeIn" type="switchIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+		<Field id="tabDetails" type="Button"
+			fieldLabel="Click Details tab" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldReconciliationDateOnCTV"
+			type="verifyCurrentDateDisabledField"
+			fieldLabel="Value of Reconciliation Date field" pathType="css"
+			screenShot="false"
+			validMessage="Reconciliation Date field is populated with current date"
+			errorMessage="Reconciliation Date field is not populated with current date">
+		</Field>
+
+		<Field id="fldBankAccount" type="dynamicHashMapAttribute" attribute="value"
+			fieldLabel="save Bank Account" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnCloseInViewTransaction" type="buttonJS"
+			fieldLabel="Click Close" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+		<Field id="btnClear" type="Button"
+			fieldLabel="Click on CLear button" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+</Selenium>

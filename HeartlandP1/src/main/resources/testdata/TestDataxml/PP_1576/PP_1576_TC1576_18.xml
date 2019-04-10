@@ -1,0 +1,99 @@
+﻿<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="kavia">
+		</Field>
+		<Field fieldLabel="Password" input="Kavia176">
+		</Field>
+		<Field fieldLabel="Company Name" input="Heartland P1">
+		</Field>
+		<Field fieldLabel="enterWageRoll" input="5.0">
+		</Field>
+		<Field fieldLabel="select TurnOver" input=">£100m">
+		</Field>
+		<Field fieldLabel="enter Financial year" input="20/02">
+		</Field>
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="Street" input="Line 1">
+		</Field>
+		<Field fieldLabel="Postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="ContactType" input="Email">
+		</Field>
+		<Field fieldLabel="Email" input="KB@k.com">
+		</Field>
+		<Field fieldLabel="Conviction Type" input="AC30">
+		</Field>
+		<Field fieldLabel="Conviction status" input="Charged">
+		</Field>
+		<Field fieldLabel="enter start date" input="20/12/2010">
+		</Field>
+		<Field fieldLabel="enter description" input="testing">
+		</Field>
+		<Field fieldLabel="Loyalty scheme" input="test1">
+		</Field>
+		<Field fieldLabel="Membership number" input="2449841321">
+		</Field>
+		<Field fieldLabel="start date" input="20/05/1998">
+		</Field>
+		<Field fieldLabel="Select Prospect Policy" input="Bonds">
+		</Field>
+		<Field fieldLabel="Renewal date" input="20/12/2015">
+		</Field>
+		<Field fieldLabel="SelectBankPaymentType" input="Fees">
+		</Field>
+		<Field fieldLabel="Account holder name" input="Kavia">
+		</Field>
+		<Field fieldLabel="Account type" input="Savings">
+		</Field>
+		<Field fieldLabel="Account number" input="459813218791">
+		</Field>
+		<Field fieldLabel="Branch code" input="BK2681">
+		</Field>
+		<Field fieldLabel="Bank Name" input="Canara Bank">
+		</Field>
+		<Field fieldLabel="EMP ref number" input="4981321">
+		</Field>
+		<Field fieldLabel="enter Terms of Business Letter Sent" input="20/12/2015">
+		</Field>
+		<Field fieldLabel="wage roll value" input="5.00">
+		</Field>
+		<Field fieldLabel="financial yr value" input="20/02">
+		</Field>
+		<Field fieldLabel="Turnover value" input=">£100m">
+		</Field>
+		<Field fieldLabel="ERN Extent checked" input="No">
+		</Field>
+		<Field fieldLabel="ERN Extent value" input="No">
+		</Field>
+		<Field fieldLabel="EMP ref number value" input="4981321">
+		</Field>
+		<Field fieldLabel="TermsOfBusinessLetterSent value" input="20/12/2015">
+		</Field>
+
+		<Field fieldLabel="MainContact" input="Milan">
+		</Field>
+		<Field fieldLabel="Salutation" input="Mr">
+		</Field>
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="AccountExcecutive" input="LKCBWX3329">
+		</Field>
+
+
+	</Iteration>
+</Selenium>

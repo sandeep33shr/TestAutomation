@@ -1,0 +1,44 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+	
+	 	 <Field id="chkThirdRecordInGrid" type="checkBox" fieldLabel="Check 3rd record"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkFourthRecordInGrid" type="checkBox" fieldLabel="Check 4th record"
+			pathType="css" screenShot="false">
+		</Field>
+	     <Field id="chkShowMarkedItems" type="checkBox" fieldLabel="Check Total Marked"
+			pathType="css" screenShot="false">
+		</Field>
+		 <Field id="commonPathPagesAndAmount" type="SumOfGridDynamicHash" fieldLabel="SumOfGrid for Total Marked"
+			pathType="css" screenShot="false">
+		</Field>
+				
+		<Field id="fldTotalMarked" type="assertGetTextofInput" attribute="value" fieldLabel="SumOfGrid for total marked"
+			pathType="css" screenShot="true" validMessage="To validate value of Total Marked is correct" errorMessage="To validate value of Total Marked is not correct">
+		</Field>
+		
+	  <Field id="chkShowMarkedItems" type="DeSelectCheckbox" fieldLabel="Check Total Marked"
+			pathType="css" screenShot="false">
+	</Field>
+		 <Field id="chkThirdRecordInGrid" type="DeSelectCheckbox" fieldLabel="Check 3rd record"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkFourthRecordInGrid" type="DeSelectCheckbox" fieldLabel="Check 4th record"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+</Selenium>

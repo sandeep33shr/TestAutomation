@@ -1,0 +1,143 @@
+<Config>
+	<Feature id="PP_1703" title="Edit Corporate Client">
+
+		<TC id="TC1703_01"
+			Description="Verify whether all fields  are present in 'Basic Detail' tab while creating corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_01.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_02"
+			Description="Verify whether all fields  are present in 'Basic Detail' tab while viewing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_02.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_03"
+			Description="Verify whether all fields  are present in 'Basic Detail' tab while editing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_03.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_04"
+			Description="Verify mandatory fields present in 'Basic Detail' tab while creating corporate client "
+			XML_Location="PP_1703\PP_1703_TC1703_04.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_05"
+			Description="Verify mandatory fields present in 'Basic Detail' tab while viewing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_05.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_06"
+			Description="Verify mandatory fields present in 'Basic Detail' tab while editing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_06.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_07"
+			Description="Verify error message when mandatory fields is not filled in 'Basic Detail' tab while creating corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_07.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_08"
+			Description="Verify error message when mandatory fields is not filled in 'Basic Detail' tab while editing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_08.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_09"
+			Description="Verify values can be entered and save in fields present in 'Basic Detail' tab while Creating corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_09.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_10"
+			Description="Verify values can be viewe in fields present in 'Basic Detail' tab while viewing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_10.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_11"
+			Description="Verify values can be edit in fields present in 'Basic Detail' tab while editing corporate client "
+			XML_Location="PP_1703\PP_1703_TC1703_11.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_12"
+			Description="Verify removed fields are not appeared in 'Basic Detail' while creating corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_12.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_13"
+			Description="Verify removed fields are not appeared in 'Basic Detail' while viewing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_13.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_14"
+			Description="Verify removed fields are not appeared in 'Basic Detail' while editing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_14.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_17"
+			Description="Verify whether client search is possible through alternative identifier while searching corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_17.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_18"
+			Description="Verify whether all fields  are present in 'Additional Information' tab while creating corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_18.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_19"
+			Description="Verify whether all fields  are present in 'Additional Information' tab while viewing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_19.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_20"
+			Description="Verify whether all fields  are present in 'Additional Information' tab while editing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_20.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_21"
+			Description="Verify mandatory fields present in 'Additional Information' tab while creating corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_21.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_22"
+			Description="Verify mandatory fields present in 'Additional Information' tab while viewing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_22.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_23"
+			Description="Verify mandatory fields present in 'Additional Information' tab while editing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_23.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_24"
+			Description="Verify error message when mandatory fields is not filled in 'Additional Information' tab while creating corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_24.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_25"
+			Description="Verify error message when mandatory fields is not filled in 'Additional Information' tab while editing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_25.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_26"
+			Description="Verify values can be entered and save in fields present in 'Additional Information' tab while Creating corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_26.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_27"
+			Description="Verify values can be view in fields present in 'Additional Information' tab while viewing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_27.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_28"
+			Description="Verify values can be edit in fields present in 'Additional Information' tab while editing corporate client "
+			XML_Location="PP_1703\PP_1703_TC1703_28.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_29"
+			Description="Verify client summary fields are available in 'Overview tab' while viewing corporate client"
+			XML_Location="PP_1703\PP_1703_TC1703_29.xml" Iteration="1">
+		</TC>
+		<!-- <TC id="TC1703_30" Description="Verify the functionality of Account 
+			balance field in overview tab" -->
+		<!-- XML_Location="PP_1703\PP_1703_TC1703_30.xml" Iteration = "1"> -->
+		<!-- </TC> -->
+		<!-- <TC id="TC1703_31" Description="Verify the functionality of YTD Income 
+			field in overview tab" -->
+		<!-- XML_Location="PP_1703\PP_1703_TC1703_31.xml" Iteration = "1"> -->
+		<!-- </TC> -->
+		<!-- <TC id="TC1703_32" Description="Verify the functionality of YTD premium 
+			field in overview tab" -->
+		<!-- XML_Location="PP_1703\PP_1703_TC1703_32.xml" Iteration = "1"> -->
+		<!-- </TC> -->
+		<TC id="TC1703_33"
+			Description="Verify the functionality of open claims field in overview tab"
+			XML_Location="PP_1703\PP_1703_TC1703_33.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_34"
+			Description="Verify the functionality of closed claims field in overview tab"
+			XML_Location="PP_1703\PP_1703_TC1703_34.xml" Iteration="1">
+		</TC>
+		<TC id="TC1703_35"
+			Description="Verify the functionality of Quotes/policies field in overview tab"
+			XML_Location="PP_1703\PP_1703_TC1703_35.xml" Iteration="1">
+		</TC>
+		<!-- <TC id="TC1703_36" Description="Verify the functionality of Balance 
+			Inc. unsettled PF/SA field in overview tab" -->
+		<!-- XML_Location="PP_1703\PP_1703_TC1703_36.xml" Iteration = "1"> -->
+		<!-- </TC> -->
+
+
+	</Feature>
+</Config>

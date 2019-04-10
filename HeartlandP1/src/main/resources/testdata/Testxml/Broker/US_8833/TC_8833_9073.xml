@@ -1,0 +1,17 @@
+<Selenium>
+
+	
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+		
+		<Field id="btnFind" type="Button"
+			fieldLabel="Click Find" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkShowMarkedItems" type="assertEnabledPositive"
+			fieldLabel="ShowMarkedItemEnable" pathType="css" screenShot="true"
+			validMessage="ShowMarkedItems Checkbox is enabled"
+			errorMessage="ShowMarkedItems Checkbox is not enabled">
+		</Field>
+
+	</Screen>
+
+</Selenium>

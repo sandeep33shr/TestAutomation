@@ -1,0 +1,31 @@
+<Config>
+	<Feature id="PP_3454"
+		title="defaulting risk data from client information- per-business line">
+
+		<TC id="TC3454_01"
+			Description="Verify 'Company Name, Trading Name and Address' in General detail screen is prepopulated from Client screen"
+			XML_Location="PP_3454\PP_3454_TC3454_01.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3454_02"
+			Description="Verify 'year business established in Company detail screen and 'Wages' in Employement details is prepopulated from Client screen"
+			XML_Location="PP_3454\PP_3454_TC3454_02.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3454_03"
+			Description="Verify 'Trade' in Company detail screen is prepopulated from Client screen"
+			XML_Location="PP_3454\PP_3454_TC3454_03.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3454_04"
+			Description="Verify 'Subsidiary Companies' in Company detail screen is prepopulated from Client screen"
+			XML_Location="PP_3454\PP_3454_TC3454_04.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC3454_05"
+			Description="Verify 'EmployersRefNo, PAYE Threshold Ind' in cover screen are prepopulated from Client screen"
+			XML_Location="PP_3454\PP_3454_TC3454_05.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

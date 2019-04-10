@@ -1,0 +1,82 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Password@2018">
+		</Field>
+		<Field fieldLabel="ClientType" input="Corporate">
+		</Field>
+		<Field fieldLabel="ClientName" input="h%">
+		</Field>
+
+
+		<Field fieldLabel="SelectProduct" input="Tradesman">
+		</Field>
+
+		<Field fieldLabel="Broker Email" input="brokerheartland@ssp.com">
+		</Field>
+		<Field fieldLabel="Company/Partnership Name" input="brokerheartland">
+		</Field>
+		<Field fieldLabel="Company Status" input="Charity">
+		</Field>
+		<Field fieldLabel="Address Line 1" input="Test1">
+		</Field>
+		<Field fieldLabel="Address Line 2" input="Test2">
+		</Field>
+		<Field fieldLabel="Postcode" input="NR1 1XR">
+		</Field>
+
+		<Field fieldLabel="Year business established" input="2008">
+		</Field>
+		<Field fieldLabel="Number of years experience" input="5">
+		</Field>
+		<Field fieldLabel="Annual turnover for the organisation/group"
+			input="1000">
+		</Field>
+		<Field fieldLabel="Trade" input="Actuary">
+		</Field>
+		<Field fieldLabel="No of workers" input="5">
+		</Field>
+		<Field fieldLabel="Percentage of turnover" input="100">
+		</Field>
+
+		<Field fieldLabel="How many people altogether work in the business?"
+			input="5">
+		</Field>
+		<Field
+			fieldLabel="The estimated wages amount for all employees for the next 12 months"
+			input="1000">
+		</Field>
+		<Field fieldLabel="Directors/Consulting" input="5">
+		</Field>
+
+		<Field fieldLabel="Public Liability" input="1,000,000">
+		</Field>
+
+		<Field fieldLabel="policyToClick" input="">
+		</Field>
+
+		<Field fieldLabel="CustomerCategory" input="Commercial">
+		</Field>
+		<Field fieldLabel="MethodOfSale" input="Non Distance">
+		</Field>
+		<Field fieldLabel="TermAgreed" input="Yes">
+		</Field>
+		<Field fieldLabel="TypeOfSale" input="Advised">
+		</Field>
+		<Field fieldLabel="UnderWriter" input="Test">
+		</Field>
+
+
+
+
+	</Iteration>
+</Selenium>

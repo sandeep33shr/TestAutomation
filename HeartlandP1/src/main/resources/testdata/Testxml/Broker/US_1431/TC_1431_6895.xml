@@ -1,0 +1,42 @@
+<Selenium>
+	
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button" fieldLabel="Finance"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkCollection" type="Button"
+			fieldLabel="Collection Link avilability" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+		<Field id="allButtonsOnCollectionDetails"
+			type="assertUnorderedListTextEquals"
+			fieldLabel="OK ,AUTO ALLOCATE and Cancel buttons are available" pathType="css"
+			screenShot="true" validMessage="OK ,AUTO ALLOCATE and Cancel buttons are available"
+			errorMessage="OK ,AUTO ALLOCATE and Cancel buttons are not available">
+		</Field>
+		<Field id="btnCancel" type="Button" fieldLabel="Click Cancel button"
+			pathType="css" screenShot="false" validMessage="Click Cancel button sucessfully" errorMessage="Cancel button is not clickale">
+		</Field> 
+	</Screen>
+		<Screen id="FindClient" title="SSP - Pure Insurance">
+		 <Field id="lblFindClient" type="assertGetText" fieldLabel="Find Client"
+			pathType="css" screenShot="false" validMessage="User navigates to Find Client screen" errorMessage="User does not navigates to Find Client screen">
+		</Field> 
+	</Screen>
+
+</Selenium>

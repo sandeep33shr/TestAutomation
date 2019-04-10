@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SIAAS_Regression" verbose="3" parallel="tests"
+	thread-count="120">
+	<parameter name="securityTest" value="false" />
+	<parameter name="deviceHost" value="localhost" />
+	<parameter name="devicePort" value="5556" />
+	<parameter name="browserName" value="chrome_windows"></parameter>
+
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="browser_version" value="52"></parameter>
+	<parameter name="os" value="Windows"></parameter>
+	<parameter name="os_version" value="7"></parameter>
+	<parameter name="env" value="QA"></parameter>
+	<parameter name="mode" value="Broker"></parameter>
+	<parameter name="webSite"
+		value="http://localhost/Pure.Portal/LoginPlatform.aspx"></parameter>
+	<test name="MMVP-Login" parallel="methods" thread-count="1">
+		<classes>
+			<class name="com.ssp.regression.insurer.testscripts.US_6524">
+
+				<methods>
+
+					
+				<!-- 	<include name="TC_6524_7498" /> -->
+					<!-- <include name="TC_6524_7459" /> -->
+					
+					
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+
+
+</suite>

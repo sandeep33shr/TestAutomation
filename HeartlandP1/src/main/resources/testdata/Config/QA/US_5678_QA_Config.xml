@@ -1,0 +1,20 @@
+<Config>
+	<Feature id="US_5678" title="Central Transaction View Preview Pane Data">
+		<TC id="TC_5678_6142"
+			Description="To Validate the fields and data of Insurer Preview pane of Central Transaction View screen invoked from Accounts tab from Policy level"
+			XML_Location="US_5678\TC_5678_6142.xml" Iteration="1">
+		</TC>
+		<TC id="TC_5678_6179"
+			Description="To Validate the fields and data of Commission Preview pane of Central Transaction View screen invoked from Accounts tab at Policy level"
+			XML_Location="US_5678\TC_5678_6179.xml" Iteration="1">
+		</TC>
+		<TC id="TC_5678_6173"
+			Description="To Validate the fields and data of Commission Preview pane of Central Transaction View screen invoked from Accounts tab at Client level"
+			XML_Location="US_5678\TC_5678_6173.xml" Iteration="1">
+		</TC>
+		<TC id="TC_5678_6178"
+			Description="To Validate the fields and data of Insurer Preview pane of Central Transaction View screen invoked from Accounts tab from Client level"
+			XML_Location="US_5678\TC_5678_6178.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

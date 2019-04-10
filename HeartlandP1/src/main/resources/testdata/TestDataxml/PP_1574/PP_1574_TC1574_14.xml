@@ -1,0 +1,78 @@
+<Selenium>
+
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Sirius123">
+		</Field>
+		<Field fieldLabel="select title" input="Miss">
+		</Field>
+		<Field fieldLabel="first name" input="Unique">
+		</Field>
+		<Field fieldLabel="last name" input="LastUniq">
+		</Field>
+		<Field fieldLabel="Initials" input="Test">
+		</Field>
+		<Field fieldLabel="DOB" input="22/11/1993">
+		</Field>
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="enter Line1" input="Line 1">
+		</Field>
+		<Field fieldLabel="enter postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Select Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="Contact Type Email" input="Email">
+		</Field>
+		<Field fieldLabel="Contact Type home Tel" input="Home Phone">
+		</Field>
+		<Field fieldLabel="Contact Type Evng Tel" input="Evening Telephone">
+		</Field>
+		<Field fieldLabel="Contact Type Day Tel" input="Daytime Telephone">
+		</Field>
+		<Field fieldLabel="Contact Type FAX" input="Fax">
+		</Field>
+		<!-- <Field fieldLabel="Contact Type Letter" input="Letter" > </Field> -->
+		<Field fieldLabel="Contact Type Mobile Phone" input="Mobile Phone">
+		</Field>
+		<Field fieldLabel="Contact Type Telephone" input="Telephone">
+		</Field>
+		<Field fieldLabel="Contact Type Work Telephone Number" input="Work Telephone Number">
+		</Field>
+
+
+
+		<Field fieldLabel="HomeNumber" input="1233455">
+		</Field>
+		<Field fieldLabel="EveningPhoneNumber" input="54322">
+		</Field>
+		<Field fieldLabel="FldEmail" input="Test@test.com">
+		</Field>
+		<Field fieldLabel="Daytime number" input="12345678">
+		</Field>
+		<Field fieldLabel="fax" input="123">
+		</Field>
+		<!-- <Field fieldLabel="letter" input="1234556" > </Field> -->
+		<Field fieldLabel="Telephone" input="09876454323">
+		</Field>
+		<Field fieldLabel="work tel" input="321234">
+		</Field>
+		<Field fieldLabel="mob phone" input="897654343">
+		</Field>
+
+		<Field fieldLabel="lblMain" input="Main">
+		</Field>
+
+
+	</Iteration>
+
+
+</Selenium>
+
+		
+		

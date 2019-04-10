@@ -1,0 +1,14 @@
+<Config>
+	<Feature id="US_5615" title="Branch dropdown Accounts tab">
+	<TC id="TC_5615_6750" Description="This case is designed to test availability of Branch dropdown on Accounts tab"
+			XML_Location="US_5615\TC_5615_6750.xml" Iteration="1">
+		</TC>
+	   <TC id="TC_5615_6751" Description="This test case is designed to verify the closed branches at the Client and Policy level"
+			XML_Location="US_5615\TC_5615_6751.xml" Iteration="1">
+		</TC>
+		  <TC id="TC_5615_6569" Description="This case is designed to test values as per selected branch"
+			XML_Location="US_5615\TC_5615_6569.xml" Iteration="1">
+		</TC>
+	
+	</Feature>
+</Config>

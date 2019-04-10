@@ -1,0 +1,60 @@
+<Config>
+	<Feature id="PP_1707" title="Select correspondence preference">
+
+		<TC id="TC1707_01"
+			Description="Verify whether a new corporate client is created with contact type as 'Email', preferred correspondence method as 'Email' and Marketing Contact Preference as 'Email' and 'Mail'"
+			XML_Location="PP_1707\PP_1707_TC1707_01.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_02"
+			Description="Verify whether a new corporate client is created with contact type as 'Mobile Phone', preferred correspondence method as 'Mobile Phone' and Marketing Contact Preference as 'TelePhone' and 'Text Message'"
+			XML_Location="PP_1707\PP_1707_TC1707_02.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_03"
+			Description="Verify whether a new corporate client is created with preferred correspondence method as 'Post - Send to Print House' and Contact type as 'Email' "
+			XML_Location="PP_1707\PP_1707_TC1707_03.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_04"
+			Description="Verify whether a new corporate client is created with preferred correspondence method as 'Post - Send to Print Spooler' "
+			XML_Location="PP_1707\PP_1707_TC1707_04.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_05"
+			Description="Verify whether a new corporate client is created with preferred correspondence method as 'Post - Send to Printer', contact type as 'Email' and Marketing contact preference as 'Email' "
+			XML_Location="PP_1707\PP_1707_TC1707_05.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_06"
+			Description="Verify an error message is displayed when creating new corporate client with contact type as 'Email', Preferred correspondence as 'Mobile phone'"
+			XML_Location="PP_1707\PP_1707_TC1707_06.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_07"
+			Description="Verify an error message is displayed when creating new corporate client with contact type as 'Mobile phone', Preferred correspondence as 'Email' "
+			XML_Location="PP_1707\PP_1707_TC1707_07.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_08"
+			Description="Verify an error message is displayed when creating new corporate client with contact type as 'Email',Marketing Contact Preference as 'Text message'"
+			XML_Location="PP_1707\PP_1707_TC1707_08.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_09"
+			Description="Verify an error message is displayed when creating new corporate client with contact type as 'Mobile phone', Marketing Contact Preference as 'Email'"
+			XML_Location="PP_1707\PP_1707_TC1707_09.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_10"
+			Description="Verify an error message is displayed when creating new corporate client with contact type as 'Email',Marketing Contact Preference as 'Telephone'"
+			XML_Location="PP_1707\PP_1707_TC1707_10.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1707_11"
+			Description="Verify the visibility of marketing contact preference options in the contact tab"
+			XML_Location="PP_1707\PP_1707_TC1707_11.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

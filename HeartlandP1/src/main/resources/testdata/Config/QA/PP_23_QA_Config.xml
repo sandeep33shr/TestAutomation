@@ -1,0 +1,62 @@
+<Config>
+	<Feature id="PP_23" title="View Quote Details (for a selected quote)">
+
+		<TC id="TC23_4121"
+			Description="Verify whether user can select the Quote scheme from the panel"
+			XML_Location="PP_23\PP_23_TC23_4121.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4122" Description="Verify the panels available in Quote Results page"
+			XML_Location="PP_23\PP_23_TC23_4122.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4123" Description="Verify the panels not present in Quote detail page"
+			XML_Location="PP_23\PP_23_TC23_4123.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4124" Description="Verify the fields in Premium panel "
+			XML_Location="PP_23\PP_23_TC23_4124.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4125" Description="Verify the fields in Excesses panel"
+			XML_Location="PP_23\PP_23_TC23_4125.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4126" Description="Verify the fields in Endorsements and Conditions panel"
+			XML_Location="PP_23\PP_23_TC23_4126.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4128" Description="Verify the panels not present in Quote detail page"
+			XML_Location="PP_23\PP_23_TC23_4128.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4495"
+			Description="Verify whether user can select the declined Quote scheme from the panel"
+			XML_Location="PP_23\PP_23_TC23_4495.xml" Iteration="1">
+		</TC>
+
+
+		<TC id="TC23_4487"
+			Description="Verify whether the correct values are displayed under the detail panel after selecting the scheme"
+			XML_Location="PP_23\PP_23_TC23_4487.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4488"
+			Description="Verify whether No values are displayed under the panels when decline quote is selected"
+			XML_Location="PP_23\PP_23_TC23_4488.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4492"
+			Description="Verify whether correct notes is displayed as read-only for selected decline quotes"
+			XML_Location="PP_23\PP_23_TC23_4492.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4497"
+			Description="Verify whether the correct values are displayed under the Excess panel after selecting the scheme"
+			XML_Location="PP_23\PP_23_TC23_4497.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4498"
+			Description="Verify whether the correct values are displayed under the endorsement and condition panel after selecting the scheme"
+			XML_Location="PP_23\PP_23_TC23_4498.xml" Iteration="1">
+		</TC>
+		<TC id="TC23_4127"
+			Description="Verify whether the correct values are displayed under the premium panel after selecting the scheme"
+			XML_Location="PP_23\PP_23_TC23_4127.xml" Iteration="1">
+		</TC>
+
+
+
+
+
+	</Feature>
+</Config>

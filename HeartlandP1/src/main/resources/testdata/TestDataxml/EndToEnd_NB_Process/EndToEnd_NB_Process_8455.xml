@@ -1,0 +1,83 @@
+<Selenium>	
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Password@2018">
+		</Field>
+		<Field fieldLabel="ClientType" input="Corporate">
+		</Field>
+		<Field fieldLabel="ClientName" input="SSPT%">
+		</Field>
+		<Field fieldLabel="SelectProduct" input="HIUA Phase 1 GLU">
+		</Field>
+		
+		<Field fieldLabel="drpBusinessType" input="Direct Business">
+		</Field>
+		<Field fieldLabel="CustomerCategory" input="Commercial">
+		</Field>
+		<Field fieldLabel="MethodOfSale" input="Non Distance">
+		</Field>
+		<Field fieldLabel="TermAgreed" input="No">
+		</Field>
+		<Field fieldLabel="TypeOfSale" input="Advised">
+		</Field>
+		<Field fieldLabel="UnderWriter" input="Test">
+		</Field>
+		
+		<Field fieldLabel="Insured_General_GuestHouse" input="Test">
+		</Field>
+		<Field fieldLabel="TradingName_General_GuestHouse" input="Test123">
+		</Field>
+		<Field fieldLabel="ContactName_General_GuestHouse" input="SSP028">
+		</Field>
+		<Field fieldLabel="TelephoneNumber_General_GuestHouse" input="123456789">
+		</Field>
+		<Field fieldLabel="CompanyStatus_General_GuestHouse" input="Sole Proprietor">
+		</Field>
+		<Field fieldLabel="Postcode_General_GuestHouse" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Address_General_GuestHouse" input="1">
+		</Field>
+		<Field fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse" input="Guest House">
+		</Field>
+		
+		<Field fieldLabel="YearsInsuredHasBeenTrading_RiskDetails_GuestHouse" input="2014">
+		</Field>
+		<Field fieldLabel="YearsExperienceInsuredHaveInHospitality_RiskDetails_GuestHouse" input="2014">
+		</Field>		
+		<Field fieldLabel="Postcode_RiskDetails_GuestHouse" input="B37 7YE">
+		</Field>		
+		<Field fieldLabel="Address_RiskDetails_GuestHouse" input="1">
+		</Field>
+		<Field fieldLabel="YearOfConstruction_BuildingConstruction1_GuestHouse" input="2010">
+		</Field>		
+		<Field fieldLabel="StateDescribesTheSite_SubsidenceAssessment_GuestHouse" input="Level">
+		</Field>
+		<Field fieldLabel="FoundationsOfPrincipalBuildings_SubsidenceAssessment_GuestHouse" input="Strip concrete foundations">
+		</Field>
+		<Field fieldLabel="NumberOfLettingBedrooms_GuestHouseDetails_GuestHouse" input="15">
+		</Field>
+		
+
+		<Field fieldLabel="StockOfWines/Spirits/Cigars/Cigarettes/Tobacco" input="1500">
+		</Field>
+		<Field fieldLabel="TotalSumInsured" input="1500">
+		</Field>
+		<Field fieldLabel="Computers/ElectronicBusinessEquipment" input="15000">
+		</Field>
+		
+		<Field fieldLabel="fldModelOfSafe" input="test">
+		</Field>
+		<Field fieldLabel="fldIncreaseSiToCashInSafe" input="1500">
+		</Field>
+		<Field fieldLabel="fldIncreaseSiToCashInTransit" input="1500">
+		</Field>
+		
+		<Field fieldLabel="Have documents been issued to the customer?"
+			input="Have documents been issued to the customer?">
+		</Field>
+		
+		
+		
+	</Iteration>
+</Selenium>

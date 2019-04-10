@@ -1,0 +1,95 @@
+<Selenium>
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Password@2018">
+		</Field>
+		<Field fieldLabel="CompanyCode" input="SSPTesting">
+		</Field>
+		<Field fieldLabel="CompanyName" input="SSPTestP">
+		</Field>
+		<Field fieldLabel="AccountExcecutive" input="SAM">
+		</Field>
+		<Field fieldLabel="FileCode" input="FC001">
+		</Field>
+		<Field fieldLabel="Salutation" input="Corporate">
+		</Field>
+		<Field fieldLabel="ThirdParty" input="SSP Sub Agent">
+		</Field>
+		<Field fieldLabel="AltIdentifier" input="SSP001">
+		</Field>
+		<Field fieldLabel="Branch" input="Head Office">
+		</Field>
+		<Field fieldLabel="Business" input="Aerial Erector">
+		</Field>
+		<Field fieldLabel="BusinessDescription"
+			input="Accounting Company">
+		</Field>
+		<Field fieldLabel="MainContact" input="1232331233">
+		</Field>
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="enter Financial year" input="09/01">
+		</Field>
+
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="Street" input="Line 1">
+		</Field>
+		<Field fieldLabel="Postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="ContactType" input="Email">
+		</Field>
+		<Field fieldLabel="Email" input="heartland@s.com">
+		</Field>
+		<Field fieldLabel="CompanyName" input="SSPTestingP">
+		</Field>
+
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="CompanyRegisterationNumber" input="Asp001">
+		</Field>
+		<Field fieldLabel="PaymentCurrency" input="Euro">
+		</Field>
+		<Field fieldLabel="SICCode" input="Electrical Work">
+		</Field>
+		<Field fieldLabel="TermsOfPayment" input="14 Days">
+		</Field>
+		<Field fieldLabel="Offices" input="10">
+		</Field>
+		<Field fieldLabel="LegalEntity" input="Charity">
+		</Field>
+		<Field fieldLabel="TradingSince" input="10/02/2011">
+		</Field>
+		<Field fieldLabel="ServiceLevel" input="Gold">
+		</Field>
+		<Field fieldLabel="Source" input="Existing Client">
+		</Field>
+		<Field fieldLabel="NumberOfEmployees" input="20 - 100">
+		</Field>
+		<Field fieldLabel="ReminderType" input="Reminder Letter">
+		</Field>
+		<Field fieldLabel="Select value from dropdown" input="Cheque">
+		</Field>
+		<Field fieldLabel="Enter value in Media Reference field"
+			input="Media Reference value">
+		</Field>
+		<Field fieldLabel="Enter future date" input="25/12/2020">
+		</Field>
+		<Field fieldLabel="Select Bank from dropdown"
+			input="Bank Suspense Account">
+		</Field>
+		<Field fieldLabel="Enter value in Amount field" input="1000">
+		</Field>
+		<Field fieldLabel="Allocation Screen Name" input="ALLOCATION">
+		</Field>
+		<Field fieldLabel="Check validation message for same sign amount" input="Total Allocated amount cannot be negative.">
+		</Field>
+	</Iteration>
+</Selenium>

@@ -1,0 +1,42 @@
+<Selenium>
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="fldClientCode" type="textfield"
+			fieldLabel="Client Code" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find Button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnselectClientInSearch" type="Button"
+			fieldLabel="Select Button" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="tabAccounts" type="Button"
+			fieldLabel="Click Accounts tab" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lblBranch" type="assertGetText"
+			fieldLabel="Branch dropdown" pathType="css" screenShot="true" validMessage="Branch Dropdown is available" errorMessage="Branch Dropdown is not available">
+		</Field>
+		<Field id="drpBranch" type="assertDefaultValueOfDropdown"
+			fieldLabel="Branch dropdown default value" pathType="css" screenShot="true" validMessage="Default value is 'All Branches'" errorMessage="Default value is not 'All Branches'">
+		</Field>
+		<Field id="drpBranch" type="assertAllValuesOfDropdown"
+			fieldLabel="values of Branch dropdown" pathType="css" screenShot="true" validMessage="All values are correct" errorMessage="All values are not correct">
+		</Field>
+	</Screen>
+
+</Selenium>

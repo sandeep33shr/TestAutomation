@@ -1,0 +1,55 @@
+<Config>
+	<Feature id="PP_1709" title="Tax File Information">
+
+		<TC id="TC2784" Description="Verify the Presence of Tax tab in Create Corporate Client"
+			XML_Location="PP_1709\PP_1709_2784.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2785" Description="Verify the field names in Tax tab in corporate client"
+			XML_Location="PP_1709\PP_1709_2785.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2786" Description="Verify that the entered tax details are saved and viewed"
+			XML_Location="PP_1709\PP_1709_2786.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2787" Description="To verify the edited tax details are saved and viewed"
+			XML_Location="PP_1709\PP_1709_2787.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2788"
+			Description="To Verify the presence of tax tab in View Corporate Client page"
+			XML_Location="PP_1709\PP_1709_2788.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2789"
+			Description="To Verify the presence of Tax tab in Edit client details page"
+			XML_Location="PP_1709\PP_1709_2789.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2793"
+			Description="To create a corporate client with tax information and verify the same"
+			XML_Location="PP_1709\PP_1709_2793.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2794"
+			Description="To verify the Tax number field is accepting alphabets or not"
+			XML_Location="PP_1709\PP_1709_2794.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2795"
+			Description="To verify the negative scenario by entering alphabets in Tax percentage field"
+			XML_Location="PP_1709\PP_1709_2795.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2854"
+			Description="To create a corporate client by entering Tax file information and search for the created client and verify the same"
+			XML_Location="PP_1709\PP_1709_2854.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC2855"
+			Description="To create a corporate client by entering Tax file information and search for the created client, Edit the details and verify the same"
+			XML_Location="PP_1709\PP_1709_2855.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

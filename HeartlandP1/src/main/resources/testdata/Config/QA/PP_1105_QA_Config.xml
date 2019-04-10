@@ -1,0 +1,34 @@
+<Config>
+	<Feature id="PP_1105" title="Contract Certainty prompt">
+
+		<TC id="TC1105_4546"
+			Description="Verify whether the Date policy documents issued to client field populated on policy header automatically when the user clicks 'Yes' button for 'New Quote' for Invoice payment"
+			XML_Location="PP_1105\PP_1105_4546.xml" Iteration="1">
+		</TC>
+		<TC id="TC1105_4547"
+			Description="Verify whether the pop up closes without any changes in Date policy documents issued to client field on policy header when the user clicks 'No' button during 'New Quote' for invoice payment method"
+			XML_Location="PP_1105\PP_1105_4547.xml" Iteration="1">
+		</TC>
+		<TC id="TC1105_4548"
+			Description="Verify whether the Date policy documents issued to client field populated on policy header automatically when the user clicks 'Yes' button for 'New Quote' for pay now payment"
+			XML_Location="PP_1105\PP_1105_4548.xml" Iteration="1">
+		</TC>
+		<TC id="TC1105_4549"
+			Description="Verify whether the pop up closes without any changes in Date policy documents issued to client field on policy header when the user clicks 'No' button during 'New Quote' for pay now payment method"
+			XML_Location="PP_1105\PP_1105_4549.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC1105_4554"
+			Description="Verify whether pop up 'Have documents been issued to the customer' is not displayed after completing the buy process for new business for invoice payment in insurer mode"
+			XML_Location="PP_1105\PP_1105_4554.xml" Iteration="1">
+		</TC>
+		<TC id="TC1105_4555"
+			Description="Verify whether pop up 'Have documents been issued to the customer' is not displayed after completing the buy process for new business for pay now payment in insurer mode"
+			XML_Location="PP_1105\PP_1105_4555.xml" Iteration="1">
+		</TC>
+
+
+
+
+	</Feature>
+</Config>

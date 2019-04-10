@@ -1,0 +1,22 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Company Code" input="dynamicHashmap">
+		</Field>
+		<Field fieldLabel="PolicyNumber" input="dynamicHashmap">
+		</Field>
+		<Field fieldLabel="Checkboxes Name of Select Columns in Search Transaction"
+			input="Period,Client,Client Code,Media Ref,Payee Name,Account,Trans Ref,Trans Type,Trans Date,Effective Date,Policy Number,Risk Code,Amount Due,O/S Amount,Primary Settled,Paid Date,Sett. Due Date,User,Media Type">
+		</Field>
+		<Field fieldLabel="Checked label Name of Select Columns in Search Transaction"
+			input="Account,Trans Ref,Trans Type,Trans Date,Effective Date,Policy Number,Risk Code,Amount Due,O/S Amount,Primary Settled,Paid Date,Media Type">
+		</Field>
+	</Iteration>
+</Selenium>

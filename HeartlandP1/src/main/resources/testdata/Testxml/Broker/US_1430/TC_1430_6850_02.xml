@@ -1,0 +1,29 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+     
+	
+	
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+	
+	     <Field id="fldAccountCode" type="assertEnabledNegative" fieldLabel="Check Account field is disabled" pathType="css" screenShot="false"
+		validMessage="Account field is disabled" errorMessage="Account field is not disabled">
+	    </Field>
+        <!-- <Field id="fldAccountCodeLookupButton" type="assertEnabledNegative" fieldLabel="Check Account lookup button is disabled" pathType="css" screenShot="false"
+		validMessage="Account lookup button is disabled" errorMessage="Account lookup button is not disabled">
+	    </Field> -->
+		<Field id="fldBalance" type="assertEnabledNegative" fieldLabel="Check Balance field is disabled" pathType="css" screenShot="false"
+		validMessage="Balance field is disabled" errorMessage="Balance field is not disabled">
+	    </Field>
+	    <Field id="drpCurrency" type="assertEnabledNegative" fieldLabel="Check Currency dropdown is disabled" pathType="css" screenShot="false"
+		validMessage="Currency dropdown is disabled" errorMessage="Currency dropdown is not disabled">
+	    </Field>
+	</Screen>
+	
+</Selenium>

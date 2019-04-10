@@ -1,0 +1,682 @@
+<html>
+<head>
+<title>TestNG:  MMVP-Login5</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>MMVP-Login5</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/5/3</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Mar 15 16:58:48 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>231 seconds (231635 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7778_01()'><b>TC_7156_7778_01</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7156<br>Test method: This case is designed to test value of Unreconciled field <br>Parameters: , chrome_XP<br/>
+<a href="#Output-977854153" onClick='toggleBox("Output-977854153", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-977854153" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-977854153">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">TC_7156_7778_01 [MMVP-Login5]</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">This case is designed to test value of Unreconciled field <small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div>&emsp;<br/>
+<div class="test-message">&emsp;<--------------------- Iteration 0 is started -----------------------></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:20 407 - Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2flocalhost%2fpure.portal%2fjwtauthprocess.aspx&response_type=code</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:20 408 - <b>0</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to LoginScreen Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_fieldLabel: ------->Username</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_id: ------->fldUserName</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:22 503 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:22 627 - Element is displayed:: [[RemoteWebDriver: chrome on XP (e576a4eabeabd9561b884387a6733b3d)] -> css selector: #signupEmail]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Username : admin@redinsurance.com<br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_fieldLabel: ------->Password</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_id: ------->fldPassword</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_screenShot: ------->true</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:25 313 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:25 867 - Element is displayed:: [[RemoteWebDriver: chrome on XP (e576a4eabeabd9561b884387a6733b3d)] -> css selector: #signupPassword]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Password : Password@2018&emsp;<a href=".\ScreenShot\TC_7156_7778_01_MMVP-Login5_11.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_fieldLabel: ------->SignIn</div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_id: ------->btnSignIn</div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of Home_SignIn_type: ------->buttonJS</div><br/>
+<div class="test-result"><br><font color="red"><strong> java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null </strong></font> <a href=".\ScreenShot\TC_7156_7778_01_MMVP-Login5_20.png" target="_blank" >[ScreenShot]</a></div>&emsp;<br/>
+<!--FAIL--><br/>
+<div class="test-result"><br><font color="red"><strong> Test Failed </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7778_01(US_7156.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.clickButtonJS(ActionKeyword.java:1142)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:170)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace977854153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace977854153'><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7778_01(US_7156.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.clickButtonJS(ActionKeyword.java:1142)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:170)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div></td>
+<td>36</td>
+<td>com.ssp.regression.insurer.testscripts.US_7156@4232c52b</td></tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7779()'><b>TC_7156_7779</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7156<br>Test method: This case is designed to test that system persist marked items after pressing clear button<br>Parameters: , chrome_XP<br/>
+<a href="#Output-94197171" onClick='toggleBox("Output-94197171", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-94197171" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-94197171">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">TC_7156_7779 [MMVP-Login5]</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">This case is designed to test that system persist marked items after pressing clear button<small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div>&emsp;<br/>
+<div class="test-message">&emsp;<--------------------- Iteration 0 is started -----------------------></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:49 460 - Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2flocalhost%2fpure.portal%2fjwtauthprocess.aspx&response_type=code</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:49 460 - <b>1</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to LoginScreen Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_fieldLabel: ------->Username</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_id: ------->fldUserName</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:51 591 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 16:59:51 785 - Element is displayed:: [[RemoteWebDriver: chrome on XP (5f0f34c2cecbe17db555a881e155b932)] -> css selector: #signupEmail]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Username : admin@redinsurance.com<br/>
+<div class="test-message">&emsp;Value of FindClient_Password_fieldLabel: ------->Password</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_id: ------->fldPassword</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_screenShot: ------->true</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_type: ------->textfield</div><br/>
+<div class="test-result"><br><font color="red"><strong> java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null </strong></font> <a href=".\ScreenShot\TC_7156_7779_MMVP-Login5_28.png" target="_blank" >[ScreenShot]</a></div>&emsp;<br/>
+<!--FAIL--><br/>
+<div class="test-result"><br><font color="red"><strong> Test Failed </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7779(US_7156.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.enterTextUsingActionsClass(ActionKeyword.java:749)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:109)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace94197171", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace94197171'><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7779(US_7156.java:128)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.enterTextUsingActionsClass(ActionKeyword.java:749)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:109)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div></td>
+<td>14</td>
+<td>com.ssp.regression.insurer.testscripts.US_7156@4232c52b</td></tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7783()'><b>TC_7156_7783</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7156<br>Test method: This case is designed to test the value of unreconciled, marked items and closing balance  then user press OK button without reconciled<br>Parameters: , chrome_XP<br/>
+<a href="#Output-455003466" onClick='toggleBox("Output-455003466", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-455003466" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-455003466">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">TC_7156_7783 [MMVP-Login5]</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">This case is designed to test the value of unreconciled, marked items and closing balance  then user press OK button without reconciled<small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div>&emsp;<br/>
+<div class="test-message">&emsp;<--------------------- Iteration 0 is started -----------------------></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:06 995 - Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2flocalhost%2fpure.portal%2fjwtauthprocess.aspx&response_type=code</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:06 995 - <b>0</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to LoginScreen Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_fieldLabel: ------->Username</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_id: ------->fldUserName</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:09 074 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:09 253 - Element is displayed:: [[RemoteWebDriver: chrome on XP (4d600c1e32347a441f643e7fff0504b8)] -> css selector: #signupEmail]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Username : admin@redinsurance.com<br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_fieldLabel: ------->Password</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_id: ------->fldPassword</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_screenShot: ------->true</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Password_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:11 866 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:11 953 - Element is displayed:: [[RemoteWebDriver: chrome on XP (4d600c1e32347a441f643e7fff0504b8)] -> css selector: #signupPassword]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Password : Password@2018&emsp;<a href=".\ScreenShot\TC_7156_7783_MMVP-Login5_35.png" target="_blank" >[ScreenShot]</a></div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_fieldLabel: ------->SignIn</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_id: ------->btnSignIn</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_SignIn_type: ------->buttonJS</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:13 066 - Element is displayed:: [[RemoteWebDriver: chrome on XP (4d600c1e32347a441f643e7fff0504b8)] -> css selector: #login_button[type='submit']]</small> </font> </div><br/>
+<div class="test-message">&emsp;Click button is performed for SignIn<br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:13 605 - Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2flocalhost%2fpure.portal%2fjwtauthprocess.aspx&response_type=code</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:13 606 - <b>0</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to Home Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Finance Ribbon Menu_fieldLabel: ------->Finance Ribbon Menu</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Finance Ribbon Menu_id: ------->lnkFinance</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Finance Ribbon Menu_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Finance Ribbon Menu_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Finance Ribbon Menu_type: ------->Button</div><br/>
+<div class="test-result"><br><font color="red"><strong> java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null </strong></font> <a href=".\ScreenShot\TC_7156_7783_MMVP-Login5_42.png" target="_blank" >[ScreenShot]</a></div>&emsp;<br/>
+<!--FAIL--><br/>
+<div class="test-result"><br><font color="red"><strong> Test Failed </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7783(US_7156.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.clickOnButton(ActionKeyword.java:859)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:121)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace455003466", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace455003466'><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7783(US_7156.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.clickOnButton(ActionKeyword.java:859)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:121)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div></td>
+<td>24</td>
+<td>com.ssp.regression.insurer.testscripts.US_7156@4232c52b</td></tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7789()'><b>TC_7156_7789</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7156<br>Test method: This case is designed to test functionality of Reconcile button<br>Parameters: , chrome_XP<br/>
+<a href="#Output-1604076833" onClick='toggleBox("Output-1604076833", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1604076833" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1604076833">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">TC_7156_7789 [MMVP-Login5]</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">This case is designed to test the value of unreconciled, marked items and closing balance  then user press OK button without reconciled<small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div>&emsp;<br/>
+<div class="test-message">&emsp;<--------------------- Iteration 0 is started -----------------------></div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:32 963 - Page URL:: https://ssp-hl-platform-web-sit.ssp-development.com/authgateway/home/login?tenant_id=08d65513-b239-7a30-2994-9d9951f44f05&app_id=4ad08975-4fd7-44f4-98bf-5f5e66ec5435&redirect_url=http:%2f%2flocalhost%2fpure.portal%2fjwtauthprocess.aspx&response_type=code</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:32 964 - <b>0</b> - Page Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForPageLoad(WaitUtils.java:302)</small> </font> </div><br/>
+<div class="test-message">&emsp;Successfully navigated to LoginScreen Page&emsp;</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_fieldLabel: ------->Username</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_id: ------->fldUserName</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_screenShot: ------->false</div><br/>
+<div class="test-message">&emsp;Value of LoginScreen_Username_type: ------->textfield</div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:35 019 - <b>2</b> - Spinner Load Wait: (Sync) - com.ssp.utils.WaitUtils.waitForSpinner(WaitUtils.java:114)</small> </font> </div><br/>
+<div class="test-event"> <font color="maroon"> <small> &emsp; &emsp;--- 15 Mar 17:00:35 153 - Element is displayed:: [[RemoteWebDriver: chrome on XP (486963b2b3e3c9baea977d8722644285)] -> css selector: #signupEmail]</small> </font> </div><br/>
+<div class="test-message">&emsp;Entered text inside Username : admin@redinsurance.com<br/>
+<div class="test-message">&emsp;Value of FindClient_Password_fieldLabel: ------->Password</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_id: ------->fldPassword</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_inputType: ------->alphanumeric</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_length: ------->10</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_pathType: ------->css</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_screenShot: ------->true</div><br/>
+<div class="test-message">&emsp;Value of FindClient_Password_type: ------->textfield</div><br/>
+<div class="test-result"><br><font color="red"><strong> java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null </strong></font> <a href=".\ScreenShot\TC_7156_7789_MMVP-Login5_46.png" target="_blank" >[ScreenShot]</a></div>&emsp;<br/>
+<!--FAIL--><br/>
+<div class="test-result"><br><font color="red"><strong> Test Failed </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td><div><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7789(US_7156.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.enterTextUsingActionsClass(ActionKeyword.java:749)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:109)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1604076833", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1604076833'><pre>java.lang.Exception: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:187)
+	at com.ssp.support.BaseTest.testCaseSteps(BaseTest.java:59)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7789(US_7156.java:169)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.getObjectXmlData(GetTestData.java:181)
+	... 17 more
+Caused by: java.lang.Exception: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:283)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:275)
+	... 18 more
+Caused by: java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.By.cssSelector(By.java:145)
+	at com.ssp.uxp_pages.ActionKeyword.locatorValue(ActionKeyword.java:66)
+	at com.ssp.uxp_pages.ActionKeyword.enterTextUsingActionsClass(ActionKeyword.java:749)
+	at com.ssp.uxp_pages.ActionKeyword.performActionBasedOnFieldType(ActionKeyword.java:109)
+	at com.ssp.uxp_pages.GetTestData.printnote(GetTestData.java:270)
+	... 19 more
+</pre></div></td>
+<td>10</td>
+<td>com.ssp.regression.insurer.testscripts.US_7156@4232c52b</td></tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7792()'><b>TC_7156_7792</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7156<br>Test method: This case is designed to test availability of Reconciliation Date on receipt view transaction screen through bank reconciliation screen<br>Parameters: , chrome_XP<br/>
+<a href="#Output-99370836" onClick='toggleBox("Output-99370836", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-99370836" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-99370836">
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">TC_7156_7792 [MMVP-Login5]</font> </strong> </div>&emsp;<div><strong>Steps:</strong></div><!-- Report -->&emsp;<br/>
+&emsp;<div class="test-title"> <strong><font size = "3" color = "#000080">This case is designed to test availability of Reconciliation Date on receipt view transaction screen through bank reconciliation screen<small><b><i>[chrome_windows]</b></i></small></font> </strong> </div>&emsp;<div><strong>Steps:</strong></div>&emsp;<br/>
+<div class="test-message">&emsp;<--------------------- Iteration 0 is started -----------------------></div><br/>
+<div class="test-result"><br><font color="green"><strong> Test Passed. </strong></font> </div>&emsp;<br/>
+</div>
+</td>
+<td><div><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;VM-HLAND-QA01&apos;, ip: &apos;192.168.73.155&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\SANDEE~1.SHA\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: ff2f3ea0eddf98ded5e53459775fb23d
+	at ru.yandex.qatools.ashot.util.InnerScript.execute(InnerScript.java:29)
+	at ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator.getFullHeight(ViewportPastingDecorator.java:67)
+	at ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator.getScreenshot(ViewportPastingDecorator.java:41)
+	at ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator.getScreenshot(ViewportPastingDecorator.java:35)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at com.ssp.support.ScreenshotManager.takeScreenshot(ScreenshotManager.java:40)
+	at com.ssp.support.Log.takeScreenShot(Log.java:138)
+	at com.ssp.support.Log.exception(Log.java:888)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7792(US_7156.java:192)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;VM-HLAND-QA01&apos;, ip: &apos;192.168.73.155&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\SANDEE~1.SHA\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: ff2f3ea0eddf98ded5e53459775fb23d
+	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at ru.yandex.qatools.ashot.util.InnerScript.execute(InnerScript.java:27)
+	... 23 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace99370836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace99370836'><pre>java.lang.RuntimeException: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;VM-HLAND-QA01&apos;, ip: &apos;192.168.73.155&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\SANDEE~1.SHA\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: ff2f3ea0eddf98ded5e53459775fb23d
+	at ru.yandex.qatools.ashot.util.InnerScript.execute(InnerScript.java:29)
+	at ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator.getFullHeight(ViewportPastingDecorator.java:67)
+	at ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator.getScreenshot(ViewportPastingDecorator.java:41)
+	at ru.yandex.qatools.ashot.shooting.ViewportPastingDecorator.getScreenshot(ViewportPastingDecorator.java:35)
+	at ru.yandex.qatools.ashot.AShot.takeScreenshot(AShot.java:143)
+	at com.ssp.support.ScreenshotManager.takeScreenshot(ScreenshotManager.java:40)
+	at com.ssp.support.Log.takeScreenShot(Log.java:138)
+	at com.ssp.support.Log.exception(Log.java:888)
+	at com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7792(US_7156.java:192)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:73)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=72.0.3626.121)
+  (Driver info: chromedriver=2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;
+System info: host: &apos;VM-HLAND-QA01&apos;, ip: &apos;192.168.73.155&apos;, os.name: &apos;Windows Server 2012 R2&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.42.591088 (7b2b2dca23cca0..., userDataDir: C:\Users\SANDEE~1.SHA\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49175}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.121, webStorageEnabled: true}
+Session ID: ff2f3ea0eddf98ded5e53459775fb23d
+	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at ru.yandex.qatools.ashot.util.InnerScript.execute(InnerScript.java:27)
+	... 23 more
+</pre></div></td>
+<td>119</td>
+<td>com.ssp.regression.insurer.testscripts.US_7156@4232c52b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7778_02()'><b>TC_7156_7778_02</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7156<br>Test method: This case is designed to test default value of Opening Balance field </td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7778_03()'><b>TC_7156_7778_03</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7156<br>Test method: This case is designed to test default value of Total Marked field </td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+<tr>
+<td title='com.ssp.regression.insurer.testscripts.US_7156.TC_7156_7778_04()'><b>TC_7156_7778_04</b><br>Test class: com.ssp.regression.insurer.testscripts.US_7156<br>Test method: This case is designed to test value of Closing Balance field</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+</body>
+</html>

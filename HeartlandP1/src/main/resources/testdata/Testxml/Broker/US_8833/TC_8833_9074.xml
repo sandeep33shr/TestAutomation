@@ -1,0 +1,48 @@
+<Selenium>
+
+	
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+		
+		<Field id="chkThirdRecordInGrid" type="checkBox"
+			fieldLabel="Check Checkbox" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkShowMarkedItems" type="checkBox"
+			fieldLabel="Check Checkbox ShowMarkedItems" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkHeaderCheckbox" type="DeSelectCheckbox"
+			fieldLabel="Uncheck Header Checkbox" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkShowMarkedItems" type="DeSelectCheckbox"
+			fieldLabel="Uncheck Checkbox ShowMarkedItems" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkThirdRecordInGrid" type="checkBox"
+			fieldLabel="Check Checkbox" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkFourthRecordInGrid" type="checkBox"
+			fieldLabel="Check Checkbox" pathType="css" screenShot="false">
+		</Field>
+		
+		<Field id="lnk2ndPage" type="Button"
+			fieldLabel="Click 2nd page" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkThirdRecordInGrid" type="checkBox"
+			fieldLabel="Check Checkbox" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkFourthRecordInGrid" type="checkBox"
+			fieldLabel="Check Checkbox" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkShowMarkedItems" type="checkBox"
+			fieldLabel="Check Checkbox ShowMarkedItems" pathType="css" screenShot="false">
+		</Field>
+		<Field id="commonRowsOfGrid" type="assertTableRowsCount"
+			fieldLabel="Count rows" pathType="css" screenShot="true"
+			validMessage="Number of records in grid are four which is fine"
+			errorMessage="Number of records in grid are not correct">
+		</Field>
+		<Field id="chkHeaderCheckbox" type="DeSelectCheckbox"
+			fieldLabel="Uncheck Header Checkbox" pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+
+</Selenium>

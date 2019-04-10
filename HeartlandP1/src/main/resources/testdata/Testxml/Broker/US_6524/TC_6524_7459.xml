@@ -1,0 +1,248 @@
+<Selenium>
+
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="lnkFinance" type="Button" fieldLabel="Finance"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkCollection" type="Button"
+			fieldLabel="Collection Link avilability" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+		<Field id="fldAccountCode" type="textfield"
+			fieldLabel="Company Code" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAccountCode" type="tabOut"
+			fieldLabel="tabout from Account field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="select"
+			fieldLabel="Select value from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="tabOut"
+			fieldLabel="tabout from Media type field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldMediaReference" type="textfield"
+			fieldLabel="Enter value in Media Reference field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldTransactionDate" type="textfield"
+			fieldLabel="Enter future date" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpBank" type="select"
+			fieldLabel="Select Bank from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAmount" type="textfield"
+			fieldLabel="Enter value in Amount field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="btnOk" type="Button" fieldLabel="Click OK button"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+		<Field id="chkFirstRecord" type="isCheckboxDeselected"
+			fieldLabel="first record is not selected" pathType="css"
+			screenShot="false" validMessage="Checkbox is unchecked"
+			errorMessage="Checkbox is still checked">
+		</Field>
+		<Field id="fldAllocated1stRecord" type="assertGetTextofInput"
+			fieldLabel="Default value of Allocated column" pathType="css"
+			attribute="value" screenShot="false"
+			validMessage="Allocated amount is correct"
+			errorMessage="Allocated amount is not correct">
+		</Field>
+		<Field id="fldOSAmount" type="dynamicHashMap"
+			fieldLabel="O/S Amount" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldBalance" type="assertGetTextofDisabledAttribute"
+			fieldLabel="O/S Amount" pathType="css" screenShot="false"
+			validMessage="balance amount is correct"
+			errorMessage="Balance amount is not correct">
+		</Field>
+		<Field id="chkFirstRecord" type="checkBox"
+			fieldLabel="Check first record " pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldAllocated1stRecord" type="assertGetTextofInput"
+			fieldLabel="Allocated value" pathType="css" attribute="value"
+			screenShot="false" validMessage="Allocated amount is correct"
+			errorMessage="Allocated amount is not correct">
+		</Field>
+
+		<Field id="fldCollectionAmount"
+			type="assertGetTextofDisabledAttribute"
+			fieldLabel="Collection Amount" pathType="css" screenShot="false"
+			validMessage="Collection amount is correct"
+			errorMessage="Collection amount is not correct">
+		</Field>
+		<Field id="fldAllocatedAmount"
+			type="assertGetTextofDisabledAttribute" fieldLabel="O/S Amount"
+			pathType="css" screenShot="false"
+			validMessage="Allocated amount is correct"
+			errorMessage="Allocated amount is not correct">
+		</Field>
+		<Field id="fldAllocationOS" type="dynamicHashMapAttribute"
+			fieldLabel="Allocation O/S" attribute="value" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldCollectionAmount" type="dynamicHashMapAttribute"
+			fieldLabel="CollectionAmount" attribute="value" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAllocatedAmount" type="dynamicHashMapAttribute"
+			fieldLabel="AllocatedAmount" attribute="value" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldAllocationOS" type="assertGetTextofInput"
+			attribute="value" fieldLabel="Test Value of AllocationO/S"
+			pathType="css" screenShot="false"
+			validMessage="Allocated O/s amount is correct"
+			errorMessage="Allocated o/s amount is not correct">
+		</Field>
+
+		<Field id="fldAllocated1stRecord" type="cleartextfield"
+			fieldLabel="Clear Allocated field" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAllocated1stRecord" type="textfield"
+			fieldLabel="Enter value" pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="fldWriteOff" type="Button" fieldLabel="Click"
+			pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="chkFirstRecord" type="isCheckboxDeselected"
+			fieldLabel="Check first record is not selected" pathType="css"
+			screenShot="false" validMessage="Checkbox is unchecked"
+			errorMessage="Checkbox is still checked">
+		</Field>
+
+		<!-- ******Case 7466***** -->
+		<Field id="fldAllocated1stRecord" type="cleartextfield"
+			fieldLabel="Clear field" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAllocated1stRecord" type="textfield"
+			fieldLabel="Enter Amount in Allocated column" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldWriteOff" type="Button" fieldLabel="Click"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+
+		<Field id="btnOkAllocation" type="Button" fieldLabel="Press OK"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lblValidationMessage" type="assertGetText"
+			fieldLabel="validation for greater Receipt amount in Allocated column"
+			pathType="css" screenShot="false"
+			validMessage="validation message is correct"
+			errorMessage="validation message is incorrect">
+		</Field>
+
+		<!-- ******Case 7468***** -->
+		<Field id="fldAllocated1stRecord" type="textfield"
+			fieldLabel="Enter greater amount in Allocated column" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnOkAllocation" type="Button" fieldLabel="Press OK"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="lblValidationMessage" type="assertGetText"
+			fieldLabel="Check validation message for more than outstanding"
+			pathType="css" screenShot="false"
+			validMessage="validation message is correct"
+			errorMessage="validation message is incorrect">
+		</Field>
+
+		<!-- ******Case 7469***** -->
+		<Field id="chkFirstRecord" type="DeSelectCheckbox"
+			fieldLabel="Check first record " pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldAllocated1stRecord" type="textfield"
+			fieldLabel="Enter amount in Allocated column" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldWriteOff" type="Button" fieldLabel="Click"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnOkAllocation" type="Button" fieldLabel="Press OK"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="COLLECTIONLIST" title="SSP - Pure Insurance">
+		<Field id="ReceiptRef" type="dynamicHashMap"
+			fieldLabel="Receipt Reference" pathType="css" screenShot="false">
+		</Field>
+
+		<Field id="btnOkCollectionList" type="Button"
+			fieldLabel="Click OK on Collection List screen" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button"
+			fieldLabel="Finance ribbon menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkTransactions" type="Button"
+			fieldLabel="Transaction ribbon menu" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+
+		<Field id="fldAccountCode" type="textfield"
+			fieldLabel="Company Code" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkboxOutstandingTransaction" type="DeSelectCheckbox"
+			fieldLabel="uncheck show outstanding" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="tabDocument" type="link" fieldLabel="Transaction Tab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldDocumentRef" type="textfield"
+			fieldLabel="Receipt Reference" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button"
+			fieldLabel="Click on Find button" pathType="css" screenShot="false">
+		</Field>
+		<Field id="O/SAmount1stRow" type="assertGetText"
+			fieldLabel="O/S Amount in client's account" pathType="css"
+			screenShot="true" validMessage="O/S Amount is 0.00 Client's account"
+			errorMessage="O/S Amount is not 0.00 Client's account">
+		</Field>
+
+	</Screen>
+
+
+
+</Selenium>

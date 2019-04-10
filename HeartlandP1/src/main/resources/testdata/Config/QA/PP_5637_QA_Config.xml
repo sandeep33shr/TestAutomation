@@ -1,0 +1,7 @@
+<Config>
+	<Feature id="PP_5637" title="Edit Corporate Client">
+		<TC id="TC1395_01" Description="Raise an invoice during Quote and Buy process"
+			XML_Location="PP_5637\PP_5637_TC1395_01.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

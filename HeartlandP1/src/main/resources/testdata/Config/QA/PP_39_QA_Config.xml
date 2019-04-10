@@ -1,0 +1,15 @@
+<Config>
+	<Feature id="PP_39" title="Demands and Needs / Recommendations">
+
+		<TC id="TC39_8202"
+			Description="Verify whether the values in policy header are populated from the fields 'Quote recommendation' and 'Client requirement' of quote in quote result"
+			XML_Location="PP_39\PP_39_8202.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC39_8211"
+			Description="Verify whether the values in policy header are populated from the fields 'Quote recommendation' and 'Client requirement' of quote in quote result"
+			XML_Location="PP_39\PP_39_8211.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

@@ -1,0 +1,27 @@
+<Config>
+	<Feature id="EndToEnd_NB_Process" title="EndToEnd_NB_Process">
+		<TC id="TC8453"
+			Description="Verify whether user can buy policy for the cover type 'Guest House' using Pay now method"
+			XML_Location="EndToEnd_NB_Process\EndToEnd_NB_Process_8453.xml"
+			Iteration="1">
+		</TC>
+		
+		<TC id="TC8455"
+			Description="Verify whether user can buy policy for the cover type 'Guest House' using Invoice method"
+			XML_Location="EndToEnd_NB_Process\EndToEnd_NB_Process_8455.xml"
+			Iteration="1">
+		</TC>		
+		<TC id="TC8456"
+			Description="Verify whether user can buy policy for the cover type 'Holiday Homes'"
+			XML_Location="EndToEnd_NB_Process\EndToEnd_NB_Process_8456.xml"
+			Iteration="1">
+		</TC>	
+		<TC id="TC8457"
+			Description="Verify whether user can buy policy for the cover type 'Staff Accommodation'"
+			XML_Location="EndToEnd_NB_Process\EndToEnd_NB_Process_8457.xml"
+			Iteration="1">
+		</TC>		
+		
+		
+	</Feature>
+</Config>

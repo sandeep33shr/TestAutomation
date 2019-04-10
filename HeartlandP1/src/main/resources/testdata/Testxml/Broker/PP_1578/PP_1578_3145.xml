@@ -1,0 +1,141 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="Button" fieldLabel="Signin"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+
+	<Screen id="Home" title="SSP-Pure Insurance">
+		<Field id="lnkClient" type="link" fieldLabel="ClientDrpdwn"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="lnkFindClient" type="link" fieldLabel="Find client"
+			pathType="css" isClicked="true" screenShot="true">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="fldName" fieldLabel="Find Name" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button" fieldLabel="Find Button"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+		<Field id="btnselectClientInSearch" type="TableRowSelectRandom"
+			fieldLabel="select Client" pathType="css" isClicked="true"
+			screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="Corporate Client Details">
+
+		<Field id="btnEditClient" type="Button" fieldLabel="Edit Client"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client">
+
+		<Field id="tabAssociates" type="buttonJS" fieldLabel="Associates"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnActionMenuInAssociateCompany" type="Button"
+			fieldLabel="Action Menu" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnViewInAssociateCompany" type="Button" fieldLabel="View Associate"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="fldsAssociatedCompanyReadOnly" type="assertGetTextofDisabledAttribute"
+			fieldLabel="read only field" pathType="css" screenShot="true"
+			validMessage="field is in read only mode" errorMessage="field isnot in read only mode">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="btnCloseInAssociateCompany" type="buttonJS"
+			fieldLabel="close Associate" pathType="css" screenShot="true">
+		</Field>
+
+
+		<Field id="btnActionMenuInAssociateCompany" type="Button"
+			fieldLabel="Action Menu" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnEditInAssociateCompany" type="Button" fieldLabel="Edit Associate"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="fldBusinessDescription" fieldLabel="Business Description"
+			type="textfield" inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnUpdateInAssociateCompany" type="Button"
+			fieldLabel="update Associate" pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeOut" type="returnIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="btnUpdateClient" type="Button" fieldLabel="update client"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+
+		<Field id="btnEditClient" type="Button" fieldLabel="Edit Client"
+			pathType="css" isClicked="true" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client">
+
+		<Field id="tabAssociates" type="buttonJS" fieldLabel="Associates"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnActionMenuInAssociateCompany" type="Button"
+			fieldLabel="Action Menu" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnViewInAssociateCompany" type="Button" fieldLabel="View Associate"
+			pathType="css" screenShot="true">
+		</Field>
+		<Field id="iframeIn" type="switchIframe" fieldLabel="Switch to Iframe"
+			screenShot="false">
+		</Field>
+		<Field id="asrtBusinessDescriptionText" type="assertGetText"
+			fieldLabel="Business Description Text" pathType="css" screenShot="true"
+			validMessage="Business description is edited and viewed"
+			errorMessage="Business description isn't edited and viewed">
+		</Field>
+
+	</Screen>
+
+</Selenium>

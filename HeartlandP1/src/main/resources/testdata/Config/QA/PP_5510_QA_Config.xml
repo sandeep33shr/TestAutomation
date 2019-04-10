@@ -1,0 +1,30 @@
+<Config>
+	<Feature id="PP_5510" title="View quote result">
+
+		<TC id="TC5510_6648"
+			Description="Verify user able to edit the selected client in PurePortal when 'Can Edit Clients' checkbox is checked in Client Manager Security tab in backoffice"
+			XML_Location="PP_5510\PP_5510_6648.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5510_6649"
+			Description="Verify user unable to edit the selected client in PurePortal when 'Can Edit Clients' checkbox is unchecked in Client Manager Security tab in backoffice"
+			XML_Location="PP_5510\PP_5510_6649.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5510_6684"
+			Description="Verify user able to Edit the selected Quote in PurePortal when 'Can Edit Policies' checkbox is checked in Client Manager Security tab in backoffice"
+			XML_Location="PP_5510\PP_5510_6684.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5510_6685"
+			Description="Verify user able to Buy the selected Quote in PurePortal when 'Can Edit Policies' checkbox is checked in Client Manager Security tab in backoffice"
+			XML_Location="PP_5510\PP_5510_6685.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5510_6688"
+			Description="Verify user unable to Edit the selected Quote in PurePortal when 'Can Edit Policies' checkbox is  unchecked in Client Manager Security tab in backoffice"
+			XML_Location="PP_5510\PP_5510_6688.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

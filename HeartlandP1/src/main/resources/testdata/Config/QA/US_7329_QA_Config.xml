@@ -1,0 +1,13 @@
+<Config>
+	<Feature id="US_7329" title="Cancelling Collection Batch flow">
+	
+	    <TC id="TC_7329_7642" Description="This case is designed to test that user navigation on pressing cancel button of 'Collection Details' screen if open first time"
+			XML_Location="US_7329\TC_7329_7642.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7329_7643" Description="This case is designed to test that user navigation on pressing cancel button of 'Collection Details' screen if 1 more receipt is added in batch"
+			XML_Location="US_7329\TC_7329_7643.xml" Iteration="1">
+		</TC>
+	
+	
+	</Feature>
+</Config>

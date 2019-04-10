@@ -1,0 +1,41 @@
+<Config>
+	<Feature id="PP_22" title="View quote result">
+
+		<TC id="TC22_3658"
+			Description="Verify that the quote panel is displayed for the created or selected Policy"
+			XML_Location="PP_22\PP_22_3658.xml" Iteration="1">
+		</TC>
+		<TC id="TC22_3659"
+			Description="Verify that the quote panel is displaying the schemes of the created policy"
+			XML_Location="PP_22\PP_22_3659.xml" Iteration="1">
+		</TC>
+		<TC id="TC22_3660" Description="Verify the column names in the Quote panel "
+			XML_Location="PP_22\PP_22_3660.xml" Iteration="1">
+		</TC>
+		<TC id="TC22_3661"
+			Description="Verify that the panel is sorted by Price with cheapest quote at the top "
+			XML_Location="PP_22\PP_22_3661.xml" Iteration="1">
+		</TC>
+		<TC id="TC22_3662" Description="Verify the Quote status available"
+			XML_Location="PP_22\PP_22_3662.xml" Iteration="1">
+		</TC>
+		<TC id="TC22_3665" Description="Verify that the event logs are created for quoted risks"
+			XML_Location="PP_22\PP_22_3665.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5434" Description="Verify the column names for the declined quotes "
+			XML_Location="PP_22\PP_22_5434.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5436"
+			Description="Verify that the notes in total premium is disabled if declined quotes is selected"
+			XML_Location="PP_22\PP_22_5436.xml" Iteration="1">
+		</TC>
+
+		<TC id="TC5425"
+			Description="Verify the quoted schemes are displaying if Quoted radio button is selected"
+			XML_Location="PP_22\PP_22_5425.xml" Iteration="1">
+		</TC>
+
+	</Feature>
+</Config>

@@ -1,0 +1,24 @@
+<Config>
+	<Feature id="US_7938" title="Allocation Screen">
+		<TC id="TC_7938_Prerequisite" Description="Prerequisite"
+			XML_Location="US_7938\TC_7938_Prerequisite.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7938_8537"
+			Description="This test case is to check the availability of Show Marked Items filter at Allocation screen opened via Collection task"
+			XML_Location="US_7938\TC_7938_8537.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7938_8585"
+			Description="This test case is to check the funtionality of Show Marked Items filter at Allocation screen opened via Collection task"
+			XML_Location="US_7938\TC_7938_8585.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7938_8538"
+			Description="This test case is to check the availability of Show Marked Items filter at Allocation screen opened via Client collection button"
+			XML_Location="US_7938\TC_7938_8538.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7938_8588"
+			Description="This test case is to check the funtionality of Show Marked Items filter at Allocation screen opened via Client screen Collection button"
+			XML_Location="US_7938\TC_7938_8588.xml" Iteration="1">
+		</TC>
+	
+	</Feature>
+</Config>

@@ -1,0 +1,46 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+		
+		<Field id="fldAccountCode" type="textfield"
+			fieldLabel="save Account of 3rd row" pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkboxOutstandingTransaction" type="DeSelectCheckbox"
+			fieldLabel="unSelect Outstanding Checkbox" pathType="css" screenShot="false">
+		</Field>
+		<Field id="tabDocument" type="link" fieldLabel="Transaction Tab"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldDocumentRef" type="textfield"
+			fieldLabel="save Tref of 3rd row" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnFind" type="Button"
+			fieldLabel="click find" pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnSelectColumnsInSearchTransactions" type="Button" fieldLabel="Select Columns" pathType="css"
+			screenShot="false">
+		</Field>
+			<Field id="SelectColumnsCheckboxesWithLabelCheckedInSearchTransactions" type="assertOrderedListTextEquals" fieldLabel="Checked label Name of Select Columns in Search Transaction" pathType="css" screenShot="true" validMessage="All the checked label are present in Select Columns" errorMessage="All the checked label are not present in Select Columns popup">
+		</Field>
+		<Field id="btnSelectInSelectColumnsInSearchTransactions" type="buttonJS" fieldLabel="Select" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="TableHeaderOfSearchTransactions" type="assertOrderedListTextEquals" fieldLabel="Checked label Name of Select Columns in Search Transaction" pathType="css"
+			screenShot="true" validMessage="Checked label are present in table headers excluding Reconciled Date and including Paid Date" errorMessage="Checked label are not present in table headers excluding Reconciled Date and including Paid Date">
+		</Field>
+		<Field id="btnClear" type="Button"
+			fieldLabel="Click on CLear button" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+</Selenium>

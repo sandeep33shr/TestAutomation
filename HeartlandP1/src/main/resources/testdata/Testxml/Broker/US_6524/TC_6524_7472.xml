@@ -1,0 +1,124 @@
+<Selenium>
+
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="lnkFinance" type="Button" fieldLabel="Finance"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkCollection" type="Button"
+			fieldLabel="Collection Link avilability" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+		<Field id="fldAccountCode" type="textfield"
+			fieldLabel="Company Code" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAccountCode" type="tabOut"
+			fieldLabel="tabout from Account field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="select"
+			fieldLabel="Select value from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="tabOut"
+			fieldLabel="tabout from Media type field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldMediaReference" type="textfield"
+			fieldLabel="Enter value in Media Reference field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldTransactionDate" type="textfield"
+			fieldLabel="Enter future date" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpBank" type="select"
+			fieldLabel="Select Bank from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAmount" type="textfield"
+			fieldLabel="Enter value in Amount field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="btnOk" type="Button" fieldLabel="Click OK button"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+
+		<Field id="chkFirstRecord" type="checkBox"
+			fieldLabel="Check first record " pathType="css" screenShot="false">
+		</Field>
+		<Field id="btnOkAllocation" type="Button" fieldLabel="Press OK"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="COLLECTIONLIST" title="SSP - Pure Insurance">
+		<Field id="btnAdd" type="Button" fieldLabel="Press ellipsis"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+		<Field id="fldAccountCode" type="textfield"
+			fieldLabel="Company Code" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAccountCode" type="tabOut"
+			fieldLabel="tabout from Account field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="select"
+			fieldLabel="Select value from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="tabOut"
+			fieldLabel="tabout from Media type field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldMediaReference" type="textfield"
+			fieldLabel="Enter value in Media Reference field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldTransactionDate" type="textfield"
+			fieldLabel="Enter future date" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpBank" type="select"
+			fieldLabel="Select Bank from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAmount" type="textfield"
+			fieldLabel="Enter value in Amount field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="btnOk" type="Button" fieldLabel="Click OK button"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+
+		<Field id="commonRowsOfGrid" type="assertTableRowsCount"
+			fieldLabel="Number of records on Allocation" pathType="css"
+			screenShot="true"
+			validMessage="last fully marked SND is not available on screen"
+			errorMessage="last fully marked SND is available on screen">
+		</Field>
+	</Screen>
+
+</Selenium>

@@ -1,0 +1,14 @@
+<Config>
+	<Feature id="US_7168" title="Search Transaction screen after reconciliation process">
+	    <TC id="TC_7168_8652_01" Description="This case is designed to test value of Reconciled Date on CTV screen"
+			XML_Location="US_7168\TC_7168_8652_01.xml" Iteration="1">
+		</TC>
+		
+	 <TC id="TC_7168_8652_02" Description="This case is designed to test availability of Reconciled Date column when search only for Bank Account"
+			XML_Location="US_7168\TC_7168_8652_02.xml" Iteration="1">
+		</TC>
+		<TC id="TC_7168_8652_03" Description="This case is designed to test that Reconciled Date column will not be available when search through account code"
+			XML_Location="US_7168\TC_7168_8652_03.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

@@ -1,0 +1,147 @@
+<Selenium>
+
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="lnkFinance" type="Button" fieldLabel="Finance"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkCollection" type="Button"
+			fieldLabel="Collection Link avilability" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+		<Field id="fldAccountCode" type="textfield"
+			fieldLabel="Company Code" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAccountCode" type="tabOut"
+			fieldLabel="tabout from Account field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="select"
+			fieldLabel="Select value from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="tabOut"
+			fieldLabel="tabout from Media type field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldMediaReference" type="textfield"
+			fieldLabel="Enter value in Media Reference field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldTransactionDate" type="textfield"
+			fieldLabel="Enter future date" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpBank" type="select"
+			fieldLabel="Select Bank from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAmount" type="textfield"
+			fieldLabel="Enter value in Amount field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="btnOk" type="Button" fieldLabel="Click OK button"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+
+		<Field id="fldAllocated1stRecord" type="cleartextfield"
+			fieldLabel="Clear field" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAllocated1stRecord" type="textfield"
+			fieldLabel="Enter partial amount" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAllocated1stRecord" type="tabOut"
+			fieldLabel="tab out" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="btnOkAllocation" type="Button" fieldLabel="Press OK"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+
+	<Screen id="COLLECTIONLIST" title="SSP - Pure Insurance">
+		<Field id="btnOkCollectionList" type="Button"
+			fieldLabel="Press OK" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="alertAccept" fieldLabel="Click OK on Alert"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="returnIframe"
+			fieldLabel="Switch control to main" pathType="css" screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button" fieldLabel="Click Finance"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkCollection" type="Button"
+			fieldLabel="Click Collection" pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+		<Field id="fldAccountCode" type="textfield"
+			fieldLabel="Company Code" pathType="css" screenShot="false">
+		</Field>
+		<Field id="fldAccountCode" type="tabOut"
+			fieldLabel="tabout from Account field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="select"
+			fieldLabel="Select value from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="drpMediaType" type="tabOut"
+			fieldLabel="tabout from Media type field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="fldMediaReference" type="textfield"
+			fieldLabel="Enter value in Media Reference field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldTransactionDate" type="textfield"
+			fieldLabel="Enter future date" pathType="css" screenShot="false">
+		</Field>
+		<Field id="drpBank" type="select"
+			fieldLabel="Select Bank from dropdown" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="fldAmount" type="textfield"
+			fieldLabel="Enter value in Amount field" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="" type="selectSpinner" fieldLabel="" pathType=""
+			screenShot="false">
+		</Field>
+		<Field id="btnOk" type="Button" fieldLabel="Click OK button"
+			pathType="css" screenShot="false">
+		</Field>
+
+	</Screen>
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+	
+	<Field id="coloumLastPaidDate" type="verifyCurrentDate"
+			fieldLabel="Last Paid Date" pathType="css" attribute="value"
+			screenShot="true"
+			validMessage="Last paid date is correct"
+			errorMessage="Last paid date is incorrect">
+		</Field>
+	</Screen>
+</Selenium>

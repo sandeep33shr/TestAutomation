@@ -1,0 +1,26 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="susil">
+		</Field>
+		<Field fieldLabel="Password" input="Kundhavai9">
+		</Field>
+		<Field fieldLabel="client code" input="ASPIRE">
+		</Field>
+		<Field fieldLabel="SelectProduct" input="Tradesman">
+		</Field>
+		<Field fieldLabel="ComplianceFields"
+			input="Customer Category,Type of Sale,Method of Sale,Client Requirements,Quote Recommendations,Underwriter,Terms Agreed,Terms Agreed Date,Date Policy Documents Issued To Client,Date Policy Documents Received From Insurer,Policy Documents Correct,Date Error Notified To Insurer">
+		</Field>
+		<Field fieldLabel="ETOLFields"
+			input="ELTO Reporting Required ?,Lead Insurer,Original Insurer,Quote/Policy No,Broker Reference Number,Dummy Policy,Policyholder Name,Employer Name,ERN Exempt,Employers Reference Number">
+		</Field>
+	</Iteration>
+</Selenium>

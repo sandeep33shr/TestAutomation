@@ -1,0 +1,39 @@
+<Selenium>
+
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Sirius123">
+		</Field>
+		<Field fieldLabel="select title" input="Miss">
+		</Field>
+		<Field fieldLabel="first name" input="Unique">
+		</Field>
+		<Field fieldLabel="last name" input="LastUniq">
+		</Field>
+		<Field fieldLabel="Initials" input="Test">
+		</Field>
+		<Field fieldLabel="DOB" input="22/11/1993">
+		</Field>
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="enter Line1" input="Line 1">
+		</Field>
+		<Field fieldLabel="enter postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Select Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="Contact Type" input="Email">
+		</Field>
+		<Field fieldLabel="email" input="tester@t.com">
+		</Field>
+
+
+
+
+	</Iteration>
+</Selenium>

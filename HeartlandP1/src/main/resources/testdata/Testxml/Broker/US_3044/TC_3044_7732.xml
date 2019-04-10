@@ -1,0 +1,19 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+		<Field id="btnAll" type="assertOrderedListTextEquals" fieldLabel="Verify all buttons available on Bank Reconciliation screen"
+			pathType="css" screenShot="true" validMessage="all buttons are present in list" errorMessage="all buttons are not present in list">
+		</Field>
+		</Screen>
+</Selenium>

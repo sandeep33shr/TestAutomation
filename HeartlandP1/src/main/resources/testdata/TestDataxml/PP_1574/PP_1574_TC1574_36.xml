@@ -1,0 +1,109 @@
+
+<Iteration id="Iteration_0">
+
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="uma">
+		</Field>
+		<Field fieldLabel="Password" input="Tester1234">
+		</Field>
+
+		//basic
+		<Field fieldLabel="CompanyCode" input="1020">
+		</Field>
+		<Field fieldLabel="BasicCompanyName" input="AspireTestUniq">
+		</Field>
+		<Field fieldLabel="AccountExcecutive" input="LKCBWX3329">
+		</Field>
+		<Field fieldLabel="FileCode" input="FC001">
+		</Field>
+		<Field fieldLabel="Salutation" input="Corporate">
+		</Field>
+		<Field fieldLabel="ThirdParty" input="Broker">
+		</Field>
+		<Field fieldLabel="AltIdentifier" input="Aspire001">
+		</Field>
+		<Field fieldLabel="Branch" input="Head Office">
+		</Field>
+		<Field fieldLabel="Business" input="Aerial Erector">
+		</Field>
+		<Field fieldLabel="BusinessDescription" input="Accounting Company">
+		</Field>
+		<Field fieldLabel="MainContact" input="Milan">
+		</Field>
+		<Field fieldLabel="Trade" input="Aerial Manufacturer">
+		</Field>
+		//Additional
+		<Field fieldLabel="TurnOver" input="X99TurnOverBand">
+		</Field>
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="Street" input="Line 1">
+		</Field>
+		<Field fieldLabel="Postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="ContactType" input="Email">
+		</Field>
+		<Field fieldLabel="Email" input="heartland@s.com">
+		</Field>
+		<Field fieldLabel="CompanyName" input="Aspire">
+		</Field>
+
+		<Field fieldLabel="TurnOvers" input="X99TurnOverBand">
+		</Field>
+		<Field fieldLabel="CompanyRegisterationNumber" input="Asp001">
+		</Field>
+		<Field fieldLabel="PaymentCurrency" input="Euro">
+		</Field>
+		<Field fieldLabel="SICCode" input="Electrical Work">
+		</Field>
+		<Field fieldLabel="TermsOfPayment" input="14 Days">
+		</Field>
+		<Field fieldLabel="Offices" input="10">
+		</Field>
+		<Field fieldLabel="LegalEntity" input="Charity">
+		</Field>
+		<Field fieldLabel="TradingSince" input="10/02/2011">
+		</Field>
+		<Field fieldLabel="ServiceLevel" input="Gold">
+		</Field>
+		<Field fieldLabel="Source" input="Existing Client">
+		</Field>
+		<Field fieldLabel="NumberOfEmployees" input="20 - 100">
+		</Field>
+		<Field fieldLabel="ReminderType" input="Reminder Letter">
+		</Field>
+		<Field fieldLabel="ReminderType" input="Reminder Letter">
+		</Field>
+		//compliance
+
+		<Field fieldLabel="ERN Extent" input="Yes">
+		</Field>
+
+
+		<Field fieldLabel="Contact Type email" input="Email">
+		</Field>
+
+		<Field fieldLabel="email01" input="tester@one.com">
+		</Field>
+
+		<Field fieldLabel="asrtchkMain" input="Main">
+		</Field>
+		<Field fieldLabel="Contact Type home Tel" input="Home Phone">
+		</Field>
+		<Field fieldLabel="HomeNumber" input="123455677">
+		</Field>
+
+
+
+
+
+
+
+	</Iteration>
+</Iteration> 

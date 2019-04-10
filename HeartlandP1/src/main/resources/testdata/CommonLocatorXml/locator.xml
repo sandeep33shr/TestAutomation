@@ -1,0 +1,3086 @@
+<Selenium>
+	
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" path="#signupEmail">
+		</Field>
+		<Field id="fldPassword" path="#signupPassword">
+		</Field>
+		<Field id="btnSignIn" path="#login_button[type='submit']">
+		</Field>
+	</Screen>
+
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="drpBranch"
+			path="#ctl00_cntMainBody_ucMultiBranch_ddlBranchlst">
+		</Field>
+		<Field id="lnkClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_RptCategorySpanText">
+		</Field>
+		<Field id="lnkFindClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_rptSection_ctl00_rptItem_ctl00_A1">
+		</Field>
+		<Field id="lnkNewPersonalClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_rptSection_ctl00_rptItem_ctl01_A1">
+		</Field>
+		<Field id="lnkNewCorporateClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_rptSection_ctl00_rptItem_ctl02_A1">
+		</Field>
+		<Field id="btnNext"
+			path="#ctl00_cntMainBody_ucMultiBranch_btnNext">
+		</Field>
+		<Field id="lnkFinance"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_RptCategorySpanText">
+		</Field>
+		<Field id="lnkCollection"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_rptSection_ctl01_rptItem_ctl01_A1">
+		</Field>
+		<Field id="lnkTransactions"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_rptSection_ctl00_rptItem_ctl00_A1">
+		</Field>
+		<Field id="lnkReconciliation"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_rptSection_ctl02_rptItem_ctl00_A1">
+		</Field>
+	</Screen>
+
+	<Screen id="FindClient" title="SSP - Pure Insurance">
+		<Field id="drpClientType" path="select[name*='ClientType']">
+		</Field>
+		<Field id="fldName" path="input#ctl00_cntMainBody_txtClientName">
+		</Field>
+		<Field id="fldEmailAddress"
+			path="input#ctl00_cntMainBody_txtEmailAddress">
+		</Field>
+		<Field id="fldPostCode"
+			path="input#ctl00_cntMainBody_txtPostcode">
+		</Field>
+		<Field id="drpStatus" path="select#ctl00_cntMainBody_ddlStatus">
+		</Field>
+		<Field id="btnFind" path="a#ctl00_cntMainBody_btnSearch">
+		</Field>
+		<Field id="btnselectClientInSearch"
+			path="[class*='AspNet-GridView-'] td ol li a">
+		</Field>
+		<Field id="fldClientCode"
+			path="#ctl00_cntMainBody_txtClientCode">
+		</Field>
+		<Field id="fldPolicyNumber"
+			path="#ctl00_cntMainBody_txtPolicyNumber">
+		</Field>
+		<Field id="btnSelect"
+			path="#ctl00_cntMainBody_grdvSearchResults_ctl02_lnkDetails">
+		</Field>
+		<Field id="txtFirstClientCode"
+			path="#ctl00_cntMainBody_grdvSearchResults tbody tr td:nth-child(1)">
+		</Field>
+		<Field id="txtFirstClientName"
+			path="#ctl00_cntMainBody_grdvSearchResults tbody tr:nth-child(1) td:nth-child(2)">
+		</Field>
+		<Field id="txtPostCode"
+			path="#ctl00_cntMainBody_grdvSearchResults tbody tr:nth-child(1) td:nth-child(4)">
+		</Field>
+		<Field id="errInvalidclientMsg"
+			path="#ctl00_cntMainBody_grdvSearchResults">
+		</Field>
+		<Field id="lblFindClient" path=".card-heading h1">
+		</Field>
+	</Screen>
+
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="iframeIn" path="TB_iframeContent">
+		</Field>
+		<Field id="lnkClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_RptCategorySpanText">
+		</Field>
+		<Field id="lnkFindClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_rptSection_ctl00_rptItem_ctl00_A1">
+		</Field>
+
+
+		<Field id="lblViewClientDetails"
+			path="#ctl00_cntMainBody_lblViewClient">
+		</Field>
+		<Field id="btnEditClient"
+			path="#ctl00_cntMainBody_btnEditClient">
+		</Field>
+
+		<Field id="asrtERNExtent"
+			path="[class='form-control-static font-bold'] span[disabled='disabled'] #ctl00_cntMainBody_chkERNExempt_view">
+		</Field>
+		<Field id="tabBankdetails" path="">
+		</Field>
+		<Field id="asrtComplianceTabFieldNames"
+			path="#tab-compliance label[id]">
+		</Field>
+		<Field id="asrtWageRoll"
+			path="#ctl00_cntMainBody_lblWageRoll_View">
+		</Field>
+		<Field id="asrtELTOFieldNames"
+			path="#tab-compliance label[id*='ctl00_cntMainBody_lblE']">
+		</Field>
+		<Field id="asrtTaxNumber"
+			path="#ctl00_cntMainBody_lblTaxNumber_view">
+		</Field>
+		<Field id="asrtTaxPercentage"
+			path="#ctl00_cntMainBody_lblTaxPercentage_view">
+		</Field>
+		<Field id="asrtEMPRefNumber"
+			path="#ctl00_cntMainBody_lblEmpRefNumber_view">
+		</Field>
+		<Field id="asrtTermsOfBusinessLetterSent"
+			path="#ctl00_cntMainBody_lblTermsofbusinesssend_view">
+		</Field>
+		<Field id="asrtFinancialYear"
+			path="#ctl00_cntMainBody_lbl_FinancialYear_view">
+		</Field>
+		<Field id="asrtTurnover"
+			path="#ctl00_cntMainBody_lblTurnover_view">
+		</Field>
+		<Field id="drpSelectProduct"
+			path="select#ctl00_cntMainBody_ctrlNewQuoteImproved_ddlProductlst">
+
+		</Field>
+		<Field id="btnNewQuote"
+			path="#ctl00_cntMainBody_ctrlNewQuoteImproved_btnNewQuote">
+		</Field>
+
+		// Quotes and policies
+
+		<Field id="lnkLive"
+			path="//span[contains(text(),'LIVE')]//parent::td//parent::tr//a">
+		</Field>
+		<Field id="lnkQuote"
+			path="[id='ctl00_cntMainBody_ClientQuotesPolicies_tvClientPolicyn1']">
+		</Field>
+		<Field id="lnkTRPInQuote"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_tvClientPolicyn5">
+		</Field>
+
+		<Field id="lnkTradesmanInQuote"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_tvClientPolicyn2">
+		</Field>
+		<Field id="lnkQuotesInQuote"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_tvClientPolicyt6">
+		</Field>
+
+		<Field id="lnkAllQuotesInTRPQuotes"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_tvClientPolicyn5Nodes table td a">
+		</Field>
+
+		<Field id="lnkTrpInLive"
+			path="//span[contains(text(),'LIVE')]//parent::td//parent::tr//parent::tbody//parent::table//following-sibling::div//span[contains(text(),'TRADESMAN')]//parent::td//parent::tr//a">
+		</Field>
+		<Field id="lnkPolicyOfTrpInLive"
+			path="//span[contains(text(),'LIVE')]//parent::td//parent::tr//parent::tbody//parent::table//following-sibling::div//span[contains(text(),'TRADESMAN')]//parent::td//parent::tr//parent::tbody//parent::table//following-sibling::div//a[contains(text(),'">
+		</Field>
+		<Field id="btnViewInQuotesAndPolicies"
+			path="[id='ctl00_cntMainBody_ClientQuotesPolicies_btnView']">
+		</Field>
+		<Field id="btnViewInRisks"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_gvRisks_ctl02_lnkbtnSelect">
+		</Field>
+		<Field id="lstNoOfPolicyQuotesInPolicyNavigator"
+			path="a[id*='ctl00_cntMainBody_ClientQuotesPolicies_tvClientPolicyt']">
+		</Field>
+		<Field id="lblViewAdditionalInformationFields"
+			path="//div[@id='tab-additionalinformation']//label[@class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="lstClaimsTableRow"
+			path="#ctl00_cntMainBody_ctrlClientClaims_grdvClientClaims tbody tr">
+		</Field>
+		<Field id="asrtProspect"
+			path="//span[contains(text(),'LIVE')],//span[contains(text(),'IN RENEWAL')]">
+		</Field>
+		<Field id="asrtEventLogs"
+			path="//div[@id='ctl00_cntMainBody_ctrlClientEvents_gvEventList']//tbody//tr[1]">
+		</Field>
+		<Field id="expiredQuote"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_tvClientPolicyt7">
+		</Field>
+		<Field id="btnChange"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_btnChange">
+		</Field>
+		<Field id="btnBuyInQuote"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_btnBuy">
+		</Field>
+		<Field id="btnEditInQuote"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_btnEdit">
+		</Field>
+
+		//Tabs
+		<Field id="tabQuotesPolicies" path="a[href='#tabpolicies']">
+		</Field>
+		<Field id="tabAdditionalInformation"
+			path="a[href='#tab-additionalinformation']">
+		</Field>
+		<Field id="tabTax" path="li a[href='#tab-taxdetails_view']">
+		</Field>
+		<Field id="tabCompliance" path="a[href='#tab-compliance']">
+		</Field>
+		<Field id="tabClaims" path="a[href='#tab-claims']">
+		</Field>
+		<Field id="tabAddresses" path="[href='#tab-addresses']">
+		</Field>
+		<Field id="tabAssociate" path="[href='#tab-associates']">
+		</Field>
+		<Field id="tabEvents" path="a[href='#tab-events']">
+		</Field>
+		<Field id="tabAccounts" path="a[href='#tabaccounts']">
+		</Field>
+
+		//Overview
+		<Field id="txtCompanyName"
+			path="#ctl00_cntMainBody_lblCompanyName_view">
+		</Field>
+		<Field id="txtCloseclaim"
+			path="span#ctl00_cntMainBody_ClientSummaryCntrl_lblNoofClosedClaims">
+		</Field>
+		<Field id="txtClaimsPolicies"
+			path="span#ctl00_cntMainBody_ClientSummaryCntrl_lblNoofPolicies">
+		</Field>
+		<Field id="txtOpenclaim"
+			path="span#ctl00_cntMainBody_ClientSummaryCntrl_lblNoofOpenClaims">
+		</Field>
+		<Field id="txtTrade" path="#ctl00_cntMainBody_lblTrade_view">
+		</Field>
+		<Field id="txtPoliciesQuotesInOverviewTab"
+			path="#ctl00_cntMainBody_ClientSummaryCntrl_lblNoofPolicies">
+		</Field>
+
+		//Additional information
+		<Field id="txtTradingSince"
+			path="#ctl00_cntMainBody_lblTradingSince_view">
+		</Field>
+		<Field id="txtWageRoll"
+			path="#ctl00_cntMainBody_lblWageRoll_View">
+		</Field>
+
+		//Complaince
+		<Field id="txtEmployersReferenceNumber"
+			path="ctl00_cntMainBody_lblEmpRefNumber_view">
+		</Field>
+
+		//Associate
+		<Field id="txtAssociate"
+			path="#ctl00_cntMainBody_ViewAssociatesCntrl_drgAssociateCompanies td:nth-child(1)">
+		</Field>
+		<Field id="txtAddressInAssociate"
+			path="#ctl00_cntMainBody_ViewAssociatesCntrl_drgAssociateCompanies td:nth-child(3)">
+		</Field>
+		<Field id="txtPostcodeInAssociate"
+			path="#ctl00_cntMainBody_ViewAssociatesCntrl_drgAssociateCompanies td:nth-child(4)">
+		</Field>
+		<Field id="txtEmployersReferenceNumberInAssociate"
+			path="#ctl00_cntMainBody_ViewAssociatesCntrl_drgAssociateCompanies td:nth-child(6)">
+		</Field>
+		//Associate tab
+		<Field id="tabAssociate" path="a[href='#tab-associates']">
+		</Field>
+		<Field id="asrtRelationship"
+			path="//div[@id='ctl00_cntMainBody_ViewAssociatesCntrl_drgAssociate']//tr[1]//td[3]">
+		</Field>
+		<Field id="asrtEMPReferenceNumber"
+			path="//div[@id='ctl00_cntMainBody_ViewAssociatesCntrl_drgAssociateCompanies']//tr[1]/td[6]">
+		</Field>
+		<Field id="asrtDeletedAssociate"
+			path="#ctl00_cntMainBody_ViewAssociatesCntrl_drgAssociate [class='AspNet-GridView-Normal grid-r']">
+		</Field>
+		<Field id="asrtDeletedAssociateCompany"
+			path="//div[@id='ctl00_cntMainBody_ViewAssociatesCntrl_drgAssociateCompanies']//tr[1]/td[6]">
+		</Field>
+
+		//Quotes/Policies Tab
+		<Field id="txtPolicyNumberInQuotesPoliciesTab"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_txtPolicyNo">
+		</Field>
+		<Field id="btnFindInQuotesPoliciesTab"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_btnSearch">
+		</Field>
+		<Field id="btnAccountEnquiryInQuotesPoliciesTab"
+			path="#ctl00_cntMainBody_ClientQuotesPolicies_btnAccountEnquiry">
+		</Field>
+
+		//Accounts tab
+		<Field id="chkboxOutstandingTransactionInAccountsTab"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_chkOutstandingTransaction">
+		</Field>
+		<Field id="txtPolicyNumberInAccountsTab"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_txtPolicyNumber">
+		</Field>
+		<Field id="btnFindInAccountsTab"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_btnSearch">
+		</Field>
+		<Field id="policyNumberInTableInAccountsTab"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent table td:nth-child(7)">
+		</Field>
+		<Field id="tableAccountsHeader"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent th a">
+		</Field>
+		<Field id="AccountRow1"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent>table>tbody>tr[class*='grid']:nth-child(1) td">
+		</Field>
+		<Field id="AccountRow2"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent>table>tbody>tr[class*='grid']:nth-child(3) td">
+		</Field>
+		<Field id="Row1ExpandButton"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent_ctl02_ImgExpand">
+		</Field>
+		<Field id="tableAccountsExpandHeaderRow1"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent_ctl02_gvClientAccountChild th">
+		</Field>
+		<Field id="Row2ExpandButton"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent_ctl03_ImgExpand">
+		</Field>
+		<Field id="tableAccountsExpandHeaderRow2"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent_ctl03_gvClientAccountChild th">
+		</Field>
+		<Field id="ExpandAccountRow1"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent_ctl02_gvClientAccountChild td">
+		</Field>
+		<Field id="ExpandAccountRow2"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent_ctl03_gvClientAccountChild td">
+		</Field>
+		<Field id="transTypeRowIndex"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent>table>tbody>tr[class$='-r'] td:nth-child(4)">
+		</Field>
+		<Field id="actionMenuIndex" path="table a[title='Action Menu']">
+		</Field>
+		<Field id="ViewactionMenuIndex"
+			path="a[id^='ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent']">
+		</Field>
+		<Field id="accountsViewTransactionsTableTabs"
+			path="#Modal_Address li">
+		</Field>
+		<Field id="outstandingAmount"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_gvClientAccountParent table td:nth-child(11)">
+		</Field>
+		<Field id="ViewTransactionsLabel"
+			path="//div[@id='Modal_Address']//div[contains(@class,'col-md-6')]//label">
+		</Field>
+		<Field id="fldPreviewPane"
+			path="//div[@id='Modal_Address']//p[contains(text(),'Preview Pane')]">
+		</Field>
+		<Field id="ViewTransactionTabAmounts"
+			path="//div[@id='ctl00_cntMainBody_tabAmount']//label">
+		</Field>
+		<Field id="ViewTransactionTabAmountsLabelLink"
+			path="//div[@id='ctl00_cntMainBody_tabAmount']//a">
+		</Field>
+		<Field id="ViewTransactionTabClientLabel"
+			path="//div[@id='tabClientSubAgent']//label">
+		</Field>
+		<Field id="ViewTransactionTabClientLabelLink"
+			path="//div[@id='tabClientSubAgent']//a">
+		</Field>
+		<Field id="tabInsurerAddOnDisbursement"
+			path="a[href='#tab-Disbursement']">
+		</Field>
+		<Field id="linkInsurerIdName"
+			path="#ctl00_cntMainBody_hLinkInsurerName">
+		</Field>
+		<Field id="linkCommissionIncomeHistory"
+			path="#ctl00_cntMainBody_CommissionHistory">
+		</Field>
+		<Field id="tableHeaderPreviewPaneInsurerIdName"
+			path="div#ctl00_cntMainBody_gvInsurer>table th">
+		</Field>
+		<Field id="tableHeaderPreviewPaneCommission"
+			path="#ctl00_cntMainBody_gvCommission>table th">
+		</Field>
+		<Field id="linkAllocationInRow1OfCommissionPreviewPane"
+			path="#ctl00_cntMainBody_gvCommission tr:nth-child(1)>td>a">
+		</Field>
+		<Field id="linkAllocationInRow2OfCommissionPreviewPane"
+			path="#ctl00_cntMainBody_gvCommission tr:nth-child(2)>td>a">
+		</Field>
+		<Field id="debitJournalTransactionReference"
+			path="#ctl00_cntMainBody_gvDebit td:nth-child(1)">
+		</Field>
+		<Field id="tablePreviewPane"
+			path="div#ctl00_cntMainBody_gvInsurer>table th,div#ctl00_cntMainBody_gvInsurer>table td">
+		</Field>
+		<Field id="tablePreviewPaneCommissionRow1"
+			path="#ctl00_cntMainBody_gvCommission>table th,#ctl00_cntMainBody_gvCommission tr:nth-child(1)>td">
+		</Field>
+		<Field id="tablePreviewPaneCommissionRow2"
+			path="#ctl00_cntMainBody_gvCommission>table th,#ctl00_cntMainBody_gvCommission tr:nth-child(2)>td">
+		</Field>
+		<Field id="tablePreviewPaneCommissionRow3"
+			path="#ctl00_cntMainBody_gvCommission>table th,#ctl00_cntMainBody_gvCommission tr:nth-child(3)>td">
+		</Field>
+		<Field id="ViewTransactionTabInsurerLabel"
+			path="//div[@id='tab-Disbursement']//label">
+		</Field>
+		<Field id="ViewTransactionTabInsurerLabelLink"
+			path="//div[@id='tab-Disbursement']//a">
+		</Field>
+		<Field id="tabIncomeHistory" path="a[href='#tab-IncomeHistory']">
+		</Field>
+		<Field id="ViewTransactionTabIncomeHistory"
+			path="//div[@id='tab-IncomeHistory']//label">
+		</Field>
+		<Field id="ViewTransactionTabIncomeHistoryLink"
+			path="//div[@id='tab-IncomeHistory']//a">
+		</Field>
+		<Field id="tabDetails" path="a[href='#tabdetails']">
+		</Field>
+		<Field id="ViewTransactionTabDetails"
+			path="//div[@id='tabdetails']//label[@id]">
+		</Field>
+		<Field id="ViewTransactionTabDetailsSRP"
+			path="//div[@id='ctl00_cntMainBody_tabdetails']//label[@id]">
+		</Field>
+		<Field id="ViewTransactionTabDetailsLink"
+			path="//div[@id='tabdetails']//a[@id]/i">
+		</Field>
+		<Field id="ViewTransactionTabAmountSRPReceiptAmounts"
+			path="#ctl00_cntMainBody_txtReceiptAmount">
+		</Field>
+		<Field id="ViewTransactionTabDetailsSRPTransactionDate"
+			path="#ctl00_cntMainBody_txtTransDate">
+		</Field>
+		<Field id="ViewTransactionTabDetailsSRPMediaRef"
+			path="#ctl00_cntMainBody_txtMediaRef">
+		</Field>
+		<Field id="ViewTransactionTabDetailsExcludingCommentLabel"
+			path="//div[@id='tabdetails']//label[@id][text()!='Comment']">
+		</Field>
+		<Field id="btnCloseInViewTransaction"
+			path="#ctl00_cntMainBody_btnClose">
+		</Field>
+		<Field id="textComment_ViewTransaction"
+			path="#ctl00_cntMainBody_txtComment">
+		</Field>
+		<Field id="btnUpdate_ViewTransaction"
+			path="#ctl00_cntMainBody_btnUpdate">
+		</Field>
+
+	</Screen>
+
+	<Screen id="EditClientDetails" title="Corporate Client">
+		<Field id="iframeIn" path="TB_iframeContent">
+		</Field>
+		<Field id="btnUpdateClient" path="#ctl00_cntMainBody_btnSubmit">
+		</Field>
+		<Field id="fldFinancialYear"
+			path="input#ctl00_cntMainBody_txtFinancialYear">
+		</Field>
+		<Field id="drpTurnover"
+			path="#ctl00_cntMainBody_GISLookup_TurnOver">
+		</Field>
+		<Field id="fldTaxNumber"
+			path="input#ctl00_cntMainBody_txtTaxNumber">
+		</Field>
+		<Field id="fldTaxPercentage"
+			path="input#ctl00_cntMainBody_txtTaxPercentage">
+		</Field>
+		<Field id="fldIsDomiciledForTax"
+			path="input#ctl00_cntMainBody_chkDomiciledForTax">
+		</Field>
+		<Field id="fldTaxExempt"
+			path="input#ctl00_cntMainBody_chkTaxExempt">
+		</Field>
+		<Field id="drpERNExtent" path="#ctl00_cntMainBody_ddlERNExempt">
+		</Field>
+		<Field id="errERNExtent"
+			path="#ctl00_cntMainBody_ValidationSummary li">
+		</Field>
+		<Field id="errFinancialYear"
+			path="#ctl00_cntMainBody_ValidationSummary li">
+		</Field>
+
+		<Field id="fldEmpReferenceNumberMandatory"
+			path="#ctl00_cntMainBody_ValidationSummary">
+		</Field>
+		<Field id="fldTermsofBusinessLetterSent"
+			path="input#ctl00_cntMainBody_txtTermsofbusinesssend">
+		</Field>
+
+		//Tabs
+		<Field id="tabAddresses" path="a[href='#tab-editaddresses']">
+		</Field>
+		<Field id="tabTax" path="li a[href='#tab-taxdetails']">
+		</Field>
+		<Field id="tabCompliance" path="a[href='#tab-editcompliance']">
+		</Field>
+		<Field id="tabAdditionalInformation"
+			path="a[href='#tab-editadditionalinformation'">
+		</Field>
+
+		//Basic Details
+		<Field id="drpTrade"
+			path="select#ctl00_cntMainBody_GISLookup_Trade">
+		</Field>
+
+		//Additional information
+		<Field id="fldWageRoll" path="#ctl00_cntMainBody_txtWageRoll">
+		</Field>
+		<Field id="fldTradingsince"
+			path="input#ctl00_cntMainBody_txtTradingSince">
+		</Field>
+
+		//Address
+		<Field id="btnAddAddresses"
+			path="#ctl00_cntMainBody_Addresses_hypAddress">
+		</Field>
+		<Field id="drpAddressType"
+			path="#ctl00_cntMainBody_GISLookup_Type">
+		</Field>
+		<Field id="fldStreet"
+			path="input#ctl00_cntMainBody_TxtLookup_Street">
+		</Field>
+		<Field id="fldPostCode"
+			path="#ctl00_cntMainBody_txtLookup_PostCode">
+		</Field>
+		<Field id="fldLocality"
+			path="input#ctl00_cntMainBody_TxtLookup_Locality">
+		</Field>
+		<Field id="fldTown"
+			path="input#ctl00_cntMainBody_TxtLookup_Town">
+		</Field>
+		<Field id="fldState" path="#ctl00_cntMainBody_TxtLookup_State">
+		</Field>
+		<Field id="drpCountry"
+			path="select#ctl00_cntMainBody_GISLookup_Country">
+		</Field>
+		<Field id="btnAddInAddress"
+			path="#ctl00_cntMainBody_btnAddAddress">
+		</Field>
+
+		//Compliance
+		<Field id="fldEmpReferenceNumber"
+			path="input#ctl00_cntMainBody_txtEmpRefNumber">
+		</Field>
+		<Field id="drpErnExempt" path="#ctl00_cntMainBody_ddlERNExempt">
+		</Field>
+
+		//Associate
+		<Field id="tabAssociates" path="a[href='#tab-editassociates']">
+		</Field>
+		<Field id="btnAddAssociateCompany"
+			path="a[id='ctl00_cntMainBody_Associate_hypAssociateCompanies']">
+		</Field>
+		<Field id="fldAssoCompanyName"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtCompanyName">
+		</Field>
+		<Field id="drpAssociateCompanyType"
+			path="#ctl00_cntMainBody_GISAssociate_Type">
+		</Field>
+		<Field id="fldAssoNo./Street"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtNoOrStreet">
+		</Field>
+		<Field id="fldAssoEmployerReferenceNumber"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtEmployeeReferenceNumber">
+		</Field>
+		<Field id="drpIncludeCompanyInELTORequirementsForALLPolicies"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_ddlIncludeELTO">
+		</Field>
+		<Field id="btnAddCompany"
+			path="[id='ctl00_cntMainBody_btnAddAssociateCompany']">
+		</Field>
+	</Screen>
+
+	<Screen id="PersonalClient" title="SSP - Pure Insurance">
+		<Field id="iframeIn" path="TB_iframeContent">
+		</Field>
+		<Field id="lnkClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_RptCategorySpanText">
+		</Field>
+		<Field id="lnkFindClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_rptSection_ctl00_rptItem_ctl00_A1">
+		</Field>
+		<Field id="drpTitle" path="#ctl00_cntMainBody_ddlTitle">
+		</Field>
+		<Field id="fldFirstName" path="#ctl00_cntMainBody_txtFirstName">
+		</Field>
+		<Field id="fldLastName" path="#ctl00_cntMainBody_txtLastname">
+		</Field>
+		<Field id="fldInitials" path="#ctl00_cntMainBody_txtInitials">
+		</Field>
+		<Field id="fldDob" path="input#ctl00_cntMainBody_txtDOB">
+		</Field>
+
+		<Field id="tabAddresses" path="a[href='#tab-editaddresses']">
+		</Field>
+		<Field id="lnkAddAddress"
+			path="#ctl00_cntMainBody_Addresses_hypAddress">
+		</Field>
+		<Field id="drpAddressType"
+			path="#ctl00_cntMainBody_GISLookup_Type">
+		</Field>
+		<Field id="fldStreet"
+			path="input#ctl00_cntMainBody_TxtLookup_Street">
+		</Field>
+		<Field id="fldPostCode"
+			path="#ctl00_cntMainBody_txtLookup_PostCode">
+		</Field>
+		<Field id="fldLocality"
+			path="input#ctl00_cntMainBody_TxtLookup_Locality">
+		</Field>
+		<Field id="fldTown"
+			path="input#ctl00_cntMainBody_TxtLookup_Town">
+		</Field>
+		<Field id="drpCountry"
+			path="select#ctl00_cntMainBody_GISLookup_Country">
+		</Field>
+		<Field id="btnAddInAddress"
+			path="#ctl00_cntMainBody_btnAddAddress">
+		</Field>
+
+		<Field id="tabContacts" path="a[href='#tab-editcontacts']">
+		</Field>
+		<Field id="lnkAddContact"
+			path="#ctl00_cntMainBody_Contact_hypContact">
+		</Field>
+		<Field id="drpContactType"
+			path="#ctl00_cntMainBody_GISContactType">
+		</Field>
+		<Field id="fldEmail" path="#ctl00_cntMainBody_txtNumber">
+		</Field>
+		<Field id="lblEmail" path="#ctl00_cntMainBody_lblEmail">
+		</Field>
+		<Field id="fldNumber" path="#ctl00_cntMainBody_txtNumber">
+		</Field>
+		<Field id="lblNumber" path="#ctl00_cntMainBody_lblNumber">
+		</Field>
+
+		<Field id="chkMain" path="#ctl00_cntMainBody_chkMain">
+		</Field>
+		<Field id="lblMain" path="#ctl00_cntMainBody_lblMain">
+		</Field>
+		<Field id="btnAddInContact"
+			path="#ctl00_cntMainBody_btnAddContacts">
+		</Field>
+		<Field id="errInvalidEmail"
+			path="#ctl00_cntMainBody_ValidationSummary li">
+		</Field>
+
+		<Field id="chkMain01"
+			path="div[id='ctl00_cntMainBody_Contact_drgContact'] tbody tr td span[disabled='disabled'][class='asp-check']">
+		</Field>
+		<Field id="chkMain02"
+			path="div[id='ctl00_cntMainBody_Contact_drgContact'] tbody tr td span input[id='ctl00_cntMainBody_ViewContactsCntrl_drgContact_ctl03_chkChecked']">
+		</Field>
+		<Field id="chkMain03"
+			path="#ctl00_cntMainBody_Contact_drgContact_ctl04_chkChecked">
+		</Field>
+		<Field id="errMuliplecheckboxCheckedforSameContactType"
+			path="[id='ctl00_cntMainBody_ValidationSummary'] ul li">
+		</Field>
+		<Field id="menuActionItem"
+			path="#ctl00_cntMainBody_Contact_drgContact tbody tr:nth-child(1) [title='Action Menu']">
+		</Field>
+		<Field id="btnEditcnt"
+			path="a[id='ctl00_cntMainBody_Contact_drgContact_ctl02_hypContactEdit']">
+		</Field>
+		<Field id="lblEditcnt"
+			path="a[id='ctl00_cntMainBody_Contact_drgContact_ctl02_hypContactEdit']">
+		</Field>
+		<Field id="btnUpdate"
+			path="[id='ctl00_cntMainBody_btnUpdateContacts']">
+		</Field>
+		<Field id="tabViewContacts"
+			path="div[class='md-whiteframe-z0 bg-white'] a[href='#tab-contacts']">
+		</Field>
+		<Field id="chkViewCntMain01"
+			path="div[id='ctl00_cntMainBody_ViewContactsCntrl_drgContact'] tbody tr td span[disabled='disabled'][class='asp-check']">
+		</Field>
+		<Field id="chkViewCntMain02"
+			path="div[id='ctl00_cntMainBody_ViewContactsCntrl_drgContact'] tbody tr td span input[id='ctl00_cntMainBody_ViewContactsCntrl_drgContact_ctl03_chkChecked']">
+		</Field>
+		<Field id="chkViewCntMain03"
+			path="#ctl00_cntMainBody_Contact_drgContact_ctl04_chkChecked">
+		</Field>
+		<Field id="drpListContactType"
+			path="#ctl00_cntMainBody_GISContactType option:not(:nth-child(1))">
+		</Field>
+		<Field id="txteditedMail"
+			path="#ctl00_cntMainBody_Contact_drgContact [class='AspNet-GridView-Normal grid-r'] td:nth-child(3)">
+		</Field>
+		<Field id="lblDelete"
+			path="a[id='ctl00_cntMainBody_Contact_drgContact_ctl02_hypContactDelete']">
+		</Field>
+		<Field id="btnDelete"
+			path="a[id='ctl00_cntMainBody_Contact_drgContact_ctl02_hypContactDelete']">
+		</Field>
+		<Field id="txtNoRecordsFound"
+			path="#ctl00_cntMainBody_Contact_drgContact td">
+		</Field>
+		<Field id="btnUpdateClient"
+			path="a[id='ctl00_cntMainBody_btnSubmit']">
+		</Field>
+		<Field id="btnEditClient"
+			path="div[class='card-footer'] a[id='ctl00_cntMainBody_btnEditClient']">
+		</Field>
+		<Field id="txtViewCompanyCode"
+			path="#ctl00_cntMainBody_lblCode_view">
+		</Field>
+
+		<Field id="hdrType"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(1)">
+		</Field>
+		<Field id="hdrDescription"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(2)">
+		</Field>
+		<Field id="hdrClmnNumber/Email"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(3)">
+		</Field>
+		<Field id="hdrExtension"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(4)">
+		</Field>
+		<Field id="hdrMainColumn"
+			path="#ctl00_cntMainBody_Contact_drgContact [class='AspNet-GridView-Header grid-hdr'] th:nth-child(5)">
+		</Field>
+		<Field id="hdrAreacodeIsrMode"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(3)">
+		</Field>
+		<Field id="hdrClmnNumber/EmailIsrMode"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(4)">
+		</Field>
+		<Field id="hdrExtensionIsrMode"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(5)">
+		</Field>
+		<Field id="hdrMainColumnIsrMode"
+			path="#ctl00_cntMainBody_Contact_drgContact [class='AspNet-GridView-Header grid-hdr'] th:nth-child(6)">
+		</Field>
+		<Field id="btnSubmit" path="#ctl00_cntMainBody_btnSubmit">
+		</Field>
+
+		<Field id="txtClientDetails"
+			path="#ctl00_cntMainBody_lblViewClient">
+		</Field>
+		<Field id="txtClientName" path="#ctl00_cntMainBody_lblName_view">
+		</Field>
+		<Field id="txtClientCode" path="#ctl00_cntMainBody_lblCode_view">
+		</Field>
+
+		<Field id="tabContactsInClientDetail"
+			path="a[href='#tab-contacts']">
+		</Field>
+
+		<Field id="rowContactDetailInClientDetail"
+			path="#ctl00_cntMainBody_ViewContactsCntrl_drgContact tbody tr">
+		</Field>
+
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+
+		<Field id="iframeIn" path="TB_iframeContent">
+		</Field>
+		<Field id="btnUpdateClient" path="#ctl00_cntMainBody_btnSubmit">
+		</Field>
+		<Field id="txtClientCode" path="#ctl00_cntMainBody_lblCode_view">
+		</Field>
+		<Field id="btnCollection"
+			path="#ctl00_cntMainBody_btnCollection">
+		</Field>
+		<Field id="getCompanyCode"
+			path="#ctl00_cntMainBody_lblCode_view">
+		</Field>
+		<Field id="lnkClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_RptCategorySpanText">
+		</Field>
+		<Field id="lnkCollection"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_rptSection_ctl01_rptItem_ctl01_A1">
+		</Field>
+		<Field id="lnkFindClient"
+			path="#ctl00_RibbonMenu_rptCategory_ctl01_rptSection_ctl00_rptItem_ctl00_A1">
+		</Field>
+		<Field id="lblAccountBalance"
+			path="#ctl00_cntMainBody_ClientSummaryCntrl_lblAccountBalance">
+		</Field>
+		<Field id="fldCompanyName"
+			path="#ctl00_cntMainBody_txtCompanyName">
+		</Field>
+		<Field id="tabAdditionalinformation"
+			path="a[href='#tab-editadditionalinformation']">
+		</Field>
+		<Field id="fldWageRoll"
+			path="input#ctl00_cntMainBody_txtWageRoll">
+		</Field>
+		<Field id="drpTurnOver"
+			path="#ctl00_cntMainBody_GISLookup_TurnOver">
+		</Field>
+		<Field id="fldFinancialYear"
+			path="input#ctl00_cntMainBody_txtFinancialYear">
+		</Field>
+		<Field id="errFinancialYear" path="">
+		</Field>
+		<Field id="asrtWagerollFieldNames"
+			path="[id='tab-editadditionalinformation']>[class='form-horizontal'] label:not([id='ctl00_cntMainBody_lblRenewalStopCode'])">
+		</Field>
+		<Field id="asrtAdditionalInformationFieldNames"
+			path="[id='tab-editadditionalinformation']>[class='form-horizontal'] label">
+		</Field>
+		<Field id="asrtAdditionalInformationSections"
+			path="[id='tab-editadditionalinformation']>[class='form-horizontal']">
+		</Field>
+		<Field id="lblViewClientDetails"
+			path="#ctl00_cntMainBody_lblViewClient">
+		</Field>
+		// Address
+		<Field id="tabAddresses" path="a[href='#tab-editaddresses']">
+		</Field>
+		<Field id="lnkAddAddress"
+			path="#ctl00_cntMainBody_Addresses_hypAddress">
+		</Field>
+		<Field id="drpAddressType"
+			path="#ctl00_cntMainBody_GISLookup_Type">
+		</Field>
+		<Field id="fldStreet"
+			path="input#ctl00_cntMainBody_TxtLookup_Street">
+		</Field>
+		<Field id="fldPostCode"
+			path="input#ctl00_cntMainBody_txtLookup_PostCode">
+		</Field>
+		<Field id="fldLocality"
+			path="input#ctl00_cntMainBody_TxtLookup_Locality">
+		</Field>
+		<Field id="fldTown"
+			path="input#ctl00_cntMainBody_TxtLookup_Town">
+		</Field>
+		<Field id="btnFindinAddress"
+			path="#ctl00_cntMainBody_btnFindAddress">
+		</Field>
+		<Field id="drpAddressinFindBox"
+			path="select#ctl00_cntMainBody_selAddressList">
+		</Field>
+		<Field id="drpCountry"
+			path="select#ctl00_cntMainBody_GISLookup_Country">
+		</Field>
+		<Field id="btnAddInAddress"
+			path="#ctl00_cntMainBody_btnAddAddress">
+		</Field>
+
+		// Contact
+		<Field id="tabContacts" path="a[href='#tab-editcontacts']">
+		</Field>
+		<Field id="lnkAddContact"
+			path="#ctl00_cntMainBody_Contact_hypContact">
+		</Field>
+		<Field id="drpContactType"
+			path="#ctl00_cntMainBody_GISContactType">
+		</Field>
+		<Field id="fldEmail" path="#ctl00_cntMainBody_txtNumber">
+		</Field>
+		<Field id="lblEmail" path="#ctl00_cntMainBody_lblEmail">
+		</Field>
+		<Field id="fldNumber" path="#ctl00_cntMainBody_txtNumber">
+		</Field>
+		<Field id="lblNumber" path="#ctl00_cntMainBody_lblNumber">
+		</Field>
+
+		<Field id="errInvalidEmail"
+			path="#ctl00_cntMainBody_ValidationSummary li">
+		</Field>
+
+		<Field id="drpPreferredCorrespondenceMethod"
+			path="select#ctl00_cntMainBody_Contact_ddlPreferredCorrespondenceType">
+		</Field>
+		<Field id="chkMarketingOptIn"
+			path="input#ctl00_cntMainBody_Contact_chkMarketingOptIn">
+		</Field>
+		<Field id="chkTelephone"
+			path="input#ctl00_cntMainBody_Contact_chkTelephone">
+		</Field>
+		<Field id="chkEmail"
+			path="input#ctl00_cntMainBody_Contact_chkEmail">
+		</Field>
+		<Field id="chkMail"
+			path="input#ctl00_cntMainBody_Contact_chkMail">
+		</Field>
+		<Field id="chkTextMessage"
+			path="input#ctl00_cntMainBody_Contact_chkTextMessage">
+		</Field>
+
+
+		<Field id="chkMain" path="#ctl00_cntMainBody_chkMain">
+		</Field>
+		<Field id="lblMain" path="#ctl00_cntMainBody_lblMain">
+		</Field>
+		<Field id="btnAddInContact"
+			path="#ctl00_cntMainBody_btnAddContacts">
+		</Field>
+		<Field id="chkMain01"
+			path="div[id='ctl00_cntMainBody_Contact_drgContact'] tbody tr td span[disabled='disabled'][class='asp-check']">
+		</Field>
+		<Field id="chkMain02"
+			path="div[id='ctl00_cntMainBody_Contact_drgContact'] tbody tr td span input[id='ctl00_cntMainBody_ViewContactsCntrl_drgContact_ctl03_chkChecked']">
+		</Field>
+		<Field id="chkMain03"
+			path="#ctl00_cntMainBody_Contact_drgContact_ctl04_chkChecked">
+		</Field>
+		<Field id="errMuliplecheckboxCheckedforSameContactType"
+			path="[id='ctl00_cntMainBody_ValidationSummary'] ul li">
+		</Field>
+		<Field id="menuActionItem"
+			path="#ctl00_cntMainBody_Contact_drgContact tbody tr:nth-child(1) [title='Action Menu']">
+		</Field>
+		<Field id="btnEditcnt"
+			path="a[id='ctl00_cntMainBody_Contact_drgContact_ctl02_hypContactEdit']">
+		</Field>
+		<Field id="lblEditcnt"
+			path="a[id='ctl00_cntMainBody_Contact_drgContact_ctl02_hypContactEdit']">
+		</Field>
+		<Field id="btnUpdate"
+			path="[id='ctl00_cntMainBody_btnUpdateContacts']">
+		</Field>
+		<Field id="tabViewContacts"
+			path="div[class='md-whiteframe-z0 bg-white'] a[href='#tab-contacts']">
+		</Field>
+
+		<Field id="chkViewCntMain01"
+			path="div[id='ctl00_cntMainBody_ViewContactsCntrl_drgContact'] tbody tr td span[disabled='disabled'][class='asp-check']">
+		</Field>
+		<Field id="chkViewCntMain02"
+			path="div[id='ctl00_cntMainBody_ViewContactsCntrl_drgContact'] tbody tr td span input[id='ctl00_cntMainBody_ViewContactsCntrl_drgContact_ctl03_chkChecked']">
+		</Field>
+		<Field id="chkViewCntMain03"
+			path="#ctl00_cntMainBody_Contact_drgContact_ctl04_chkChecked">
+		</Field>
+		<Field id="drpListContactType"
+			path="#ctl00_cntMainBody_GISContactType option:not(:nth-child(1))">
+		</Field>
+		<Field id="txteditedMail"
+			path="#ctl00_cntMainBody_Contact_drgContact [class='AspNet-GridView-Normal grid-r'] td:nth-child(3)">
+		</Field>
+		<Field id="lblDelete"
+			path="a[id='ctl00_cntMainBody_Contact_drgContact_ctl02_hypContactDelete']">
+		</Field>
+		<Field id="btnDelete"
+			path="a[id='ctl00_cntMainBody_Contact_drgContact_ctl02_hypContactDelete']">
+		</Field>
+		<Field id="txtNoRecordsFound"
+			path="#ctl00_cntMainBody_Contact_drgContact td">
+		</Field>
+
+		<Field id="hdrType"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(1)">
+		</Field>
+		<Field id="hdrDescription"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(2)">
+		</Field>
+		<Field id="hdrClmnNumber/Email"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(3)">
+		</Field>
+		<Field id="hdrExtension"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(4)">
+		</Field>
+		<Field id="hdrMainColumn"
+			path="#ctl00_cntMainBody_Contact_drgContact [class='AspNet-GridView-Header grid-hdr'] th:nth-child(5)">
+		</Field>
+		<!-- <Field id="hdrMain" path="[id='ctl00_cntMainBody_Contact_drgContact'] 
+			thead th:nth-child(5)"> </Field> -->
+		<Field id="hdrAreacodeIsrMode"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(3)">
+		</Field>
+		<Field id="hdrClmnNumber/EmailIsrMode"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(4)">
+		</Field>
+		<Field id="hdrExtensionIsrMode"
+			path="[id='ctl00_cntMainBody_Contact_drgContact'] thead th:nth-child(5)">
+		</Field>
+		<Field id="hdrMainColumnIsrMode"
+			path="#ctl00_cntMainBody_Contact_drgContact [class='AspNet-GridView-Header grid-hdr'] th:nth-child(6)">
+		</Field>
+
+		<Field id="btnSubmit" path="#ctl00_cntMainBody_btnSubmit">
+		</Field>
+
+		// Conviction
+		<Field id="tabConvictions" path="a[href='#tab-editconvictions']">
+		</Field>
+		<Field id="lnkAddConviction"
+			path="#ctl00_cntMainBody_Conviction_hypConviction">
+		</Field>
+		<Field id="drpConvictionType"
+			path="#ctl00_cntMainBody_ConvictionType">
+		</Field>
+		<Field id="drpConvictionStatus"
+			path="#ctl00_cntMainBody_ConvictionStatus">
+		</Field>
+		<Field id="fldStartDateinConviction"
+			path="input#ctl00_cntMainBody_DATE__CONVICTION">
+		</Field>
+		<Field id="fldDescription"
+			path="#ctl00_cntMainBody_txtConvDescription">
+		</Field>
+		<Field id="btnAddinConviction"
+			path="#ctl00_cntMainBody_btnAddConviction">
+		</Field>
+
+		<Field id="tabLoyalty" path="a[href='#tab-editloyalty']">
+		</Field>
+		<Field id="lnkAddLoyalty"
+			path="#ctl00_cntMainBody_Loyalty_hypLoyalty">
+		</Field>
+		<Field id="drpSelectLoyaltyscheme"
+			path="#ctl00_cntMainBody_LoyaltyScheme">
+		</Field>
+		<Field id="fldMembershipNumber"
+			path="#ctl00_cntMainBody_txtMemberShipNo">
+		</Field>
+		<Field id="fldStartDateinLoyalty"
+			path="input#ctl00_cntMainBody_txtStartDate">
+		</Field>
+		<Field id="btnAddinLoyalty"
+			path="#ctl00_cntMainBody_btnAddLoyalty">
+		</Field>
+
+		<Field id="tabProspect" path="a[href='#tab-editprospectpolicy']">
+		</Field>
+		<Field id="lnkAddProspectPolicy"
+			path="#ctl00_cntMainBody_ProspectPolicy_hypProspectPolicy">
+		</Field>
+		<Field id="drpProspectPolicy"
+			path="#ctl00_cntMainBody_GISPolicy">
+		</Field>
+		<Field id="fldRenewalDate"
+			path="input#ctl00_cntMainBody_DATE_RENEWAL">
+		</Field>
+		<Field id="btnAddinProspect"
+			path="#ctl00_cntMainBody_btnAddPolicy">
+		</Field>
+
+		<Field id="tabBankDetails" path="a[href='#tab-editbank']">
+		</Field>
+		<Field id="lnkAddBank"
+			path="#ctl00_cntMainBody_BankDetail_hypBank">
+		</Field>
+		<Field id="drpBankPaymentType"
+			path="#ctl00_cntMainBody_GISNBankPaymentType">
+		</Field>
+		<Field id="fldAccountHolderName"
+			path="#ctl00_cntMainBody_txtAccountHolderName">
+		</Field>
+		<Field id="fldAccounttype"
+			path="#ctl00_cntMainBody_txtAccountType">
+		</Field>
+		<Field id="fldAccountNumber"
+			path="#ctl00_cntMainBody_txtAccountNo">
+		</Field>
+		<Field id="fldBranchCode"
+			path="#ctl00_cntMainBody_txtBankBranchCode">
+		</Field>
+		<Field id="drpBankName"
+			path="#ctl00_cntMainBody_GISLookup_BankList">
+		</Field>
+		<Field id="btnAddinBankDetails"
+			path="#ctl00_cntMainBody_btnAddBank">
+		</Field>
+
+		<Field id="btnSubmit" path="#ctl00_cntMainBody_btnSubmit">
+		</Field>
+
+		<Field id="txtClientDetails"
+			path="#ctl00_cntMainBody_lblViewClient">
+		</Field>
+
+		<Field id="txtCompanyName"
+			path="#ctl00_cntMainBody_lblCompanyName_view">
+		</Field>
+		<Field id="txtCompanyCode"
+			path="#ctl00_cntMainBody_lblCode_view">
+		</Field>
+
+		<Field id="txtOpenclaim"
+			path="span#ctl00_cntMainBody_ClientSummaryCntrl_lblNoofOpenClaims">
+		</Field>
+
+		<Field id="tabOverviewInClientDetail"
+			path="a[href='#tab-overview']">
+		</Field>
+		<Field id="tabContactsInClientDetail"
+			path="a[href='#tab-contacts']">
+		</Field>
+
+		<Field id="rowContactDetailInClientDetail"
+			path="#ctl00_cntMainBody_ViewContactsCntrl_drgContact tbody tr">
+		</Field>
+		<Field id="btnUpdateClient" path="#ctl00_cntMainBody_btnSubmit">
+		</Field>
+		<Field id="btnEditClient"
+			path="#ctl00_cntMainBody_btnEditClient">
+		</Field>
+
+		<Field id="tabTax" path="li a[href='#tab-taxdetails']">
+		</Field>
+		<Field id="fldTaxNumber"
+			path="input#ctl00_cntMainBody_txtTaxNumber">
+		</Field>
+		<Field id="fldTaxPercentage"
+			path="input#ctl00_cntMainBody_txtTaxPercentage">
+		</Field>
+		<Field id="fldIsDomiciledForTax"
+			path="input#ctl00_cntMainBody_chkDomiciledForTax">
+		</Field>
+		<Field id="drpERNExtent" path="#ctl00_cntMainBody_ddlERNExempt">
+		</Field>
+		<Field id="fldTaxExempt"
+			path="input#ctl00_cntMainBody_chkTaxExempt">
+		</Field>
+		<Field id="asrtTaxTabFieldNames"
+			path="div[class='form-group form-group-sm col-lg-6 col-md-6 col-sm-12'] label[class='col-md-4 col-sm-3 control-label'][for*='Tax']">
+		</Field>
+		<Field id="asrtTaxDetails"
+			path="p[class='form-control-static font-bold'] span[id*='Tax']">
+		</Field>
+		<Field id="asrtTaxNumber"
+			path="#ctl00_cntMainBody_lblTaxNumber_view">
+		</Field>
+		<Field id="asrtTaxPercentage"
+			path="#ctl00_cntMainBody_lblTaxPercentage_view">
+		</Field>
+		<Field id="errTaxPercentage"
+			path="#ctl00_cntMainBody_ValidationSummary li">
+		</Field>
+
+		<Field id="errNoCorrespondenceContactType"
+			path="#ctl00_cntMainBody_ValidationSummary li">
+		</Field>
+		<Field id="tabAdditionalInformation"
+			path="a[href='#tab-editadditionalinformation']">
+		</Field>
+		<Field id="fldWageRoll" path="#ctl00_cntMainBody_txtWageRoll">
+		</Field>
+		<Field id="fldFinancialYear"
+			path="input#ctl00_cntMainBody_txtFinancialYear">
+		</Field>
+		<Field id="drpTurnover"
+			path="#ctl00_cntMainBody_GISLookup_TurnOver">
+		</Field>
+
+		<Field id="tabCompliance" path="a[href='#tab-editcompliance']">
+		</Field>
+		<Field id="drpERNExtent" path="#ctl00_cntMainBody_ddlERNExempt">
+		</Field>
+		<Field id="fldEmpReferenceNumber"
+			path="input#ctl00_cntMainBody_txtEmpRefNumber">
+		</Field>
+		<Field id="fldTermsofBusinessLetterSent"
+			path="input#ctl00_cntMainBody_txtTermsofbusinesssend">
+		</Field>
+
+
+		<Field id="drpAccountExcecutive"
+			path="#ctl00_cntMainBody_ddlAccountExecutive">
+		</Field>
+		<Field id="fldAltIdentifier"
+			path="#ctl00_cntMainBody_txtAlternativeIdentifier">
+		</Field>
+		<Field id="drpBranch" path="">
+		</Field>
+		<Field id="drpBusiness"
+			path="#ctl00_cntMainBody_GISLookup_Business">
+		</Field>
+		<Field id="fldBusinessDescription"
+			path="#ctl00_cntMainBody_txtBusinessDescription">
+		</Field>
+		<Field id="fldFileCode" path="#ctl00_cntMainBody_txtFileCode">
+		</Field>
+		<Field id="fldMainContact"
+			path="#ctl00_cntMainBody_txtMainContact">
+		</Field>
+		<Field id="fldSalutation"
+			path="#ctl00_cntMainBody_txtSalutation">
+		</Field>
+		<Field id="drpThirdParty"
+			path="#ctl00_cntMainBody_ddlThirdParty">
+		</Field>
+		<Field id="drpTrade" path="#ctl00_cntMainBody_GISLookup_Trade">
+		</Field>
+		<!-- <Field id="chkProspect" path="#ctl00_cntMainBody_chkProspect"> </Field> -->
+
+		<Field id="drpTurnOvers"
+			path="#ctl00_cntMainBody_GISLookup_TurnOver">
+		</Field>
+		<Field id="fldCompanyRegisterationNumber"
+			path="#ctl00_cntMainBody_txtRegisteredName">
+		</Field>
+		<Field id="drpPaymentCurrency"
+			path="#ctl00_cntMainBody_ddlCurrency">
+		</Field>
+		<Field id="drpSICCode"
+			path="#ctl00_cntMainBody_GISLookup_SICCode">
+		</Field>
+		<Field id="drpTermsOfPayment"
+			path="#ctl00_cntMainBody_GISLookup_TermsOfPayment">
+		</Field>
+		<Field id="fldOffices" path="#ctl00_cntMainBody_txtOffices">
+		</Field>
+		<Field id="drpLegalEntity"
+			path="#ctl00_cntMainBody_GISLookup_LegalEntity">
+		</Field>
+		<Field id="dteTradingSince"
+			path="input#ctl00_cntMainBody_txtTradingSince">
+		</Field>
+		<Field id="drpServiceLevel"
+			path="#ctl00_cntMainBody_GISLookup_ServiceLevel">
+		</Field>
+		<Field id="drpSource" path="#ctl00_cntMainBody_GISLookup_Source">
+		</Field>
+		<Field id="drpNumberOfEmployees"
+			path="select#ctl00_cntMainBody_GISCorporate_Employees">
+		</Field>
+		<Field id="drpReminderType"
+			path="select#ctl00_cntMainBody_GISLookup_ReminderType">
+		</Field>
+
+		<Field id="lblBasicDetailsFields"
+			path="//div[@id='tab-basicdetails']//label[@class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="lblViewBasicDetailsFields"
+			path="//div[@id='tab-overview']/div[@class='form-horizontal']//label[@class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="errBasicDetailsFields"
+			path="//div[@id='ctl00_cntMainBody_ValidationSummary']//li">
+		</Field>
+		<Field id="lblVerifyBasicDetailsFields"
+			path="//div[@id='tab-overview']//span[@class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="txtAltIdentifier"
+			path="#ctl00_cntMainBody_lblAlternativeIdentifier_view">
+		</Field>
+		<Field id="lblAdditionalInformationFields"
+			path="//div[@id='tab-editadditionalinformation']//label[@class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="lblViewAdditionalInformationFields"
+			path="//div[@id='tab-additionalinformation']//label[@class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="tabViewAdditionalinformation"
+			path="a[href='#tab-additionalinformation']">
+		</Field>
+		<Field id="lblVerifyAlternativeIdentifierFields"
+			path="//div[@id='tab-additionalinformation']//span[contains(@id,'ctl00_cntMainBody_lbl')]">
+		</Field>
+		<Field id="lblOverviewFields"
+			path="//div[@id='Controls_ClientSummary']//label">
+		</Field>
+
+		<Field id="chkEditProspect" path="span[disabled='disabled']">
+		</Field>
+		<Field id="chkProspect"
+			path="//input[@id='ctl00_cntMainBody_chkProspect']">
+		</Field>
+
+
+		//Tab Associates
+		<Field id="tabAssociates" path="a[href='#tab-editassociates']">
+		</Field>
+
+
+		<!-- <Field id="chkIncludeCompanyInELTORequirementsForALLPolicies" path="[name='ctl00$cntMainBody$ddlIncludeELTO']"> 
+			</Field> -->
+		<Field id="fldAccountHolderName"
+			path="#ctl00_cntMainBody_txtAccountHolderName">
+		</Field>
+		<Field id="fldAsscName"
+			path="[name='ctl01$cntMainBody$txtClientName']">
+		</Field>
+
+		<Field id="btnAddAssociateClient"
+			path="a[id='ctl00_cntMainBody_Associate_hypAssociate']">
+		</Field>
+		<Field id="btnAddAssociateCompany"
+			path="a[id='ctl00_cntMainBody_Associate_hypAssociateCompanies']">
+		</Field>
+		<Field id="txtAssociateCompanyInformationMessage"
+			path="#ctl00_cntMainBody_txtBankBranchCode">
+		</Field>
+		<Field id="drpClientType"
+			path="[class='card-body clearfix'] select[name='ctl01$cntMainBody$ddlClientType']">
+		</Field>
+		<Field id="btnSelectClient"
+			path="a[id='ctl01_cntMainBody_grdvSearchResults_ctl02_hypSelect']">
+		</Field>
+		<Field id="drpRelationship"
+			path="#Modal_FindClient #ctl01_cntMainBody_GISAssociate_Relationship">
+		</Field>
+		<Field id="btnAddClient"
+			path="[id='ctl01_cntMainBody_btnAddAssociate']">
+		</Field>
+		<Field id="btnFind" path="a[id='ctl01_cntMainBody_btnSearch']">
+		</Field>
+		<Field id="drpType"
+			path="[name='ctl00_cntMainBody_GISAssociate_Type']">
+		</Field>
+		<Field id="fldAssoCompanyName"
+			path="div[id='Modal_AssociateCompany'] [name='ctl00$cntMainBody$txtCompanyName'][id='ctl00_cntMainBody_txtCompanyName']">
+		</Field>
+		<Field id="fldRiskIdex"
+			path="[name='ctl01$cntMainBody$txtPolicyRiskIndex']">
+		</Field>
+		<Field id="fldAccountBalance"
+			path="[id='ctl00_cntMainBody_Associate_drgAssociate'] tr th:nth-child(4)">
+		</Field>
+		<Field id="fldClaimsInsuredValue"
+			path="[id='ctl00_cntMainBody_Associate_drgAssociate'] tr th:nth-child(5)">
+		</Field>
+
+		//kAsso
+		<Field id="btnActionMenuInAssociate"
+			path="#ctl00_cntMainBody_Associate_drgAssociate a[href='#']">
+		</Field>
+		<Field id="btnActionMenuInAssociateCompany"
+			path="#ctl00_cntMainBody_Associate_drgAssociateCompanies a[href='#']">
+		</Field>
+		<Field id="btnEditInAssociate"
+			path="#ctl00_cntMainBody_Associate_drgAssociate_ctl02_hypAssociateEdit">
+		</Field>
+		<Field id="fldNameInClient"
+			path="#ctl01_cntMainBody_txtClientName">
+		</Field>
+		<Field id="btnEditInAssociateCompany"
+			path="#ctl00_cntMainBody_Associate_drgAssociateCompanies_ctl02_hypAssociateCompanyEdit">
+		</Field>
+		<!-- <Field id="fldBusinessDescription" path="#Modal_AssociateCompany #ctl00_cntMainBody_txtBusinessDescription"> 
+			</Field> -->
+		<Field id="btnViewInAssociateCompany"
+			path="#ctl00_cntMainBody_Associate_drgAssociateCompanies_ctl02_hypAssociateCompanyView">
+		</Field>
+		<Field id="btnDeleteInAssociate"
+			path="#ctl00_cntMainBody_Associate_drgAssociate_ctl02_hypAssociateDelete">
+		</Field>
+		<Field id="btnDeleteInAssociateCompany"
+			path="#ctl00_cntMainBody_Associate_drgAssociateCompanies_ctl02_hypAssociateCompanyDelete">
+		</Field>
+		<Field id="fldsAssociatedCompanyReadOnly"
+			path="#Modal_AssociateCompany div[class='col-md-8 col-sm-9'] #ctl00_cntMainBody_txtCompanyName">
+		</Field>
+		<Field id="btnUpdateInAssociate"
+			path="#ctl01_cntMainBody_btnUpdateAssociate">
+		</Field>
+		<Field id="btnUpdateInAssociateCompany"
+			path="#ctl00_cntMainBody_btnUpdateAssociateCompany">
+		</Field>
+		<Field id="btnCloseInAssociateCompany"
+			path="div[class='modal-header bootstrap-dialog-draggable'] button">
+		</Field>
+
+
+		//Associate Company
+		<Field id="fldAssoCompanyName"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtCompanyName">
+		</Field>
+		<Field id="drpAssociateCompanyType"
+			path="#ctl00_cntMainBody_GISAssociate_Type">
+		</Field>
+		<Field id="fldAssoBusinessDescription"
+			path="#Modal_AssociateCompany [class='form-group form-group-sm col-lg-6 col-md-6 col-sm-12'] #ctl00_cntMainBody_txtBusinessDescription">
+		</Field>
+		<Field id="fldAssoNo./Street"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtNoOrStreet">
+		</Field>
+		<Field id="fldAssoLocality"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtLocality">
+		</Field>
+		<Field id="fldAssoPostTown"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtPostTown">
+		</Field>
+		<Field id="fldAssoCounty"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtCounty">
+		</Field>
+		<Field id="fldAssoPostcode"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtPostCode">
+		</Field>
+		<Field id="fldAssoEmployerName"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtEmployerName">
+		</Field>
+		<Field id="fldAssoNotes"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtNotes">
+		</Field>
+		<Field id="drpAssoCountry"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_GISLookup_Country">
+		</Field>
+		<Field id="drpIncludeCompanyInELTORequirementsForALLPolicies"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_ddlIncludeELTO">
+		</Field>
+		<Field id="fldAssoEmployerReferenceNumber"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtEmployeeReferenceNumber">
+		</Field>
+		<Field id="chkbxAssoERNExempt"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_chkERNExempt">
+		</Field>
+		<Field id="btnAddCompany"
+			path="[id='ctl00_cntMainBody_btnAddAssociateCompany']">
+		</Field>
+		<Field id="errMandatoryFieldsAssoCompany"
+			path="[id='ctl00_cntMainBody_ValidationSummary'] ul li">
+		</Field>
+		<Field id="errEmployeeReferenceNumberWarningMessage"
+			path="[id='ctl00_cntMainBody_ValidationSummary'] ul li">
+		</Field>
+		<Field id="fldAssociateClientFields"
+			path="//div[@id='ctl01_cntMainBody_pnlFindBG']//label[@class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="fldAssociateCompanyFields"
+			path="//div[@id='Modal_AssociateCompany']//label[@class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="txtAssoDetails"
+			path="[id='ctl00_cntMainBody_Associate_PnlAssociate'] [id='ctl00_cntMainBody_Associate_lblAssociateHeading']">
+		</Field>
+		<Field id="txtAssoCompany"
+			path="[id='ctl00_cntMainBody_Associate_PnlAssociateCompanies'] [id='ctl00_cntMainBody_Associate_lblAssociateCompaniesHeading']">
+		</Field>
+
+		<Field id="asrtBusinessDescriptionText"
+			path="#Modal_AssociateCompany #ctl00_cntMainBody_txtBusinessDescription">
+		</Field>
+
+		<Field id="errNoRsltFound"
+			path="[id='ctl01_cntMainBody_grdvSearchResults'] [class='AspNet-GridView-Empty grid-empty-r'] td">
+		</Field>
+
+		<Field id="tabAccounts" path="a[href='#tabaccounts']">
+		</Field>
+		<Field id="drpBranch"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_ddlBranchCode">
+		</Field>
+		<Field id="lblBranch"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_lblBranchCode">
+		</Field>
+		<Field id="btnFind"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_btnSearch">
+		</Field>
+		<Field id="lblBranchColumnAccountsTab"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_updPanelClientQuotes  tr:nth-child(2n) td:nth-child(1) td:nth-child(1)">
+		</Field>
+		<Field id="iconExpandAccountsTab" path="img[id*='_ImgExpand']">
+		</Field>
+		<Field id="txtTransactionRef"
+			path="#ctl00_cntMainBody_ctrlClientAccounts_txtDocumentRef">
+		</Field>
+		<Field id="drpSelectProduct"
+			path="select#ctl00_cntMainBody_ctrlNewQuoteImproved_ddlProductlst">
+
+		</Field>
+		<Field id="btnNewQuote"
+			path="#ctl00_cntMainBody_ctrlNewQuoteImproved_btnNewQuote">
+		</Field>
+	</Screen>
+
+
+	<Screen id="PolicyHeader" title="SSP - Pure Insurance">
+
+		<Field id="quoteNumber"
+			path="#ctl00_cntMainBody_POLICYHEADER__POLICYNUMBER">
+		</Field>
+
+		<Field id="fldCoverStartDateinPolicyHeader"
+			path="[id='ctl00_cntMainBody_POLICYHEADER__COVERSTARTDATE']">
+		</Field>
+
+		//Tabs
+		<Field id="tabCompliance"
+			path="a[href='#tab-compliancedetails']">
+		</Field>
+
+		<Field id="lblMandatoryComplianceFields"
+			path="//div[@id='tab-compliancedetails']//span[@style='color:Red;display:none;']/parent::div/preceding-sibling::label">
+		</Field>
+		<Field id="lblMandatoryEltoFields"
+			path="//div[@id='tab-ELTOdetails']//input[@class='field-mandatory form-control']/parent::div/preceding-sibling::label">
+		</Field>
+		<Field id="errMandatoryField"
+			path="#ctl00_cntMainBody_vldSummaryMainDetails>ul>li">
+		</Field>
+
+		<Field id="asstComplianceTab"
+			path="a[href='#tab-compliancedetails']">
+		</Field>
+		<Field id="asstELTOTab" path="a[href='#tab-ELTOdetails']">
+		</Field>
+		<Field id="lblComplianceFields"
+			path="div[id='tab-compliancedetails']>div>div>label[class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="lblETOLFields"
+			path="div[id='tab-ELTOdetails']>div>div>label[class='col-md-4 col-sm-3 control-label']">
+		</Field>
+
+		<Field id="iframeIn" path="TB_iframeContent">
+		</Field>
+		<Field id="tabRenewal" path="a[href='#tab-renewaldetails']">
+		</Field>
+		<Field id="fldRenewalDate"
+			path="input[name='ctl00$cntMainBody$POLICYHEADER__RENEWALCOPY']">
+		</Field>
+		<Field id="asrtRenewalTabFieldNames"
+			path="div[id='tab-renewaldetails']>div>div>label">
+		</Field>
+		<Field id="btnNext" path="#ctl00_cntMainBody_btnNext">
+		</Field>
+		<Field id="iconFindLeadInsurer"
+			path="#ctl00_cntMainBody_btnLeadInsurer">
+		</Field>
+		<Field id="fldReinsurerCode"
+			path="#ctl01_cntMainBody_txtReinsurerCode">
+		</Field>
+		<Field id="btnSearch" path="#ctl01_cntMainBody_btnSearch">
+		</Field>
+		<Field id="btnSelect"
+			path="#ctl01_cntMainBody_grdvSearchResults_ctl02_btnSelect">
+		</Field>
+
+		<Field id="btnNextInRiskDetailsPage"
+			path="input[id='ctl00_cntMainBody_btnNext']">
+		</Field>
+
+		//compliance
+		<Field id="drpCustomerCategory"
+			path="#ctl00_cntMainBody_CUSTOMER_CATEGORY">
+		</Field>
+		<Field id="drpMethodOfSale"
+			path="#ctl00_cntMainBody_METHOD_OF_SALE">
+		</Field>
+		<Field id="drpTermAgreed"
+			path="select#ctl00_cntMainBody_ddlTermsAgreed">
+		</Field>
+		<Field id="drpTypeOfSale" path="#ctl00_cntMainBody_TYPE_OF_SALE">
+		</Field>
+		<Field id="fldUnderWriter"
+			path="input#ctl00_cntMainBody_txtUnderwriter">
+		</Field>
+		<Field id="txtClientRequirements"
+			path="input[name='ctl00$cntMainBody$txtClientRequirements']">
+		</Field>
+		<Field id="txtQuoteRecommendations"
+			path="input#ctl00_cntMainBody_txtQuoteRecommendations">
+		</Field>
+		<Field id="txtTermAgreedDate"
+			path="input[name='ctl00$cntMainBody$txtTermsAgreedDate']">
+		</Field>
+		<Field id="txtDatePolicyDocumentsIssuedToClient"
+			path="input[name='ctl00$cntMainBody$txtDatePolicyDocIssued']">
+		</Field>
+		<Field id="txtDatePolicyDocumentsRecievedFromInsurer"
+			path="input[name='ctl00$cntMainBody$txtDatePolicyDocReveived']">
+		</Field>
+		<Field id="drpPolicyDocumentCorrect"
+			path="select[name='ctl00$cntMainBody$ddlPolicyCorrect']">
+		</Field>
+		<Field id="txtDateErrorNotifiedToInsurer"
+			path="input[name='ctl00$cntMainBody$txtDateErrorNotified']">
+		</Field>
+
+		<Field id="fldClientRequirements"
+			path="textarea[name='ctl00$cntMainBody$txtClientRequirements']">
+		</Field>
+		<Field id="fldQuoteRecommendations"
+			path="textarea#ctl00_cntMainBody_txtQuoteRecommendations">
+		</Field>
+		<Field id="lblTermsAgreedHighlighted"
+			path="//select[@class='form-control validation_failure']/parent::div/preceding-sibling::label">
+		</Field>
+
+
+
+		//Elto
+		<Field id="chkETOLRequiredFlag"
+			path="[id*='POLICYHEADER__ELTOREPORTINGREQUIRE']">
+		</Field>
+		<Field id="txtLeadInsurer"
+			path="input[id*='POLICYHEADER__LEADINSURER']">
+		</Field>
+		<Field id="txtOriginalInsurer"
+			path="select[id*='POLICYHEADER__ORIGINALINSURER']">
+		</Field>
+		<Field id="txtPolicyNumber"
+			path="input[id*='POLICYHEADER__POLICYNUMBERELTO']">
+		</Field>
+		<Field id="txtBrokerReferenceNumber"
+			path="input[id*='POLICYHEADER__BROKERREFNUMBER']">
+		</Field>
+		<Field id="chkDummyPolicy"
+			path="input[id*='POLICYHEADER__DUMMYPOLICY']">
+		</Field>
+		<Field id="txtPolicyHolderName"
+			path="input[id*='POLICYHEADER__POLICYHOLDERNAME']">
+		</Field>
+		<Field id="txtEmployerName"
+			path="input[id*='POLICYHEADER__EMPLOYERNAME']">
+		</Field>
+		<Field id="drpERNExempt" path="[id*='POLICYHEADER__ERNEXEMPT']">
+		</Field>
+		<Field id="txtEmployersReferenceNumber"
+			path="input[id*='POLICYHEADER__EMPLOYERREFNUMBER']">
+		</Field>
+		<Field id="btnAddAssociateCompanies"
+			path="#ctl00_cntMainBody_POLICYHEADER__ASSOCIATEDCOMPANIES_hypAssociatedCompanies">
+		</Field>
+		<Field id="chkAssociateCompany"
+			path="#ctl00_cntMainBody_grdvAssoCompanies_ctl02_chkAssoCompSelect">
+		</Field>
+		<Field id="AddAssociateCompanies"
+			path="#ctl00_cntMainBody_btnAddAssociatedCompanies">
+		</Field>
+
+		//main tab
+		<Field id="tabMain"
+			path="[id='MainDetail-control'] [class='nav nav-lines nav-tabs b-danger'] li:nth-child(1)">
+		</Field>
+		<Field id="fldTradedType" path="#ctl00_cntMainBody_txtTrade">
+		</Field>
+		<Field id="btnPolicyHeaderNext"
+			path="[id='ctl00_cntMainBody_btnNext']">
+		</Field>
+		<Field id="fldPolicyBalance"
+			path="#ctl00_cntMainBody_txtPolicyBalance">
+		</Field>
+		<Field id="fldMainTabPolicyQuoteNumber"
+			path="div#tab-maindetails input[id*='cntMainBody_POLICYHEADER__POLICYNUMBER']">
+		</Field>
+		<Field id="fldBalanceincUnsettledPF/SA"
+			path="#ctl00_cntMainBody_txtBalanceUnsettled">
+		</Field>
+		<Field id="drpBusinessType"
+			path="[name='ctl00_cntMainBody_POLICYHEADER__BUSINESSTYPE']">
+		</Field>
+		<Field id="drpBusinessSource"
+			path="[name='ctl00_cntMainBody_POLICYHEADER__ANALYSISCODE']">
+		</Field>
+		<Field id="drpAnalysisCode"
+			path="[name='ctl00_cntMainBody_POLICYHEADER__ANALYSISCODE']">
+		</Field>
+
+		<Field id="drpDepartment"
+			path="[name='ctl00_cntMainBody_POLICYHEADER__DEPARTMENT']">
+		</Field>
+		<Field id="drpSubteam"
+			path="[name='ctl00_cntMainBody_POLICYHEADER__SUBTEAM']">
+		</Field>
+		<Field id="fldBalanceincUnsettledPF/SA"
+			path="[name='ctl00$cntMainBody$txtBalanceUnsettled'][readonly='readonly']">
+		</Field>
+		<Field id="chkCascadingRiskTransfer"
+			path="#ctl00_cntMainBody_POLICYHEADER__CASCADINGRISKTRANSFER">
+		</Field>
+		<Field id="chkRiskTransfer"
+			path="[id='ctl00_cntMainBody_POLICYHEADER__RISKTRANSFER']">
+		</Field>
+		<Field id="errBusinessType"
+			path="[id='ctl00_cntMainBody_vldSummaryMainDetails'] ul li">
+		</Field>
+		<Field id="listoffldsMainTab"
+			path="//div[@id='tab-maindetails']//div[not(@style='display:none')]/label[@class='col-md-4 col-sm-3 control-label']">
+		</Field>
+		<Field id="alertAccept" path="[id='ctl00_cntMainBody_btnNext']">
+		</Field>
+		<Field id="btnNext" path="#ctl00_cntMainBody_btnNext">
+		</Field>
+		<Field id="btnSaveQuote" path="[id*='btnSaveQuote']">
+		</Field>
+		<Field id="iconFindLeadInsurer"
+			path="#ctl00_cntMainBody_btnLeadInsurer">
+		</Field>
+		<Field id="fldAlternateReference"
+			path="[name='ctl00$cntMainBody$POLICYHEADER__ALTERNATEREF']">
+		</Field>
+		<Field id="fldCoverStartDate"
+			path="[id='ctl00_cntMainBody_POLICYHEADER__COVERSTARTDATE']">
+		</Field>
+
+
+
+		// Reinsurance
+		<Field id="fldReinsurerCode"
+			path="#ctl01_cntMainBody_txtReinsurerCode">
+		</Field>
+		<Field id="btnFind" path="#ctl01_cntMainBody_btnSearch">
+		</Field>
+		<Field id="listReinsurerCode"
+			path="#ctl01_cntMainBody_grdvSearchResults td:nth-child(1)"></Field>
+		<Field id="listBtnSelectReinsurerCode"
+			path="a[id*='ctl01_cntMainBody_grdvSearchResults']"></Field>
+		<Field id="btnSelectFirst"
+			path="#ctl01_cntMainBody_grdvSearchResults_ctl02_btnSelect">
+		</Field>
+
+		//General details
+		<Field id="fldCoverStartDate"
+			path="[id*='POLICYHEADER-COVERSTARTDATE'] input:nth-child(2)">
+		</Field>
+		<Field id="fldBrokerEmail"
+			path="input#ctl00_cntMainBody_COVER__BrokerEmail">
+		</Field>
+		<Field id="fldCompany/PartnershipName"
+			path="input#ctl00_cntMainBody_COVER__CompanyName">
+		</Field>
+		<Field id="fldTradingName"
+			path="input#ctl00_cntMainBody_COVER__TradingName">
+		</Field>
+		<Field id="fldCompanyStatus"
+			path="[id*='COVER-CompanyStatusCode'] input:nth-child(1)">
+		</Field>
+		<Field id="fldAddressLine1"
+			path="input#ctl00_cntMainBody_COVER__Address1">
+		</Field>
+		<Field id="fldAddressLine2"
+			path="input#ctl00_cntMainBody_COVER__Address2">
+		</Field>
+		<Field id="fldAddressLine3"
+			path="input#ctl00_cntMainBody_COVER__Address3">
+		</Field>
+		<Field id="fldAddressLine4"
+			path="input#ctl00_cntMainBody_COVER__Address4">
+		</Field>
+		<Field id="fldPostcode"
+			path="input#ctl00_cntMainBody_COVER__Postcode">
+		</Field>
+
+		//General - Guest House
+		<Field id="fieldInsuredGeneralGuestHouse"
+			path="#ctl00_cntMainBody_GENERAL_DETAILS__Insured">
+		</Field>
+		<Field id="fieldTradingNameGeneralGuestHouse"
+			path="#ctl00_cntMainBody_GENERAL_DETAILS__Trading_Name">
+		</Field>
+		<Field id="fieldContactNameGeneralGuestHouse"
+			path="#ctl00_cntMainBody_GENERAL_DETAILS__Contact_Name">
+		</Field>
+		<Field id="fieldTelephoneNumberGeneralGuestHouse"
+			path="#ctl00_cntMainBody_GENERAL_DETAILS__Telephone_Num">
+		</Field>
+		<Field id="inputCompanyStatusGeneralGuestHouse"
+			path="span[id*='GENERAL_DETAILS-Company_status'] input:not([type='hidden'])">
+		</Field>
+		<Field id="dropDownCompanyStatusGeneralGuestHouse"
+			path="div[role='menu'] div.goog-menuitem-content">
+		</Field>
+		<Field id="fieldPostCodeGeneralGuestHouse"
+			path="#ctl00_cntMainBody_GENERAL_DETAILS__address_cnt_TxtLookup_Postcode">
+		</Field>
+		<Field id="btnFindPostCodeGeneralGuestHouse"
+			path="#ctl00_cntMainBody_GENERAL_DETAILS__address_cnt_btnFindAddress">
+		</Field>
+		<Field id="dropDownAddressGeneralGuestHouse"
+			path="select#ctl00_cntMainBody_GENERAL_DETAILS__address_cnt_selAddressList">
+		</Field>
+		<Field id="btnNextGeneralGuestHouse"
+			path="#ctl00_cntMainBody_btnNext">
+		</Field>
+
+		//Risk details - Guest House
+		<Field id="inputTypeOfCoverRiskDetailsGuestHouse"
+			path="span[id*='RISK_DETAILS-Cover_type'] input:not([type='hidden'])">
+		</Field>
+		<Field id="dropDownTypeOfCoverRiskDetailsGuestHouse"
+			path="div[role='menu'] div.goog-menuitem-content">
+		</Field>
+		<Field id="fieldYearsInsuredHasBeenTradingRiskDetailsGuestHouse"
+			path="span[id*='GENERAL_DETAILS-At_this_premises'] input:nth-child(2)">
+		</Field>
+		<Field
+			id="fieldYearsExperienceInsuredHaveInHospitalityTradingRiskDetailsGuestHouse"
+			path="span[id*='GENERAL_DETAILS-Elsewhere'] input:nth-child(2)">
+		</Field>
+		<Field id="chkboxIncludeBuildingsCoverRiskDetailsGuestHouse"
+			path="span[id*='checkbox-RISK_DETAILS-Buildings'] span[role='checkbox']">
+		</Field>
+		<Field id="chkboxIncludeContentsCoverRiskDetailsGuestHouse"
+			path="span[id*='checkbox-RISK_DETAILS-Contents'] span[role='checkbox']">
+		</Field>
+		<Field id="fieldPostCodeRiskDetailsGuestHouse"
+			path="#ctl00_cntMainBody_RISK_DETAILS__address_cnt_TxtLookup_Postcode">
+		</Field>
+		<Field id="btnFindPostCodeRiskDetailsGuestHouse"
+			path="#ctl00_cntMainBody_RISK_DETAILS__address_cnt_btnFindAddress">
+		</Field>
+		<Field id="dropDownAddressRiskDetailsGuestHouse"
+			path="#ctl00_cntMainBody_RISK_DETAILS__address_cnt_selAddressList">
+		</Field>
+		<Field id="btnNextRiskDetailsGuestHouse"
+			path="#ctl00_cntMainBody_btnNext">
+		</Field>
+
+		//Building Construction 1 - Guest House
+		<Field
+			id="fieldYearOfConstructionBuildingConstruction1GuestHouse"
+			path="span[id*='BUILDING_CONSTRUCTION-Age_of_building'] input:nth-child(2)">
+		</Field>
+		<Field id="chkGoodStateOfRepair"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Good_state_of_repair'] [role='checkbox']">
+		</Field>
+		<Field id="chkAreAllWalls"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Are_all_the_walls'] [role='checkbox']">
+		</Field>
+		<Field id="chkOtherThanTheFaltRoof"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Other_than_the_flat_roof'] [role='checkbox']">
+		</Field>
+		<Field id="chkAreallRoofs"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Are_all_roofs'] [role='checkbox']">
+		</Field>
+		<Field id="fieldDetailsOfGoodStateOfRepair"
+			path="#ctl00_cntMainBody_BUILDING_CONSTRUCTION__Repair_details">
+		</Field>
+		<Field id="fieldDetailsOfWalls"
+			path="#ctl00_cntMainBody_BUILDING_CONSTRUCTION__Details_Walls">
+		</Field>
+		<Field id="fieldDetailsOfRoof"
+			path="#ctl00_cntMainBody_BUILDING_CONSTRUCTION__Roof_details">
+		</Field>
+		<Field id="fieldDetailsOfFlatRoof"
+			path="#ctl00_cntMainBody_BUILDING_CONSTRUCTION__Flat_roof_details">
+		</Field>
+
+
+		//Subsidence Assessment- Guest House
+		<Field
+			id="inputStateDescribesTheSiteSubsidenceAssessmentGuestHouse"
+			path="span[id*='SUBSIDENCE_ASSESSMENT-State_of_site'] input:not([type='hidden'])">
+		</Field>
+		<Field
+			id="dropDownStateDescribesTheSiteSubsidenceAssessmentGuestHouse"
+			path="div[role='menu'] div.goog-menuitem-content">">
+		</Field>
+		<Field
+			id="inputFoundationsOfPrincipalBuildingsSubsidenceAssessmentGuestHouse"
+			path="span[id$='SUBSIDENCE_ASSESSMENT-Foundations'] input:not([type='hidden'])">
+		</Field>
+		<Field
+			id="dropDownFoundationsOfPrincipalBuildingsSubsidenceAssessmentGuestHouse"
+			path="div[role='menu'] div.goog-menuitem-content">">
+		</Field>
+
+		//Guest House details - Guest House
+		<Field
+			id="fieldNumberOfLettingBedroomsGuestHouseDetailsGuestHouse"
+			path="span[id*='BUILDING_CONSTRUCTION-Letting_bedrooms'] input:nth-child(2)">
+		</Field>
+		<Field id="chkIsTheBuildingUsedForAnything"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Use_of_building'] [role='checkbox']">
+		</Field>
+		<Field id="chkDoesTheOwner/ManagerLiveOnThePremises"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Owner_lives_on'] [role='checkbox']">
+		</Field>
+		<Field id="chkDoYouOwnOrHireMarquees"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Marquee'] [role='checkbox']">
+		</Field>
+		<Field id="chkAreAnyRoomsLetOnSelfCateringBasis"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Self_catering_basis'] [role='checkbox']">
+		</Field>
+		<Field id="fldTotalEstimatedAnnualTurnover"
+			path="span[id*='SUMS_INSURED_GH-Frozen_Food'] div input:nth-child(2)">
+		</Field>
+		<Field
+			id="chkIsAnyFoodSoldOnThePremisesRestrictedToPayingGuestsOnly"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Food_paying_guest'] [role='checkbox']">
+		</Field>
+		<Field
+			id="chkIsAnyAlcoholSoldOnThePremisesRestrictedToPayingGuestsOnly"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Alcohol_paying_guest'] [role='checkbox']">
+		</Field>
+		<Field id="chkAreThePremisesLocatedOnWorkingFarm"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-On_A_Farm'] [role='checkbox']">
+		</Field>
+		<Field id="chkDoThePremisesCaterForStag/HenParties"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Stag_hen'] [role='checkbox']">
+		</Field>
+
+		<Field id="fldBuildingUsedDetail"
+			path="#ctl00_cntMainBody_BUILDING_CONSTRUCTION__Use_Details">
+		</Field>
+		<Field id="fldMarqueDetail"
+			path="#ctl00_cntMainBody_BUILDING_CONSTRUCTION__Marque_details">
+		</Field>
+		<Field id="fldPleaseProvideNumber"
+			path="span[id*='BUILDING_CONSTRUCTION-Self_catering_details'] div">
+		</Field>
+
+
+
+		//6a-Equipment Continued
+
+		<Field id="chkAnyLeisureFacilities"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Leisure_Facilities'] [role='checkbox']">
+		</Field>
+		<Field id="chkFireworkDisplays/Bonfires"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Fireworks'] [role='checkbox']">
+		</Field>
+
+		<Field id="fldEquipmentContinuedDetail"
+			path="input[id*='BUILDING_CONSTRUCTION__Any_other_details']">
+		</Field>
+		//Label
+		<Field id="lblIndoorSwimmingPool"
+			path="label[id*='lblBUILDING_CONSTRUCTION_Indoor_SP']">
+		</Field>
+		<Field id="lblOutdoorSwimmingPool"
+			path="label[id*='lblBUILDING_CONSTRUCTION_Outdoor_sp']">
+		</Field>
+		<Field id="lblSauna"
+			path="label[id*='lblBUILDING_CONSTRUCTION_Sauna']">
+		</Field>
+		<Field id="lblJacuzzi"
+			path="label[id*='lblBUILDING_CONSTRUCTION_Jaxuzzi']">
+		</Field>
+		<Field id="lblAnyOtherLeisure"
+			path="label[id*='lblBUILDING_CONSTRUCTION_Any_other']">
+		</Field>
+		<Field id="lblAnyOtherLeisureOpenToNonResidents"
+			path="label[id*='lblBUILDING_CONSTRUCTION_Non_residents']">
+		</Field>
+
+		//checkbox
+		<Field id="chkIndoorSwimmingPool"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Indoor_SP'] [role='checkbox']">
+		</Field>
+		<Field id="chkOutdoorSwimmingPool"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Outdoor_sp'] [role='checkbox']">
+		</Field>
+		<Field id="chkSauna"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Sauna'] [role='checkbox']">
+		</Field>
+		<Field id="chkJacuzzi"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Jaxuzzi'] [role='checkbox']">
+		</Field>
+		<Field id="chkAnyOtherLeisure"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Any_other'] [role='checkbox']">
+		</Field>
+
+		<Field id="chkAnyOtherLeisureOpenToNonResidents"
+			path="span[id*='checkbox-BUILDING_CONSTRUCTION-Non_residents'] [role='checkbox']">
+		</Field>
+
+		// 8 Sum Insured GH
+
+		<Field id="fldBuildings/TenantsImprovements"
+			path="input#ctl00_cntMainBody_SUMS_INSURED_GH__Buildings + input[type='text']">
+		</Field>
+
+		<Field id="drpContents"
+			path="span[id*='SUMS_INSURED_GH-Contents_amount'] input:not([type='hidden'])">
+		</Field>
+
+		<Field id="fldStockOfWines/Spirits/Cigars/Cigarettes/Tobacco"
+			path="input#ctl00_cntMainBody_SUMS_INSURED_GH__Total_wine+ input[type='text']">
+		</Field>
+
+		<Field id="fldComputers/ElectronicBusinessEquipment"
+			path="span[id*='SUMS_INSURED_GH-Total_computer'] div">
+		</Field>
+
+		<Field id="fldTotalSumInsured"
+			path="input#ctl00_cntMainBody_SUMS_INSURED_GH__Frozen_Food+ input[type='text']">
+		</Field>
+
+		<Field id="chkTotalSumInsured"
+			path="span[id*='SUMS_INSURED_GH-Frozen_Food'] div">
+		</Field>
+		<Field id="chkAreTheseInnerContentsLimitsAdequate"
+			path="span[id*='checkbox-SUMS_INSURED_GH-Contents'] [role='checkbox']">
+		</Field>
+
+		<Field id="chkPortablePossessions"
+			path="span[id*='checkbox-SUMS_INSURED_GH-Portable_possesions'] [role='checkbox']">
+		</Field>
+
+		<Field id="chkFrozenFood"
+			path="span[id*='checkbox-SUMS_INSURED_GH-Frozen_food_limit'] [role='checkbox']">
+		</Field>
+
+		//8a - Sum Insured GH continued
+		<Field id="drpPublicLiabilityInSumInsuredGHContinued"
+			path="span[id*='SUMS_INSURED_GH-Public_liability'] input:not([type='hidden'])">
+		</Field>
+
+		<Field id="fldModelOfSafe"
+			path="input[id*='SUMS_INSURED_GH__Make_Model_safe']">
+		</Field>
+
+		<Field id="fldIncreaseSiToCashInSafe"
+			path="span[id*='SUMS_INSURED_GH-INCCIS'] div">
+		</Field>
+
+		<Field id="fldIncreaseSiToCashInTransit"
+			path="span[id*='SUMS_INSURED_GH-INCCIT'] div">
+		</Field>
+
+		<Field id="fldBussinessInterruption"
+			path="span[id*='SUMS_INSURED_GH-Bussiness_Interruption'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldLossOfLicence"
+			path="span[id*='SUMS_INSURED_GH-Loss_Licence'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldBookDebts"
+			path="span[id*='SUMS_INSURED_GH-Book_Debts'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldEmployersLiability"
+			path="span[id*='SUMS_INSURED_GH-Employers_Liability'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldGoodsTransit"
+			path="span[id*='SUMS_INSURED_GH-Goods_Transit'] div input:nth-child(1)">
+		</Field>
+
+		<Field id="fldCashInTransit"
+			path="span[id*='SUMS_INSURED_GH-Cash_Transit'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldCashInSafe"
+			path="span[id*='SUMS_INSURED_GH-Cash_Safe'] div input:nth-child(1)">
+		</Field>
+		<Field id="chkCashLimitSufficient"
+			path="span[id*='checkbox-SUMS_INSURED_GH-cash_limits_sufficent'] [role='checkbox']">
+		</Field>
+
+		// 8 Sum Insured HH
+
+		<Field id="fldBuildings/TenantsImprovementsInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Buildings'] div">
+		</Field>
+		<Field id="fldContentsInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Contents'] div">
+		</Field>
+		<Field id="chkBuildingAccidentalDamageInSumInsuredHH"
+			path="span[id*='checkbox-SUMS_INSURED_HH-Buildings_AD'] [role='checkbox']">
+		</Field>
+		<Field id="chkContentsAccidentalDamageInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Contents_AD'] [role='checkbox']">
+		</Field>
+		<Field id="chkPremisesHaveBarInSumInsuredHH"
+			path="span[id*='BUILDING_CONSTRUCTION-Bar'] [role='checkbox']">
+		</Field>
+		<Field id="chkPremisesLocatedOnWorkingFarmInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-working_farm'] [role='checkbox']">
+		</Field>
+		<Field id="chkPremisesHaveRestaurantInSumInsuredHH"
+			path="span[id*='BUILDING_CONSTRUCTION-Restaurant'] [role='checkbox']">
+		</Field>
+
+
+		// 8 Sum Insured HH continued
+		<Field id="fldBusinessInterruptionInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Business_Interruption'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldBusiness/PersonalMoneyInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Personal_Money'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldEmployeeEffectsInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Employee_Effects'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldLockReplacementInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Lock_Replacement'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldDamageToFixedSignsInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Damage_to_fixed_signs'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldBookDebtsInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Book_Debts'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldGuestEffectsInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Guest_Effects'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldPropertyInOpenInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Property_open'] div input:nth-child(1)">
+		</Field>
+		<Field id="fldLossOfOilMeteredWaterInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Loss_of_Oil'] div input:nth-child(1)">
+		</Field>
+
+		<Field id="drpPublicLiabilityInSumInsuredHH"
+			path="span[id*='SUMS_INSURED_HH-Public_Liability'] input:not([type='hidden'])">
+		</Field>
+
+		//8 Sum Insured SA
+		<Field id="fldBuildings/TenantsImprovementsInSumInsuredSA"
+			path="span[id*='SUMS_INSURED_SA-Buildings'] div">
+		</Field>
+		<Field id="fldLandlordContentsInSumInsuredSA"
+			path="span[id*='SUMS_INSURED_SA-Landlord_Contents'] div">
+		</Field>
+		<Field id="drpPublic/PropertyOwnersLiabilityInSumInsuredSA"
+			path="span[id*='SUMS_INSURED_SA-Public_Liability'] input:not([type='hidden'])">
+		</Field>
+		<Field id="drpPrincipalBusinessInSumInsuredSA"
+			path="span[id*='SUMS_INSURED_SA-Principal_bus'] input:not([type='hidden'])">
+		</Field>
+		<Field id="chkOccupyingRiskAddressInSumInsuredSA"
+			path="span[id*='SUMS_INSURED_SA-occuping_risk_address'] [role='checkbox']">
+		</Field>
+
+		//9 - Portable Possessions
+
+		<Field id="tabPortablePossessions"
+			path="//a[contains(text(),'9 - Portable Possessions')]">
+		</Field>
+		<Field id="drpSpecifiedItems"
+			path="span[id*='SPECIFIED_ITEMS-Specified_items'] input:not([type='hidden'])">
+		</Field>
+		<Field id="chkValuation/PurchaseSeen"
+			path="span[id*='SPECIFIED_ITEMS-Valuation'] [role='checkbox']">
+		</Field>
+		<Field id="fldDescription"
+			path="span[id*='SPECIFIED_ITEMS-Item'] div">
+		</Field>
+		<Field id="fldValue"
+			path="span[id*='SPECIFIED_ITEMS-Amount'] div">
+		</Field>
+		<Field id="fldDetailsInPortablePossession"
+			path="input#ctl00_cntMainBody_SPECIFIED_ITEMS__Limited_Details">
+		</Field>
+		<Field id="btnAddInPortablePossession"
+			path="//a[contains(text(),'Add')]">
+		</Field>
+		<Field id="btnEditInPortablePossession"
+			path="//a[contains(text(),'Edit')]">
+		</Field>
+		<Field id="btnDeleteInPortablePossession"
+			path="//a[contains(text(),'Delete')]">
+		</Field>
+
+		<Field id="fldUnspecifiedItems"
+			path="span[id*='POSSESSIONS-Unspecified_items'] div">
+		</Field>
+
+		<Field id="lstIndividualItemRow"
+			path="#ctl00_cntMainBody_POSSESSIONS__SPECIFIED_ITEMS tbody tr">
+		</Field>
+
+		//10 - Declaration
+
+		<Field id="chkEverBeenProsecutedOrConvicted"
+			path="span[id*='DECLARATIONS-Prosecuted'] [role='checkbox']">
+		</Field>
+		<Field id="chkEverBeenRefusedInsurance"
+			path="span[id*='Refused_Insurance'] [role='checkbox']">
+		</Field>
+		<Field id="chkEverBeenDeclaredBankruptOrInsolvent"
+			path="span[id*='DECLARATIONS-Bankrupt'] [role='checkbox']">
+		</Field>
+		<Field id="chkEverBeenOwnerOrDirector"
+			path="span[id*='DECLARATIONS-Bankrupt'] [role='checkbox']">
+		</Field>
+		<Field id="chkEverBeenTheSubjectOfCountryCourt"
+			path="span[id*='DECLARATIONS-CCJ'] [role='checkbox']">
+		</Field>
+		<Field id="chkEverBeenDisqualifiedFromBeingCompanyDirector"
+			path="span[id*='DECLARATIONS-Company_Director'] [role='checkbox']">
+		</Field>
+		<Field id="chkLiabilityClaimMadeInLast5Years"
+			path="span[id*='DECLARATIONS-Liablity_Claim'] [role='checkbox']">
+		</Field>
+		<Field id="chkMadeAnyOtherTypeOfClaimInLast4Years"
+			path="span[id*='DECLARATIONS-Other_Claim'] [role='checkbox']">
+		</Field>
+
+		<Field id="fldDetailsInDeclaration"
+			path="#ctl00_cntMainBody_DECLARATIONS__Details">
+		</Field>
+
+		// 11 - Claims
+
+		<Field id="tabClaims" path="//a[contains(text(),'11 - Claims')]">
+		</Field>
+		<Field id="chkAnyClaimsIn5Years"
+			path="span[id*='CLAIMS-Had_liability_claim'] [role='checkbox']">
+		</Field>
+		<Field id="chkAnyOtherClaimsIn4Years"
+			path="span[id*='CLAIMS-Had_other_clm'] [role='checkbox']">
+		</Field>
+		<Field id="btnAddInLiabilityClaim"
+			path="//a[contains(text(),'Add')]">
+		</Field>
+		<Field id="btnEditInLiabilityClaim"
+			path="//a[contains(text(),'Edit')]">
+		</Field>
+		<Field id="btnDeleteInLiabilityClaim"
+			path="//a[contains(text(),'Delete')]">
+		</Field>
+
+
+		<Field id="btnAddInOtherTypeOfClaim"
+			path="//a[contains(text(),'Add')]">
+		</Field>
+		<Field id="btnEditInOtherTypeOfClaim"
+			path="//a[contains(text(),'Edit')]">
+		</Field>
+		<Field id="btnDeleteInOtherTypeOfClaim"
+			path="//a[contains(text(),'Delete')]">
+		</Field>
+
+		<Field id="lstLiabilityClaimRow"
+			path="#ctl00_cntMainBody_CLAIMS__LIABLITY_CLAIMS tbody tr">
+		</Field>
+		<Field id="lstOtherTypeOfClaimRow"
+			path="#ctl00_cntMainBody_CLAIMS__OTHER_CLAIMS tfoot tr">
+		</Field>
+
+
+		/* Liability claim */
+		<Field id="fldMonthInLiabilityClaim"
+			path="span[id*='LIABLITY_CLAIMS-The_month'] div">
+		</Field>
+		<Field id="fldYearInLiabilityClaim"
+			path="span[id*='LIABLITY_CLAIMS-The_year'] div">
+		</Field>
+
+		<Field id="fldMonthInOtherTypeLiabilityClaim"
+			path="span[id*='OTHER_CLAIMS-The_Month'] div">
+		</Field>
+		<Field id="fldYearInOtherTypeLiabilityClaim"
+			path="span[id*='OTHER_CLAIMS-The_Year'] div">
+		</Field>
+
+		<Field id="fldReserveInLiabilityClaim"
+			path="span[id*='CLAIMS-Reserve'] div">
+		</Field>
+		<Field id="fldClaimDescriptionInLiabilityClaim"
+			path="span[id*='CLAIMS-Claim_description'] div">
+		</Field>
+		<Field id="fldPaidInLiabilityClaim"
+			path="span[id*='CLAIMS-Paid'] div">
+		</Field>
+		<Field id="drpClaimStatusInLiabilityClaim"
+			path="span[id*='CLAIMS-Claim_status'] input:not([type='hidden'])">
+		</Field>
+		<Field id="fldTotalInLiabilityClaim"
+			path="span[id*='CLAIMS-Total'] div input:nth-child(1)">
+		</Field>
+
+
+
+		//Company Details
+		<Field id="fldYearBusinessEstablished"
+			path="input#ctl00_cntMainBody_COVER__YearBusinessEstablished">
+		</Field>
+		<Field id="fldNumberOfYearsExperience"
+			path="[id*=COVER-YearsExperience] input:nth-child(2)">
+		</Field>
+		<Field id="fldAnnualTurnoverForTheOrganisation/group"
+			path="#pb-container-currency-COVER-Turnover input:nth-child(2)">
+		</Field>
+		<Field id="btnAddInTrades"
+			path="#ctl00_cntMainBody_COVER__Trade a">
+		</Field>
+
+		<Field id="drpTrade" path="input[autocomplete='off']">
+		</Field>
+		<Field id="fldNoOfWorkers"
+			path="[id*='TRADE-NoOfWorkers'] input:nth-child(2)">
+		</Field>
+		<Field id="chkMainTrade"
+			path="[id*='TRADE-MainInd'] [type='radio'][value='1']">
+		</Field>
+
+		<Field id="fldPercentageOfTurnover"
+			path="[id*='TRADE-TurnoverPercent'] input:nth-child(2)">
+		</Field>
+		<Field id="txtFirstTradeInTradeTbl"
+			path="#ctl00_cntMainBody_COVER__Trade tbody td:nth-child(1)">
+		</Field>
+
+		<Field id="btnEditInCompanyName"
+			path="[class='btn btn-xs btn-primary'][href*='Edit']">
+		</Field>
+		<Field id="fldCompanyNameInSubsidiary"
+			path="#ctl00_cntMainBody_SUBSIDIARY__CompanyName">
+		</Field>
+		<Field id="fldAddressLine1InSubsidiary"
+			path="#ctl00_cntMainBody_SUBSIDIARY__AddressLine1">
+		</Field>
+		<Field id="fldAddressLine2InSubsidiary"
+			path="#ctl00_cntMainBody_SUBSIDIARY__AddressLine2">
+		</Field>
+		<Field id="fldAddressLine3InSubsidiary"
+			path="#ctl00_cntMainBody_SUBSIDIARY__AddressLine3">
+		</Field>
+		<Field id="fldAddressLine4InSubsidiary"
+			path="#ctl00_cntMainBody_SUBSIDIARY__AddressLine4">
+		</Field>
+		<Field id="fldEmployersRefNoInSubsidiary"
+			path="#ctl00_cntMainBody_SUBSIDIARY__EmployersRefNo">
+		</Field>
+		<Field id="fldPostCodeInSubsidiary"
+			path="#ctl00_cntMainBody_SUBSIDIARY__Postcode">
+		</Field>
+
+		<Field id="chkNoPayThresholdInInSubsidiary"
+			path="[id*='SUBSIDIARY-PAYEThresholdInd'] [type='radio'][value='0']">
+		</Field>
+
+		//employment details
+		<Field id="fldHowManyPeopleAltogetherWorkInTheBusiness?"
+			path="input[type='text']:nth-child(2)">
+		</Field>
+		<Field
+			id="fldTheEstimatedWagesAmountForAllEmployeesForTheNext12Months"
+			path="span[id*='COVER-EstimatedAnnualWages'] div input:nth-child(2)">
+		</Field>
+		<Field id="fldDirectors/Consulting"
+			path="input[name='ctl00$cntMainBody$COVER__PermanentManual'][class='form-control']+input">
+		</Field>
+		<Field id="fldDirectors/ClericalWork"
+			path="input[name='ctl00$cntMainBody$COVER__DirectorsClerical'][class='form-control']+input">
+		</Field>
+		<Field id="fldPermanentStaff/ManualWork"
+			path="input[name='ctl00$cntMainBody$COVER__PermanentManual'][class='form-control']+input">
+		</Field>
+		<Field id="fldPermanentStaff/NonManualWork"
+			path="input[name='ctl00$cntMainBody$COVER__PermanentNonManual'][class='form-control']+input">
+		</Field>
+
+		//Covers
+		<Field id="drpPublicLiability"
+			path="input[class='form-control mandatory field-mandatory']">
+		</Field>
+		<Field id="fldEmployerRefNo"
+			path="#ctl00_cntMainBody_COVER__EmployersRefNo">
+		</Field>
+		<Field id="chkNoPayThresholdInCover"
+			path="[id*=COVER-PAYEThresholdInd] [type='radio'][value='0']">
+		</Field>
+		<Field id="btnQuote" path="#ctl00_cntMainBody_btnNextTop">
+		</Field>
+		<Field id="btnQuoteInInsurer"
+			path="#ctl00_cntMainBody_btnFinishTop">
+		</Field>
+		<Field id="btnDelete"
+			path="#ctl00_cntMainBody_RatingDetails1_grdViewRatingSection_ctl03_deleterating">
+		</Field>
+		<Field id="btnSubmit" path="a#ctl00_cntMainBody_btnSubmit">
+		</Field>
+		<Field id="btnViewQuote"
+			path="[id='ctl00_cntMainBody_btnNextTop'][value='ViewQuote']">
+		</Field>
+
+		//Read only
+		//General details
+		<Field id="arrMandatoryReadOnlyFieldsInGeneralDetail"
+			path="input[id*='COVERSTARTDATE'],input[id*='BrokerEmail'],input[id*='CompanyName'],input[id*='Address1'],input[id*='Address2'],input[id*='Postcode']">
+		</Field>
+
+		//Claims-Disclaimer
+		<Field id="arrMandatoryReadOnlyFieldsInClaimsDisclaimer"
+			path="[id='pb-container-booleanradio-COVER-lossesInd'] [value='0'][type='radio']">
+		</Field>
+
+		//Company Details
+		<Field id="arrMandatoryReadOnlyFieldsInCompanyDetails"
+			path="[id*='ctl00_cntMainBody_COVER__YearBusinessEstablished'],[id*='ctl00_cntMainBody_COVER__YearsExperience'],[id*='ctl00_cntMainBody_COVER__Turnover']">
+		</Field>
+
+		//employment details
+		<Field id="arrMandatoryReadOnlyFieldsInEmployementDetails"
+			path="[id='ctl00_cntMainBody_COVER__NoOfEmployees'],[id='ctl00_cntMainBody_COVER__EstimatedAnnualWages']">
+		</Field>
+
+		//Covers
+		<Field id="arrMandatoryReadOnlyFieldsInCovers"
+			path="#ctl00_cntMainBody_PUBLICLIABILITYCOVER__Excess">
+		</Field>
+
+	</Screen>
+
+	<Screen id="Collection Details" title="SSP - Pure Insurance">
+		<Field id="drpDownMediaType"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_GISLookup_MediaType">
+		</Field>
+		<Field id="drpDownBank"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_CollectionItem_BankAccount">
+		</Field>
+		<Field id="btnOkCashList"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_btnOk">
+		</Field>
+	</Screen>
+
+	<Screen id="ReceiptType" title="Pay Now">
+		<Field id="btnOkReceiptType"
+			path="#ctl00_cntMainBody_PayNow_CashListItem_btnOk">
+		</Field>
+	</Screen>
+
+	<Screen id="QuoteResult" title="SSP - Pure Insurance">
+		<Field id="iframeIn" path="myIframe">
+		</Field>
+		<Field id="innerIframeIn" path="QMIframe">
+		</Field>
+		<Field id="btnSave" path="#C1__BUT_CE78B7D13414C653641573">
+		</Field>
+		<Field id="btnBackToDataCapture"
+			path="#C1__BUT_AA456212D96EE0C7605535">
+		</Field>
+		<Field id="btnOverride" path="#C1__BUT_C8FE0DED896F7E74881521">
+		</Field>
+		<Field id="btnSaveRisk" path="#ctl00_cntMainBody_btn_SaveRisk">
+		</Field>
+		<Field id="btnFinish" path="[id*='btnFinish']">
+		</Field>
+		<Field id="btnBack" path="input[value='Back']">
+		</Field>
+		// Manage Summary
+		<Field id="btnManageSummary"
+			path="button#C1__BUT_CE78B7D13414C653641552">
+		</Field>
+		<Field id="fldClientRequirement"
+			path="textarea[name*='CLIENTREQUIREMENTS']">
+		</Field>
+		<Field id="btnSaveInManageSummary"
+			path="button#C1__BUT_7966E8D69809F4F51661864">
+		</Field>
+		//Checkbox
+		<Field id="chkQuotes" path="[type='radio'][value='Quotes']">
+		</Field>
+		<Field id="chkDeclinedQuotes"
+			path="[type='radio'][value='Declined Quotes']">
+		</Field>
+		//Quote Panel
+		<Field id="hdrQuoteResults"
+			path="#C1__HEAD_20D13DB375CF531F582463">
+		</Field>
+		<Field id="QuotePanel" path="div#C1__FMT_20D13DB375CF531F749602">
+		</Field>
+		<Field id="asrtColumnNamesInQuotePanel"
+			path="#C1__p1_HDR_TBL_CE78B7D13414C653635890 th:not([class='hidden  tetris_tableHeader']) div:not([class='dont-select hidden']) a">
+		</Field>
+		<Field id="asrtInsurerNamesInQuotePanel"
+			path="[id='C1__TBL_CE78B7D13414C653635890'] [title='Insurer Name']">
+		</Field>
+		<Field id="hdrColumnNames"
+			path="[id='C1__p1_HDR_TBL_CE78B7D13414C653635890'] th:not([class='hidden  tetris_tableHeader']):not([style='display: none;'])">
+		</Field>
+		<Field id="clmnQuoteStatusandInsurerPremium"
+			path="[id='C1__TBL_CE78B7D13414C653635890'] tr td:nth-child(6),[id='C1__TBL_CE78B7D13414C653635890'] tr td:nth-child(2)">
+		</Field>
+		<Field id="clmnQuoteInsurerPremium"
+			path="[id='C1__TBL_CE78B7D13414C653635890'] tr td:nth-child(2)">
+		</Field>
+		//panel
+		<Field id="txtQuoteReason"
+			path="#C1__QUE_CE78B7D13414C653636781">
+		</Field>
+		<Field id="clmnStatus"
+			path="#C1__TBL_CE78B7D13414C653635890 tr td  div span[class*='referral-status']">
+		</Field>
+		<Field id="asrtStatusSort" path="">
+		</Field>
+		<Field id="clmnQuoteSource" path="">
+		</Field>
+		<Field id="rdobtnDeclinedQuotes"
+			path="#C1__QUE_CE78B7D13414C653635961_1">
+		</Field>
+		<Field id="txtareaNotesInDeclinedQuotes"
+			path="#C1__QUE_CE78B7D13414C653636785">
+		</Field>
+		<Field id="asrtColumnNamesInDeclinedQuotes"
+			path="#C1__TBL_F57BE58DE448F4F3921210 tr th:not([class*='hidden']) a">
+		</Field>
+		<Field id="referredQuotesOnly"
+			path="[id*='C1__p0_TBL_CE78B7D13414C653635890_R'] td[class=' referral-icon '] span">
+		</Field>
+		// Excess
+		<Field id="txtExcessFields"
+			path="tr[id='C1__p1_HDR_TBL_CE78B7D13414C6531904874'] th div">
+		</Field>
+
+		//Endorsement
+		<Field id="txtEndorsementConditionsFields"
+			path="tr[id='C1__p1_HDR_TBL_CE78B7D13414C6531904969'] th div">
+		</Field>
+
+		// Details
+		<Field id="txtQuoteStatusFields"
+			path="#C1__p1_QUE_CE78B7D13414C653636781 div label">
+		</Field>
+		<Field id="txtU/WQuoteReferenceFields"
+			path="#C1__p1_QUE_D06B95BB3296F9AA566909 div label">
+		</Field>
+		<Field id="txtQuoteRecommendationsFields"
+			path="#C1__p1_QUE_CE78B7D13414C653636783 div label">
+		</Field>
+		<Field id="txtNotesFields"
+			path="#C1__p1_QUE_CE78B7D13414C653636785 div label">
+		</Field>
+
+		<Field id="txtU/WQuoteReferenceValue"
+			path="#C1__QUE_D06B95BB3296F9AA566909">
+		</Field>
+		<Field id="txtQuoteStatusValue"
+			path="#C1__QUE_CE78B7D13414C653636781">
+		</Field>
+
+		<Field id="fldQuoteRecommendationsFields"
+			path="textarea[name*='QUOTERECOMMENDATIONS']">
+		</Field>
+
+
+		//premium
+		<Field id="txtAnnualPremiumFields"
+			path="#C1__p1_QUE_1E812951410511F6398675 div label">
+		</Field>
+		<Field id="txtInsurerPremiumFields"
+			path="#C1__p1_QUE_CE78B7D13414C653636886 div label">
+		</Field>
+		<Field id="txtTotalAdd-onsFields"
+			path="#C1__p1_QUE_CE78B7D13414C653636888 div label">
+		</Field>
+		<Field id="txtTotalFeesFields"
+			path="#C1__p1_QUE_CE78B7D13414C653636890 div label">
+		</Field>
+
+		<Field id="txtAnnualPremiumValue"
+			path="#C1__QUE_1E812951410511F6398675">
+		</Field>
+		<Field id="txtInsurerPremiumValue"
+			path="#C1__QUE_CE78B7D13414C653636886">
+		</Field>
+		<Field id="txtTotalAdd-onsValue"
+			path="#C1__QUE_CE78B7D13414C653636888">
+		</Field>
+		<Field id="txtTotalFeesValue"
+			path="#C1__QUE_CE78B7D13414C653636890">
+		</Field>
+
+		//Panel
+		<Field id="txtDetailsHeaderFields"
+			path="#C1__TXT_E21F6FEB987EE4A7416783 div h4">
+		</Field>
+		<Field id="txtPremiumHeaderFields"
+			path="#C1__TXT_E21F6FEB987EE4A7416790 div h4">
+		</Field>
+		<Field id="txtExcessHeaderFields" path="#accordian_panel_excess">
+		</Field>
+		<Field id="txtEndorsementsandConditionsHeaderFields"
+			path="#accordian_panel_endorsement">
+		</Field>
+		<Field id="txtAddonsHeaderFields" path="#accordian_Add_ons">
+		</Field>
+		<Field id="txtHiddenHeaderPanels" path="#accordian_Add_ons">
+		</Field>
+		<Field id="txtInsurerName" path="[src*='">
+		</Field>
+		<Field id="txtQuotePanelName"
+			path="#C1__HEAD_E21F6FEB987EE4A7407162">
+		</Field>
+
+	</Screen>
+
+	<Screen id="PremiumDisplay" title="Premium Display">
+		<Field id="radioPayNow"
+			path="#ctl00_cntMainBody_rblPaymentMethods_1">
+		</Field>
+		<Field id="lnkActionMenu" path="[title='Action Menu']">
+		</Field>
+		<Field id="lnkView"
+			path="[id='ctl00_cntMainBody_MultiRisk1_grdvRisk_ctl02_lnkbtnEdit']">
+		</Field>
+		<Field id="lnkEdit"
+			path="#ctl00_cntMainBody_MultiRisk1_grdvRisk_ctl02_lnkbtnEdit">
+		</Field>
+		<Field id="tabPolicyHeader"
+			path="#ctl00_cntMainBody_ucPolicyHeader_lbtnMainDetail">
+		</Field>
+		<Field id="btnBuy" path="#ctl00_cntMainBody_btnBuy">
+		</Field>
+		<Field id="btnSaveQuote" path="#ctl00_cntMainBody_btnSaveQuote">
+		</Field>
+		<Field id="chkPayNow" path="input[value*='PayNow']">
+		</Field>
+		<Field id="getPremium"
+			path="div#ctl00_cntMainBody_MultiRisk1_grdvRisk table td:nth-child(5)"></Field>
+		<Field id="getPremium"
+			path="div#ctl00_cntMainBody_MultiRisk1_grdvRisk table td:nth-child(5)">
+		</Field>
+		<Field id="getTransactionType"
+			path="//label[text()='Policy Type']/parent::div//p">
+		</Field>
+		<Field id="getCompanyName"
+			path="//label[text()='Company Name']/parent::div//p">
+		</Field>
+
+		<Field id="lnkInfo" path="a#linkinfoSection">
+		</Field>
+		<Field id="lnkCompanyName"
+			path="a#ctl00_SideInfo_ClientInfoCtrl_hypCompanyName">
+		</Field>
+		<Field id="lnkPolicyNo"
+			path="#ctl00_SideInfo_ClientInfoCtrl_lblPolicyRef">
+		</Field>
+		<Field id="getTransactionType"
+			path="//label[text()='Policy Type']/parent::div//p">
+		</Field>
+		<Field id="getCompanyName"
+			path="//label[text()='Company Name']/parent::div//p">
+		</Field>
+	</Screen>
+
+	<Screen id="ImportantStatements" title="Important Statements">
+		<Field id="chkAgreeConfirmation"
+			path="input#ctl00_cntMainBody_chkConfirmation">
+		</Field>
+		<Field id="btnContinue" path="#ctl00_cntMainBody_btnContinue">
+		</Field>
+	</Screen>
+
+	<Screen id="TransactionConfirmation" title="Importan Statements">
+		<Field id="lnkInfo" path="a#linkinfoSection">
+		</Field>
+		<Field id="lnkCompanyName"
+			path="a#ctl00_SideInfo_ClientInfoCtrl_hypCompanyName">
+		</Field>
+		<Field id="lnkPolicyNo"
+			path="#ctl00_SideInfo_ClientInfoCtrl_lblPolicyRef">
+		</Field>
+		<Field id="txtConfirmationMsg"
+			path="#ctl00_cntMainBody_lblTransactionHeading">
+		</Field>
+		<Field id="txtTransactionSuccessMsg"
+			path="#secure_TransactionConfirmation h4">
+		</Field>
+		<Field id="txtDocumentIssuedPopupMsg"
+			path="div #confirmBox .message">
+		</Field>
+		<Field id="btnYesInDocumentIssuePopup"
+			path="div #confirmBox .yes">
+		</Field>
+		<Field id="btnNoInDocumentIssuePopup" path="div #confirmBox .no">
+		</Field>
+		<Field id="txtPolicyReference"
+			path="#ctl00_cntMainBody_lblPageheader">
+		</Field>
+		<Field id="txtPolicySummary"
+			path="#ctl00_cntMainBody_lblPageheader">
+		</Field>
+
+	</Screen>
+
+	<Screen id="MtaReasonPage" title="MtaReason">
+		<Field id="chkFirstMTAReason"
+			path="#rdoMTAReasonList:nth-child(1)">
+		</Field>
+		<Field id="fldMTAEndDate"
+			path="input#ctl00_cntMainBody_txtExpiryDate">
+		</Field>
+		<Field id="fldMTAStartDate"
+			path="input#ctl00_cntMainBody_txtEffectiveDate">
+		</Field>
+		<Field id="iconMTAEndDateCalender"
+			path="#ctl00_cntMainBody_txtExpiryDate_uctCalendarLookup_txtExpiryDate_btnCalendar">
+		</Field>
+
+		<Field id="btnMTASubmit" path="#ctl00_cntMainBody_btnSubmit">
+		</Field>
+
+	</Screen>
+
+	<Screen id="PayNow" title="PayNow">
+		<Field id="drpMediaType"
+			path="select[id*='PayNow_CollectionItem_GISLookup_MediaType']">
+		</Field>
+		<Field id="drpBank"
+			path="[id*='PayNow_CollectionItem_CollectionItem_BankAccount']">
+		</Field>
+		<Field id="btnOk" path="a[id*='btnOk']">
+		</Field>
+	</Screen>
+
+	<Screen id="CorporateClient" title="Corporate Client Details">
+		<Field id="lnkFinance"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_RptCategorySpanText">
+		</Field>
+		<Field id="lnkTransactions"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_rptSection_ctl00_rptItem_ctl00_A1">
+		</Field>
+		<Field id="lnkReconciliation"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_rptSection_ctl02_rptItem_ctl00_A1">
+		</Field>
+
+	</Screen>
+
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+		<Field id="iframeIn" path="TB_iframeContent">
+		</Field>
+		<Field id="btnSelectColumnsInSearchTransactions"
+			path="span#ctl00_cntMainBody_ColumnSelectorExtender>a">
+		</Field>
+		<Field id="SelectColumnsCheckboxesWithLabelInSearchTransactions"
+			path="table#ctl00_cntMainBody_chlstColumnSelector td>label">
+		</Field>
+		<Field
+			id="SelectColumnsCheckboxesWithLabelCheckedInSearchTransactions"
+			path="table#ctl00_cntMainBody_chlstColumnSelector td>input[checked]+label">
+		</Field>
+		<Field id="btnSelectInSelectColumnsInSearchTransactions"
+			path="div#modalpage a">
+		</Field>
+		<Field id="chkboxOutstandingTransaction"
+			path="#ctl00_cntMainBody_chkShowOutStandingTransaction">
+		</Field>
+		<Field id="tabDocument" path="a[href='#tab-Document']">
+		</Field>
+		<Field id="fldDocumentRef"
+			path="#ctl00_cntMainBody_txtDocumentRef">
+		</Field>
+		<Field id="tabReference" path="a[href='#tab-Reference']">
+		</Field>
+		<Field id="fldPolicyNumber"
+			path="#ctl00_cntMainBody_txtPolicyNumber">
+		</Field>
+		<Field id="btnFind" path="#ctl00_cntMainBody_btnFindNow">
+		</Field>
+		<Field id="fldAccountBalance"
+			path="#ctl00_cntMainBody_txtAccountBalance">
+		</Field>
+		<Field id="drpUser" path="#ctl00_cntMainBody_lblOperatorName">
+		</Field>
+		<Field id="transactionsRows"
+			path="#ctl00_cntMainBody_gvGetTransactiondetails tr">
+		</Field>
+		<Field id="TableHeaderOfSearchTransactions"
+			path="#ctl00_cntMainBody_gvGetTransactiondetails table th>a">
+		</Field>
+		<Field id="SearchTransactionsTable"
+			path="//*[@id='ctl00_cntMainBody_gvGetTransactiondetails']//th/a,//*[@id='ctl00_cntMainBody_gvGetTransactiondetails']//tr[1]/td[not(./div)][position()&lt;last()]">
+		</Field>
+		<Field id="transactionsAmountRows"
+			path="#ctl00_cntMainBody_gvGetTransactiondetails td:nth-child(11)">
+		</Field>
+		<Field id="transactionsAmount1stRow"
+			path="#ctl00_cntMainBody_UpdDocRefTransaction tr:nth-child(1) td:nth-child(9)">
+		</Field>
+		<Field id="transactionsAmount2ndRow"
+			path="#ctl00_cntMainBody_UpdDocRefTransaction tr:nth-child(2) td:nth-child(9)">
+		</Field>
+		<Field id="O/SAmount1stRow"
+			path="#ctl00_cntMainBody_UpdDocRefTransaction tr:nth-child(1) td:nth-child(10)">
+		</Field>
+		<Field id="O/SAmount2ndRow"
+			path="#ctl00_cntMainBody_UpdDocRefTransaction tr:nth-child(2) td:nth-child(10)">
+		</Field>
+		<Field id="transactionsDocumentReference"
+			path="#ctl00_cntMainBody_gvGetTransactiondetails td:nth-child(4)">
+		</Field>
+		<Field id="transactionsAccount"
+			path="#ctl00_cntMainBody_gvGetTransactiondetails td:nth-child(2)">
+		</Field>
+		<Field id="transactionsAmount"
+			path="#ctl00_cntMainBody_gvGetTransactiondetails td:nth-child(9)">
+		</Field>
+		<Field id="transactionsOutstandingAmount"
+			path="#ctl00_cntMainBody_gvGetTransactiondetails td:nth-child(10)">
+		</Field>
+		<Field id="actionMenu"
+			path="#ctl00_cntMainBody_gvGetTransactiondetails a[title='Action Menu']">
+		</Field>
+		<Field id="viewAllocation"
+			path="li[class*='open'] a[id*='lblhypViewAllocation']">
+		</Field>
+		<Field id="allocatedAmount"
+			path="div#MasterPages_Internal_modal td:nth-child(4)">
+		</Field>
+		<Field id="btnCloseViewAllocation"
+			path="#ctl00_cntMainBody_btnClose">
+		</Field>
+		<Field id="debitTransactionReference"
+			path="#ctl00_cntMainBody_gvDebit td:nth-child(1)">
+		</Field>
+		<Field id="btnClear" path="#ctl00_cntMainBody_btnNewsearch">
+		</Field>
+		<Field id="fldAccountCode"
+			path="#ctl00_cntMainBody_txtAccountCode">
+		</Field>
+		<Field id="ViewInActionMenuInSeachTransactionsTable"
+			path="a#ctl00_cntMainBody_gvGetTransactiondetails_ctl02_lnkbtnView">
+		</Field>
+		<Field id="tabTransaction" path="a[href='#tab-Document']">
+		</Field>
+		<Field id="lblAll"
+			path="div#ctl00_cntMainBody_PnlDocumentCol label[id]:not([id$='_lblCalenderIcon'])">
+		</Field>
+
+	</Screen>
+
+	<Screen id="CollectionDetails" title="SSP - Pure Insurance">
+		<Field id="fldAccountCode"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_txtAccount">
+		</Field>
+		<Field id="fldAccountCodeLookupButton"
+			path="span.input-group-btn a">
+		</Field>
+		<Field id="fldBalance"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_txtBalance">
+		</Field>
+		<Field id="fldMediaReference"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_txtMediaReference">
+		</Field>
+		<Field id="fldAmount"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_txtAmount">
+		</Field>
+		<Field id="fldComments"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_txtComments">
+		</Field>
+		<Field id="drpBranch"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_CollectionItem_Branch">
+		</Field>
+		<Field id="drpCurrency"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_CollectionItem_Currency">
+		</Field>
+		<Field id="drpMediaType"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_GISLookup_MediaType">
+		</Field>
+		<Field id="drpReceiptType"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_GISLookup_ReceiptType">
+		</Field>
+		<Field id="drpBank"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_CollectionItem_BankAccount">
+		</Field>
+		<Field id="chkProduceDocument"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_chkProduceDocument">
+		</Field>
+		<Field id="fldTransactionDate"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_Cash_List_Item__Transaction_Date">
+		</Field>
+		<Field id="btnCancel"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_btnCancel">
+		</Field>
+		<Field id="btnOk"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_btnOk">
+		</Field>
+		<Field id="allElements"
+			path="div#tab-general label[id]:not([id$='_lblCalenderIcon'])">
+		</Field>
+
+		<Field id="allMandatoryMessage"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_ValidationSummary li">
+		</Field>
+		<Field id="allButtonsOnCollectionDetails"
+			path=".card-footer a[id*='ctl00_cntMainBody_PayNow_CollectionItem']">
+		</Field>
+		<Field id="lblTitleCollectionDetails"
+			path="#ctl00_cntMainBody_PayNow_CollectionItem_lblReceiptTypeHeading">
+		</Field>
+
+	</Screen>
+	<Screen id="Allocation" title="SSP - Pure Insurance">
+		<Field id="ReceiptRefAllocation" path="div.card-heading h1">
+		</Field>
+		<Field id="fldCollectionAmtAllocation"
+			path="#ctl00_cntMainBody_CollectionAllocation_txtCollectionAmount">
+		</Field>
+		<Field id="btnOkAllocation"
+			path="#ctl00_cntMainBody_CollectionAllocation_btnOk">
+		</Field>
+		<Field id="allHeaderFieldsAllocation"
+			path="#ctl00_cntMainBody_CollectionAllocation_uPanelMain label[for^='ctl00_cntMainBody_CollectionAllocation']">
+		</Field>
+		<Field id="allGridHeaderExceptAllocatedColumn"
+			path="th.sortable">
+		</Field>
+		<Field id="AllocatedColumn" path="th.sortable">
+		</Field>
+		<Field id="chkShowMaredItem"
+			path="#ctl00_cntMainBody_CollectionAllocation_chkMarkedItem">
+		</Field>
+		<Field id="chkGridHeader"
+			path="#ctl00_cntMainBody_CollectionAllocation_gvTransaction_ctl01_chkSelectAll">
+		</Field>
+		<Field id="chk3rdRecord"
+			path="#ctl00_cntMainBody_CollectionAllocation_gvTransaction_ctl03_chkMarked">
+		</Field>
+		<Field id="chk4thRecord"
+			path="#ctl00_cntMainBody_CollectionAllocation_gvTransaction_ctl04_chkMarked">
+		</Field>
+		<Field id="lnk2ndPage"
+			path=".AspNet-GridView-Pagination.AspNet-GridView-Bottom.grid-pgr>a[href*='2']">
+		</Field>
+		<Field id="commonRowsOfGrid"
+			path="#ctl00_cntMainBody_CollectionAllocation_updPanelTransaction tr">
+		</Field>
+		<Field id="PolicyColumn"
+			path="#ctl00_cntMainBody_CollectionAllocation_updPanelTransaction td:nth-child(7)">
+		</Field>
+		<Field id="chkAll"
+			path="#ctl00_cntMainBody_CollectionAllocation_updPanelTransaction td:nth-child(1) input">
+		</Field>
+		<Field id="headerPolicy"
+			path="#ctl00_cntMainBody_CollectionAllocation_updPanelTransaction th:nth-child(7)">
+		</Field>
+		<Field id="chkFirstRecord"
+			path="#ctl00_cntMainBody_CollectionAllocation_gvTransaction_ctl02_chkMarked">
+		</Field>
+		<Field id="fldAllocated1stRecord"
+			path="#ctl00_cntMainBody_CollectionAllocation_gvTransaction_ctl02_txtAllocated">
+		</Field>
+		<Field id="fldOSAmount" path="tr:nth-child(1) td:nth-child(11)">
+		</Field>
+		<Field id="fldBalance"
+			path="#ctl00_cntMainBody_CollectionAllocation_txtBalanceOS">
+		</Field>
+		<Field id="fldCollectionAmount"
+			path="#ctl00_cntMainBody_CollectionAllocation_txtCollectionAmount">
+		</Field>
+		<Field id="fldAllocatedAmount"
+			path="#ctl00_cntMainBody_CollectionAllocation_txtAllocatedAmount">
+		</Field>
+		<Field id="fldAllocationOS"
+			path="#ctl00_cntMainBody_CollectionAllocation_txtAllocationOS">
+		</Field>
+		<Field id="fldWriteOff"
+			path="#ctl00_cntMainBody_CollectionAllocation_txtWriteOffAmount">
+		</Field>
+		<Field id="drpWriteOffReason"
+			path="#ctl00_cntMainBody_CollectionAllocation_ddlWriteOffReason">
+		</Field>
+		<Field id="lblValidationMessage"
+			path="#ctl00_cntMainBody_CollectionAllocation_vValidationSummary>UL>li">
+		</Field>
+		<Field id="coloumLastPaidDate"
+			path="#ctl00_cntMainBody_CollectionAllocation_updPanelTransaction tr:nth-child(1) td:nth-child(13)">
+		</Field>
+		
+	</Screen>
+	<Screen id="COLLECTIONLIST" title="SSP - Pure Insurance">
+		<Field id="ReceiptRef"
+			path="div#ctl00_cntMainBody_CollectionItems_gvCollectionItems td:nth-child(1)">
+		</Field>
+		<Field id="btnOkCollectionList"
+			path="#ctl00_cntMainBody_CollectionItems_btnOK">
+		</Field>
+		<Field id="lblCollectionListTitle"
+			path="#ctl00_cntMainBody_CollectionItems_lblHeading">
+		</Field>
+		<Field id="lblCollectionListStatus"
+			path="span#ctl00_cntMainBody_CollectionItems_chkStatus label">
+		</Field>
+		<Field id="lblCollectionListGridHeader" path="th.sortable">
+		</Field>
+		<Field id="lnkActionMenu" path="a[title='Action Menu']">
+		</Field>
+		<Field id="btnAdd"
+			path="#ctl00_cntMainBody_CollectionItems_btnAdd">
+		</Field>
+		<Field id="rowCountCollectionList"
+			path=".AspNet-GridView tr:not([class*='Header'])">
+		</Field>
+
+	</Screen>
+
+	<Screen id="Client Details" title="Personal Client Details">
+		<Field id="lblAccountBalance"
+			path="#ctl00_cntMainBody_ClientSummaryCntrl_lblAccountBalance">
+		</Field>
+
+	</Screen>
+
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+		<Field id="allFieldsReconciliation"
+			path="label[id^='ctl00_cntMainBody_lbl']">
+		</Field>
+		<Field id="fldUnreconciled"
+			path="#ctl00_cntMainBody_txtUnreconciled">
+		</Field>
+		<Field id="fldTotalMarked"
+			path="#ctl00_cntMainBody_txtTotalMarked">
+		</Field>
+		<Field id="fldClosingBalance"
+			path="#ctl00_cntMainBody_txtClosingBalance">
+		</Field>
+		<Field id="fldOpeningBalance"
+			path="#ctl00_cntMainBody_txtOpeningBalance">
+		</Field>
+		<Field id="chkShowMarkedItems"
+			path="#ctl00_cntMainBody_chkMarkedItem">
+		</Field>
+		<Field id="drpBank"
+			path="#ctl00_cntMainBody_CollectionItem_BankAccount">
+		</Field>
+		<Field id="drpReconciled"
+			path="#ctl00_cntMainBody_drpReconciled">
+		</Field>
+		<Field id="fldDateTo" path="#ctl00_cntMainBody_txtDateTo">
+		</Field>
+		<Field id="btnFind" path="#ctl00_cntMainBody_btnFind">
+		</Field>
+		<Field id="btnCLear" path="#ctl00_cntMainBody_btnClear">
+		</Field>
+		<Field id="allColumnsExceptSelectAllCheckboxColumn" path="th a">
+		</Field>
+		<Field id="chkSelectAll"
+			path="#ctl00_cntMainBody_grdDetails_ctl01_chkSelectAll">
+		</Field>
+		<Field id="btnAll" path="a[id*='ctl00_cntMainBody_btn']">
+		</Field>
+		<Field id="btnReport"
+			path="#ctl00_cntMainBody_grdDetails_ctl01_chkSelectAll">
+		</Field>
+		<Field id="btnOK" path="#ctl00_cntMainBody_btnOk">
+		</Field>
+		<Field id="btnReconciled" path="#ctl00_cntMainBody_btnReconcile">
+		</Field>
+		<Field id="chkThirdRecordInGrid"
+			path="#ctl00_cntMainBody_grdDetails_ctl03_chkMarked">
+		</Field>
+		<Field id="chkFourthRecordInGrid"
+			path="#ctl00_cntMainBody_grdDetails_ctl04_chkMarked">
+		</Field>
+		<Field id="transactionRef3rdRow"
+			path="#ctl00_cntMainBody_grdDetails tr:nth-child(2) td:nth-child(6)">
+		</Field>
+		<Field id="transactionRef4thRow"
+			path="#ctl00_cntMainBody_grdDetails tr:nth-child(3) td:nth-child(6)">
+		</Field>
+		<Field id="commonPathPagesAndAmount"
+			path=".AspNet-GridView-Pagination.AspNet-GridView-Bottom.grid-pgr>a,#ctl00_cntMainBody_grdDetails td:nth-child(5)">
+		</Field>
+		<Field id="lnkFinance"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_RptCategorySpanText">
+		</Field>
+		<Field id="lnkTransactions"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_rptSection_ctl00_rptItem_ctl00_A1">
+		</Field>
+		<Field id="lnkReconciliation"
+			path="#ctl00_RibbonMenu_rptCategory_ctl04_rptSection_ctl02_rptItem_ctl00_A1">
+		</Field>
+		<Field id="beforeReconciledCalculationUnreconciled"
+			path="#ctl00_cntMainBody_txtUnreconciled,#ctl00_cntMainBody_txtTotalMarked">
+		</Field>
+		<Field id="beforeReconciledCalculationOpeningBalance"
+			path="#ctl00_cntMainBody_txtOpeningBalance,#ctl00_cntMainBody_txtTotalMarked">
+		</Field>
+		<Field id="columnTransactionRef"
+			path=".AspNet-GridView td:nth-child(6)">
+		</Field>
+		<Field id="commonPathPagesAndTransacionRef"
+			path=".AspNet-GridView-Pagination.AspNet-GridView-Bottom.grid-pgr>a,.AspNet-GridView td:nth-child(6)">
+		</Field>
+		<Field id="lnk2ndPage"
+			path=".AspNet-GridView-Pagination.AspNet-GridView-Bottom.grid-pgr>a[href*='2']">
+		</Field>
+		<Field id="actionMenu" path="a[title='Action Menu']">
+		</Field>
+		<Field id="lnkView"
+			path="#ctl00_cntMainBody_grdDetails_ctl02_liView a">
+		</Field>
+		<Field id="iframeIn" path="TB_iframeContent">
+		</Field>
+		<Field id="tabDetails" path="a[href='#tabdetails']">
+		</Field>
+		<Field id="lblReconciliationDateOnCTV"
+			path="#ctl00_cntMainBody_lblReconciledDate">
+		</Field>
+		<Field id="fldReconciliationDateOnCTV"
+			path="#ctl00_cntMainBody_txtReconciledDate">
+		</Field>
+		<Field id="Account3rdRow"
+			path="#ctl00_cntMainBody_grdDetails tr:nth-child(2) td:nth-child(4)">
+		</Field>
+		<Field id="btnCloseInViewTransaction"
+			path="#ctl00_cntMainBody_btnClose">
+		</Field>
+		<Field id="fldBankAccount"
+			path="#ctl00_cntMainBody_txtBankAccount">
+		</Field>
+		<Field id="lblShowMarkedItems"
+			path="label#ctl00_cntMainBody_lblMarkedItem">
+		</Field>
+		<Field id="chkHeaderCheckbox"
+			path="#ctl00_cntMainBody_grdDetails_ctl01_chkSelectAll">
+		</Field>
+
+		<Field id="commonRowsOfGrid"
+			path="#ctl00_cntMainBody_grdDetails tr">
+		</Field>
+
+
+
+	</Screen>
+</Selenium>
+

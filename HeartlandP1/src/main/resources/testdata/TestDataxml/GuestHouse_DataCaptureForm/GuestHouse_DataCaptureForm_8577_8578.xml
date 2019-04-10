@@ -1,0 +1,73 @@
+<Selenium>	
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Password@2018">
+		</Field>
+		<Field fieldLabel="ClientType" input="Corporate">
+		</Field>
+		<Field fieldLabel="ClientName" input="SSPT%">
+		</Field>
+		<Field fieldLabel="SelectProduct" input="HIUA Phase 1 GLU">
+		</Field>
+		
+		<Field fieldLabel="drpBusinessType" input="Direct Business">
+		</Field>
+		
+		<Field fieldLabel="Insured_General_GuestHouse" input="Test">
+		</Field>
+		<Field fieldLabel="TradingName_General_GuestHouse" input="Test123">
+		</Field>
+		<Field fieldLabel="ContactName_General_GuestHouse" input="SSP028">
+		</Field>
+		<Field fieldLabel="TelephoneNumber_General_GuestHouse" input="123456789">
+		</Field>
+		<Field fieldLabel="CompanyStatus_General_GuestHouse" input="Sole Proprietor">
+		</Field>
+		<Field fieldLabel="Postcode_General_GuestHouse" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Address_General_GuestHouse" input="1">
+		</Field>
+		<Field fieldLabel="TypeOfCoverToBeInsured_RiskDetails_GuestHouse" input="Guest House">
+		</Field>
+		<Field fieldLabel="YearsInsuredHasBeenTrading_RiskDetails_GuestHouse" input="10">
+		</Field>
+		<Field fieldLabel="YearsExperienceInsuredHaveInHospitality_RiskDetails_GuestHouse" input="10">
+		</Field>		
+		<Field fieldLabel="Postcode_RiskDetails_GuestHouse" input="B37 7YE">
+		</Field>		
+		<Field fieldLabel="Address_RiskDetails_GuestHouse" input="1">
+		</Field>
+		<Field fieldLabel="YearOfConstruction_BuildingConstruction1_GuestHouse" input="2010">
+		</Field>		
+		<Field fieldLabel="StateDescribesTheSite_SubsidenceAssessment_GuestHouse" input="Gently sloping">
+		</Field>
+		<Field fieldLabel="FoundationsOfPrincipalBuildings_SubsidenceAssessment_GuestHouse" input="Piled foundations">
+		</Field>
+		<Field fieldLabel="NumberOfLettingBedrooms_GuestHouseDetails_GuestHouse" input="2">
+		</Field>
+		
+		<Field fieldLabel="OutOfRangeData" input="123456789000">
+		</Field>
+		<Field fieldLabel="InvalidData" input="weegffd">
+		</Field>
+		
+		<Field fieldLabel="MandatoryMsg" input="Please enter Buildings/Tenants Improvements">
+		</Field>
+		<Field fieldLabel="OutOfRangeMsg" input="Buildings/Tenants Improvements: £ -- Is out of range">
+		</Field>
+		<Field fieldLabel="InvalidDataMsg" input="Buildings/Tenants Improvements: £ -- Must be numeric">
+		</Field>
+		
+		<Field fieldLabel="Buildings/TenantsImprovementsData" input="22">
+		</Field>
+		
+		<Field fieldLabel="ContentMandatoryMsg" input="Please enter Contents">
+		</Field>
+		
+		
+		
+		
+		
+	</Iteration>
+</Selenium>

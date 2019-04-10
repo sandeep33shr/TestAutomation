@@ -1,0 +1,44 @@
+<Selenium>
+	<Identification
+		seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme"
+		categoryCode="PersonalLines" categoryDescription="Personal Lines"
+		currentRevision="3" effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH"
+		productGroupDescrption="Household" productTreeIdentity="7"
+		scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+	
+	<Screen id="SearchTransactions" title="SSP - Pure Insurance">
+        
+		<Field id="actionMenu" type="Button"
+			fieldLabel="Click on elipsis button" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="ViewInActionMenuInSeachTransactionsTable"
+			type="Button" fieldLabel="Click on View link" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="ViewClientDetails" title="SSP - Pure Insurance">
+		<Field id="iframeIn" type="switchIframe"
+			fieldLabel="Switch to Iframe" screenShot="false">
+		</Field>
+		<Field id="tabDetails" type="Button"
+			fieldLabel="Click Details tab" pathType="css" screenShot="false">
+		</Field>
+		<Field id="ViewTransactionTabDetailsSRPTransactionDate"
+			type="assertGetTextofInput" fieldLabel="Check Transaction Date" attribute="value"
+			pathType="css" screenShot="false"
+			validMessage="Transaction Date is correct"
+			errorMessage="Transaction Date is incorrect">
+		</Field>
+		<Field id="ViewTransactionTabDetailsSRPMediaRef"
+			type="assertGetTextofInput" fieldLabel="Check Media Reference"
+			pathType="css" screenShot="false" attribute="value"
+			validMessage="Media Reference is correct"
+			errorMessage="Media Reference is incorrect">
+		</Field>
+	</Screen>
+</Selenium>

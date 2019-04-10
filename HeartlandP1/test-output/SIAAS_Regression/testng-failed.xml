@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="120" verbose="3" name="Failed suite [SIAAS_Regression]" parallel="tests">
+  <parameter name="mode" value="Broker"/>
+  <parameter name="webSite" value="http://localhost/Pure.Portal/LoginPlatform.aspx"/>
+  <parameter name="deviceHost" value="localhost"/>
+  <parameter name="os" value="Windows"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="os_version" value="7"/>
+  <parameter name="devicePort" value="5556"/>
+  <parameter name="browserName" value="chrome_windows"/>
+  <parameter name="browser_version" value="52"/>
+  <parameter name="env" value="QA"/>
+  <parameter name="securityTest" value="false"/>
+  <test name="MMVP-Login(failed)" parallel="methods">
+    <classes>
+      <class name="com.ssp.regression.insurer.testscripts.US_6524">
+        <methods>
+          <include name="TC_6524_7459" invocation-numbers="0"/>
+          <include name="afterSuite"/>
+          <include name="init"/>
+          <include name="beforeSuite"/>
+        </methods>
+      </class> <!-- com.ssp.regression.insurer.testscripts.US_6524 -->
+    </classes>
+  </test> <!-- MMVP-Login(failed) -->
+</suite> <!-- Failed suite [SIAAS_Regression] -->

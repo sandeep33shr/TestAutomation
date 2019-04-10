@@ -1,0 +1,7 @@
+<Config>
+	<Feature id="PP_5524" title="Edit Corporate Client">
+		<TC id="TC1432_01" Description=" Collection with Full Allocation to Single Invoice "
+			XML_Location="PP_5524\PP_5524_TC1432_01.xml" Iteration="1">
+		</TC>
+	</Feature>
+</Config>

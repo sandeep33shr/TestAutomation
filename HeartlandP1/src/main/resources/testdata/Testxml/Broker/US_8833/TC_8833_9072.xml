@@ -1,0 +1,40 @@
+<Selenium>
+
+	<Screen id="LoginScreen" title="Authentication Interface">
+		<Field id="fldUserName" fieldLabel="Username" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css"
+			screenShot="false">
+		</Field>
+
+		<Field id="fldPassword" fieldLabel="Password" type="textfield"
+			inputType="alphanumeric" length="10" pathType="css" screenShot="true">
+		</Field>
+		<Field id="btnSignIn" type="buttonJS" fieldLabel="SignIn"
+			pathType="css" screenShot="false">
+		</Field>
+	</Screen>
+	
+	<Screen id="Home" title="SSP - Pure Insurance">
+		<Field id="lnkFinance" type="Button"
+			fieldLabel="Finance Ribbon Menu" pathType="css" screenShot="false">
+		</Field>
+		<Field id="lnkReconciliation" type="Button"
+			fieldLabel="Click on Reconciliation link" pathType="css"
+			screenShot="false">
+		</Field>
+	</Screen>
+	<Screen id="BankReconciliation" title="SSP - Pure Insurance">
+		<Field id="lblShowMarkedItems" type="assertGetText"
+			fieldLabel="ShowMarkedItem" pathType="css" screenShot="true"
+			validMessage="ShowMarkedItems Checkbox is available"
+			errorMessage="ShowMarkedItems Checkbox is not available">
+		</Field>
+		<Field id="chkShowMarkedItems" type="assertEnabledNegative"
+			fieldLabel="ShowMarkedItemDisabled" pathType="css" screenShot="true"
+			validMessage="ShowMarkedItems Checkbox is disabled"
+			errorMessage="ShowMarkedItems Checkbox is not disabled">
+		</Field>
+
+	</Screen>
+
+</Selenium>

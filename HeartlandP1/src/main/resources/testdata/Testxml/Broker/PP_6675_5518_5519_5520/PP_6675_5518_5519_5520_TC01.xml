@@ -1,0 +1,69 @@
+<Selenium>
+	<Identification seleniumFile="EdgeSelenium_SD_LL_01-1_NBQT.xml"
+		businessDescription="SD Landlord Insurance Scheme" categoryCode="PersonalLines"
+		categoryDescription="Personal Lines" currentRevision="3"
+		effectiveFrom="01/01/2015" effectiveTo=""
+		file="EdgeSourceRefactored_SD_LL_01-1.xml" lifecycleStatus="CheckedIn"
+		product="SD_LL" productGroupCode="HH" productGroupDescrption="Household"
+		productTreeIdentity="7" scheme="SD_LL_01" version="1" />
+	<Style name="DefaultStyle_1_0_0_b01.xsl" />
+
+	<Screen id="ViewClientDetails" title="View Client Details">
+		<Field id="tabAccounts" type="link" fieldLabel="Accounts"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="chkboxOutstandingTransactionInAccountsTab" type="DeSelectCheckbox"
+			fieldLabel="Only Show Outstanding Transaction" pathType="css"
+			screenShot="false">
+		</Field>
+		<Field id="btnFindInAccountsTab" type="buttonJS" fieldLabel="Find"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="spinner" type="selectSpinner" fieldLabel="spinnerWait"
+			screenShot="false">
+		</Field>
+		<Field id="tableAccountsHeader" type="assertOrderedListTextEquals"
+			fieldLabel="Accounts table Header" pathType="css" screenShot="true"
+			validMessage="Header values matched with the expected values."
+			errorMessage="Header values does not match with the expected value : Branch,Trans Ref,Trans Type,Trans Type,Effective Date,Policy Number,Risk Code,Insured,Amount Due,O/S Amount,Paid Date">
+		</Field>
+		<Field id="AccountRow1" type="assertTableAccounts" fieldLabel="Accounts table Header"
+			pathType="css" screenShot="true"
+			validMessage="Header values matched with the expected row values."
+			errorMessage="Row1 values data is not coming correct.">
+		</Field>
+
+		<Field id="Row1ExpandButton" type="link" fieldLabel="Plus button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="tableAccountsExpandHeaderRow1" type="assertOrderedListTextEquals"
+			fieldLabel="Expand accounts table Header" pathType="css" screenShot="true"
+			validMessage="Header values matched with the expected values."
+			errorMessage="Header values does not match with the expected value : Media Type,Media Ref,Accounting Period,User">
+		</Field>
+		<Field id="ExpandAccountRow1" type="assertTableExpandAccounts"
+			fieldLabel="Expand accounts table Header" pathType="css" screenShot="true"
+			validMessage="Header values matched with the expected row values."
+			errorMessage="Expand Row2 values data is not coming correct.">
+		</Field>
+		<Field id="AccountRow2" type="assertTableAccounts" fieldLabel="Accounts table Header"
+			pathType="css" screenShot="true"
+			validMessage="Header values matched with the expected row values."
+			errorMessage="Row2 values data is not coming correct.">
+		</Field>
+
+		<Field id="Row2ExpandButton" type="link" fieldLabel="Plus button"
+			pathType="css" screenShot="false">
+		</Field>
+		<Field id="tableAccountsExpandHeaderRow2" type="assertOrderedListTextEquals"
+			fieldLabel="Expand accounts table Header" pathType="css" screenShot="true"
+			validMessage="Header values matched with the expected values."
+			errorMessage="Header values does not match with the expected value : Media Type,Media Ref,Accounting Period,User">
+		</Field>
+		<Field id="ExpandAccountRow2" type="assertTableExpandAccounts"
+			fieldLabel="Expand accounts table Header" pathType="css" screenShot="true"
+			validMessage="Header values matched with the expected row values."
+			errorMessage="Expand Row2 values data is not coming correct.">
+		</Field>
+	</Screen>
+</Selenium>

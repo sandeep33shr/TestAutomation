@@ -1,0 +1,168 @@
+<Selenium>
+	
+	<Iteration id="Iteration_0">
+		<Field fieldLabel="Username" input="admin@redinsurance.com">
+		</Field>
+		<Field fieldLabel="Password" input="Password@2018">
+		</Field>
+		<Field fieldLabel="CompanyCode" input="SSPTestingP">
+		</Field>
+		<Field fieldLabel="CompanyName" input="SSPTestP">
+		</Field>
+		<Field fieldLabel="AccountExcecutive" input="Account Executive">
+		</Field>
+		<Field fieldLabel="FileCode" input="FC001">
+		</Field>
+		<Field fieldLabel="Salutation" input="Corporate">
+		</Field>
+		<Field fieldLabel="ThirdParty" input="SSP Broker">
+		</Field>
+		<Field fieldLabel="AltIdentifier" input="SSP001">
+		</Field>
+		<Field fieldLabel="Branch" input="Head Office">
+		</Field>
+		<Field fieldLabel="Business" input="Aerial Erector">
+		</Field>
+		<Field fieldLabel="BusinessDescription" input="Accounting Company">
+		</Field>
+		<Field fieldLabel="MainContact" input="Purendra">
+		</Field>
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="enter Financial year" input="09/01">
+		</Field>
+
+		<Field fieldLabel="AddressType" input="Correspondence Address">
+		</Field>
+		<Field fieldLabel="Street" input="Line 1">
+		</Field>
+		<Field fieldLabel="Postcode" input="B37 7YE">
+		</Field>
+		<Field fieldLabel="Locality" input="Locality">
+		</Field>
+		<Field fieldLabel="Town" input="Town">
+		</Field>
+		<Field fieldLabel="Country" input="United Kingdom">
+		</Field>
+		<Field fieldLabel="ContactType" input="Email">
+		</Field>
+		<Field fieldLabel="Email" input="heartland@s.com">
+		</Field>
+		<Field fieldLabel="CompanyName" input="SSPTestingP">
+		</Field>
+
+		<Field fieldLabel="TurnOvers" input=">£100m">
+		</Field>
+		<Field fieldLabel="CompanyRegisterationNumber" input="Asp001">
+		</Field>
+		<Field fieldLabel="PaymentCurrency" input="Euro">
+		</Field>
+		<Field fieldLabel="SICCode" input="Electrical Work">
+		</Field>
+		<Field fieldLabel="TermsOfPayment" input="14 Days">
+		</Field>
+		<Field fieldLabel="Offices" input="10">
+		</Field>
+		<Field fieldLabel="LegalEntity" input="Charity">
+		</Field>
+		<Field fieldLabel="TradingSince" input="10/02/2011">
+		</Field>
+		<Field fieldLabel="ServiceLevel" input="Gold">
+		</Field>
+		<Field fieldLabel="Source" input="Existing Client">
+		</Field>
+		<Field fieldLabel="NumberOfEmployees" input="20 - 100">
+		</Field>
+		<Field fieldLabel="ReminderType" input="Reminder Letter">
+		</Field>
+
+		//Create a policy
+		<Field fieldLabel="SelectProduct" input="Tradesman">
+		</Field>
+
+		<Field fieldLabel="drpBusinessType" input="Direct Business">
+		</Field>
+
+		<Field fieldLabel="CustomerCategory" input="Commercial">
+		</Field>
+		<Field fieldLabel="MethodOfSale" input="Non Distance">
+		</Field>
+		<Field fieldLabel="TermAgreed" input="No">
+		</Field>
+		<Field fieldLabel="Fetch Insurer" input="Wesley"></Field>
+		<Field fieldLabel="TypeOfSale" input="Advised">
+		</Field>
+		<Field fieldLabel="UnderWriter" input="Test">
+		</Field>
+
+		<Field fieldLabel="Company/Partnership Name" input="brokerheartland">
+		</Field>
+		<Field fieldLabel="Company Status" input="Association/Club/Society">
+		</Field>
+		<Field fieldLabel="Address Line 1" input="Test1">
+		</Field>
+		<Field fieldLabel="Address Line 2" input="Test2">
+		</Field>
+		<Field fieldLabel="Postcode" input="B37 7YE">
+		</Field>
+
+		<Field fieldLabel="Year business established" input="2008">
+		</Field>
+		<Field fieldLabel="Number of years experience" input="5">
+		</Field>
+		<Field fieldLabel="Annual turnover for the organisation/group"
+			input="1000">
+		</Field>
+		<Field fieldLabel="Trade" input="Advertising Contractor">
+		</Field>
+		<Field fieldLabel="No of workers" input="5">
+		</Field>
+		<Field fieldLabel="Percentage of turnover" input="100">
+		</Field>
+
+		<Field fieldLabel="How many people altogether work in the business?"
+			input="5">
+		</Field>
+		<Field
+			fieldLabel="The estimated wages amount for all employees for the next 12 months"
+			input="1000">
+		</Field>
+		<Field fieldLabel="Directors/Consulting" input="1">
+		</Field>
+		<Field fieldLabel="PermanentStaff/ManualWork" input="2">
+		</Field>
+		<Field fieldLabel="PermanentStaff/NonManualWork" input="2">
+		</Field>
+
+		<Field fieldLabel="Public Liability" input="1,000,000">
+		</Field>
+		<Field fieldLabel="policyToClick" input="">
+		</Field>
+		<Field fieldLabel="Document Ref" input="SND%%%%%">
+		</Field>
+		<Field fieldLabel="PolicyNumber" input="dynamicHashMap">
+		</Field>
+		<Field fieldLabel="Transaction rows" input="5">
+		</Field>
+		<Field fieldLabel="Transaction amount rows" input="0.00">
+		</Field>
+		<Field fieldLabel="Outstanding amount" input="0.00">
+		</Field>
+		<Field fieldLabel="commission name" input="00BKG">
+		</Field>
+		<Field fieldLabel="Debit Transaction reference Commission name"
+			input="dynamicHashMap">
+		</Field>
+		<Field fieldLabel="Journal transaction rows" input="3">
+		</Field>
+		<Field fieldLabel="Commission clearing name" input="COMMCLEAR">
+		</Field>
+		<Field fieldLabel="Debit Transaction reference Commission clearing name"
+			input="dynamicHashMap">
+		</Field>
+		<Field fieldLabel="Commission earned account" input="COMME">
+		</Field>
+		<Field fieldLabel="Commission earned outstanding amount" input="commission earned amount">
+		</Field>
+	</Iteration>
+</Selenium>
